@@ -23,7 +23,7 @@
                 <configuration>
                     <show>private</show>
                     <nohelp>true</nohelp>
-                    <reportOutputDirectory>doc</reportOutputDirectory>
+                    <reportOutputDirectory>docs</reportOutputDirectory>
                     <destDir>javadoc</destDir>
                 </configuration>
             </plugin>
