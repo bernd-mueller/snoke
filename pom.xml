@@ -3,11 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>de.zbmed.snoke</groupId>
     <artifactId>snoke</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <organization>
         <name>ZB MED</name>
         <url>https://www.zbmed.de</url>
@@ -57,8 +55,6 @@
 
         </plugins>
     </reporting>
-
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
@@ -66,40 +62,40 @@
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.2.0</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
             <version>3.1.2</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-site-plugin</artifactId>
             <version>3.9.0</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-project-info-reports-plugin</artifactId>
             <version>2.9</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.uima/ConceptMapper -->
         <dependency>
             <groupId>org.apache.uima</groupId>
             <artifactId>ConceptMapper</artifactId>
             <version>2.10.2</version>
         </dependency>
-
         <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-core -->
         <dependency>
             <groupId>org.apache.uima</groupId>
             <artifactId>uimaj-core</artifactId>
             <version>2.10.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>bson</artifactId>
+            <version>3.12.3</version>
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
@@ -198,29 +194,28 @@
             <version>4.2.0</version>
         </dependency>
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>3.12.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-solrj</artifactId>
-            <version>8.5.1</version>
-        </dependency>
-        <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20190722</version>
         </dependency>
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>bson</artifactId>
-            <version>3.12.3</version>
-        </dependency>
+            <groupId>com.hermit-reasoner</groupId>
+            <artifactId>org.semanticweb.hermit</artifactId>
+            <version>1.3.8.4</version>
+        </dependency>        <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20190722</version>
+    </dependency>
         <dependency>
             <groupId>com.hermit-reasoner</groupId>
             <artifactId>org.semanticweb.hermit</artifactId>
             <version>1.3.8.4</version>
+        </dependency>
+        <dependency>
+            <groupId>uk.ac.nactem.tools</groupId>
+            <artifactId>sentence-splitter</artifactId>
+            <version>1.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp -->
         <dependency>
@@ -234,7 +229,6 @@
             <version>1.0.0-beta4</version>
         </dependency>
     </dependencies>
-
     <repositories>
         <repository>
             <id>FTP-SERVER</id>
