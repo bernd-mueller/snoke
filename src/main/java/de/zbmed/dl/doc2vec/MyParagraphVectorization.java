@@ -1,19 +1,27 @@
 package de.zbmed.dl.doc2vec;
 
 import de.zbmed.dl.doc2vec.tools.LabelSeeker;
+
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.HelpFormatter;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 import org.deeplearning4j.models.embeddings.inmemory.InMemoryLookupTable;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
 import org.deeplearning4j.models.word2vec.VocabWord;
-import org.deeplearning4j.models.word2vec.Word2Vec;
+
 import org.deeplearning4j.text.documentiterator.FileLabelAwareIterator;
 import org.deeplearning4j.text.documentiterator.LabelAwareIterator;
 import org.deeplearning4j.text.documentiterator.LabelledDocument;
-import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
+import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.linalg.api.ndarray.INDArray;
-import org.nd4j.linalg.primitives.Pair;
+import org.nd4j.common.primitives.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.File;
@@ -21,29 +29,106 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * MyParagraphVectorization
+ * MyParagraphVectorization - A Paragraph Vector model is trained on an input of a labeled folder structure.
+ * The labeled folders should contain files with text. The folder structure can be generated with 
+ * {@link ConvertJSON2MeSHFolders}. The class can be used as standalone runnable jar with command line options.
+ *   -i root folder for the structure of subfolder where each name of a subfolder is a MeSH Heading
+ *   -o patch and file name for the Paragraph Vector model
+ *   -l learning rate for the training of the Paragraph Vector model
+ *   -m minimum learning rate for the training of the Paragraph Vector model
+ *   -b batch size for the training of the Paragraph Vector model
+ *   -e epochs for the training of the Paragraph Vector model
  *
  * @author Bernd Mueller
  * @version 0.1
  * @since 2019
  */
 public class MyParagraphVectorization {
-
     ParagraphVectors paragraphVectors;
     LabelAwareIterator iterator;
     TokenizerFactory tokenizerFactory;
-
     private static final Logger log = LoggerFactory.getLogger(MyParagraphVectorization.class);
 
     public static void main(String[] args) throws Exception {
-        org.nd4j.linalg.api.buffer.DataType asd;
-        org.nd4j.nativeblas.PointerPointerWrapper qwe;
+    	
+    	/**
+    	 *  .learningRate(0.025)
+            .minLearningRate(0.001)
+            .batchSize(1000)
+            .epochs(1)
+    	 */
+    	Options options = new Options();
+
+        Option input = new Option("i", "input", true, "input file path");
+        input.setRequired(true);
+        options.addOption(input);
+
+        Option output = new Option("o", "output", true, "output folder");
+        output.setRequired(true);
+        options.addOption(output);
+        
+        Option olr = new Option("l", "learning rate", true, "learning rate for pv model");
+        olr.setType(Number.class);
+        olr.setRequired(true);
+        options.addOption(olr);
+        
+        Option omlr = new Option("m", "minimum learning rate", true, "minimum learning rate for pv model");
+        omlr.setType(Number.class);
+        omlr.setRequired(true);
+        options.addOption(omlr);
+        
+        Option ob = new Option("b", "batch size", true, "batch size for pv model");
+        ob.setType(Number.class);
+        ob.setRequired(true);
+        options.addOption(ob);
+        
+        Option oe = new Option("e", "epochs", true, "epochs for pv model");
+        oe.setType(Number.class);
+        oe.setRequired(true);
+        options.addOption(oe);
+
+        CommandLineParser parser = new DefaultParser();
+        HelpFormatter formatter = new HelpFormatter();
+        CommandLine cmd = null;
+
+        try {
+            cmd = parser.parse(options, args);
+        } catch (ParseException e) {
+            System.out.println(e.getMessage());
+            formatter.printHelp("utility-name", options);
+
+            System.exit(1);
+        }
+
+        String inputFilePath = cmd.getOptionValue("input");
+        String outputFilePath = cmd.getOptionValue("output");
+        double lr = ((Number)cmd.getParsedOptionValue("learning rate")).doubleValue();
+        double min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
+        int batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
+        int epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
+
+        
+    	System.out.println("Using parameters:");
+    	System.out.println("\tinput: " + inputFilePath);
+    	System.out.println("\toutput: " + outputFilePath);
+    	System.out.println("\tlearning rate: " + lr);
+    	System.out.println("\tminimum learning rate: " + min);
+    	System.out.println("\tbatch size: " + batch);
+    	System.out.println("\tepochs: " + epochs);
+    	
         log.info("test");
         MyParagraphVectorization app = new MyParagraphVectorization();
         log.info("Calling makeParagraphVectors ()");
-        app.makeParagraphVectors(args[0], args[1]);
+        app.makeParagraphVectors(
+        		inputFilePath, 
+        		outputFilePath,
+        		lr,
+        		min,
+        		batch,
+        		epochs
+        	);
         log.info("Calling checkUnlabeldData ()");
-        app.checkUnlabeledData();
+        // app.checkUnlabeledData();
         /*
                 Your output should be like this:
                 Document 'health' falls into the following categories:
@@ -58,7 +143,13 @@ public class MyParagraphVectorization {
          */
     }
 
-    void makeParagraphVectors(String sourcedirectory, String outfile)  throws Exception {
+    void makeParagraphVectors(
+    		String sourcedirectory, 
+    		String outfile,
+    		double lr,
+    		double min,
+    		int batch,
+    		int epochs)  throws Exception {
         //ClassPathResource resource = new ClassPathResource(
         //        "C:\\Users\\Muellerb.ZB_MED\\gitlab\\oxygen-workspace\\DeepLearning4J\\src\\main\\resources\\paravec\\labeled");
         // build a iterator for our dataset
@@ -71,33 +162,10 @@ public class MyParagraphVectorization {
         StemmingPreprocessor sp = new StemmingPreprocessor ();
         t.setTokenPreProcessor(sp);
 
-        String modelpath = "D:\\Modelle\\w2vmodel100000.txt";
-        String vocabpath = "D:\\Modelle\\w2vvocab100000.txt";
 
-        Word2Vec w2v = new Word2Vec();
-        /*
-        VocabCache vc = null;
-        log.info("Loading vocab from " + vocabpath);
-        vc = WordVectorSerializer.readVocabCache(
-                new File(vocabpath));
-
-         */
-
-        log.info("Loading model from " + modelpath);
-        //w2v = WordVectorSerializer.readWord2VecModel(new File(modelpath),
-        //            true);
-        //w2v.setVocab(vc);
-
-
-        //w2v.setTokenizerFactory(t);
-
-        // String filename = "D:\\resources\\meshlabeldocs";
-        String filename = sourcedirectory;
-
-
-        File f = new File (filename);
+        File f = new File (sourcedirectory);
         //log.infon(resource.getURL());
-        log.info("Creating FileLabelAwareIterator on " + filename);
+        log.info("Creating FileLabelAwareIterator on " + sourcedirectory);
         iterator = new FileLabelAwareIterator.Builder()
             .addSourceFolder(f)
             .build();
@@ -109,10 +177,10 @@ public class MyParagraphVectorization {
             //.useExistingWordVectors(w2v)
             //.lookupTable(w2v.getLookupTable())
             //.vocabCache(vc)
-            .learningRate(0.025)
-            .minLearningRate(0.001)
-            .batchSize(1000)
-            .epochs(1)
+            .learningRate(lr)
+            .minLearningRate(min)
+            .batchSize(batch)
+            .epochs(epochs)
             .iterate(iterator)
             .trainWordVectors(true)
             //.sequenceLearningAlgorithm("org.deeplearning4j.models.embeddings.learning.impl.sequence.DBOW")
@@ -123,7 +191,6 @@ public class MyParagraphVectorization {
         log.info("Starting fit");
         // Start model training
         paragraphVectors.fit();
-        String path ="D:\\Modelle\\paragraphvectorssmall.txt";
         WordVectorSerializer.writeParagraphVectors(paragraphVectors, outfile);
         //WordVectorSerializer.writeVocabCache(w2v.getVocab(), new File ("w2vvocab"+maxdoc+".txt"));
 

@@ -1,11 +1,10 @@
 package de.zbmed.dl.doc2vec;
 
-import de.zbmed.dl.json.BioASQDocument;
-
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
+import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
 import org.deeplearning4j.text.stopwords.StopWords;
-import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
+
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.shade.jackson.core.JsonFactory;
@@ -13,6 +12,7 @@ import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import de.zbmed.dl.json.BioASQDocument;
 import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
 
 import java.io.*;
@@ -28,6 +28,7 @@ import java.util.List;
  * @since 2019
  */
 public class MyDoc2Vec {
+	StemmingPreprocessor sp;
     static int maxdoc = 5;
     private static final Logger log = LoggerFactory.getLogger(MyDoc2Vec.class);
     static List<String> sentences = new ArrayList<String>();
