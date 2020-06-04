@@ -11,7 +11,7 @@ import java.util.List;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.text.stopwords.StopWords;
-import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
+import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.shade.jackson.core.JsonFactory;

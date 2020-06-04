@@ -90,8 +90,8 @@ public class ConvertJSON2MesHFolders {
     	System.out.println("Using parameters:");
     	System.out.println("\tinput: " + inputFilePath);
     	System.out.println("\toutput: " + outputFilePath);
-    	System.out.println("\tyear: " + maxdoc);
-    	System.out.println("\tmaxdoc : " + yearfilter);
+    	System.out.println("\tyear: " + yearfilter);
+    	System.out.println("\tmaxdoc : " + maxdoc);
         
 
     	
@@ -145,10 +145,14 @@ public class ConvertJSON2MesHFolders {
 
             log.info("Done reading documents...");
 
-
-            File meshlabels = new File (output +
+            File opath = new File (outputFilePath); 
+            if (!opath.exists()) {
+            	opath.mkdirs();
+            }
+            File meshlabels = new File (outputFilePath +
                 File.separator +
                 "meshlabels.txt");
+
             BufferedWriter writer = new BufferedWriter(new FileWriter(meshlabels));
             log.debug("Writing meshlabels...");
             for (String label : meshLabels) {
