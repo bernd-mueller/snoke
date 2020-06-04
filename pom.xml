@@ -11,6 +11,7 @@
         <url>https://www.zbmed.de</url>
     </organization>
     <properties>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
@@ -56,6 +57,25 @@
         </plugins>
     </reporting>
     <dependencies>
+	    <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-api</artifactId>
+		    <version>1.0.0-beta7</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native</artifactId>
+		    <version>1.0.0-beta7</version>
+		</dependency>
+    	<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform -->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native-platform</artifactId>
+		    <version>1.0.0-beta7</version>
+		</dependency>
+
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -202,15 +222,6 @@
             <groupId>com.hermit-reasoner</groupId>
             <artifactId>org.semanticweb.hermit</artifactId>
             <version>1.3.8.4</version>
-        </dependency>        <dependency>
-        <groupId>org.json</groupId>
-        <artifactId>json</artifactId>
-        <version>20190722</version>
-    </dependency>
-        <dependency>
-            <groupId>com.hermit-reasoner</groupId>
-            <artifactId>org.semanticweb.hermit</artifactId>
-            <version>1.3.8.4</version>
         </dependency>
         <dependency>
             <groupId>uk.ac.nactem.tools</groupId>
@@ -221,12 +232,12 @@
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-nlp</artifactId>
-            <version>1.0.0-beta6</version>
+            <version>1.0.0-beta7</version>
         </dependency>
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-nlp-uima</artifactId>
-            <version>1.0.0-beta4</version>
+            <version>1.0.0-beta7</version>
         </dependency>
     </dependencies>
     <repositories>
