@@ -1,4 +1,4 @@
-package de.zbmed.dl.vis;
+package de.zbmed.snoke.dl.vis;
 
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;

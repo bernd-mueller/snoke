@@ -12,7 +12,7 @@ import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import de.zbmed.dl.json.BioASQDocument;
+import de.zbmed.snoke.dl.json.BioASQDocument;
 import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
 
 import java.io.*;

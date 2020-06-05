@@ -1,4 +1,4 @@
-package de.zbmed.dl.json;
+package de.zbmed.snoke.dl.json;
 
 import java.io.BufferedReader;
 import java.io.File;

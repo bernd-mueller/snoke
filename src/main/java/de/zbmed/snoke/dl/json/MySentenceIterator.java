@@ -1,4 +1,4 @@
-package de.zbmed.dl.json;
+package de.zbmed.snoke.dl.json;
 
 import java.util.Iterator;
 import java.util.List;

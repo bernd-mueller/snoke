@@ -1,4 +1,4 @@
-package de.zbmed.dl.json;
+package de.zbmed.snoke.dl.json;
 
 import org.nd4j.shade.jackson.core.JsonFactory;
 import org.nd4j.shade.jackson.core.JsonParseException;

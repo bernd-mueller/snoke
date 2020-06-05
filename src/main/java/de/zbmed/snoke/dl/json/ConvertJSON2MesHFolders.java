@@ -1,4 +1,4 @@
-package de.zbmed.dl.json;
+package de.zbmed.snoke.dl.json;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;

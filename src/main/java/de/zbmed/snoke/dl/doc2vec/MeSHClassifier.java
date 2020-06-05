@@ -1,6 +1,5 @@
 package de.zbmed.snoke.dl.doc2vec;
 
-import de.zbmed.dl.json.BioASQDocument;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
 import org.deeplearning4j.models.word2vec.Word2Vec;
@@ -14,10 +13,12 @@ import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import de.zbmed.snoke.dl.json.BioASQDocument;
+
+import static de.zbmed.snoke.dl.json.ReadBioASQJavaX.preProcess;
+
 import java.io.*;
 import java.util.*;
-
-import static de.zbmed.dl.json.ReadBioASQJavaX.preProcess;
 
 /**
  * MeSHClassifier

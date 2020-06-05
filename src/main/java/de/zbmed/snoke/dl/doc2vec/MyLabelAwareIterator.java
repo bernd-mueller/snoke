@@ -1,9 +1,10 @@
 package de.zbmed.snoke.dl.doc2vec;
 
-import de.zbmed.dl.json.BioASQDocument;
 import org.deeplearning4j.text.documentiterator.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import de.zbmed.snoke.dl.json.BioASQDocument;
 
 import java.util.Iterator;
 import java.util.List;
