@@ -1,4 +1,4 @@
-package de.zbmed.dl.json;
+package de.zbmed.snoke.dl.json;
 
 import org.deeplearning4j.text.documentiterator.LabelledDocument;
 import org.nd4j.shade.jackson.core.JsonParseException;
