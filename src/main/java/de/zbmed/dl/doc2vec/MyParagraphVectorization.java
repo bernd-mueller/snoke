@@ -10,6 +10,7 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.deeplearning4j.models.embeddings.inmemory.InMemoryLookupTable;
+
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
 import org.deeplearning4j.models.word2vec.VocabWord;
@@ -27,6 +28,8 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
+
+
 
 /**
  * MyParagraphVectorization - A Paragraph Vector model is trained on an input of a labeled folder structure.
@@ -86,6 +89,23 @@ public class MyParagraphVectorization {
         oe.setType(Number.class);
         oe.setRequired(true);
         options.addOption(oe);
+        
+        Option ow = new Option("w", "window size", true, "window size for pv model");
+        ow.setType(Number.class);
+        ow.setRequired(true);
+        options.addOption(ow);
+        
+        Option osa= new Option("sa", "sequence algorithm", true, "sequence learning algorithm for pv model / "
+        		+ "default: SkipGram; CBOW, SkipGram, SparkCBOW, SparkDBOW, SparkDM, SparkSkipGram");
+        osa.setType(Number.class);
+        osa.setRequired(true);
+        options.addOption(osa);
+        
+        Option oea = new Option("ea", "elements algorithm", true, "elements learning algorithm for pv model /"
+        		+ "PV-DBOW; DBOW, DM");
+        oea.setType(Number.class);
+        oea.setRequired(true);
+        options.addOption(oea);
 
         CommandLineParser parser = new DefaultParser();
         HelpFormatter formatter = new HelpFormatter();
@@ -106,15 +126,21 @@ public class MyParagraphVectorization {
         double min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
         int batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
         int epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
+        int winsize = ((Number)cmd.getParsedOptionValue("window size")).intValue();
+        String elementsalg = cmd.getOptionValue("elements algorithm");
+        String sequencealg = cmd.getOptionValue("sequence algorithm");
 
         
-    	System.out.println("Using parameters:");
-    	System.out.println("\tinput: " + inputFilePath);
-    	System.out.println("\toutput: " + outputFilePath);
-    	System.out.println("\tlearning rate: " + lr);
-    	System.out.println("\tminimum learning rate: " + min);
-    	System.out.println("\tbatch size: " + batch);
-    	System.out.println("\tepochs: " + epochs);
+        log.info("Using parameters:");
+        log.info("\tinput: " + inputFilePath);
+        log.info("\toutput: " + outputFilePath);
+        log.info("\tlearning rate: " + lr);
+        log.info("\tminimum learning rate: " + min);
+        log.info("\tbatch size: " + batch);
+        log.info("\tepochs: " + epochs);
+        log.info("\twindow size: " + winsize);
+        log.info("\telements algorithm: " + elementsalg);
+        log.info("\tsequence algorithm: " + sequencealg);
     	
         log.info("test");
         MyParagraphVectorization app = new MyParagraphVectorization();
@@ -125,9 +151,12 @@ public class MyParagraphVectorization {
         		lr,
         		min,
         		batch,
-        		epochs
+        		epochs,
+        		winsize,
+        		elementsalg,
+        		sequencealg
         	);
-        log.info("Calling checkUnlabeldData ()");
+        // log.info("Calling checkUnlabeldData ()");
         // app.checkUnlabeledData();
         /*
                 Your output should be like this:
@@ -149,7 +178,11 @@ public class MyParagraphVectorization {
     		double lr,
     		double min,
     		int batch,
-    		int epochs)  throws Exception {
+    		int epochs,
+    		int winsize,
+    		String elementsalg,
+    		String sequencealg
+    		)  throws Exception {
         //ClassPathResource resource = new ClassPathResource(
         //        "C:\\Users\\Muellerb.ZB_MED\\gitlab\\oxygen-workspace\\DeepLearning4J\\src\\main\\resources\\paravec\\labeled");
         // build a iterator for our dataset
@@ -182,7 +215,12 @@ public class MyParagraphVectorization {
             .batchSize(batch)
             .epochs(epochs)
             .iterate(iterator)
+            .windowSize(winsize)
             .trainWordVectors(true)
+            // default: PV-DBOW; DBOW, DM
+            .sequenceLearningAlgorithm(sequencealg)
+            // default: SkipGram; CBOW, SkipGram, SparkCBOW, SparkDBOW, SparkDM, SparkSkipGram
+            .elementsLearningAlgorithm(elementsalg)
             //.sequenceLearningAlgorithm("org.deeplearning4j.models.embeddings.learning.impl.sequence.DBOW")
             // org.deeplearning4j.models.embeddings.learning.impl.sequence.DM")
             .build();
