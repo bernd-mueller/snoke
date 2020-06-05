@@ -14,6 +14,7 @@
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+     	<nd4j.version>1.0.0-beta7</nd4j.version>
     </properties>
     <build>
         <plugins>
@@ -57,25 +58,50 @@
         </plugins>
     </reporting>
     <dependencies>
+	    <dependency>
+	        <groupId>org.slf4j</groupId>
+	        <artifactId>slf4j-api</artifactId>
+	        <version>1.7.25</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>org.slf4j</groupId>
+	        <artifactId>slf4j-log4j12</artifactId>
+	        <version>1.7.25</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>log4j</groupId>
+	        <artifactId>log4j</artifactId>
+	        <version>1.2.17</version>
+	    </dependency>
 	    <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
 		<dependency>
 		    <groupId>org.nd4j</groupId>
 		    <artifactId>nd4j-api</artifactId>
-		    <version>1.0.0-beta7</version>
+		    <version>${nd4j.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
 		<dependency>
 		    <groupId>org.nd4j</groupId>
 		    <artifactId>nd4j-native</artifactId>
-		    <version>1.0.0-beta7</version>
+		    <version>${nd4j.version}</version>
 		</dependency>
-    	<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform -->
+		<!-- Windows platform -->
+		<!--  
 		<dependency>
 		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native-platform</artifactId>
-		    <version>1.0.0-beta7</version>
-		</dependency>
-
+		    <artifactId>nd4j-native</artifactId>
+		    <version>${nd4j.version}</version>
+		    <classifier>windows-x86_64-avx2</classifier>
+		</dependency> -->
+		<!-- Windows platform -->
+		<!-- Linux platform --> 
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native</artifactId>
+		    <version>${nd4j.version}</version>
+		    <classifier>linux-x86_64</classifier>
+		</dependency> 
+		<!--  Linux platform -->
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -232,12 +258,12 @@
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-nlp</artifactId>
-            <version>1.0.0-beta7</version>
+            <version>${nd4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-nlp-uima</artifactId>
-            <version>1.0.0-beta7</version>
+            <version>${nd4j.version}</version>
         </dependency>
     </dependencies>
     <repositories>
