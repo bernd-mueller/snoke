@@ -59,6 +59,7 @@ public abstract class SnowballProgram {
 
     /**
      * Set the current string.
+     * @param value the value for the String
      */
     public void setCurrent(String value)
     {
@@ -72,6 +73,8 @@ public abstract class SnowballProgram {
 
     /**
      * Get the current string.
+     * 
+     * @return the current string
      */
     public String getCurrent()
     {
@@ -105,6 +108,8 @@ public abstract class SnowballProgram {
      * stemmed simply by subtracting from the length to remove suffixes.
      * </p>
      * @see #getCurrentBufferLength()
+     * 
+     * @return current buffer as char array
      */
     public char[] getCurrentBuffer() {
       return current;

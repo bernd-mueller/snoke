@@ -298,10 +298,10 @@ public class HMMTagger extends JCasAnnotator_ImplBase implements Tagger {
   /**
    * Get the type of a given annotation name and check if it exists
    *
-   * @param aJCas
-   * @param annotationString
-   * @return annotationType
-   * @throws AnalysisEngineProcessException
+   * @param aJCas the jcas object
+   * @param annotationString the annotation as String
+   * @return annotationType the annotation type
+   * @throws AnalysisEngineProcessException throws this exception
    */
   public static Type getType(JCas aJCas, String annotationString) throws AnalysisEngineProcessException {
 
