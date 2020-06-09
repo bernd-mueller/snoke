@@ -64,15 +64,15 @@ public class Viterbi {
   }
 
   /**
-   * @param N
-   * @param sentence
-   * @param suffix_tree
-   * @param suffix_tree_cap
-   * @param transition_probs
-   * @param word_probs
-   * @param lambdas2
-   * @param lambdas3
-   * @param theta
+   * @param N this is an integer
+   * @param sentence the list of sentences
+   * @param suffix_tree the suffix tree
+   * @param suffix_tree_cap the suffix tree cap
+   * @param transition_probs some transition probabilities
+   * @param word_probs the word probabilities
+   * @param lambdas2 the second lambda
+   * @param lambdas3 the third lambda
+   * @param theta the theta
    * @return the viterbi path
    */
   @SuppressWarnings("unchecked")

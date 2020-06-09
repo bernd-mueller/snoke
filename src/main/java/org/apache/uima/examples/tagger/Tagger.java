@@ -43,15 +43,17 @@ public interface Tagger {
   
   /**
    * Instantiates {@code MODEL} for current tagger
+   * @param aContext the context
+   * @throws ResourceInitializationException the thrown exception
    */
   
   public void initialize(UimaContext aContext) throws ResourceInitializationException;
   
   /**
    * Trains a new model for tagger, if a training is defined in {tagger.properties} file
+   * @param aJCas the cas object
+   * @throws AnalysisEngineProcessException the thrown exception
    */
-  
-   
   public void process(JCas aJCas) throws AnalysisEngineProcessException;
   
 }
