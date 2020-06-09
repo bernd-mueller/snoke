@@ -30,7 +30,9 @@ public class LabelSeeker {
     /**
      * This method accepts vector, that represents any document,
      * and returns distances between this document, and previously trained categories
-     * @return
+     * @param vector the document in vector representation
+     * 
+     * @return list of scores
      */
     public List<Pair<String, Double>> getScores(INDArray vector) {
         List<Pair<String, Double>> result = new ArrayList<Pair<String, Double>>();
