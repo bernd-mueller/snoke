@@ -35,7 +35,7 @@ import java.util.*;
 /**
  * MyParagraphVectorization - A Paragraph Vector model is trained on an input of a labeled folder structure.
  * The labeled folders should contain files with text. The folder structure can be generated with 
- * {@link ConvertJSON2MeSHFolders}. The class can be used as standalone runnable jar with command line options.
+ * ConvertJSON2MeSHFolders. The class can be used as standalone runnable jar with command line options.
  *   -i root folder for the structure of subfolder where each name of a subfolder is a MeSH Heading
  *   -o patch and file name for the Paragraph Vector model
  *   -l learning rate for the training of the Paragraph Vector model
@@ -52,15 +52,19 @@ public class MyParagraphVectorization {
     LabelAwareIterator iterator;
     TokenizerFactory tokenizerFactory;
     private static final Logger log = LoggerFactory.getLogger(MyParagraphVectorization.class);
+    
+    static String inputFilePath = null;
+    static String outputFilePath = null;
+    static double lr = .0;
+    static double min = .0;
+    static int batch = 0;
+    static int epochs = 0;
+    static int winsize = 0;
+    static String elementsalg = null;
+    static String sequencealg = null;
 
-    public static void main(String[] args) throws Exception {
-    	
-    	/**
-    	 *  .learningRate(0.025)
-            .minLearningRate(0.001)
-            .batchSize(1000)
-            .epochs(1)
-    	 */
+
+    public static void readCLI (String [] args) throws ParseException {
     	Options options = new Options();
 
         Option input = new Option("i", "input", true, "input file path");
@@ -121,15 +125,15 @@ public class MyParagraphVectorization {
             System.exit(1);
         }
 
-        String inputFilePath = cmd.getOptionValue("input");
-        String outputFilePath = cmd.getOptionValue("output");
-        double lr = ((Number)cmd.getParsedOptionValue("learning rate")).doubleValue();
-        double min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
-        int batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
-        int epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
-        int winsize = ((Number)cmd.getParsedOptionValue("window size")).intValue();
-        String elementsalg = cmd.getOptionValue("elements algorithm");
-        String sequencealg = cmd.getOptionValue("sequence algorithm");
+        inputFilePath = cmd.getOptionValue("input");
+        outputFilePath = cmd.getOptionValue("output");
+        lr = ((Number)cmd.getParsedOptionValue("learning rate")).doubleValue();
+        min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
+        batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
+        epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
+        winsize = ((Number)cmd.getParsedOptionValue("window size")).intValue();
+        elementsalg = cmd.getOptionValue("elements algorithm");
+        sequencealg = cmd.getOptionValue("sequence algorithm");
 
         
         log.info("Using parameters:");
@@ -142,7 +146,17 @@ public class MyParagraphVectorization {
         log.info("\twindow size: " + winsize);
         log.info("\telements algorithm: " + elementsalg);
         log.info("\tsequence algorithm: " + sequencealg);
+    }
+    public static void main(String[] args) throws Exception {
     	
+    	/**
+    	 *  .learningRate(0.025)
+            .minLearningRate(0.001)
+            .batchSize(1000)
+            .epochs(1)
+    	 */
+
+    	readCLI (args);
         log.info("test");
         MyParagraphVectorization app = new MyParagraphVectorization();
         log.info("Calling makeParagraphVectors ()");
