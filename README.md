@@ -1,4 +1,4 @@
 # snoke
 Towards a Semantic NoSQL Knowledge Environment (SNOKE)
 
-Hello!
+The API documentation is available on [https://bernd-mueller.github.io/snoke/javadoc/](https://bernd-mueller.github.io/snoke/javadoc/)
