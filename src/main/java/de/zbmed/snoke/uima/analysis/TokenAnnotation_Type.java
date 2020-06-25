@@ -57,7 +57,7 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public final static int typeIndexID = TokenAnnotation.typeIndexID;
 
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.zbmed.tdm.uima.analysis.TokenAnnotation");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.zbmed.snoke.uima.analysis.TokenAnnotation");
  
 
   final Feature casFeat_text;
@@ -66,13 +66,13 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public String getText(int addr) {
         if (featOkTst && casFeat_text == null)
-      jcas.throwFeatMissing("text", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("text", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_text);
   }
 
   public void setText(int addr, String v) {
         if (featOkTst && casFeat_text == null)
-      jcas.throwFeatMissing("text", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("text", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     ll_cas.ll_setStringValue(addr, casFeatCode_text, v);}
     
 
@@ -84,14 +84,14 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public String getPosTag(int addr) {
     if (featOkTst && casFeat_posTag == null)
-      jcas.throwFeatMissing("posTag", "org.apache.uima.TokenAnnotation");
+      jcas.throwFeatMissing("posTag", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_posTag);
   }
 
 
   public void setPosTag(int addr, String v) {
     if (featOkTst && casFeat_posTag == null)
-      jcas.throwFeatMissing("posTag", "org.apache.uima.TokenAnnotation");
+      jcas.throwFeatMissing("posTag", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     ll_cas.ll_setStringValue(addr, casFeatCode_posTag, v);
   }
  
@@ -102,13 +102,13 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public int getTokenType(int addr) {
         if (featOkTst && casFeat_tokenType == null)
-      jcas.throwFeatMissing("tokenType", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("tokenType", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     return ll_cas.ll_getIntValue(addr, casFeatCode_tokenType);
   }
 
   public void setTokenType(int addr, int v) {
         if (featOkTst && casFeat_tokenType == null)
-      jcas.throwFeatMissing("tokenType", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("tokenType", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     ll_cas.ll_setIntValue(addr, casFeatCode_tokenType, v);}
     
   
@@ -120,13 +120,13 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public String getTokenClass(int addr) {
         if (featOkTst && casFeat_tokenClass == null)
-      jcas.throwFeatMissing("tokenClass", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("tokenClass", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_tokenClass);
   }
 
   public void setTokenClass(int addr, String v) {
         if (featOkTst && casFeat_tokenClass == null)
-      jcas.throwFeatMissing("tokenClass", "de.zbmed.tdm.uima.analysis.TokenAnnotation");
+      jcas.throwFeatMissing("tokenClass", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     ll_cas.ll_setStringValue(addr, casFeatCode_tokenClass, v);}
     
   
@@ -170,13 +170,13 @@ public class TokenAnnotation_Type extends uima.tt.TokenAnnotation_Type {
 
   public String getStem(int addr) {
         if (featOkTst && casFeat_stem == null)
-      jcas.throwFeatMissing("stem", "org.apache.uima.TokenAnnotation");
+      jcas.throwFeatMissing("stem", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_stem);
   }
 
   public void setStem(int addr, String v) {
         if (featOkTst && casFeat_stem == null)
-      jcas.throwFeatMissing("stem", "org.apache.uima.TokenAnnotation");
+      jcas.throwFeatMissing("stem", "de.zbmed.snoke.uima.analysis.TokenAnnotation");
     ll_cas.ll_setStringValue(addr, casFeatCode_stem, v);}
     
   

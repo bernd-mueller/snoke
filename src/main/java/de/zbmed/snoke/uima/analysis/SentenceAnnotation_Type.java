@@ -57,7 +57,7 @@ public class SentenceAnnotation_Type extends Annotation_Type {
 
   public final static int typeIndexID = SentenceAnnotation.typeIndexID;
 
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.zbmed.tdm.uima.analysis.SentenceAnnotation");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.zbmed.snoke.uima.analysis.SentenceAnnotation");
 
   // * initialize variables to correspond with Cas Type and Features
   public SentenceAnnotation_Type(JCas jcas, Type casType) {
