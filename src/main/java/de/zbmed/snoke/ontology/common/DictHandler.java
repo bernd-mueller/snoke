@@ -15,15 +15,25 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.HelpFormatter;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.util.iterator.ExtendedIterator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import de.zbmed.snoke.ontology.esso.CreateDictFromESSO;
 import de.zbmed.snoke.util.SnowballStemmer;
 
 /**
@@ -37,10 +47,47 @@ public class DictHandler {
 	DocumentBuilderFactory builderFactory;
 	DocumentBuilder builder;
 	SnowballStemmer snow;
-	public OntModel ont;
-	
+	public OntModel ont;	
 	public Document dict_doc;
+
 	
+    private static final Logger log = LoggerFactory.getLogger(DictHandler.class);
+    static public String inputFilePath = "";
+    static public String outputFilePath = "";
+    
+    public static void readCLI (String args[]) {
+    	Options options = new Options();
+
+        Option input = new Option("i", "input", true, "input file (Ontology XRDF file)");
+        input.setRequired(true);
+        options.addOption(input);
+
+        Option output = new Option("o", "output", true, "output file (Dictionary as XML file)");
+        output.setRequired(true);
+        options.addOption(output);
+        
+
+        CommandLineParser parser = new DefaultParser();
+        HelpFormatter formatter = new HelpFormatter();
+        CommandLine cmd = null;
+
+        try {
+            cmd = parser.parse(options, args);
+        } catch (ParseException e) {
+            System.out.println(e.getMessage());
+            formatter.printHelp("utility-name", options);
+
+            System.exit(1);
+        }
+
+        inputFilePath = cmd.getOptionValue("input");
+        outputFilePath = cmd.getOptionValue("output");
+        
+        log.info("Using parameters:");
+        log.info("\tinput: " + inputFilePath);
+        log.info("\toutput: " + outputFilePath);
+    }
+    
 	public DictHandler () {
 		snow = new SnowballStemmer ();
 		try {
@@ -55,12 +102,14 @@ public class DictHandler {
 	
 	public Element addStemmedSynonymToToken (String syn, Element t) {
 		syn = replaceUnderScoreBySpace (syn);
-		syn = snow.doTheSnowballStem(syn);
-		Element variantsyn = dict_doc.createElement("variant");
-		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(syn);
-		variantsyn.setAttributeNode(attr_base);
-		t.appendChild(variantsyn);
+		String stemsyn = snow.doTheSnowballStem(syn);
+		if (!syn.equals(stemsyn)) {
+			Element variantsyn = dict_doc.createElement("variant");
+			Attr attr_base = dict_doc.createAttribute("base");
+			attr_base.setValue(stemsyn);
+			variantsyn.setAttributeNode(attr_base);
+			t.appendChild(variantsyn);
+		}
 		return t;
 	}
 	
@@ -222,10 +271,10 @@ public class DictHandler {
 		return s.replaceAll("_", " ").replaceAll("\\s+", " ");
 	}
 	public Element addSynonymToToken (String syn, Element t) {
-		syn = replaceUnderScoreBySpace (syn);
+		String usyn = replaceUnderScoreBySpace (syn);
 		Element variantsyn = dict_doc.createElement("variant");
 		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(syn);
+		attr_base.setValue(usyn);
 		variantsyn.setAttributeNode(attr_base);
 		t.appendChild(variantsyn);
 		return t;
