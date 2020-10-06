@@ -292,7 +292,7 @@
     <repositories>
         <repository>
             <id>FTP-SERVER</id>
-            <url>http://labs.livivo.de/public_html/</url>
+            <url>http://labs.livivo.de/repository/</url>
         </repository>
         <repository>
             <id>BerkleyBop</id>
