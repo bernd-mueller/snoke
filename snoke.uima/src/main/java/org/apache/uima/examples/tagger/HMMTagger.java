@@ -20,6 +20,13 @@
 package org.apache.uima.examples.tagger;
 
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -29,19 +36,12 @@ import org.apache.uima.cas.FSIterator;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.Type;
 import org.apache.uima.cas.text.AnnotationIndex;
-import de.zbmed.snoke.uima.analysis.TokenAnnotation;
+import org.apache.uima.conceptMapper.support.tokenizer.TokenAnnotation;
 import org.apache.uima.examples.tagger.trainAndTest.MappingInterface;
 import org.apache.uima.examples.tagger.trainAndTest.ModelGeneration;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * UIMA Analysis Engine that invokes HMM POS tagger. HMM POS tagger generates part-of-speech tags
