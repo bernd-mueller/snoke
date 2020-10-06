@@ -1,4 +1,4 @@
-package de.zbmed.snoke.lod.mesh;
+package de.zbmed.snoke.ontology.mesh;
 
 import java.io.FileReader;
 import java.io.IOException;
