@@ -301,7 +301,8 @@
     </repositories>
     <packaging>pom</packaging>
     <modules>
-    	<module>snoke.ontologies</module>
+    	<module>snoke.ontology</module>
     	<module>snoke.uima</module>
+    	<module>snoke.dl</module>
     </modules>
 </project>
