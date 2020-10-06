@@ -42,7 +42,7 @@ import de.zbmed.snoke.ontology.epso.DrugBankMapper;
 import de.zbmed.snoke.ontology.epso.RxNormClient;
 import de.zbmed.snoke.ontology.epso.UMLS_Client;
 /**
- * CreateDictFromESSO
+ * CreateDictFromFENICS
  *
  * @author Bernd Mueller
  * @version 0.1
