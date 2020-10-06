@@ -17,6 +17,14 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import gov.nih.nlm.uts.webservice.AtomDTO;
+
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.HelpFormatter;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
@@ -27,10 +35,14 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.util.iterator.ExtendedIterator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import de.zbmed.snoke.ontology.common.DictHandler;
+import de.zbmed.snoke.ontology.esso.CreateDictFromESSO;
 import de.zbmed.snoke.util.SnowballStemmer;
 
 /**
@@ -40,7 +52,9 @@ import de.zbmed.snoke.util.SnowballStemmer;
  * @version 0.1
  * @since 2016
  */
-public class CreateDictFromEpSO {
+public class CreateDictFromEpSO extends DictHandler {
+	private static final Logger log = LoggerFactory.getLogger(CreateDictFromEpSO.class);
+	
 	String nemourl = "http://purl.bioontology.org/NEMO/ontology/NEMO.owl";
 	String fmaurl = "http://sig.uw.edu/fma";
 	OntModel ont;
@@ -60,32 +74,45 @@ public class CreateDictFromEpSO {
 	RxNormClient rx;
 	OntHandlerFMA fma;
 
-	public CreateDictFromEpSO (String file) {
-		snow = new SnowballStemmer ();
-		this.getOntologyModel(file);
-		rx = new RxNormClient ();
-		System.out.println("RxNORM Web Service Client loaded.");
-		umls = new UMLS_Client ();
-		System.out.println("UMLS Web Service Client loaded.");
-		dbm = new DrugBankMapper ();
-		// System.out.println("DrugBank loaded.");
-		
+	public CreateDictFromEpSO () {
+		super();
+	}
+
+	public static void readCLI(String args[]) {
+		Options options = new Options();
+
+		Option input = new Option("i", "input", true, "input file (Ontology XRDF file)");
+		input.setRequired(true);
+		options.addOption(input);
+
+		Option output = new Option("o", "output", true, "output file (Dictionary as XML file)");
+		output.setRequired(true);
+		options.addOption(output);
+
+		CommandLineParser parser = new DefaultParser();
+		HelpFormatter formatter = new HelpFormatter();
+		CommandLine cmd = null;
+
 		try {
-			builderFactory = DocumentBuilderFactory.newInstance();
-			builder = builderFactory.newDocumentBuilder();
-			dict_doc = builder.newDocument();
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			cmd = parser.parse(options, args);
+		} catch (ParseException e) {
+			System.out.println(e.getMessage());
+			formatter.printHelp("utility-name", options);
+
+			System.exit(1);
 		}
-		
-		
-		
+
+		inputFilePath = cmd.getOptionValue("input");
+		outputFilePath = cmd.getOptionValue("output");
+
+		log.info("Using parameters:");
+		log.info("\tinput: " + inputFilePath);
+		log.info("\toutput: " + outputFilePath);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		CreateDictFromEpSO cep = new CreateDictFromEpSO ("C:\\Users\\muellerb\\Desktop\\Epilepsy2017\\EpSO\\EpSO_200717.owl");
+		readCLI(args);
+		CreateDictFromEpSO cep = new CreateDictFromEpSO ();
 		
 		/**
 		 * Load NEMO ontology

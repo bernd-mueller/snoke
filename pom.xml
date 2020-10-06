@@ -299,4 +299,8 @@
             <url>http://code.berkeleybop.org/maven/repository/</url>
         </repository>
     </repositories>
+    <packaging>pom</packaging>
+    <modules>
+    	<module>snoke.ontologies</module>
+    </modules>
 </project>
