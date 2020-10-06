@@ -1,4 +1,4 @@
-package de.zbmed.snoke.lod.mesh;
+package de.zbmed.snoke.ontology.mesh;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -6,9 +6,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,20 +33,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tartarus.snowball.SnowballProgram;
-import org.tartarus.snowball.ext.DanishStemmer;
-import org.tartarus.snowball.ext.DutchStemmer;
-import org.tartarus.snowball.ext.EnglishStemmer;
-import org.tartarus.snowball.ext.FinnishStemmer;
-import org.tartarus.snowball.ext.FrenchStemmer;
-import org.tartarus.snowball.ext.GermanStemmer;
-import org.tartarus.snowball.ext.HungarianStemmer;
-import org.tartarus.snowball.ext.ItalianStemmer;
-import org.tartarus.snowball.ext.NorwegianStemmer;
-import org.tartarus.snowball.ext.PortugueseStemmer;
-import org.tartarus.snowball.ext.RussianStemmer;
-import org.tartarus.snowball.ext.SpanishStemmer;
-import org.tartarus.snowball.ext.SwedishStemmer;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -58,7 +41,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import de.zbmed.snoke.dl.doc2vec.MyParagraphVectorization;
 import de.zbmed.snoke.util.SnowballStemmer;
 
 /**

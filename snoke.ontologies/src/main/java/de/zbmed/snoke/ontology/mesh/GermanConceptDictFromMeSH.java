@@ -1,10 +1,9 @@
-package de.zbmed.snoke.lod.mesh;
+package de.zbmed.snoke.ontology.mesh;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

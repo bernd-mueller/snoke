@@ -5,4 +5,4 @@
  * @version 0.1
  * @since 2016
  */
-package de.zbmed.snoke.lod.mesh;
+package de.zbmed.snoke.ontology.mesh;
