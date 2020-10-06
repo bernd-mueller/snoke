@@ -7,9 +7,8 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>de.zbmed.snoke</groupId>
+  <groupId>de.zbmed.snoke.uima</groupId>
   <artifactId>snoke.uima</artifactId>
-  <version>1.0-SNAPSHOT</version>
 
   <name>snoke.uima</name>
   <!-- FIXME change it to the project's website -->
