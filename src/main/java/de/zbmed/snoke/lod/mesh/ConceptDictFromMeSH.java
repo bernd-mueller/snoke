@@ -27,6 +27,15 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.HelpFormatter;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.tartarus.snowball.SnowballProgram;
 import org.tartarus.snowball.ext.DanishStemmer;
 import org.tartarus.snowball.ext.DutchStemmer;
@@ -49,21 +58,67 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import de.zbmed.snoke.dl.doc2vec.MyParagraphVectorization;
 import de.zbmed.snoke.util.SnowballStemmer;
 
 /**
- * ConceptDictFromMeSH
+ * ConceptDictFromMeSH Converts an input MeSH XML file into a dictionary file in XML format that can be used
+ * by the UIMA ConceptMapper. The MeSH XML file can be downloaded from 
+ * https://www.nlm.nih.gov/databases/download/mesh.html (as of 2020-06-25).
  *
  * @author Bernd Mueller
  * @version 0.1
  * @since 2016
  */
 public class ConceptDictFromMeSH {
+    private static final Logger log = LoggerFactory.getLogger(ConceptDictFromMeSH.class);
+    static String inputFilePath = "";
+    static String outputFilePath = "";
+    static String outputMapFilePath = "";
+    
+    public static void readCLI (String args[]) {
+    	Options options = new Options();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// TODO Auto-generated method stub
+        Option input = new Option("i", "input", true, "input file (MeSH XML file)");
+        input.setRequired(true);
+        options.addOption(input);
 
+        Option output = new Option("od", "output dictionary", true, "output file (Dictionary as XML file)");
+        output.setRequired(true);
+        options.addOption(output);
+        
+        Option outputm = new Option("om", "output mapping", true, "output mapping file between MeSH ids and terms");
+        outputm.setRequired(true);
+        options.addOption(outputm);
+        
+
+        CommandLineParser parser = new DefaultParser();
+        HelpFormatter formatter = new HelpFormatter();
+        CommandLine cmd = null;
+
+        try {
+            cmd = parser.parse(options, args);
+        } catch (ParseException e) {
+            System.out.println(e.getMessage());
+            formatter.printHelp("utility-name", options);
+
+            System.exit(1);
+        }
+
+        inputFilePath = cmd.getOptionValue("input");
+        outputFilePath = cmd.getOptionValue("output dictionary");
+        outputMapFilePath = cmd.getOptionValue("output mapping");
+        
+        log.info("Using parameters:");
+        log.info("\tinput: " + inputFilePath);
+        log.info("\toutput: " + outputFilePath);
+    }
+	public static void main(String[] args) throws Exception {
+    	readCLI (args);
+    	processXML();
+		
+	}
+	public static void processXML () {
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
 
@@ -76,21 +131,20 @@ public class ConceptDictFromMeSH {
 			builder = builderFactory.newDocumentBuilder();
 			builder.setEntityResolver(new DTDEntityResolver());
 
-			// String meshfilename =
 			// "D:\\eclipse-workspace\\TDM\\resources\\mesh\\desc2016.xml";
-			String meshfilename = "D:\\MeSH\\desc2020.xml";
+			String meshfilename = inputFilePath;
 
-			System.out.println("Reading file\t\t\"" + meshfilename + "\"...");
+			log.info("Reading file\t\t\"" + meshfilename + "\"...");
 			Document document = builder.parse(new FileInputStream(meshfilename));
-			System.out.println("Read file\t\t\"" + meshfilename + "\" !");
+			log.info("Read file\t\t\"" + meshfilename + "\" !");
 
 			XPath xPath = XPathFactory.newInstance().newXPath();
 
 			String expression = "/DescriptorRecordSet//DescriptorRecord";
 
-			System.out.println("Executing expression\t\"" + expression + "\"...");
+			log.info("Executing expression\t\"" + expression + "\"...");
 			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
-			System.out.println("Executed expression\t\"" + expression + "\" !");
+			log.info("Executed expression\t\"" + expression + "\" !");
 			String diseasename = "";
 			String synonyms = "";
 
@@ -132,9 +186,7 @@ public class ConceptDictFromMeSH {
 									String at = nnm.item(l).getNodeName();
 									if (at.equals("PreferredConceptYN")) {
 										String prefered = nnm.item(l).getNodeValue();
-										System.out.println(prefered);
-										//if (prefered.equalsIgnoreCase("y")) {
-											System.out.println(prefered);
+										log.info(prefered);
 											NodeList nlll = subnn.getChildNodes();
 											for (int m = 0; m < nlll.getLength(); m++) {
 												Node subnnn = nlll.item(m);
@@ -204,7 +256,7 @@ public class ConceptDictFromMeSH {
 			}
             BufferedWriter writer = null;
             try {
-                writer = new BufferedWriter(new FileWriter("D:\\mesh2id2020.map"));
+                writer = new BufferedWriter(new FileWriter(outputFilePath));
                 for (String k : mname2id.keySet()) {
                 	String v = mname2id.get(k);
                 	writer.write(k + "\t" + v + "\n");
@@ -218,7 +270,7 @@ public class ConceptDictFromMeSH {
 			Transformer transformer = transformerFactory.newTransformer();
 			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 			DOMSource source = new DOMSource(dict_doc);
-			StreamResult result = new StreamResult(new File("D:\\MeSH\\Dict_MeSH_2020_stemmed.xml"));
+			StreamResult result = new StreamResult(new File(outputMapFilePath));
 
 			// Output to console for testing
 			// StreamResult result = new StreamResult(System.out);
@@ -249,5 +301,4 @@ public class ConceptDictFromMeSH {
 			e.printStackTrace();
 		}
 	}
-
 }
