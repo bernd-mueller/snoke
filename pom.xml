@@ -302,5 +302,6 @@
     <packaging>pom</packaging>
     <modules>
     	<module>snoke.ontologies</module>
+    	<module>snoke.uima</module>
     </modules>
 </project>
