@@ -29,7 +29,7 @@ import org.apache.uima.cas.FSIterator;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.Type;
 import org.apache.uima.cas.text.AnnotationIndex;
-import org.apache.uima.conceptMapper.support.tokenizer.TokenAnnotation;
+import de.zbmed.snoke.uima.analysis.TokenAnnotation;
 import org.apache.uima.examples.tagger.trainAndTest.MappingInterface;
 import org.apache.uima.examples.tagger.trainAndTest.ModelGeneration;
 import org.apache.uima.jcas.JCas;

@@ -8,7 +8,6 @@ package de.zbmed.snoke.uima.tools;
  * @since 2016
  */
 public class RunTheThing {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		org.apache.uima.tools.cpm.CpmFrame.main(null);

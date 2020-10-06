@@ -102,9 +102,7 @@ public class ConvertJSON2MongoDB {
         
         // TODO Auto-generated method stub
 
-
-    	setupMongoConnection ();
-    	
+    	setupMongoConnection();
         List<String> sentences = new ArrayList<String>();
         Set<String> meshLabels = new HashSet<String>();
         JsonParser jsonParser;
@@ -134,7 +132,7 @@ public class ConvertJSON2MongoDB {
                             if (!bod.getYear().equals("null"))
                                 if (Integer.parseInt(bod.getYear())>yearfilter)
                                     sbod.add(bod);
-                        if (counter++%1000==0) {
+                        if (counter++%100000==0) {
                             log.info("#" + counter);
                             writeDocuments2MongoDB(sbod,outputFilePath, yearfilter);
                             sbod = new ArrayList<BioASQDocument>();
@@ -151,8 +149,8 @@ public class ConvertJSON2MongoDB {
             if (sbod.size()>0) {
             	writeDocuments2MongoDB(sbod,outputFilePath, yearfilter);
             }
-            closeMongoConnection ();
             log.info("Done reading documents...");
+            closeMongoConnection();
         } catch (JsonParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -213,6 +211,7 @@ public class ConvertJSON2MongoDB {
     }
     
     public static void writeDocuments2MongoDB (List <BioASQDocument> sbod, String basepath, int yearfilter) {
+
     	log.info("Processing to write #documents: " + sbod.size());
         Iterator<BioASQDocument> biter = sbod.iterator();
         List <Document> docs = new ArrayList <Document> ();
@@ -225,7 +224,13 @@ public class ConvertJSON2MongoDB {
                 }
             }
         }
-    	log.info("Writing to MongoDb #documents: " + docs.size());
-        coll.insertMany(docs);
+        if (docs.size()>0) {
+        	log.info("Writing to MongoDb #documents: " + docs.size());
+        	coll.insertMany(docs);
+        } else {
+        	log.info("Skipping to write because nothing is there...");
+        }
+        
+
     }
 }
