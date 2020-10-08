@@ -53,25 +53,25 @@ public class SolrBioASQReader extends de.zbmed.snoke.uima.reader.ZBMEDSolrReader
 				SolrDocument doc = this.getResults().get(0);
 				String docTitle = "";
 				String docAbstract = "";
-				String docDbrecordid = "";
+				String docPMID = "";
 				String language = "";
 				
-				if (doc.getFieldValue("title") != null) {
-					docTitle = doc.getFieldValue("title").toString();
+				if (doc.getFieldValue("ArticleTitle") != null) {
+					docTitle = doc.getFieldValue("ArticleTitle").toString();
 				}
 				
 				
-				if (doc.getFieldValue("abstractText") != null) {
-					docAbstract = doc.getFieldValue("abstractText").toString();
+				if (doc.getFieldValue("AbstractText") != null) {
+					docAbstract = doc.getFieldValue("AbstractText").toString();
 				}
 				
 				jcas.setDocumentText(docTitle + "\t\t"
 						+ docAbstract);
 				
 
-				if (doc.getFieldValue("pmid") != null) {	
-					docDbrecordid = doc.getFieldValue("pmid").toString();
-					System.out.println("Processing document number " + (this.getDocCursor()+1) + "/" + this.getEnd() + " with id " + docDbrecordid); 
+				if (doc.getFieldValue("PMID") != null) {	
+					docPMID = doc.getFieldValue("PMID").toString();
+					System.out.println("Processing document number " + (this.getDocCursor()) + "/" + this.getEnd() + " with id " + docPMID); 
 					//System.out.println("Processing " + docDbrecordid); 
 				}
 				
@@ -84,7 +84,7 @@ public class SolrBioASQReader extends de.zbmed.snoke.uima.reader.ZBMEDSolrReader
 					language = "en";
 					((DocumentAnnotation) jcas.getDocumentAnnotationFs()).setLanguage(language);
 				}
-				srcDocInfo.setUri(docDbrecordid);
+				srcDocInfo.setUri(docPMID);
 				srcDocInfo.setOffsetInSource(0);
 				srcDocInfo.setDocumentSize((int) jcas.getDocumentText().length());
 				srcDocInfo.setLastSegment(this.getDocCursor() == this.getEnd());

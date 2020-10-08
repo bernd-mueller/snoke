@@ -52,12 +52,12 @@ public class ZBMEDSolrReader extends CollectionReader_ImplBase {
 
 	private int end;
 	private int pagesize;
-	private Set<String> ids;
-	private SolrClient client;
-	private SolrQuery query;
-	private QueryResponse response;
-	private SolrDocumentList results;
-	private int docCursor;
+	private static Set<String> ids;
+	private static SolrClient client;
+	private static SolrQuery query;
+	private static QueryResponse response;
+	private static SolrDocumentList results;
+	private static int docCursor;
 
 	private String SolrServerAddress = "";
 	private String SolrQuery = "";

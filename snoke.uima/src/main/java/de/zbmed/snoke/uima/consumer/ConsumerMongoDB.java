@@ -68,13 +68,13 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 	private String MongoDB;
 	private String MongoCollection;
 
-	MongoClient mongoClient;
+	static MongoClient mongoClient;
 
 	String SrcField = "";
 
-	Set<String> dictionaryNames = new HashSet<String>();
+	static Set<String> dictionaryNames = new HashSet<String>();
 
-	MongoCollection<Document> collection;
+	static MongoCollection<Document> collection;
 
 	public void initialize() throws ResourceInitializationException {
 
@@ -155,43 +155,41 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			FSIterator<Annotation> iter = jcas.getAnnotationIndex(SourceDocumentInformation.type).iterator();
 
 			// System.out.println(jcas.getDocumentText());
-			String _id = "nodbrecordid";
+			String dbrecordid = "nodbrecordid";
 			if (iter.hasNext()) {
 				SourceDocumentInformation fileLoc = (SourceDocumentInformation) iter.next();
 
-				_id = fileLoc.getUri().toString();
+				dbrecordid = fileLoc.getUri().toString();
 				if (fileLoc.getOffsetInSource() > 0) {
-					_id += ("_" + fileLoc.getOffsetInSource());
+					dbrecordid += ("_" + fileLoc.getOffsetInSource());
 				}
-				_id += "";
+				dbrecordid += "";
 
 			}
 
 			String language = ((DocumentAnnotation) jcas.getDocumentAnnotationFs()).getLanguage();
-
 			AnnotationIndex<Annotation> anno = jcas.getAnnotationIndex();
-
-
-			BasicDBObject searchById = new BasicDBObject("_id", new ObjectId(_id));
-			searchById.put("_id", new ObjectId(_id));
-
-			
-			MongoCursor<Document> cursor = collection.find(searchById).iterator();
-
-
-			Date date = new Date();
-
-			// go through a conceptterm an from concepts anno, change initialize
-			// of List and Array.
+			Document dictDoc = null;
 			List<Object> MongoConceptArray = new ArrayList<>();
+			Date date = new Date();
+			BasicDBObject searchById = null;
+			// System.out.println("Got ###" + dbrecordid + "###");
+			if (!dbrecordid.equals("")) {
+				searchById = new BasicDBObject("dbrecordid", dbrecordid);
+				// searchById.put("_id", new ObjectId(_id));
+				
+				FindIterable<Document> iterDoc;
+				iterDoc = collection.find(new Document(searchById));
+				if (iterDoc.first() != null && ((Document) iterDoc.first()).containsKey("tdm")) {
+					dictDoc = (Document) iterDoc.first().get("tdm");
+					// System.out.println("Got " + dbrecordid + " with existing annotations");
+				}
+				
+			} 
 			
-			Document dictDoc = new Document ();
-			FindIterable<Document> iterDoc;
-			iterDoc = collection.find(new Document(searchById));
-			if (iterDoc.first() != null && ((Document) iterDoc.first()).containsKey("tdm")) {
-				dictDoc = (Document) iterDoc.first().get("tdm");
-				System.out.println("Got " + _id + " with existing annotations");
-			}
+			
+
+
 			
 			Iterator<CAS> it = aCAS.getViewIterator();
 
@@ -324,7 +322,7 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 							Document embeddedMongoDoc = new Document();
 							
 							embeddedMongoDoc.append("dict", Dictname);
-							embeddedMongoDoc.append("field", this.SrcField);
+							// embeddedMongoDoc.append("field", this.SrcField);
 							embeddedMongoDoc.append("concept", conceptname);
 							embeddedMongoDoc.append("text", matchedText);
 							embeddedMongoDoc.append("cvid", conceptid);
@@ -346,7 +344,7 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			 * check if annotations from other fields already exists
 			 * if yes, merge existing annotations with the new annotations
 			 */
-			if (dictDoc.containsKey("concepts")) {
+			if (dictDoc != null) {
 				ArrayList<Object> existingConceptArray = (ArrayList<Object>) dictDoc.get("concepts"); 
 				List <Object> mergedList = new ArrayList<Object> ();
 				Set <Object> mergedSet = new HashSet <Object> ();
@@ -359,6 +357,21 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 				for (Object o : existingConceptArray) {
 					mergedSet.add(o);
 					//System.out.println("\t" + o);
+				}
+				//System.out.println("# mergedSet");
+				for (Object o : mergedSet) {
+					mergedList.add(o);
+					//System.out.println("\t" + o);
+				}
+				MongoConceptArray = mergedList;
+			} else {
+				dictDoc = new Document ();
+				List <Object> mergedList = new ArrayList<Object> ();
+				Set <Object> mergedSet = new HashSet <Object> ();
+				//System.out.println("# MongoConceptArray");
+				for (Object o : MongoConceptArray) {
+					mergedSet.add(new Document((Map<String, Object>) o));	
+					//System.out.println("\t" + new Document((Map<String, Object>) o));
 				}
 				//System.out.println("# mergedSet");
 				for (Object o : mergedSet) {
@@ -386,15 +399,21 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			/**
 			 * Update the concept array into the tdm field
 			 */
+			/*
 			System.out.println(
-					"Writing: " + _id + 
+					"Writing: " + dbrecordid + 
 					" into the database " + this.MongoDB + 
 					" and collection " + this.MongoCollection + 
 					" on server " + this.MongoServer + ":" + this.MongoPort) ;
+			*/
 			UpdateOptions update = new UpdateOptions();
 			update.upsert(true);
 			try {
-				collection.updateOne(new Document(searchById), new Document("$set", new Document("tdm", dictDoc)), update);
+				if (searchById != null) {
+					collection.updateOne(new Document(searchById), new Document("$set", new Document("tdm", dictDoc)), update);
+				} else {
+					collection.insertOne (new Document("tdm", dictDoc));
+				}
 			} catch (Exception e) {
 				e.printStackTrace(System.err);
 			}
