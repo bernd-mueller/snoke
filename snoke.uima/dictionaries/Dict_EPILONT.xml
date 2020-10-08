@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<synonym>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic_Status_Epilepticus" canonical="Tonic_Status_Epilepticus">
+<variant base="Tonic Status Epilepticus"/>
+<variant base="Estado de mal tónico"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_temporal_lobe_epilepsies" canonical="Familial_temporal_lobe_epilepsies">
+<variant base="Familial temporal lobe epilepsies"/>
+<variant base="Epilepsias do lobo temporal familiares"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Interictal" canonical="Interictal">
+<variant base="Interictal"/>
+<variant base="Interictal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Syndrome" canonical="Syndrome">
+<variant base="Syndrome"/>
+<variant base="Síndrome"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Continuous_Seizure" canonical="Continuous_Seizure">
+<variant base="Continuous Seizure"/>
+<variant base="Crises contínuas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Gelastic_Seizure" canonical="Gelastic_Seizure">
+<variant base="Gelastic Seizure"/>
+<variant base="Crise gelástica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Focal_Negative_Myoclonus" canonical="Focal_Motor_Seizure_With_Focal_Negative_Myoclonus">
+<variant base="Focal Motor Seizure With Focal Negative Myoclonus"/>
+<variant base="Crise focal motora com mioclonia negativa focal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Early_onset_benign_childhood_occipital_epilepsy_(Panayiotopoulos_type)" canonical="">
+<variant base=""/>
+<variant base="Epilepsia occipital benigna da criança com início precoce (tipo Panayiotopoulos)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_seizure_(in_generalized_epilepsy_syndromes)" canonical="">
+<variant base=""/>
+<variant base="Crises reflexas (em síndromos epilépticos generalizados)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptologist" canonical="Epileptologist">
+<variant base="Epileptologist"/>
+<variant base="Epileptologista"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Encephalopathies_(in_which_the_epileptiform_abnormalities_may_contribute_to_progressive_dysfunction)" canonical="">
+<variant base=""/>
+<variant base="Encefalopatias epilépticas (em que anomalias epileptiforme contribuem para a disfunção progressiva)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure_Types" canonical="Seizure_Types">
+<variant base="Seizure Types"/>
+<variant base="Tipos de Crise"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Single_seizures_or_isolated_clusters_of_seizures" canonical="Single_seizures_or_isolated_clusters_of_seizures">
+<variant base="Single seizures or isolated clusters of seizures"/>
+<variant base="Crises isoladas ou grupos isolados de crises"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Palsy" canonical="Cerebral_Palsy">
+<variant base="Cerebral Palsy"/>
+<variant base="Paralisia cerebral"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy" canonical="Epilepsy">
+<variant base="Epilepsy"/>
+<variant base="Epilepsia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsia_Partialis_Continua_of_Kojevnikov" canonical="Epilepsia_Partialis_Continua_of_Kojevnikov">
+<variant base="Epilepsia Partialis Continua of Kojevnikov"/>
+<variant base="Epilepsia partialis continua de Kojevnikov"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_photosensitive_occipital_lobe_epilepsy" canonical="Idiopathic_photosensitive_occipital_lobe_epilepsy">
+<variant base="Idiopathic photosensitive occipital lobe epilepsy"/>
+<variant base="Epilepsia do lobo occipital fotossensível idiopática"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Status_Epilepticus" canonical="Clonic_Status_Epilepticus">
+<variant base="Clonic Status Epilepticus"/>
+<variant base="Estado de mal clónico"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Atonic_Seizure" canonical="Myoclonic_Atonic_Seizure">
+<variant base="Myoclonic Atonic Seizure"/>
+<variant base="Crise atónico-mioclónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Rarely_repeated_seizures_(oligo-epilepsy)" canonical="">
+<variant base=""/>
+<variant base="Crises raramente repetidas (oligo-epilepsia)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Progressive_Myoclonus_Epilepsies" canonical="Progressive_Myoclonus_Epilepsies">
+<variant base="Progressive Myoclonus Epilepsies"/>
+<variant base="Epilepsias mioclónicas progressivas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Inhibitory_Motor_Seizures" canonical="Focal_Motor_Seizure_With_Inhibitory_Motor_Seizures">
+<variant base="Focal Motor Seizure With Inhibitory Motor Seizures"/>
+<variant base="Crise focal motora com crises motoras inibitórias"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ohtahara_syndrome" canonical="Ohtahara_syndrome">
+<variant base="Ohtahara syndrome"/>
+<variant base="Síndrome de Ohtahara"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura" canonical="Aura">
+<variant base="Aura"/>
+<variant base="Aura"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Hemisphere" canonical="Cerebral_Hemisphere">
+<variant base="Cerebral Hemisphere"/>
+<variant base="Hemisfério cerebral"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focus" canonical="Focus">
+<variant base="Focus"/>
+<variant base="Foco"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Photic_Stimulation" canonical="Photic_Stimulation">
+<variant base="Photic Stimulation"/>
+<variant base="Photic stimulation"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Early_myoclonic_encephalopathy" canonical="Early_myoclonic_encephalopathy">
+<variant base="Early myoclonic encephalopathy"/>
+<variant base="Encefalopatia mioclónica precoce"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Spike" canonical="Spike">
+<variant base="Spike"/>
+<variant base="Pico"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Secondarily_Generalized_Seizure" canonical="Secondarily_Generalized_Seizure">
+<variant base="Secondarily Generalized Seizure"/>
+<variant base="Crise secundariamente generalizadas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Automatism" canonical="Automatism">
+<variant base="Automatism"/>
+<variant base="Automatismo"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Magnetoencephalography" canonical="Magnetoencephalography">
+<variant base="Magnetoencephalography"/>
+<variant base="Magnetoencephalography"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_generalized_tonic-clonic_seizures_only" canonical="Epilepsy_with_generalized_tonic-clonic_seizures_only">
+<variant base="Epilepsy with generalized tonic-clonic seizures only"/>
+<variant base="Epilepsia apenas com crises tónico-clónicas generalizadas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Symptomatic_(or_Probably_Symptomatic)_Focal_Epilepsies" canonical="_Focal_Epilepsies">
+<variant base=" Focal Epilepsies"/>
+<variant base="Epilepsias focais sintomáticas (ou provavelmente sintomáticas)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Neocortical_epilepsies" canonical="Neocortical_epilepsies">
+<variant base="Neocortical epilepsies"/>
+<variant base="Epilepsias neocorticais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Sensory_Seizure_With_Experiential_Sensory_Symptoms" canonical="Focal_Sensory_Seizure_With_Experiential_Sensory_Symptoms">
+<variant base="Focal Sensory Seizure With Experiential Sensory Symptoms"/>
+<variant base="Crise focal sensorial com sintomas sensoriais vivenciais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Negative_Myoclonus" canonical="Negative_Myoclonus">
+<variant base="Negative Myoclonus"/>
+<variant base="Mioclonia negativa"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Tonic-clonic_Status_Epilepticus" canonical="Generalized_Tonic-clonic_Status_Epilepticus">
+<variant base="Generalized Tonic-clonic Status Epilepticus"/>
+<variant base="Estado de mal tónico-clónico generalizado"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Seizure" canonical="Myoclonic_Seizure">
+<variant base="Myoclonic Seizure"/>
+<variant base="Crise mioclónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Febrile_seizures" canonical="Febrile_seizures">
+<variant base="Febrile seizures"/>
+<variant base="Crises febris"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptogenic" canonical="Epileptogenic">
+<variant base="Epileptogenic"/>
+<variant base="Epileptogenic"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic_Seizure" canonical="Tonic_Seizure">
+<variant base="Tonic Seizure"/>
+<variant base="Crise tónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Other_types_defined_by_location_and_etiology_1" canonical="Other_types_defined_by_location_and_etiology_1">
+<variant base="Other types defined by location and etiology 1"/>
+<variant base="Outros tipos definidos pela localização e etiologia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood" canonical="Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood">
+<variant base="Idiopathic Focal Epilepsies of Infancy and Childhood"/>
+<variant base="Epilepsias focais idiopáticas da Infância e da Criança"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure" canonical="Focal_Motor_Seizure">
+<variant base="Focal Motor Seizure"/>
+<variant base="Crise focal motora"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Consciousness" canonical="Consciousness">
+<variant base="Consciousness"/>
+<variant base="Consciência"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptic_Syndromes" canonical="Epileptic_Syndromes">
+<variant base="Epileptic Syndromes"/>
+<variant base="Síndromes Epilépticos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Sensory_Seizure_With_Elementary_Sensory_Symptoms" canonical="Focal_Sensory_Seizure_With_Elementary_Sensory_Symptoms">
+<variant base="Focal Sensory Seizure With Elementary Sensory Symptoms"/>
+<variant base="Crise focal sensorial com sintomas sensoriais elementares"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Limbic_epilepsies" canonical="Limbic_epilepsies">
+<variant base="Limbic epilepsies"/>
+<variant base="Epilepsias límbicas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia_With_Absences" canonical="Eyelid_Myoclonia_With_Absences">
+<variant base="Eyelid Myoclonia With Absences"/>
+<variant base="Mioclonias palpebrais com ausência"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Asymmetrical_Tonic_Motor_Seizures" canonical="Focal_Motor_Seizure_With_Asymmetrical_Tonic_Motor_Seizures">
+<variant base="Focal Motor Seizure With Asymmetrical Tonic Motor Seizures"/>
+<variant base="Crise focal motora com crises motoras tónicas assimétricas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Slowing" canonical="Slowing">
+<variant base="Slowing"/>
+<variant base="Slowing"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_continuous_spike-and-waves_during_slow-wave_sleep_(other_than_Landau-Kleffner_syndrome)" canonical="">
+<variant base=""/>
+<variant base="Epilepsia com ponta-onda contínua no sono de ondas lentas (não inclui síndrome Landau-Kleffner)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Corpus_Callosotomy" canonical="Corpus_Callosotomy">
+<variant base="Corpus Callosotomy"/>
+<variant base="Corpus Callosotomy"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic_absences" canonical="Epilepsy_with_myoclonic_absences">
+<variant base="Epilepsy with myoclonic absences"/>
+<variant base="Epilepsia com ausências mioclónicas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ictal" canonical="Ictal">
+<variant base="Ictal"/>
+<variant base="Ictal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure" canonical="Generalized_Seizure">
+<variant base="Generalized Seizure"/>
+<variant base="Crise Generalizada"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Status_Epilepticus" canonical="Myoclonic_Status_Epilepticus">
+<variant base="Myoclonic Status Epilepticus"/>
+<variant base="Estado de mal mioclónico"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electrode" canonical="Electrode">
+<variant base="Electrode"/>
+<variant base="Eléctrodo"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure" canonical="Seizure">
+<variant base="Seizure"/>
+<variant base="Crise"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_neonatal_seizures" canonical="Benign_familial_neonatal_seizures">
+<variant base="Benign familial neonatal seizures"/>
+<variant base="Crises neonatais benignas familiares"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Syncope" canonical="Syncope">
+<variant base="Syncope"/>
+<variant base="Syncope"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic" canonical="Idiopathic">
+<variant base="Idiopathic"/>
+<variant base="Idiopático"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis" canonical="Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis">
+<variant base="Mesial temporal lobe epilepsy with hippocampal sclerosis"/>
+<variant base="Epilepsia do lobo temporal mesial com esclerose do hipocampo"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atypical_Absence_Seizure" canonical="Atypical_Absence_Seizure">
+<variant base="Atypical Absence Seizure"/>
+<variant base="Crise de ausência atípica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Limbic_Status_Epilepticus_(psychomotor_status)" canonical="">
+<variant base=""/>
+<variant base="Estado de mal límbico (status psicomotor)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ketogenic_Diet" canonical="Ketogenic_Diet">
+<variant base="Ketogenic Diet"/>
+<variant base="Dieta Ketogénica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Hemoconvulsive_Status_With_Hemiparesis" canonical="Hemoconvulsive_Status_With_Hemiparesis">
+<variant base="Hemoconvulsive Status With Hemiparesis"/>
+<variant base="Estado de mal hemiconvulsivo com hemiperesia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Other_visual_sensitive_epilepsies" canonical="Other_visual_sensitive_epilepsies">
+<variant base="Other visual sensitive epilepsies"/>
+<variant base="Outras epilepsias sensitivas visuais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Absence_Status_Epilepticus" canonical="Absence_Status_Epilepticus">
+<variant base="Absence Status Epilepticus"/>
+<variant base="Estado de mal de ausências"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_Seizure_(in_focal_epilepsy_syndromes)" canonical="">
+<variant base=""/>
+<variant base="Crise reflexa em síndromos epilépticos focais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Single-photon_Emission_Computed_Tomography_" canonical="Single-photon_Emission_Computed_Tomography_">
+<variant base="Single-photon Emission Computed Tomography "/>
+<variant base="Tomografia computadorizada por emissão de fóton único"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Landau-Kleffner_syndrome" canonical="Landau-Kleffner_syndrome">
+<variant base="Landau- Kleffner syndrome"/>
+<variant base="Síndrome de Landau-Kleffner"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Juvenile_myoclonic_epilepsy" canonical="Juvenile_myoclonic_epilepsy">
+<variant base="Juvenile myoclonic epilepsy"/>
+<variant base="Epilepsia mioclónica juvenil"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Positron_Emission_Tomography" canonical="Positron_Emission_Tomography">
+<variant base="Positron Emission Tomography"/>
+<variant base="Tomografia por emissão de positrões"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Other_types_defined_by_location_and_etiology_2" canonical="Other_types_defined_by_location_and_etiology_2">
+<variant base="Other types defined by location and etiology 2"/>
+<variant base="Outros tipos definidos pela localização e etiologia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Seizure" canonical="Focal_Seizure">
+<variant base="Focal Seizure"/>
+<variant base="Crise focal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome" canonical="s_syndrome">
+<variant base="s syndrome"/>
+<variant base="Síndrome de Dravet"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Hyperkinetic_Automatisms" canonical="Focal_Motor_Seizure_With_Hyperkinetic_Automatisms">
+<variant base="Focal Motor Seizure With Hyperkinetic Automatisms"/>
+<variant base="Crise focal motora com automatismos hipercinéticos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Status_Epilepticus" canonical="Focal_Status_Epilepticus">
+<variant base="Focal Status Epilepticus"/>
+<variant base="Estado de mal focal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Status_Epilepticus" canonical="Generalized_Status_Epilepticus">
+<variant base="Generalized Status Epilepticus"/>
+<variant base="Estado de mal generalizado"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Paroxysmal" canonical="Paroxysmal">
+<variant base="Paroxysmal"/>
+<variant base="Paroxysmal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epileptiform" canonical="Epileptiform">
+<variant base="Epileptiform"/>
+<variant base="Epileptiform"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Elementary_Clonic_Motor_Signs" canonical="Focal_Motor_Seizure_With_Elementary_Clonic_Motor_Signs">
+<variant base="Focal Motor Seizure With Elementary Clonic Motor Signs"/>
+<variant base="Crise focal motora com sinais motores clónicos elementares"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Spasms" canonical="Spasms">
+<variant base="Spasms"/>
+<variant base="Espasmos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia" canonical="Eyelid_Myoclonia">
+<variant base="Eyelid Myoclonia"/>
+<variant base="Mioclonias palpebrais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic-clonic_Seizure" canonical="Tonic-clonic_Seizure">
+<variant base="Tonic-clonic Seizure"/>
+<variant base="Crise tónico-clónicas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy" canonical="Seizures_Not_Necessarily_Requiring_a_Diagnosis_of_Epilepsy">
+<variant base="Seizures Not Necessarily Requiring a Diagnosis of Epilepsy"/>
+<variant base="Crises que não obrigam necessariamente ao diagnóstico de Epilepsia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Magnetic_Resonance_Spectroscopy" canonical="Magnetic_Resonance_Spectroscopy">
+<variant base="Magnetic Resonance Spectroscopy"/>
+<variant base="Magnetic resonance spectroscopy"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Massive_Bilateral_Myoclonus" canonical="Massive_Bilateral_Myoclonus">
+<variant base="Massive Bilateral Myoclonus"/>
+<variant base="Massive bilateral myoclonus"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Prognosis" canonical="Prognosis">
+<variant base="Prognosis"/>
+<variant base="Prognóstico"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Eyelid_Myoclonia_Without_Absences" canonical="Eyelid_Myoclonia_Without_Absences">
+<variant base="Eyelid Myoclonia Without Absences"/>
+<variant base="Mioclonias palpebrais sem ausência"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure_Without_Tonic_Features" canonical="Clonic_Seizure_Without_Tonic_Features">
+<variant base="Clonic Seizure Without Tonic Features"/>
+<variant base="Crise clónica sem componentes tónicos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Hemiclonic_Seizure" canonical="Hemiclonic_Seizure">
+<variant base="Hemiclonic Seizure"/>
+<variant base="Crise hemiclónicas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Sharp_Wave" canonical="Sharp_Wave">
+<variant base="Sharp Wave"/>
+<variant base="Sharp wave"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies" canonical="Idiopathic_Generalized_Epilepsies">
+<variant base="Idiopathic Generalized Epilepsies"/>
+<variant base="Epilepsias generalizadas idiopáticas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#HH_syndrome" canonical="HH_syndrome">
+<variant base="H H syndrome"/>
+<variant base="Síndrome HH (Hemiconvulsão – Hemiplegia)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_infantile_seizures" canonical="Benign_familial_infantile_seizures">
+<variant base="Benign familial infantile seizures"/>
+<variant base="Crises familiares benignas infantis"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_non-familial_infantile_seizures" canonical="Benign_non-familial_infantile_seizures">
+<variant base="Benign non-familial infantile seizures"/>
+<variant base="Crises familiares benignas infantis (não familiares)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_generalized_epilepsies_with_variable_phenotypes" canonical="Idiopathic_generalized_epilepsies_with_variable_phenotypes">
+<variant base="Idiopathic generalized epilepsies with variable phenotypes"/>
+<variant base="Epilepsias generalizadas idiopáticas com fenótipos variáveis"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_Epilepsies" canonical="Reflex_Epilepsies">
+<variant base="Reflex Epilepsies"/>
+<variant base="Epilepsias reflexas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic-astatic_seizures" canonical="Epilepsy_with_myoclonic-astatic_seizures">
+<variant base="Epilepsy with myoclonic-astatic seizures"/>
+<variant base="Epilepsia com crises mioclónico-astáticas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Sensory_Seizure" canonical="Focal_Sensory_Seizure">
+<variant base="Focal Sensory Seizure"/>
+<variant base="Crise focal sensorial"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Typical_Absence_Seizure" canonical="Typical_Absence_Seizure">
+<variant base="Typical Absence Seizure"/>
+<variant base="Crise de ausência típica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electroencephalography" canonical="Electroencephalography">
+<variant base="Electroencephalography"/>
+<variant base="Eletroencefalogia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies" canonical="Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies">
+<variant base="Mesial temporal lobe epilepsy defined by specific etiologies"/>
+<variant base="Epilepsia do lobo temporal mesial definida por etiologias específicas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cognitive" canonical="Cognitive">
+<variant base="Cognitive"/>
+<variant base="Cognição"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Absence_Seizure" canonical="Myoclonic_Absence_Seizure">
+<variant base="Myoclonic Absence Seizure"/>
+<variant base="Crise de ausência mioclónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cortical_Dysplasia" canonical="Cortical_Dysplasia">
+<variant base="Cortical Dysplasia"/>
+<variant base="Cortical Dyplasia"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Rasmussen_syndrome" canonical="Rasmussen_syndrome">
+<variant base="Rasmussen syndrome"/>
+<variant base="Síndrome de Rasmussen"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.w3.org/2002/07/owl#Thing" canonical="Thing">
+<variant base="Thing"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Self-limited_Seizure" canonical="Self-limited_Seizure">
+<variant base="Self-limited Seizure"/>
+<variant base="Crises auto-limitadas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Immediate_and_early_post_traumatic_seizures" canonical="Immediate_and_early_post_traumatic_seizures">
+<variant base="Immediate and early post traumatic seizures"/>
+<variant base="Crises pós-traumáticas imediatas ou precoces"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_seizures" canonical="Reflex_seizures">
+<variant base="Reflex seizures"/>
+<variant base="Crises reflexas"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_myoclonic_epilepsy_in_infancy" canonical="Benign_myoclonic_epilepsy_in_infancy">
+<variant base="Benign myoclonic epilepsy in infancy"/>
+<variant base="Epilepsia mioclónica benigna na infância"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Spell" canonical="Spell">
+<variant base="Spell"/>
+<variant base="Spell"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#West_syndrome" canonical="West_syndrome">
+<variant base="West syndrome"/>
+<variant base="Síndrome de West"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focal_Motor_Seizure_With_Typical_(temporal_lobe)_Automatisms" canonical="_Automatisms">
+<variant base=" Automatisms"/>
+<variant base="Crise focal motora com automatismos (lobo temporal) típicos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure" canonical="Clonic_Seizure">
+<variant base="Clonic Seizure"/>
+<variant base="Crise clónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Drug_or_other_chemically-induced_seizures" canonical="Drug_or_other_chemically-induced_seizures">
+<variant base="Drug or other chemically-induced seizures"/>
+<variant base="Crises induzidas por fármacos ou outros químicos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Juvenile_absence_epilepsy" canonical="Juvenile_absence_epilepsy">
+<variant base="Juvenile absence epilepsy"/>
+<variant base="Epilepsia de ausências juvenil"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Postictal" canonical="Postictal">
+<variant base="Postictal"/>
+<variant base="Postictal"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Childhood_absence_epilepsy" canonical="Childhood_absence_epilepsy">
+<variant base="Childhood absence epilepsy"/>
+<variant base="Epilepsia de ausências na criança"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Autosomal_dominant_nocturnal_frontal_lobe_epilepsy" canonical="Autosomal_dominant_nocturnal_frontal_lobe_epilepsy">
+<variant base="Autosomal dominant nocturnal frontal lobe epilepsy"/>
+<variant base="Epilepsia nocturna do lobo frontal, autossómica dominante"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atonic_Seizure" canonical="Atonic_Seizure">
+<variant base="Atonic Seizure"/>
+<variant base="Crise atónica"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_childhood_epilepsy_with_centrotemporal_spikes" canonical="Benign_childhood_epilepsy_with_centrotemporal_spikes">
+<variant base="Benign childhood epilepsy with centrotemporal spikes"/>
+<variant base="Epilepsia benigna da criança com pontas centro-temporais"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#General_Concepts" canonical="General_Concepts">
+<variant base="General Concepts"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Alcohol_withdrawal_seizures" canonical="Alcohol_withdrawal_seizures">
+<variant base="Alcohol withdrawal seizures"/>
+<variant base="Crises por privação de álcool"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Synapse" canonical="Synapse">
+<variant base="Synapse"/>
+<variant base="Sinapse"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Startle_epilepsy" canonical="Startle_epilepsy">
+<variant base="Startle epilepsy"/>
+<variant base="Epilepsia do susto (surpresa)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Late_onset_childhood_occipital_epilepsy_(Gastaut_type)" canonical="">
+<variant base=""/>
+<variant base="Epilepsia occipital benigna da criança com início tardio (tipo Gastaut)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_(Autosomal_Dominant)_Focal_Epilepsies" canonical="_Focal_Epilepsies">
+<variant base=" Focal Epilepsies"/>
+<variant base="Epilepsias focais familiares (Autosómicas Dominantes)"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura_Continua" canonical="Aura_Continua">
+<variant base="Aura Continua"/>
+<variant base="Aura contínua"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Lennox-Gastaut_syndrome" canonical="Lennox-Gastaut_syndrome">
+<variant base="Lennox- Gastaut syndrome"/>
+<variant base="Síndrome de Lennox-Gastaut"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Primary_reading_epilepsy" canonical="Primary_reading_epilepsy">
+<variant base="Primary reading epilepsy"/>
+<variant base="Epilepsia primária da leitura"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Magnetic_Resonance_Imaging" canonical="Magnetic_Resonance_Imaging">
+<variant base="Magnetic Resonance Imaging"/>
+<variant base="Ressonância magnética"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure_with_Tonic_Features" canonical="Clonic_Seizure_with_Tonic_Features">
+<variant base="Clonic Seizure with Tonic Features"/>
+<variant base="Crise clónica com componentes tónicos"/>
+</token>
+<token CodeType="EPILONT" CodeValue="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_neonatal_seizures" canonical="Benign_neonatal_seizures">
+<variant base="Benign neonatal seizures"/>
+<variant base="Crises neonatais benignas"/>
+</token>
+</synonym>
