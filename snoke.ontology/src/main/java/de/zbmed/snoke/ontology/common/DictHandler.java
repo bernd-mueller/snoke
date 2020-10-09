@@ -3,6 +3,8 @@ package de.zbmed.snoke.ontology.common;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -46,7 +48,7 @@ import de.zbmed.snoke.util.SnowballStemmer;
 public class DictHandler {
 	DocumentBuilderFactory builderFactory;
 	DocumentBuilder builder;
-	SnowballStemmer snow;
+	public SnowballStemmer snow;
 	public OntModel ont;	
 	public Document dict_doc;
 
@@ -100,21 +102,34 @@ public class DictHandler {
 		}
 	}
 	
-	public Element addStemmedSynonymToToken (String syn, Element t) {
+	public Set <String> addStemmedSynonymToToken (String syn, Set <String> synset) {
 		syn = replaceUnderScoreBySpace (syn);
-		String stemsyn = snow.doTheSnowballStem(syn);
-		if (!syn.equals(stemsyn)) {
-			Element variantsyn = dict_doc.createElement("variant");
-			Attr attr_base = dict_doc.createAttribute("base");
-			attr_base.setValue(stemsyn);
-			variantsyn.setAttributeNode(attr_base);
-			t.appendChild(variantsyn);
+		
+		String procsyn = "";
+		// Check if multi-phrase word
+		if (syn.contains(" ")) {
+			String [] spacesplitsyn = syn.split(" ");
+			for (int i=0; i<spacesplitsyn.length; i++) {
+				String stemsyn = snow.doTheSnowballStem(spacesplitsyn[i]);
+				if (i == spacesplitsyn.length - 1) {
+					procsyn += stemsyn;
+				} else {
+					procsyn += stemsyn + " ";
+				}
+			}
+		} else {
+			procsyn = snow.doTheSnowballStem(syn);
 		}
-		return t;
+		if (!syn.equals(procsyn)) {
+			if (procsyn.length()>3) {
+				synset.add(procsyn);
+			}
+		}
+		return synset;
 	}
 	
 	
-	public Element genSynonymFromLocalName (String localName, Element token) {
+	public Set <String> genSynonymFromLocalName (String localName, Set <String> synset) {
 		/**
 		 * Get synonyms from local name by splitting on capital letters and inserting blanks between the words
 		 */
@@ -130,42 +145,17 @@ public class DictHandler {
 			synblock = synblock.replaceAll("\\s+", " ").trim();
 			lowersynblock = lowersynblock.replaceAll("\\s+", " ").trim();
 			
-			this.addSynonymToToken(synblock, token);
-			this.addStemmedSynonymToToken(synblock, token);
+			synset = this.addSynonymToToken(synblock.toLowerCase(), synset);
+			synset = this.addStemmedSynonymToToken(synblock.toLowerCase(), synset);
 
 		} else {
-			this.addSynonymToToken(localName, token);
-			this.addStemmedSynonymToToken(localName, token);
+			synset = this.addSynonymToToken(localName.toLowerCase(), synset);
+			synset = this.addStemmedSynonymToToken(localName.toLowerCase(), synset);
 		}
-		return token;
+		return synset;
 	}
-	private Element createTokemFromOntClass(OntClass oc) {
-		Element token = dict_doc.createElement("token");
-		
-		String localName = oc.getLocalName();
-		String uri = oc.getURI();
-		
-		this.addCodeTypeToToken ("EpSO", token);
-		this.addCodeValueToToken (uri, token);
-		this.addCanonicalToToken (localName, token);
-		
-		String label = oc.getLabel(null);
 
-		if (label != null && !label.equals("")) {
-			this.addSynonymToToken(label, token);
-//			System.out.println(label);
-		} else {
-			this.genSynonymFromLocalName (localName, token);
-			
-		}
-		
-		this.processPropertySynonym (oc, token);
-		
-		this.processPropertySeeAlso (oc, token);
-		
-		return token;
-	}
-	public Element processPropertySeeAlso (OntClass oc, Element token) {
+	public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset) {
 		Property palso = ont.getOntProperty("http://www.w3.org/2000/01/rdf-schema#seeAlso");	
 		RDFNode ralso = oc.getPropertyValue(palso);
 		String label = oc.getLabel(null);
@@ -201,9 +191,47 @@ public class DictHandler {
 
 			}
 		}
+		return synset;
+	}
+	
+	public Element createTokenFromOntClass(OntClass oc, String CodeType) {
+		Element token = dict_doc.createElement("token");
+		
+		String localName = oc.getLocalName();
+		String uri = oc.getURI();
+		
+		this.addCodeTypeToToken (CodeType, token);
+		this.addCodeValueToToken (uri, token);
+		this.addCanonicalToToken (localName, token);
+		
+		String label = oc.getLabel(null);
+		Set <String> synset = new HashSet <String> ();
+		if (label != null && !label.equals("")) {
+			synset = this.addSynonymToToken(label.toLowerCase(), synset);
+			synset = this.addStemmedSynonymToToken(label.toLowerCase(), synset);
+		} 
+		synset = this.genSynonymFromLocalName (localName, synset);
+		
+		synset = this.processPropertySynonym (oc, synset);
+		
+		synset = this.processPropertySeeAlso (oc, synset);
+
+		token = createTokensFromSynSet(synset, token);
 		return token;
 	}
-	public Element processPropertySynonym (OntClass oc, Element token) {
+	
+	public Element createTokensFromSynSet (Set <String> synset, Element t) {
+		for (String syn : synset) {
+			Element variantsyn = dict_doc.createElement("variant");
+			Attr attr_base = dict_doc.createAttribute("base");
+			attr_base.setValue(syn);
+			variantsyn.setAttributeNode(attr_base);
+			t.appendChild(variantsyn);
+		}
+		return t;
+	}
+	
+	public Set <String> processPropertySynonym (OntClass oc, Set <String> synset) {
 		Property psyn = ont.getOntProperty("http://www.case.edu/EpSO.owl#synonym");	
 		RDFNode rsyn = oc.getPropertyValue(psyn);
 
@@ -222,14 +250,15 @@ public class DictHandler {
 				if (synonyms.startsWith("RxCUI")) {
 					// processSynonymsFromRxNORM (synonyms, token);
 				} else {
-					addSynonymToToken(synonyms, token);
+					synset = addSynonymToToken(synonyms, synset);
+					synset = addStemmedSynonymToToken(synonyms, synset);
 				}
 			}
 		}
-		return token;
+		return synset;
 	}
 
-	public void createConceptMapperDictionary (OntModel ont, String dictfilename) {
+	public void createConceptMapperDictionary (OntModel ont, String dictfilename, String CodeValue) {
 		this.ont = ont;
 		try {
 			Element rootElement = dict_doc.createElement("synonym");
@@ -241,7 +270,7 @@ public class DictHandler {
 			while (eiter.hasNext()) {
 				OntClass oc = eiter.next();
 				
-				Element token = createTokemFromOntClass (oc);
+				Element token = createTokenFromOntClass (oc, CodeValue);
 
 				rootElement.appendChild(token);
 			}
@@ -270,14 +299,12 @@ public class DictHandler {
 	public String replaceUnderScoreBySpace (String s) {
 		return s.replaceAll("_", " ").replaceAll("\\s+", " ");
 	}
-	public Element addSynonymToToken (String syn, Element t) {
+	public Set <String> addSynonymToToken (String syn, Set <String> synset) {
 		String usyn = replaceUnderScoreBySpace (syn);
-		Element variantsyn = dict_doc.createElement("variant");
-		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(usyn);
-		variantsyn.setAttributeNode(attr_base);
-		t.appendChild(variantsyn);
-		return t;
+		if (usyn.length()>3) {
+			synset.add(usyn.toLowerCase());
+		}
+		return synset;
 	}
 	public Element addCodeTypeToToken (String codetype, Element t) {
 		Attr attr_codetype = dict_doc.createAttribute("CodeType");

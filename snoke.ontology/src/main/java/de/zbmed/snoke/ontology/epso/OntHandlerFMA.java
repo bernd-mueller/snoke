@@ -1,5 +1,9 @@
 package de.zbmed.snoke.ontology.epso;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.HashMap;
 
 import org.apache.jena.ontology.OntClass;
@@ -9,6 +13,8 @@ import org.apache.jena.ontology.OntProperty;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.util.iterator.ExtendedIterator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 /**
  * OntHandlerFMA
  *
@@ -17,15 +23,17 @@ import org.apache.jena.util.iterator.ExtendedIterator;
  * @since 2016
  */
 public class OntHandlerFMA {
+	private static final Logger log = LoggerFactory.getLogger(OntHandlerFMA.class);
 	OntModel fma;
 	HashMap <String, String> labelsynmap;
-	String fmafilepath = "C:\\Users\\muellerb\\Desktop\\Epilepsy2017\\FMA\\fma.owl";
+	String fmafilepath;
 	
 	OntHandlerFMA () {
 		loadFMA ("");
 	}
 	
 	OntHandlerFMA (String filepath) {
+		setFmaPath(filepath);
 		loadFMA(filepath);
 	}
 	
@@ -43,18 +51,24 @@ public class OntHandlerFMA {
 	}
 
 	public void loadFMA (String filepath) {
-		setFmaPath(filepath);
 		fma = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 		
 		try {
-			fma.read(this.fmafilepath);
-
-			System.out.println("Ontology " + fmafilepath + " loaded.");
+			InputStream is = new FileInputStream (new File (fmafilepath));
+			//ont.read(ontoFile);
+			fma.read(is, "");
+			log.info("Ontology " + fmafilepath + " loaded.");
 		} catch (JenaException je) {
-			System.err.println("ERROR" + je.getMessage());
+			log.error("ERROR" + je.getMessage());
 			je.printStackTrace();
 			System.exit(0);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		
+		setFmaPath(filepath);
+
 		labelsynmap = new HashMap <String, String> ();
 		
 		

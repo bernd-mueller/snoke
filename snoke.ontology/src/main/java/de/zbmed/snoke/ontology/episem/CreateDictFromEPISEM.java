@@ -68,69 +68,9 @@ public class CreateDictFromEPISEM extends DictHandler {
     	readCLI (args);
     	CreateDictFromEPISEM cdfe = new CreateDictFromEPISEM();
     	cdfe.getOntologyModel(inputFilePath);
-    	cdfe.createConceptMapperDictionary(outputFilePath);
+    	cdfe.createConceptMapperDictionary(cdfe.ont, outputFilePath, "EPISEM");
 	}
-	
-	private Element createTokenFromOntClass(OntClass oc) {
-		Element token = dict_doc.createElement("token");
 		
-		String localName = oc.getLocalName();
-		String uri = oc.getURI();
-		
-		this.addCodeTypeToToken ("EPISEM", token);
-		this.addCodeValueToToken (uri, token);
-		this.addCanonicalToToken (localName, token);
-		
-		String label = oc.getLabel(null);
 
-		if (label != null && !label.equals("")) {
-			this.addSynonymToToken(label, token);
-			this.addStemmedSynonymToToken(label, token);
-		} else {
-			this.genSynonymFromLocalName (localName, token);
-		}
-		
-		// this.processPropertySynonym (oc, token);
-		
-		//this.processPropertySeeAlso (oc, token);
-		
-		return token;
-	}
-	
-	public void createConceptMapperDictionary (String outputfile) {
-
-		try {
-			Element rootElement = dict_doc.createElement("synonym");
-			dict_doc.appendChild(rootElement);
-
-		    
-			ExtendedIterator<OntClass> eiter = ont.listNamedClasses();
-			
-			while (eiter.hasNext()) {
-				OntClass oc = eiter.next();
-				
-				Element token = createTokenFromOntClass (oc);
-
-				log.info("Processing " + oc.getLocalName());
-				rootElement.appendChild(token);
-			}
-			
-			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			Transformer transformer;
-
-			transformer = transformerFactory.newTransformer();
-			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-			DOMSource source = new DOMSource(dict_doc);
-			StreamResult result = new StreamResult(new File(outputfile));
-			transformer.transform(source, result);
-		} catch (TransformerConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-	}
 }
 
