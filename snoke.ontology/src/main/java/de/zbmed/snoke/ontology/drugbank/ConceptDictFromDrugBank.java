@@ -47,12 +47,12 @@ public class ConceptDictFromDrugBank {
 				
 				SnowballStemmer snow = new SnowballStemmer();
 				
-				
+				System.out.println("Starting...");
 				try {
 					builder = builderFactory.newDocumentBuilder();
 
 					Document document = builder.parse(new FileInputStream(
-							"resources/drugbank/drugbank_2018.xml"));
+							"D:/DrugBank/2020/full_database_2020.xml"));
 					// new FileInputStream("/home/muellerb/test.xml"));
 
 					XPath xPath = XPathFactory.newInstance().newXPath();
@@ -109,7 +109,7 @@ public class ConceptDictFromDrugBank {
 									Node syn_n = syn_nl.item(k);
 									if (syn_n != null) {
 										String s = syn_n.getTextContent();
-										if (s.trim().length()>0) {
+										if (s.trim().length()>3) {
 											Element variant = dict_doc.createElement("variant");
 											Attr attr_base = dict_doc.createAttribute("base");
 											attr_base.setValue(s);
@@ -117,7 +117,7 @@ public class ConceptDictFromDrugBank {
 											token.appendChild(variant);
 										}
 										String stemsyn = snow.doTheSnowballStem(s.trim());
-										if (!stemsyn.equals(s.trim()) && stemsyn != null) {
+										if (s.trim().length()>3 && !stemsyn.equals(s.trim()) && stemsyn != null) {
 											Element variant = dict_doc.createElement("variant");
 											Attr attr_base = dict_doc.createAttribute("base");
 											attr_base.setValue(stemsyn.trim());
@@ -136,7 +136,7 @@ public class ConceptDictFromDrugBank {
 					Transformer transformer = transformerFactory.newTransformer();
 					transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 					DOMSource source = new DOMSource(dict_doc);
-					StreamResult result = new StreamResult(new File("resources/drugbank/Dict_DrugBank2018.xml"));
+					StreamResult result = new StreamResult(new File("dictionaries/Dict_DrugBank2020.xml"));
 
 					// Output to console for testing
 					// StreamResult result = new StreamResult(System.out);
