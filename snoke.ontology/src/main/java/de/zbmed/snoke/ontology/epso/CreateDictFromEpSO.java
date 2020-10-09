@@ -1,9 +1,13 @@
 package de.zbmed.snoke.ontology.epso;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -53,29 +57,24 @@ import de.zbmed.snoke.util.SnowballStemmer;
  * @since 2016
  */
 public class CreateDictFromEpSO extends DictHandler {
+	String CodeType = "EpSO";
 	private static final Logger log = LoggerFactory.getLogger(CreateDictFromEpSO.class);
 	
 	String nemourl = "http://purl.bioontology.org/NEMO/ontology/NEMO.owl";
 	String fmaurl = "http://sig.uw.edu/fma";
-	OntModel ont;
-	OntModel nemo;
-	
-	SnowballStemmer snow;
 
-	Model rxnorm;
-	
-	DocumentBuilderFactory builderFactory;
-	DocumentBuilder builder;
-	
-	Document dict_doc;
+	OntModel nemo;
+
+	// RxNormClient rx;
+	// Model rxnorm;
 	
 	DrugBankMapper dbm;
 	UMLS_Client umls;
-	RxNormClient rx;
 	OntHandlerFMA fma;
 
 	public CreateDictFromEpSO () {
 		super();
+		// rx = new RxNormClient ();
 	}
 
 	public static void readCLI(String args[]) {
@@ -114,88 +113,16 @@ public class CreateDictFromEpSO extends DictHandler {
 		readCLI(args);
 		CreateDictFromEpSO cep = new CreateDictFromEpSO ();
 		
-		/**
-		 * Load NEMO ontology
-		 */
-		cep.loadNemo ("C:\\Users\\muellerb\\Desktop\\Epilepsy2017\\EpSO\\NEMO.owl");
 
-		/**
-		 * Load FMA ontology
-		 */
-		cep.loadFMA ("C:\\Users\\muellerb\\Desktop\\Epilepsy2017\\FMA\\fma.owl");
 		
 		// cep.printNamedClasses();
 		
-		
-		cep.createConceptMapperDictionary();
-		
-
-		
+		cep.getOntologyModel(inputFilePath);
+		// cep.createConceptMapperDictionary(cep.ont, outputFilePath);
+		cep.createConceptMapperDictionary(cep.ont, outputFilePath, "EpSO");
 	}
 	
-	public void createConceptMapperDictionary () {
-
-		try {
-			Element rootElement = dict_doc.createElement("synonym");
-			dict_doc.appendChild(rootElement);
-
-		    
-			ExtendedIterator<OntClass> eiter = ont.listNamedClasses();
-			
-			while (eiter.hasNext()) {
-				OntClass oc = eiter.next();
-				
-				Element token = createTokemFromOntClass (oc);
-
-				rootElement.appendChild(token);
-			}
-			
-			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			Transformer transformer;
-
-			transformer = transformerFactory.newTransformer();
-			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-			DOMSource source = new DOMSource(dict_doc);
-			StreamResult result = new StreamResult(new File("C:\\Users\\muellerb\\Desktop\\Epilepsy2017\\EpSO\\Dict_EpSO-2018-stemmed.xml"));
-			transformer.transform(source, result);
-		} catch (TransformerConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-	}
-	
-	private Element createTokemFromOntClass(OntClass oc) {
-		Element token = dict_doc.createElement("token");
-		
-		String localName = oc.getLocalName();
-		String uri = oc.getURI();
-		
-		this.addCodeTypeToToken ("EpSO", token);
-		this.addCodeValueToToken (uri, token);
-		this.addCanonicalToToken (localName, token);
-		
-		String label = oc.getLabel(null);
-
-		if (label != null && !label.equals("")) {
-			this.addSynonymToToken(label, token);
-//			System.out.println(label);
-		} else {
-			this.genSynonymFromLocalName (localName, token);
-			
-		}
-		
-		this.processPropertySynonym (oc, token);
-		
-		this.processPropertySeeAlso (oc, token);
-		
-		return token;
-	}
-	
-	public Element processPropertySeeAlso (OntClass oc, Element token) {
+	public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset) {
 		Property palso = ont.getOntProperty("http://www.w3.org/2000/01/rdf-schema#seeAlso");	
 		RDFNode ralso = oc.getPropertyValue(palso);
 		String label = oc.getLabel(null);
@@ -217,7 +144,7 @@ public class CreateDictFromEpSO extends DictHandler {
 					/**
 					 * Resolve NEMO ontology to retrieve synonyms
 					 */
-					processSynonymsFromNemo (synonyms,token);
+					synset = processSynonymsFromNemo (synonyms,synset);
 				} else if (synonyms.startsWith(fmaurl)) {
 //					System.out.println("Processing FMA... " + synonyms);
 					/*
@@ -227,68 +154,23 @@ public class CreateDictFromEpSO extends DictHandler {
 					/**
 					 * Resolve FMA ontology to retrieve synonyms
 					 */
-					processSynonymsFromFMA (synonyms, token);
+					synset = processSynonymsFromFMA (synonyms, synset);
 					
 				} else {
 					
 				}
 			}
 		}
-		return token;
+		return synset;
 	}
 	
-	public Element processPropertySynonym (OntClass oc, Element token) {
-		Property psyn = ont.getOntProperty("http://www.case.edu/EpSO.owl#synonym");	
-		RDFNode rsyn = oc.getPropertyValue(psyn);
-
-		String synonyms = "";
-		if (rsyn != null) {
-			if (rsyn.isLiteral()) {
-				synonyms = rsyn.toString();
-			} else if (rsyn.isResource()) {
-				System.out.println("RSYN IS RESOURCE");
-			}
-		}
-		if (synonyms != null && !synonyms.equals("")) {
-			System.out.println(synonyms);
-			if (!synonyms.startsWith("http")) {
-				
-				if (synonyms.startsWith("RxCUI")) {
-					processSynonymsFromRxNORM (synonyms, token);
-				} else {
-					addSynonymToToken(synonyms, token);
-				}
-			}
-		}
-		return token;
-	}
 	
-	public Element genSynonymFromLocalName (String localName, Element token) {
-		/**
-		 * Get synonyms from local name by splitting on capital letters and inserting blanks between the words
-		 */
-		String[] r = localName.split("(?=\\p{Lu})");
-		String synblock = "";
-		
-		if (r.length>1) {
-			String lowersynblock = "";
-			for (String sub : r) {
-				synblock += sub + " ";
-				lowersynblock += sub.toLowerCase() + " ";
-			}
-			synblock = synblock.trim();
-			lowersynblock = lowersynblock.trim();
-			
-			this.addSynonymToToken(synblock, token);
+	
 
-		} else {
-			this.addSynonymToToken(localName, token);
-			
-		}
-		return token;
-	}
+	
 
-	public Element processSynonymsFromFMA (String synonyms, Element token) {
+	
+	public Set <String> processSynonymsFromFMA (String synonyms, Set <String> synset) {
 		if (synonyms.startsWith(fmaurl)) {
 			
 			String fmaid = synonyms.replace(fmaurl + "#", "");
@@ -296,19 +178,21 @@ public class CreateDictFromEpSO extends DictHandler {
 			String fmasyn = fma.labelsynmap.get(synFromLabel);
 			System.out.println("#FMA\t\t" + fmaid + "\t" + fmasyn);
 			if (fmaid != null && fmaid.length()>0) {
-				addSynonymToToken (synFromLabel, token);
+				synset = addSynonymToToken (synFromLabel.toLowerCase(), synset);
+				synset= addStemmedSynonymToToken (synFromLabel.toLowerCase(), synset);
 				System.out.println("Added as synonym from FMA label:\t" + synFromLabel);
 			}
 			if (fmasyn != null && fmasyn.length()>0) {
-				addSynonymToToken (fmasyn, token);
+				synset = addSynonymToToken (fmasyn.toLowerCase(), synset);
+				synset = addStemmedSynonymToToken (fmasyn.toLowerCase(), synset);
 				System.out.println("Added as synonym from FMA synonym:\t" + fmasyn);
 			}
 		}
 
-		return token;
+		return synset;
 	}
 
-
+/*
 	public Element processSynonymsFromRxNORM (String synonyms, Element token) {
 		if (synonyms.startsWith("RxCUI")) {
 			String rxcui = synonyms.replace("RxCUI ", "");
@@ -326,7 +210,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		}
 		return token;
 	}
-	
+	*/
 	public String getDrunkBankId (String umlscui) {
 		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
 		for (AtomDTO a : atoms) {
@@ -344,7 +228,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		return "";
 	}
 	
-	public Element processSynonymsFromNemo (String synonyms, Element token) {
+	public Set <String> processSynonymsFromNemo (String synonyms, Set <String> synset) {
 		System.out.println("Doing something in NEMO:\t" + synonyms);
 		if (synonyms.startsWith(nemourl)) {
 			String nemoid = synonyms.replace(nemourl + "#", "");
@@ -375,26 +259,30 @@ public class CreateDictFromEpSO extends DictHandler {
 				}
 				if (nemosyn.length()>0) {
 					System.out.println("Adding synonym retrieved from NEMO:\t" + nemosyn);
-					addSynonymToToken(nemosyn, token);
+					
+					synset = addSynonymToToken(nemosyn.toLowerCase(), synset);
+					synset = addStemmedSynonymToToken(nemosyn.toLowerCase(), synset);
 				}
 				if (synonymFromLabel.length()>0) {
-					addSynonymToToken(synonymFromLabel, token);
+					synset = addSynonymToToken(synonymFromLabel.toLowerCase(), synset);
+					synset = addStemmedSynonymToToken(synonymFromLabel.toLowerCase(), synset);
 				}
 			} else {
 				System.err.println("NEMO class cannot be processed:\t" + synonyms);
 			}
 		}
-		return token;
+		return synset;
 	}
 	public String replaceUnderScoreBySpace (String s) {
 		return s.replaceAll("_", " ");
 	}
 	
+	/*
 	public Element addSynonymToToken (String syn, Element t) {
 		syn = replaceUnderScoreBySpace (syn);
 		Element variantsyn = dict_doc.createElement("variant");
 		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(syn);
+		attr_base.setValue(syn.toLowerCase());
 		variantsyn.setAttributeNode(attr_base);
 		t.appendChild(variantsyn);
 		
@@ -402,7 +290,8 @@ public class CreateDictFromEpSO extends DictHandler {
 		
 		return t;
 	}
-	
+	*/
+	/*
 	public Element addStemmedSynonymToToken (String syn, Element t) {
 		syn = replaceUnderScoreBySpace (syn);
 		syn = snow.doTheSnowballStem(syn);
@@ -413,27 +302,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		t.appendChild(variantsyn);
 		return t;
 	}
-	
-	public Element addCodeTypeToToken (String codetype, Element t) {
-		Attr attr_codetype = dict_doc.createAttribute("CodeType");
-		attr_codetype.setValue(codetype);
-		t.setAttributeNode(attr_codetype);
-		return t;
-	}
-	
-	public Element addCodeValueToToken (String codevalue, Element t) {
-		Attr attr_codeval = dict_doc.createAttribute("CodeValue");
-		attr_codeval.setValue(codevalue);
-		t.setAttributeNode(attr_codeval);	
-		return t;
-	}
-	
-	public Element addCanonicalToToken (String canon, Element t) {
-		Attr attr_canonical = dict_doc.createAttribute("canonical");
-		attr_canonical.setValue(canon);
-		t.setAttributeNode(attr_canonical);
-		return t;
-	}
+	*/
 	
 	public void printNamedClasses () {
 		ExtendedIterator<OntClass> eiter = ont.listNamedClasses();
@@ -471,46 +340,75 @@ public class CreateDictFromEpSO extends DictHandler {
 		ont = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 		
 		try {
-			ont.read(ontoFile);
-
-			System.out.println("Ontology " + ontoFile + " loaded.");
+			InputStream is = new FileInputStream (new File (ontoFile));
+			//ont.read(ontoFile);
+			ont.read(is, "");
+			log.info("Ontology " + ontoFile + " loaded.");
 		} catch (JenaException je) {
-			System.err.println("ERROR" + je.getMessage());
+			log.error("ERROR" + je.getMessage());
 			je.printStackTrace();
 			System.exit(0);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		
+		/**
+		 * Load RXNORM ontology
+		 */
+		// loadRxNorm ("resources/ontologies/RXNORM.ttl");
+		
+		/**
+		 * Load NEMO ontology
+		 */
+		loadNemo ("resources/ontologies/NEMO.owl");
+
+		/**
+		 * Load FMA ontology
+		 */
+		
+		loadFMA ("resources/ontologies/fma.owl");
+
 	}
 	
 	public void loadNemo (String nemoontoFile) {
 		nemo = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 		
 		try {
-			nemo.read(nemoontoFile);
-
-			System.out.println("Ontology " + nemoontoFile + " loaded.");
+			InputStream is = new FileInputStream (new File (nemoontoFile));
+			//ont.read(ontoFile);
+			nemo.read(is, "");
+			log.info("Ontology " + nemoontoFile + " loaded.");
 		} catch (JenaException je) {
-			System.err.println("ERROR" + je.getMessage());
+			log.error("ERROR" + je.getMessage());
 			je.printStackTrace();
 			System.exit(0);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	
 	public void loadFMA (String fmaontoFile) {
 		fma = new OntHandlerFMA(fmaontoFile);
 	}
-	
+	/*
 	public void loadRxNorm (String rxnormFile) {
-		rxnorm = ModelFactory.createDefaultModel();
+		rxnorm = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
 		
 		try {
-			rxnorm.read(rxnormFile);
-
-			System.out.println("Ontology " + rxnormFile + " loaded.");
+			InputStream is = new FileInputStream (new File (rxnormFile));
+			//ont.read(ontoFile);
+			rxnorm.read(is, null,"TTL") ;
+			log.info("Ontology " + rxnormFile + " loaded.");
 		} catch (JenaException je) {
-			System.err.println("ERROR" + je.getMessage());
+			log.error("ERROR" + je.getMessage());
 			je.printStackTrace();
 			System.exit(0);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
-
+*/
 }
