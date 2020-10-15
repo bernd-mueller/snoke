@@ -26,7 +26,7 @@
 
 <collectionReaderDescription  xmlns="http://uima.apache.org/resourceSpecifier">
     <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
-    <implementationName>de.zbmed.tdm.uima.reader.SolrBioASQReader</implementationName>
+    <implementationName>de.zbmed.snoke.uima.reader.SolrBioASQReader</implementationName>
     <processingResourceMetaData>
         <name>Solr BioASQ Reader</name>
         <description>Reads files from the BioASQ Solr</description>
@@ -52,13 +52,13 @@
 		    <nameValuePair>
 		        <name>SolrCore</name>
 		        <value>
-		            <string>http://10.0.8.200:8983/solr/#/~cores/Task6a-Batch1-Week1</string>
+		            <string>http://localhost:8888/solr/#/~cores/BioASQ2020</string>
 		        </value>
 		    </nameValuePair>
 		    <nameValuePair>
 		        <name>SolrQuery</name>
 		        <value>
-		            <string>*</string>
+		            <string>PubDate-Year:[2020]</string>
 		        </value>
 		    </nameValuePair>
 		</configurationParameterSettings>
