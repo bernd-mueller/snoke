@@ -72,7 +72,7 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 
 	String SrcField = "";
 
-	static Set<String> dictionaryNames = new HashSet<String>();
+	//static Set<String> dictionaryNames = new HashSet<String>();
 
 	static MongoCollection<Document> collection;
 
@@ -82,13 +82,6 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 		MongoPort = Integer.parseInt((String) getConfigParameterValue(PARAM_MONGOPORT));
 		MongoDB = (String) getConfigParameterValue(PARAM_MONGODBNAME);
 		MongoCollection = (String) getConfigParameterValue(PARAM_MONGOCOLLECTIONNAME);
-
-		dictionaryNames.add("DictTerm_DrugBank");
-		dictionaryNames.add("DictTerm_MeSH");
-		dictionaryNames.add("DictTerm_Agrovoc");
-		dictionaryNames.add("DictTerm_EpSO");
-		dictionaryNames.add("DictTerm_ESSO");
-		dictionaryNames.add("DictTerm_EPILONT");
 
 		System.out.println("MongoServer: " + MongoServer);
 		System.out.println("MongoPort: " + MongoPort);
@@ -172,8 +165,13 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			Document dictDoc = null;
 			List<Object> MongoConceptArray = new ArrayList<>();
 			Date date = new Date();
+			
+			
+			/*
 			BasicDBObject searchById = null;
-			// System.out.println("Got ###" + dbrecordid + "###");
+			System.out.println("Got ###" + dbrecordid + "###");
+			
+			
 			if (!dbrecordid.equals("")) {
 				searchById = new BasicDBObject("dbrecordid", dbrecordid);
 				// searchById.put("_id", new ObjectId(_id));
@@ -186,7 +184,7 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 				}
 				
 			} 
-			
+			*/
 			
 
 
@@ -229,7 +227,11 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 						// if (language.contains("en")) {
 						String curDictName = t.getShortName();
 						
-						if (dictionaryNames.contains(curDictName)) {
+						/**
+						 * wtf is this if-clause? It breaks all processing of the ConceptMapper
+						 * if you forget to add the dictionary name to this array!
+						 */
+						if (curDictName.startsWith("Dict")) {
 							// System.out.println("### curDictName " + t.getName());
 							String conceptclass = "";
 							String conceptid = "";
@@ -384,6 +386,7 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			 * Write the merged array into the field concepts
 			 */
 			dictDoc.append("concepts", MongoConceptArray);
+			dictDoc.append("PMID", dbrecordid);
 			//System.out.println("######## Merging concept arrays ##############");
 
 
@@ -409,11 +412,11 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 			UpdateOptions update = new UpdateOptions();
 			update.upsert(true);
 			try {
-				if (searchById != null) {
-					collection.updateOne(new Document(searchById), new Document("$set", new Document("tdm", dictDoc)), update);
-				} else {
+				//if (searchById != null) {
+				//	collection.updateOne(new Document(searchById), new Document("$set", new Document("tdm", dictDoc)), update);
+				//} else {
 					collection.insertOne (new Document("tdm", dictDoc));
-				}
+				//}
 			} catch (Exception e) {
 				e.printStackTrace(System.err);
 			}
