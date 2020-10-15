@@ -22,7 +22,7 @@
 	<primitive>true</primitive>
 	<annotatorImplementationName>org.apache.uima.conceptMapper.ConceptMapper</annotatorImplementationName>
 	<analysisEngineMetaData>
-		<name>ConceptMapper_Dict_EPILONT</name>
+		<name>ConceptMapper_Dict_FENICS</name>
 <description></description>
 		<version>1</version>
 		<vendor></vendor>
@@ -313,7 +313,7 @@
 				<name>ResultingAnnotationName</name>
 				<value>
 					<string>
-						de.zbmed.tdm.uima.analysis.DictTerm_EPILONT
+						de.zbmed.tdm.uima.analysis.DictTerm_FENICS
 					</string>
 				</value>
 			</nameValuePair>
@@ -406,7 +406,7 @@
 		</configurationParameterSettings>
 		<typeSystemDescription>
 			<imports>
-				<import name="descriptors/zbmed/uima/analysis/DictTerm_EPILONT" />
+				<import name="descriptors/zbmed/uima/analysis/DictTerm_FENICS" />
 				<import	name="descriptors/zbmed/uima/analysis/TokenAnnotation" />
 				<import	name="descriptors/zbmed/uima/analysis/SentenceAnnotation" />
 			</imports>
@@ -464,10 +464,10 @@
 				</inputs>
 				<outputs>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.DictTerm_EPILONT
+						de.zbmed.tdm.uima.DictTerm_FENICS
 					</type>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.TokenAnnotation_EPILONT
+						de.zbmed.tdm.uima.TokenAnnotation_FENICS
 					</type>
 					<type allAnnotatorFeatures="true">
 						de.zbmed.tdm.uima.analysis.TokenAnnotation
@@ -498,13 +498,13 @@
 	<resourceManagerConfiguration>
 		<externalResources>
 			<externalResource>
-				<name>Dict_EPILONT.xml</name>
+				<name>Dict_FENICS.xml</name>
 				<description>
 					A file containing the dictionary. Modify this URL to
 					use a different dictionary.
 				</description>
 				<fileResourceSpecifier>
-					<fileUrl>dictionaries/Dict_EPILONT.xml</fileUrl>
+					<fileUrl>dictionaries/Dict_FENICS.xml</fileUrl>
 				</fileResourceSpecifier>
 				<implementationName>
 					org.apache.uima.conceptMapper.support.dictionaryResource.DictionaryResource_impl
@@ -514,7 +514,7 @@
 		<externalResourceBindings>
 			<externalResourceBinding>
 				<key>DictionaryFile</key>
-				<resourceName>Dict_EPILONT.xml</resourceName>
+				<resourceName>Dict_FENICS.xml</resourceName>
 			</externalResourceBinding>
 		</externalResourceBindings>
 	</resourceManagerConfiguration>
