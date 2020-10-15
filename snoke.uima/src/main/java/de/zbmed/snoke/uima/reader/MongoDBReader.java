@@ -14,6 +14,8 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.bson.Document;
 import org.bson.conversions.Bson;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
@@ -31,8 +33,11 @@ import com.mongodb.client.MongoDatabase;
  */
 public class MongoDBReader extends CollectionReader_ImplBase{
 	
-	private int end;
-	private MongoCursor<Document> docCursor;
+	private static final Logger log = LoggerFactory.getLogger(MongoDBReader.class);
+	
+	
+	public int end;
+	public MongoCursor<Document> docCursor;
 	
 	
 	
@@ -47,16 +52,19 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 	//public static final String PARAM_SRCFIELD = "SrcField";
 	
 	public static final String PARAM_CONFIG_PARAM_SETTINGS = "SrcField";
-	//public static final ArrayList PARAM_SRCFIELD = new ArrayList<>();
+
+	
 	
 
-	private String MongoServer;
-	private Integer count;
-	private Integer MongoPort;
-	private String MongoDB;
-	private String MongoCollection;
+	public String MongoServer;
+	public Integer count;
+	public Integer MongoPort;
+	public String MongoDB;
+	public String MongoCollection;
 	//private String SrcField;
-	private String SrcField;
+	public String SrcField;
+	
+
 	
 
 	MongoClient mongoClient;
@@ -83,6 +91,7 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 		System.out.println("MongoPort: " + MongoPort);
 		System.out.println("MongoDB: " + MongoDB);
 		System.out.println("MongoCollection: " + MongoCollection);
+
 		
 		System.out.println("--- Reading files in Mongo ---");
 		
@@ -145,11 +154,13 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 		
 		
 		if (currentDoc.containsKey("_id")){
-			_id = currentDoc.get("_id").toString();
-		
-			
+			_id = currentDoc.get("_id").toString();	
 		}
 
+		// Overwrite _id to use PMID
+		if (currentDoc.containsKey("pmid")){
+			_id = currentDoc.get("pmid").toString();	
+		}
 
 		Object o = (Object) this.getFieldFromCursor(currentDoc, SrcField);
 		if (o instanceof String) {
@@ -181,7 +192,6 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 		} else {
 			jcas.setDocumentText(docText);	
 		}
-
 		
 		SourceDocumentInformation srcDocInfo = new SourceDocumentInformation(jcas);
 
@@ -195,7 +205,7 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 		
 	}
 	
-	private Object getFieldFromCursor(org.bson.Document o, String fieldName) {
+	protected Object getFieldFromCursor(org.bson.Document o, String fieldName) {
 
 	    final String[] fieldParts = fieldName.split("\\.");
 
