@@ -73,6 +73,7 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		ArrayList<BasicDBObject> obj = new ArrayList<BasicDBObject>();
 		// ({"research.fulltext_gst" : { "$exists":true }  })
 
+		/*
 		if (SrcField.contains("@")) {
 			for (String field : SrcField.split("@")) {
 				obj.add(new BasicDBObject(field, new BasicDBObject("$exists", true)));
@@ -80,13 +81,19 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		} else {
 			obj.add(new BasicDBObject(SrcField, new BasicDBObject("$exists", true)));
 		}
+		*/
 		
-		andQuery.put("$and", obj);
+		for (int i = StartYear; i<= 2020; i++) {
+			obj.add(new BasicDBObject("year" , i+""));
+		}
+		
+		
+		andQuery.put("$or", obj);
 
 		System.out.println("query processing");
 		System.out.println(andQuery);
 
-		docCursor = collection.find((Bson) andQuery).limit(end).iterator();
+		docCursor = collection.find((Bson) andQuery).batchSize(10000).iterator();
 	}
 	
 	public void getNext(CAS aCAS) throws IOException, CollectionException {

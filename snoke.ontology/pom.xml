@@ -17,17 +17,24 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
+	<!-- https://mvnrepository.com/artifact/commons-discovery/commons-discovery -->
+	<dependency>
+		<groupId>commons-discovery</groupId>
+		<artifactId>commons-discovery</artifactId>
+		<version>0.5</version>
+	</dependency>
+<dependency>
+    <groupId>axis</groupId>
+    <artifactId>axis-wsdl4j</artifactId>
+    <version>1.5.1</version>
+    <scope>provided</scope>
+</dependency>
+	
   </dependencies>
 
   <build>
