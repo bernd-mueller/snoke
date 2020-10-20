@@ -93,7 +93,7 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		System.out.println("query processing");
 		System.out.println(andQuery);
 
-		docCursor = collection.find((Bson) andQuery).batchSize(10000).iterator();
+		docCursor = collection.find((Bson) andQuery).noCursorTimeout(true).batchSize(1000).iterator();
 	}
 	
 	public void getNext(CAS aCAS) throws IOException, CollectionException {
