@@ -20,7 +20,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -66,4 +65,33 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+          <!-- https://mvnrepository.com/artifact/org.apache.uima/ConceptMapper -->
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>ConceptMapper</artifactId>
+			<version>${uima.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-core -->
+		<dependency>
+			<groupId>org.apache.uima</groupId>
+			<artifactId>uimaj-core</artifactId>
+			<version>${uima.version}</version>
+		</dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-document-annotation -->
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>uimaj-document-annotation</artifactId>
+            <version>${uima.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-tools -->
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>uimaj-tools</artifactId>
+            <version>${uima.version}</version>
+        </dependency>
+        	</dependencies>
+        	
 </project>

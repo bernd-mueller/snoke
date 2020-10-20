@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.zbmed.snoke</groupId>
     <artifactId>snoke</artifactId>
@@ -12,7 +10,7 @@
     </organization>
     <developers>
     	<developer>
-    		<name>Bernd Müller</name>
+    		<name>Bernd M�ller</name>
     		<email>{bernd.mueller,muellerb}@zbmed.de</email>
     		<url>https://labs.livivo.de</url>
     		<id>
@@ -36,7 +34,7 @@
      	<sl4j.version>1.7.25</sl4j.version>
      	<log4j.version>2.13.3</log4j.version>
      	<uima.version>2.10.2</uima.version>
-     	<mongo.version>3.12.3</mongo.version>
+     	<mongo.version>3.12.7</mongo.version>
     </properties>
     <build>
         <plugins>
@@ -102,34 +100,7 @@
 		    <artifactId>log4j-core</artifactId>
 		    <version>${log4j.version}</version>
 		</dependency>
-	    <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-api</artifactId>
-		    <version>${nd4j.version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		</dependency>
-		<!-- Windows platform -->
-		<!--  
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		    <classifier>windows-x86_64-avx2</classifier>
-		</dependency> -->
-		<!-- Windows platform -->
-		<!-- Linux platform --> 
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		    <classifier>linux-x86_64</classifier>
-		</dependency> 
+	
 		<!--  Linux platform -->
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
@@ -155,34 +126,6 @@
             <artifactId>maven-project-info-reports-plugin</artifactId>
             <version>2.9</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.uima/ConceptMapper -->
-        <dependency>
-            <groupId>org.apache.uima</groupId>
-            <artifactId>ConceptMapper</artifactId>
-            <version>${uima.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-core -->
-        <dependency>
-            <groupId>org.apache.uima</groupId>
-            <artifactId>uimaj-core</artifactId>
-            <version>${uima.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>bson</artifactId>
-            <version>${mongo.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver</artifactId>
-            <version>${mongo.version}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-tools -->
-        <dependency>
-            <groupId>org.apache.uima</groupId>
-            <artifactId>uimaj-tools</artifactId>
-            <version>${uima.version}</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -195,11 +138,15 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.11.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.apache.uima/uimaj-document-annotation -->
+		<dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>bson</artifactId>
+            <version>${mongo.version}</version>
+        </dependency>
         <dependency>
-            <groupId>org.apache.uima</groupId>
-            <artifactId>uimaj-document-annotation</artifactId>
-            <version>${uima.version}</version>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+            <version>${mongo.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
@@ -311,5 +258,6 @@
     	<module>snoke.dl</module>
     	<module>snoke.ontology</module>
     	<module>snoke.neo4j</module>
-    </modules>
+    <module>snoke.utility</module>
+  </modules>
 </project>
