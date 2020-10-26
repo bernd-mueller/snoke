@@ -498,13 +498,13 @@
 	<resourceManagerConfiguration>
 		<externalResources>
 			<externalResource>
-				<name>Dict_EpSO.xml</name>
+				<name>Dict_ESSO.xml</name>
 				<description>
 					A file containing the dictionary. Modify this URL to
 					use a different dictionary.
 				</description>
 				<fileResourceSpecifier>
-					<fileUrl>dictionaries/Dict_EpSO.xml</fileUrl>
+					<fileUrl>dictionaries/Dict_ESSO.xml</fileUrl>
 				</fileResourceSpecifier>
 				<implementationName>
 					org.apache.uima.conceptMapper.support.dictionaryResource.DictionaryResource_impl
@@ -514,7 +514,7 @@
 		<externalResourceBindings>
 			<externalResourceBinding>
 				<key>DictionaryFile</key>
-				<resourceName>Dict_EpSO.xml</resourceName>
+				<resourceName>Dict_ESSO.xml</resourceName>
 			</externalResourceBinding>
 		</externalResourceBindings>
 	</resourceManagerConfiguration>
