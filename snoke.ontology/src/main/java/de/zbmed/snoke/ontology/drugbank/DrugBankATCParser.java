@@ -15,11 +15,15 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import de.zbmed.snoke.ontology.epilont.CreateDictFromEpilont;
 /**
  * DrugBankATCParser
  *
@@ -28,7 +32,7 @@ import org.xml.sax.SAXException;
  * @since 2016
  */
 public class DrugBankATCParser {
-
+	private static final Logger log = LoggerFactory.getLogger(DrugBankATCParser.class);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -41,7 +45,7 @@ public class DrugBankATCParser {
 			//		"/media/muellerb/Daten/EpilepsyData/Results with DrugBank target filter/drugbank.xml"));
 			
 			Document document = builder.parse(new FileInputStream(
-					"resources/drugbank/drugbank_2018.xml"));
+					"D:/DrugBank/2020/full_database_2020.xml"));
 			
 					
 			// new FileInputStream("/home/muellerb/test.xml"));
@@ -67,6 +71,7 @@ public class DrugBankATCParser {
 			Map <String, String> fourthlevelatc = new HashMap <String, String>();
 			
 			for (int i = 0; i < nodeList.getLength(); i++) {
+				String finalatc = "";
 				String atc = "";
 				String atcname = "";
 				String dbid = "";
@@ -90,18 +95,18 @@ public class DrugBankATCParser {
 						drugname = subn.getTextContent();
 					} else if (subn.getNodeName().equals("atc-codes")) {
 						NodeList subnlist = subn.getChildNodes();
-						System.out.println("#a#\t" + subn.getTextContent());
+						//System.out.println("#a#\t" + subn.getTextContent());
 						for (int k = 0; k < subnlist.getLength(); k++) {
 							Node na = subnlist.item(k);
-							System.out.println("#b#\t" + na.getTextContent());
+							//System.out.println("#b#\t" + na.getTextContent());
 							NamedNodeMap nnm = na.getAttributes();
 							if (nnm != null) {
 								for (int l = 0; l < nnm.getLength(); l++) {
 									String at = nnm.item(l).getNodeName();
-									System.out.println("#c#\t" + at);
+									//System.out.println("#c#\t" + at);
 									if (at.equals("code")) {
 										atc = nnm.item(l).getNodeValue();
-										System.out.println("#d#\t" + atc);
+										//System.out.println("#d#\t" + atc);
 									}
 								}
 							}
@@ -109,21 +114,22 @@ public class DrugBankATCParser {
 							for (int m=0; m<nlatc.getLength(); m++) {
 								Node natc = nlatc.item(m);
 								String atcn = natc.getTextContent();
-								System.out.println("b1" + atcn);
+								//System.out.println("b1" + atcn);
 								NamedNodeMap nnmatc = natc.getAttributes();
 								if (nnmatc != null) {
 									for (int l = 0; l < nnmatc.getLength(); l++) {
 										String at = nnmatc.item(l).getNodeName();
-										System.out.println("#c1#\t" + at);
+										//System.out.println("#c1#\t" + at);
 										if (at.equals("code")) {
 											atc = nnmatc.item(l).getNodeValue().trim();
-											System.out.println("#d1#\t" + atc);
+											//System.out.println("#d1#\t" + atc);
 											if (atc.length()==3) {
 												secondlevelatc.put(atc, atcn);
 											} else if (atc.length()==4) {
 												thirdlevelatc.put(atc, atcn);
 											} if (atc.length()==5) {
 												fourthlevelatc.put(atc, atcn);
+												finalatc = atc;
 											}
 										}
 									}
@@ -142,40 +148,41 @@ public class DrugBankATCParser {
 
 					} else if (subn.getNodeName().equals("groups")) {
 						NodeList subnlist = subn.getChildNodes();
-						System.out.println("#f#\t" + subn.getTextContent());
+						//System.out.println("#f#\t" + subn.getTextContent());
 						if (subn.getTextContent().contains("approved")) {
 							approved = true;
 						}
 						for (int k = 0; k < subnlist.getLength(); k++) {
 							Node na = subnlist.item(k);
-							System.out.println("#g#\t" + na.getTextContent());
+							//System.out.println("#g#\t" + na.getTextContent());
 						}
 					}
 				}
+				log.info("### ATC: \t" + finalatc);
 				if (atc.length()==7) {
 					atc = atc.substring(0,5);
 				}
-				if (dbid.length()>0 && atc.length()>0) {
-					writer.println(dbid + "\t" + atc + "\t" + atcname + "\t" + drugname + "\t" + approved.toString().toUpperCase());
+				if (dbid.length()>0 && finalatc.length()>0) {
+					writer.println(dbid + "\t" + finalatc + "\t" + atcname + "\t" + drugname + "\t" + approved.toString().toUpperCase());
 				} else {
 					System.err.println("No DB id or atc: " + dbid + " / " + atc);
 				}
 			}
 			writer.close();
 			
-			PrintWriter writer2 = new PrintWriter("resources/drugbankatc-secondlevel.map", "UTF-8");
+			PrintWriter writer2 = new PrintWriter("resources/drugbank/atc-secondlevel.map", "UTF-8");
 			for (String code : secondlevelatc.keySet()) {
 				writer2.println(code + "\t" + secondlevelatc.get(code));
 			}
 			writer2.close();
 			
-			PrintWriter writer3 = new PrintWriter("resources/drugbankatc-thirdlevel.map", "UTF-8");
+			PrintWriter writer3 = new PrintWriter("resources/drugbank/atc-thirdlevel.map", "UTF-8");
 			for (String code : thirdlevelatc.keySet()) {
 				writer3.println(code + "\t" + thirdlevelatc.get(code));
 			}
 			writer3.close();
 			
-			PrintWriter writer4 = new PrintWriter("resources/drugbankatc-fourthlevel.map", "UTF-8");
+			PrintWriter writer4 = new PrintWriter("resources/drugbank/atc-fourthlevel.map", "UTF-8");
 			for (String code : fourthlevelatc.keySet()) {
 				writer4.println(code + "\t" + fourthlevelatc.get(code));
 			}
