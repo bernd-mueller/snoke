@@ -1,4 +1,4 @@
-package de.zbmed.snoke.ontology.drugbank;
+package de.zbmed.snoke.ontology.drugnames;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -19,7 +19,7 @@ import java.util.Set;
  * @version 0.1
  * @since 2016
  */
-public class DrugBankMappingDiseaseFilter {
+public class DrugNameMappingDiseaseFilter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,8 +28,8 @@ public class DrugBankMappingDiseaseFilter {
 		String diseaseFile = "/home/muellerb/Desktop/N03-172_Drug-Disease-Gene-Network/Complete/N03-172_DiseaseNames.txt";
 		System.err.println("Starting...");
 		//System.err.println("Opening drugbank map from " + args[0]+"...");
-		Map <String, String> drugmap = new DrugBankMappingDiseaseFilter().readFileIntoMap (drugmapFile);
-		Set <String> diseaseNames = new DrugBankMappingDiseaseFilter().readFileIntoSet (diseaseFile);
+		Map <String, String> drugmap = new DrugNameMappingDiseaseFilter().readFileIntoMap (drugmapFile);
+		Set <String> diseaseNames = new DrugNameMappingDiseaseFilter().readFileIntoSet (diseaseFile);
 		
 		try {
 			PrintWriter writer = new PrintWriter("/home/muellerb/Desktop/N03-172_Drug-Disease-Gene-Network/Complete/RESULT_N03-172_DrugDisease.map", "UTF-8");
