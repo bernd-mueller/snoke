@@ -22,11 +22,11 @@ import com.mongodb.client.MongoDatabase;
 
 public class BioASQMongoDBReader extends MongoDBReader {
 	
-	private static final Logger log = LoggerFactory.getLogger(BioASQMongoDBReader.class);
+	private final Logger log = LoggerFactory.getLogger(BioASQMongoDBReader.class);
 	
-	public static final String PARAM_STARTYEAR = "StartYear";
+	public final String PARAM_STARTYEAR = "StartYear";
 	
-	public static final String PARAM_MAXDOC = "MaxDoc";
+	public final String PARAM_MAXDOC = "MaxDoc";
 	public int StartYear;
 	
 	public int MaxDoc;
@@ -83,21 +83,26 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		}
 		*/
 		
-		for (int i = StartYear; i<= 2020; i++) {
-			obj.add(new BasicDBObject("year" , i+""));
+		if (StartYear >0) {
+			for (int i = StartYear; i<= 2020; i++) {
+				obj.add(new BasicDBObject("year" , i+""));
+			}
+			
+			
+			andQuery.put("$or", obj);
+		} else {
+			obj.add(new BasicDBObject("title", new BasicDBObject("$exists", true)));
+			andQuery.put("$and", obj);
 		}
-		
-		
-		andQuery.put("$or", obj);
-
 		System.out.println("query processing");
 		System.out.println(andQuery);
 
 		docCursor = collection.find((Bson) andQuery).noCursorTimeout(true).batchSize(1000).iterator();
+		lengthCursor = collection.count ((Bson) andQuery);
 	}
 	
 	public void getNext(CAS aCAS) throws IOException, CollectionException {
-		count++;
+
 		Document currentDoc = docCursor.next();
 		//System.out.println(currentDoc);
 		//System.out.println("TYPE"+ currentDoc.getClass().getName());
@@ -112,9 +117,12 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		
 		// Overwrite _id to PMID
 		if (currentDoc.containsKey("pmid")){
-			_id = currentDoc.get("pmid").toString();
+			if (currentDoc.get("pmid") != null) {	
+				_id = currentDoc.get("pmid").toString();
+			}
 		}
 
+		/*
 		if (currentDoc.containsKey("year") && currentDoc.get("year") != null ){
 			year = Integer.parseInt(currentDoc.get("year").toString());
 			if (year >= StartYear ) {
@@ -149,9 +157,30 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		} else {
 			log.info("No date field in " + _id);
 		}
-
-	
-		 
+		*/
+		
+		
+		if (currentDoc.containsKey("year")){
+			if (currentDoc.get("year") != null) {	
+				year = Integer.parseInt(currentDoc.get("year").toString());
+			}
+		}
+		
+		String title = "";
+		if (currentDoc.containsKey("title")){
+			if (currentDoc.get("title") != null) {	
+				title = this.getFieldFromCursor(currentDoc, "title").toString();
+			}
+		}
+		String abstractText = "";
+		if (currentDoc.containsKey("abstractText")){
+			if (currentDoc.get("abstractText") != null) {	
+				abstractText = this.getFieldFromCursor(currentDoc, "abstractText").toString();
+			}
+		}
+		docText = title + "\t\t" + abstractText;
+		
+		
 		aCAS.createView(SrcField);
 
 		JCas jcas = null;
@@ -180,8 +209,12 @@ public class BioASQMongoDBReader extends MongoDBReader {
 		srcDocInfo.setLastSegment(count == end);
 		srcDocInfo.addToIndexes();
 		
-		 log.info("# " + count + "\tpmid: " + _id + "\tlength: " + docText.length() + "\tdate: " + year);
-		
+		 //log.info("# " + count + "\tpmid: " + _id + "\tlength: " + docText.length() + "\tdate: " + year);
+			// System.out.println("# " + count + "\tid: " + _id + "\tlength: " + docText.length());		
+		if (count%100==0) {
+			log.info("# Processing " + count + " / " + lengthCursor);
+		}
+		count++;
 	}
 	
 }

@@ -31,6 +31,9 @@ import org.apache.uima.conceptMapper.support.stemmer.Stemmer;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
+
+import com.sun.tools.sjavac.Log;
+
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 
 /**
@@ -55,12 +58,16 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
 	  // ****************************************
 	  // * Static vars holding break iterators
 	  // ****************************************
-	  static final BreakIterator sentenceBreak = BreakIterator.getSentenceInstance(Locale.US);
+	  BreakIterator sentenceBreak = BreakIterator.getSentenceInstance(Locale.US);
 	  private String sentenceDelim = "";
 
-	  static final BreakIterator wordBreak = BreakIterator.getWordInstance(Locale.US);
+	  BreakIterator wordBreak = BreakIterator.getWordInstance(Locale.US);
 	  private String wordDelim = "";
 	  
+
+		JCas jcas;
+
+		String input;
   /** The input text string being tokenized */
   private String text;
 
@@ -224,7 +231,7 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
     return token;
   }
 
-  public static String doFoldCase(String token) {
+  public String doFoldCase(String token) {
     return token.trim().toLowerCase();
   }
 
@@ -407,6 +414,11 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
       // makeAnnotations(tokenAnnotationMaker, wordBreak);
     try {
     	
+    	Maker sentenceAnnotationMaker = new Maker() {
+    	    Annotation newAnnotation(JCas jcas, int start, int end) {
+    	      return new SentenceAnnotation(jcas, start, end);
+    	    }
+    	  };
       doTokenization(jcas, jcas.getDocumentText(), getDelim());
       makeAnnotations(sentenceAnnotationMaker, sentenceBreak, jcas.getDocumentText(), jcas);
     	
@@ -427,10 +439,12 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
      // eliminate all-whitespace tokens
      boolean isWhitespace = true;
      for (int i = start; i < end; i++) {
-       if (!Character.isWhitespace(input.charAt(i))) {
-         isWhitespace = false;
-         break;
-       }
+    		 char c = input.toCharArray()[i];
+    		 if (!Character.isWhitespace(c)) {
+    			 isWhitespace = false;
+    			 break;
+    		 }
+    	 
      }
      if (!isWhitespace) {
        m.newAnnotation(jcas, start, end).addToIndexes();
@@ -438,14 +452,14 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
    }
  }
   
-  static abstract class Maker {
+  abstract class Maker {
 	    abstract Annotation newAnnotation(JCas jcas, int start, int end);
 	  }
 
   // *********************************************
   // * function pointers for new instances *
   // *********************************************
-  static final Maker sentenceAnnotationMaker = new Maker() {
+  Maker sentenceAnnotationMaker = new Maker() {
     Annotation newAnnotation(JCas jcas, int start, int end) {
       return new SentenceAnnotation(jcas, start, end);
     }
@@ -536,7 +550,7 @@ public class TokenizerZBMED  extends JCasAnnotator_ImplBase {
     return token;
   }
 
-  public static String doStemming(String token, Stemmer stemmer) {
+  public String doStemming(String token, Stemmer stemmer) {
     return stemmer.stem(token.trim());
   }
 

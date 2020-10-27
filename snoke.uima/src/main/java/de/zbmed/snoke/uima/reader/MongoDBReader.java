@@ -38,6 +38,7 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 	
 	public int end;
 	public MongoCursor<Document> docCursor;
+	public long lengthCursor;
 	
 	
 	
@@ -120,7 +121,6 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 
 		docCursor = collection.find((Bson) andQuery).limit(end).iterator();
 
-
 		
 	}
 	/**
@@ -200,8 +200,10 @@ public class MongoDBReader extends CollectionReader_ImplBase{
 		srcDocInfo.setDocumentSize((int) jcas.getDocumentText().length());
 		srcDocInfo.setLastSegment(count == end);
 		srcDocInfo.addToIndexes();
-		
-		 System.out.println("# " + count + "\tid: " + _id + "\tlength: " + docText.length());
+		// System.out.println("# " + count + "\tid: " + _id + "\tlength: " + docText.length());		
+		if (count%100==0) {
+			log.info("# Processing " + count + " / " + lengthCursor);
+		}
 		
 	}
 	

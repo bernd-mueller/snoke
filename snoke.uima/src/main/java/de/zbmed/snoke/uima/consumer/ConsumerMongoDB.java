@@ -55,26 +55,26 @@ public class ConsumerMongoDB extends CasConsumer_ImplBase {
 	 * Name of configuration parameter that must be set to the path of a
 	 * directory into which the output files will be written.
 	 */
-	public static final String PARAM_MONGOSERVER = "MongoServer";
+	public final String PARAM_MONGOSERVER = "MongoServer";
 
-	public static final String PARAM_MONGOPORT = "MongoPort";
+	public final String PARAM_MONGOPORT = "MongoPort";
 
-	public static final String PARAM_MONGODBNAME = "MongoDB";
+	public final String PARAM_MONGODBNAME = "MongoDB";
 
-	public static final String PARAM_MONGOCOLLECTIONNAME = "MongoCollection";
+	public final String PARAM_MONGOCOLLECTIONNAME = "MongoCollection";
 
 	private String MongoServer;
 	private Integer MongoPort;
 	private String MongoDB;
 	private String MongoCollection;
 
-	static MongoClient mongoClient;
+	MongoClient mongoClient;
 
 	String SrcField = "";
 
 	//static Set<String> dictionaryNames = new HashSet<String>();
 
-	static MongoCollection<Document> collection;
+	MongoCollection<Document> collection;
 
 	public void initialize() throws ResourceInitializationException {
 
