@@ -1,4 +1,4 @@
-package de.zbmed.snoke.ontology.drugbank;
+package de.zbmed.snoke.ontology.drugnames;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -31,8 +31,8 @@ import de.zbmed.snoke.ontology.epilont.CreateDictFromEpilont;
  * @version 0.1
  * @since 2016
  */
-public class DrugBankATCParser {
-	private static final Logger log = LoggerFactory.getLogger(DrugBankATCParser.class);
+public class DrugNameATCParser {
+	private static final Logger log = LoggerFactory.getLogger(DrugNameATCParser.class);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

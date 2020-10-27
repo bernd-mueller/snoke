@@ -1,4 +1,4 @@
-package de.zbmed.snoke.ontology.drugbank;
+package de.zbmed.snoke.ontology.drugnames;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -28,7 +28,7 @@ import org.xml.sax.SAXException;
  * @version 0.1
  * @since 2016
  */
-public class DrugBankIdMapper {
+public class DrugNameIdMapper {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

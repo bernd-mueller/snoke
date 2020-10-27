@@ -1,4 +1,4 @@
-package de.zbmed.snoke.ontology.drugbank;
+package de.zbmed.snoke.ontology.drugnames;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -39,7 +39,7 @@ import de.zbmed.snoke.util.SnowballStemmer;
  * @version 0.1
  * @since 2016
  */
-public class WhatizitAutomataFromDrugBank {
+public class WhatizitAutomataFromDrugNames {
 
 	
 
