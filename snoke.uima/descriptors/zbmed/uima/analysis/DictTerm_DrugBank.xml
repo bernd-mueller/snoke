@@ -18,12 +18,12 @@
   under the License.    
 -->  
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-	<name>DictTerm_DrugBank</name>
+	<name>DictTerm_DrugNames</name>
 	<version>1</version>
 	<vendor>IBM</vendor>
 	<types>
 		<typeDescription>
-			<name>de.zbmed.tdm.uima.analysis.DictTerm_DrugBank</name>
+			<name>de.zbmed.tdm.uima.analysis.DictTerm_DrugNames</name>
 			<description>Annotation for dictionary lookup matches</description>
 			<supertypeName>uima.tcas.Annotation</supertypeName>
 			<features>

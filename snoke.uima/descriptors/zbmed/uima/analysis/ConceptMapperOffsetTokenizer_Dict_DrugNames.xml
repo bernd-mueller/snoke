@@ -22,7 +22,7 @@
 	<primitive>true</primitive>
 	<annotatorImplementationName>org.apache.uima.conceptMapper.ConceptMapper</annotatorImplementationName>
 	<analysisEngineMetaData>
-		<name>ConceptMapper_Dict_DrugBank</name>
+		<name>ConceptMapper_Dict_DrugNames</name>
 <description></description>
 		<version>1</version>
 		<vendor></vendor>
@@ -313,7 +313,7 @@
 				<name>ResultingAnnotationName</name>
 				<value>
 					<string>
-						de.zbmed.tdm.uima.analysis.DictTerm_DrugBank
+						de.zbmed.tdm.uima.analysis.DictTerm_DrugNames
 					</string>
 				</value>
 			</nameValuePair>
@@ -407,7 +407,7 @@
 		<typeSystemDescription>
 			<imports>
 				
-				<import name="descriptors/zbmed/uima/analysis/DictTerm_DrugBank" />
+				<import name="descriptors/zbmed/uima/analysis/DictTerm_DrugNames" />
 				<import	name="descriptors/zbmed/uima/analysis/TokenAnnotation" />
 				<import	name="descriptors/zbmed/uima/analysis/SentenceAnnotation" />
 			</imports>
@@ -431,10 +431,10 @@
 				</inputs>
 				<outputs>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.analysis.DictTerm_DrugBank
+						de.zbmed.tdm.uima.analysis.DictTerm_DrugNames
 					</type>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.TokenAnnotation_DrugBank
+						de.zbmed.tdm.uima.TokenAnnotation_DrugNames
 					</type>
 					<type allAnnotatorFeatures="true">
 						de.zbmed.tdm.uima.analysis.TokenAnnotation
@@ -465,13 +465,13 @@
 	<resourceManagerConfiguration>
 		<externalResources>
 			<externalResource>
-				<name>Dict_DrugBank.xml</name>
+				<name>Dict_DrugNames.xml</name>
 				<description>
 					A file containing the dictionary. Modify this URL to
 					use a different dictionary.
 				</description>
 				<fileResourceSpecifier>
-					<fileUrl>dictionaries/Dict_DrugBank.xml</fileUrl>
+					<fileUrl>dictionaries/Dict_DrugNames.xml</fileUrl>
 				</fileResourceSpecifier>
 				<implementationName>
 					org.apache.uima.conceptMapper.support.dictionaryResource.DictionaryResource_impl
@@ -481,7 +481,7 @@
 		<externalResourceBindings>
 			<externalResourceBinding>
 				<key>DictionaryFile</key>
-				<resourceName>Dict_DrugBank.xml</resourceName>
+				<resourceName>Dict_DrugNames.xml</resourceName>
 			</externalResourceBinding>
 		</externalResourceBindings>
 	</resourceManagerConfiguration>
