@@ -9,6 +9,6 @@ import org.apache.uima.conceptMapper.DictTerm;
  * @version 0.1
  * @since 2016
  */
-public class DictTerm_DrugBank extends DictTerm {
+public class DictTerm_DrugNames extends DictTerm {
 	
 }
