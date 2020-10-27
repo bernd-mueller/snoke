@@ -25,15 +25,15 @@
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Rapiflux" canonical="Rapiflux">
         <variant base="rapiflux"/>
     </token>
-    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BenignChildhoodEpilepsyWithCentrotemporalSpikes" canonical="BenignChildhoodEpilepsyWithCentrotemporalSpikes">
-        <variant base="benign childhood epilepsy with centrotemporal spikes"/>
-        <variant base="benign childhood epilepsi with centrotempor spike"/>
-    </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#DiencephalonWhiteMatterStructure" canonical="DiencephalonWhiteMatterStructure">
         <variant base="diencephalon white matter structure"/>
         <variant base="white matter structur of diencephalon"/>
         <variant base="diencephalon white matter structur"/>
         <variant base="white matter structure of diencephalon"/>
+    </token>
+    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BenignChildhoodEpilepsyWithCentrotemporalSpikes" canonical="BenignChildhoodEpilepsyWithCentrotemporalSpikes">
+        <variant base="benign childhood epilepsy with centrotemporal spikes"/>
+        <variant base="benign childhood epilepsi with centrotempor spike"/>
     </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightIndexFinger" canonical="RightIndexFinger">
         <variant base="right index finger"/>
@@ -369,6 +369,9 @@
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Tofranil-PM" canonical="Tofranil-PM">
         <variant base="tofranil- p m"/>
     </token>
+    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ProCentra" canonical="ProCentra">
+        <variant base="pro centra"/>
+    </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BordmannArea4RightPostcentralGyrus" canonical="BordmannArea4RightPostcentralGyrus">
         <variant base="brodmann area 4 right postcentr gyrus"/>
         <variant base="brodmann area 4 of right postcentr gyrus"/>
@@ -376,9 +379,6 @@
         <variant base="bordmann area4 right postcentr gyrus"/>
         <variant base="brodmann area 4 right postcentral gyrus"/>
         <variant base="bordmann area4 right postcentral gyrus"/>
-    </token>
-    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ProCentra" canonical="ProCentra">
-        <variant base="pro centra"/>
     </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ComplexVisualHallucination" canonical="ComplexVisualHallucination">
         <variant base="complex visual hallucination"/>
@@ -3506,13 +3506,13 @@
         <variant base="epileptogen zone"/>
         <variant base="epileptogenic zone"/>
     </token>
-    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftAnteriorTemporalLobeSegment" canonical="LeftAnteriorTemporalLobeSegment">
-        <variant base="left anterior tempor lobe segment"/>
-        <variant base="left anterior temporal lobe segment"/>
-    </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Fluvoxamine" canonical="Fluvoxamine">
         <variant base="fluvoxamine"/>
         <variant base="fluvoxamin"/>
+    </token>
+    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftAnteriorTemporalLobeSegment" canonical="LeftAnteriorTemporalLobeSegment">
+        <variant base="left anterior tempor lobe segment"/>
+        <variant base="left anterior temporal lobe segment"/>
     </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightLateralParietalLobeSegment" canonical="RightLateralParietalLobeSegment">
         <variant base="right lateral parietal"/>
@@ -4458,21 +4458,21 @@
         <variant base="right dorsal hypothalam area"/>
         <variant base="right dorsal hypothalamic area"/>
     </token>
-    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClinicalEvaluation" canonical="ClinicalEvaluation">
-        <variant base="clinic evalu"/>
-        <variant base="clinical evaluation"/>
-    </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#SexualSeizure" canonical="SexualSeizure">
         <variant base="sexual seizure"/>
         <variant base="sexual seizur"/>
     </token>
-    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CardinalFreeLimbSegment" canonical="CardinalFreeLimbSegment">
-        <variant base="cardin free limb segment"/>
-        <variant base="cardinal free limb segment"/>
+    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClinicalEvaluation" canonical="ClinicalEvaluation">
+        <variant base="clinic evalu"/>
+        <variant base="clinical evaluation"/>
     </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Cyamemazine" canonical="Cyamemazine">
         <variant base="cyamemazine"/>
         <variant base="cyamemazin"/>
+    </token>
+    <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CardinalFreeLimbSegment" canonical="CardinalFreeLimbSegment">
+        <variant base="cardin free limb segment"/>
+        <variant base="cardinal free limb segment"/>
     </token>
     <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Norpramin" canonical="Norpramin">
         <variant base="norpramin"/>
