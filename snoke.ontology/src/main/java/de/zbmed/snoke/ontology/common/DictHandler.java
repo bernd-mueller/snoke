@@ -51,6 +51,8 @@ public class DictHandler {
 	public SnowballStemmer snow;
 	public OntModel ont;	
 	public Document dict_doc;
+	
+	DrugNameMapper dbm;
 
 	
     private static final Logger log = LoggerFactory.getLogger(DictHandler.class);
@@ -92,6 +94,7 @@ public class DictHandler {
     
 	public DictHandler () {
 		snow = new SnowballStemmer ();
+		dbm = new DrugNameMapper ();
 		try {
 			builderFactory = DocumentBuilderFactory.newInstance();
 			builder = builderFactory.newDocumentBuilder();
@@ -215,10 +218,33 @@ public class DictHandler {
 		synset = this.processPropertySynonym (oc, synset);
 		
 		synset = this.processPropertySeeAlso (oc, synset);
-
+		
+		synset = this.addDrugNamesToSynonymSet (synset);
+		
 		token = createTokensFromSynSet(synset, token);
+		
 		return token;
 	}
+	
+	public Set <String> addDrugNamesToSynonymSet (Set <String> synset) {
+		Set <String> locSynSet = synset;
+		for (String syn : locSynSet) {
+			if (this.dbm.drugmap.containsKey(syn)) {
+				Set <String> dset = this.dbm.drugmap.get(syn);
+				for (String dsyn : dset) {
+					synset = this.addSynonymToToken(dsyn, synset);
+				}
+			} else if (this.dbm.drugsynmap.containsKey(syn)) {
+				String dkey = this.dbm.drugsynmap.get(syn);
+				Set <String> dset = this.dbm.drugmap.get(dkey);
+				for (String dsyn : dset) {
+					synset = this.addSynonymToToken(dsyn, synset);
+				}
+			}
+		}
+		return synset;
+	}
+	
 	
 	public Element createTokensFromSynSet (Set <String> synset, Element t) {
 		for (String syn : synset) {
