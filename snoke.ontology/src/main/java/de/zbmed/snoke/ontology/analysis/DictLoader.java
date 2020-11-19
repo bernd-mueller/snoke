@@ -37,7 +37,7 @@ import de.zbmed.snoke.util.SnowballStemmer;
 public class DictLoader {
 	private static final Logger log = LoggerFactory.getLogger(DictLoader.class);
     static public String inputFilePath = "";
-    DictLoader () {
+    public DictLoader () {
     }
 	public static void readCLI(String args[]) {
 		Options options = new Options();
@@ -66,7 +66,19 @@ public class DictLoader {
 		log.info("\tinput: " + inputFilePath);
 	}
 	
-	Map <String, Set <String>> getMapForDict (String dictFile) {
+	public Map <String, String> getValueMapForDict (String dictFile) {
+		Map <String, Set <String>> m = getMapForDict(dictFile);
+		Map <String, String> vmap = new HashMap <String, String> ();
+		for (String k : m.keySet()) {
+			Set <String> s = m.get(k);
+			for (String syn : s) {
+				vmap.put(syn, k);
+			}
+		}
+		return vmap;
+	}
+	
+	public Map <String, Set <String>> getMapForDict (String dictFile) {
 		Map <String, Set <String>> dictMap = new HashMap <String, Set <String>> ();
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
