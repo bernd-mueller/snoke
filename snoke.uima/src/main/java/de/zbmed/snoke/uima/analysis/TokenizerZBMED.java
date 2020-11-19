@@ -32,7 +32,6 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
 
-import com.sun.tools.sjavac.Log;
 
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 
