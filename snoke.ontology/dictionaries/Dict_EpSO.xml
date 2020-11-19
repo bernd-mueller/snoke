@@ -3542,8 +3542,8 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LateralHypothalamicRegion" canonical="LateralHypothalamicRegion">
 <variant base="later hypothalam region"/>
-<variant base="later group of hypothalam nuclei"/>
-<variant base="lateral group of hypothalamic nuclei"/>
+<variant base="later divis of hypothalamus"/>
+<variant base="lateral division of hypothalamus"/>
 <variant base="lateral hypothalamic region"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeAFz" canonical="ElectrodeAFz">
@@ -4948,13 +4948,13 @@
 <variant base="hypothalamic hamartoma"/>
 <variant base="hypothalam hamartoma"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClomipramineHydrochloride" canonical="ClomipramineHydrochloride">
-<variant base="clomipramin hydrochlorid"/>
-<variant base="clomipramine hydrochloride"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePL6" canonical="ElectrodePL6">
 <variant base="electrod p l6"/>
 <variant base="electrode p l6"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClomipramineHydrochloride" canonical="ClomipramineHydrochloride">
+<variant base="clomipramin hydrochlorid"/>
+<variant base="clomipramine hydrochloride"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#FocalCorticalDysplasiaTypeII" canonical="FocalCorticalDysplasiaTypeII">
 <variant base="focal cortic dysplasia type i i"/>
@@ -5471,13 +5471,13 @@
 <variant base="primazin"/>
 <variant base="primazine"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePO7" canonical="ElectrodePO7">
-<variant base="electrode p o7"/>
-<variant base="electrod p o7"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Stelazine" canonical="Stelazine">
 <variant base="stelazin"/>
 <variant base="stelazine"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePO7" canonical="ElectrodePO7">
+<variant base="electrode p o7"/>
+<variant base="electrod p o7"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TonicSeizureEnd" canonical="TonicSeizureEnd">
 <variant base="tonic seizur end"/>

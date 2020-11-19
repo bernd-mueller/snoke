@@ -1,993 +1,993 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <synonym>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD0BDIIzgUe4mtGYW27xz6H" canonical="RD0BDIIzgUe4mtGYW27xz6H">
-        <variant base="Overal normal function due to single-cel neuron properties@en-us"/>
-        <variant base="overal normal function due to single-cel neuron properti"/>
-        <variant base="overall normal function due to single-cell neuronal properties@en-us"/>
-        <variant base="r d0 b d i izg ue4mt g y w27xz6 h"/>
-        <variant base="overall normal function due to single-cell neuronal properties"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9wmRpum1ZjBHKOc0cthMrv" canonical="R9wmRpum1ZjBHKOc0cthMrv">
-        <variant base="r9wm rpum1 zj b h k oc0cth mrv"/>
-        <variant base="depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
-        <variant base="Depolar shift of voltag depend of activ (right shift)@en-us"/>
-        <variant base="depolar shift of voltag depend of activ (right shift)"/>
-        <variant base="depolarizing shift of voltage dependence of activation (right shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RTJTAlmpfiiOAckMP7C8xY" canonical="RTJTAlmpfiiOAckMP7C8xY">
-        <variant base="impair or slow in rate of deactiv (tau deactivation)"/>
-        <variant base="impairment or slowing in rate of deactivation (tau deactivation)"/>
-        <variant base="Impairment or slow in rate of deactiv (tau deactivation)@en-us"/>
-        <variant base="r t j t almpfii o ack m p7 c8x y"/>
-        <variant base="impairment or slowing in rate of deactivation (tau deactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8iqSYdEKz3pshaN6jwoBjg" canonical="R8iqSYdEKz3pshaN6jwoBjg">
-        <variant base="mild-moderate deceleration or slowing in recovery from fast inactivation@en-us"/>
-        <variant base="mild-moder deceler or slow in recoveri from fast inactiv"/>
-        <variant base="Mild-moder deceler or slow in recoveri from fast inactivation@en-us"/>
-        <variant base="mild-moderate deceleration or slowing in recovery from fast inactivation"/>
-        <variant base="r8iq s yd e kz3psha n6jwo bjg"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RMxVquE9c2j3gk6Vbhg9TW" canonical="RMxVquE9c2j3gk6Vbhg9TW">
-        <variant base="increase in slope of slow inactivation@en-us"/>
-        <variant base="r mx vqu e9c2j3gk6 vbhg9 t w"/>
-        <variant base="increase in slope of slow inactivation"/>
-        <variant base="increas in slope of slow inactiv"/>
-        <variant base="Increas in slope of slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDI44zpLiKB8U9OBgFIDIop" canonical="RDI44zpLiKB8U9OBgFIDIop">
-        <variant base="effect on slope of inactiv (k)"/>
-        <variant base="effect on slope of inactivation (k)@en-us"/>
-        <variant base="Effect on slope of inactiv (k)@en-us"/>
-        <variant base="r d i44zp li k b8 u9 o bg f i d iop"/>
-        <variant base="effect on slope of inactivation (k)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7KOr8G1xCnwPzwaON10MTm" canonical="R7KOr8G1xCnwPzwaON10MTm">
-        <variant base="hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
-        <variant base="r7 k or8 g1x cnw pzwa o n10 m tm"/>
-        <variant base="hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
-        <variant base="hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
-        <variant base="Hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RbjgdQVqMBklwux9sWTACl" canonical="RbjgdQVqMBklwux9sWTACl">
-        <variant base="rbjgd q vq m bklwux9s w t a cl"/>
-        <variant base="rbjgd q vq m bklwux9 w t a cl"/>
-        <variant base="severe depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
-        <variant base="severe depolarizing shift of voltage dependence of activation (right shift)"/>
-        <variant base="Sever depolar shift of voltag depend of activ (right shift)@en-us"/>
-        <variant base="sever depolar shift of voltag depend of activ (right shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC3cyZOGS7bJrI8gBqDaHzo" canonical="RC3cyZOGS7bJrI8gBqDaHzo">
-        <variant base="moder depolar shift of voltag depend of activ (right shift)"/>
-        <variant base="r c3cy z o g s7b jr i8g bq da hzo"/>
-        <variant base="r c3ci z o g s7b jr i8g bq da hzo"/>
-        <variant base="Moder depolar shift of voltag depend of activ (right shift)@en-us"/>
-        <variant base="moderate depolarizing shift of voltage dependence of activation (right shift)"/>
-        <variant base="moderate depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rbfc13foQ6CEHIWiXh434p" canonical="Rbfc13foQ6CEHIWiXh434p">
-        <variant base="Effect on rate of fast inactiv (tau inactivation)@en-us"/>
-        <variant base="effect on rate of fast inactiv (tau inactivation)"/>
-        <variant base="effect on rate of fast inactivation (tau inactivation)"/>
-        <variant base="effect on rate of fast inactivation (tau inactivation)@en-us"/>
-        <variant base="rbfc13fo q6 c e h i wi xh434p"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8CM4SZ0Of9GemoYjDN3wjj" canonical="R8CM4SZ0Of9GemoYjDN3wjj">
-        <variant base="overal gain-of-funct effect due to single-cel neuron properti"/>
-        <variant base="overall gain-of-function effect due to single-cell neuronal properties"/>
-        <variant base="Overal gain-of-funct effect due to single-cel neuron properties@en-us"/>
-        <variant base="overall gain-of-function effect due to single-cell neuronal properties@en-us"/>
-        <variant base="r8 c m4 s z0 of9 gemo yj d n3wjj"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7YvyEoR5sDyyQqL5j9dQoK" canonical="R7YvyEoR5sDyyQqL5j9dQoK">
-        <variant base="r7 yvy eo r5s dyy qq l5j9d qo k"/>
-        <variant base="effect on persist current"/>
-        <variant base="effect on persistent current"/>
-        <variant base="effect on persistent current@en-us"/>
-        <variant base="Effect on persist current@en-us"/>
-        <variant base="r7 yvi eo r5s dyy qq l5j9d qo k"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBdbOghIxdzmUv1FRMZcqMy" canonical="RBdbOghIxdzmUv1FRMZcqMy">
-        <variant base="severe impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
-        <variant base="Sever impair or slow in fast inactiv (tau inactivation)@en-us"/>
-        <variant base="severe impairment or slowing in fast inactivation (tau inactivation)"/>
-        <variant base="sever impair or slow in fast inactiv (tau inactivation)"/>
-        <variant base="r bdb ogh ixdzm uv1 f r m zcq my"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9vNK7NGPSBEp5FQ7nMB7Z2" canonical="R9vNK7NGPSBEp5FQ7nMB7Z2">
-        <variant base="decreas of subthreshold current"/>
-        <variant base="decrease of subthreshold current@en-us"/>
-        <variant base="Decreas of subthreshold current@en-us"/>
-        <variant base="decrease of subthreshold current"/>
-        <variant base="r9v n k7 n g p s b ep5 f q7n m b7 z2"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RM0V7djo7NgfCr6xB32iax" canonical="RM0V7djo7NgfCr6xB32iax">
-        <variant base="r m0 v7djo7 ngf cr6x b32iax"/>
-        <variant base="mild decrease in peak current@en-us"/>
-        <variant base="mild decreas in peak current"/>
-        <variant base="Mild decreas in peak current@en-us"/>
-        <variant base="mild decrease in peak current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R89pOjwORB6pkvDW9u6hoXN" canonical="R89pOjwORB6pkvDW9u6hoXN">
-        <variant base="Overal normal function due to neuron network properties@en-us"/>
-        <variant base="overall normal function due to neuronal network properties"/>
-        <variant base="overall normal function due to neuronal network properties@en-us"/>
-        <variant base="r89p ojw o r b6pkv d w9u6ho x n"/>
-        <variant base="overal normal function due to neuron network properti"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8asTBmmgK6PYqOlvlLtgpz" canonical="R8asTBmmgK6PYqOlvlLtgpz">
-        <variant base="mild hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
-        <variant base="Mild hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
-        <variant base="mild hyperpolarizing shift of voltage dependence of activation (left shift)"/>
-        <variant base="mild hyperpolar shift of voltag depend of activ (left shift)"/>
-        <variant base="r8as t bmmg k6 p yq olvl ltgpz"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8boLFt6478JfJZLRmWETDi" canonical="R8boLFt6478JfJZLRmWETDi">
-        <variant base="Moder depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
-        <variant base="r8bo l ft6478 jf j z l rm w e t di"/>
-        <variant base="moderate depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
-        <variant base="moderate depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
-        <variant base="moder depolar shift of voltag depend of fast inactiv (right shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBeZ7v8FkpfoCRDKvHZD936" canonical="RBeZ7v8FkpfoCRDKvHZD936">
-        <variant base="sever decreas in peak current to reduc traffick due to phosphoryl"/>
-        <variant base="r be z7v8 fkpfo c r d kv h z d936"/>
-        <variant base="Sever decreas in peak current to reduc traffick due to phosphorylation@en-us"/>
-        <variant base="severe decrease in peak current to reduced trafficking due to phosphorylation"/>
-        <variant base="severe decrease in peak current to reduced trafficking due to phosphorylation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBH2UZNWWHmsOgLS1XKdf8N" canonical="RBH2UZNWWHmsOgLS1XKdf8N">
-        <variant base="normal resurg current"/>
-        <variant base="Normal resurg current@en-us"/>
-        <variant base="normal resurgent current"/>
-        <variant base="r b h2 u z n w w hms og l s1 x kdf8 n"/>
-        <variant base="normal resurgent current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7zJvOsCc8GUzB5y46iKkAM" canonical="R7zJvOsCc8GUzB5y46iKkAM">
-        <variant base="r7z jv os cc8 g uz b5y46i kk a m"/>
-        <variant base="acceler of recoveri from slow inactiv"/>
-        <variant base="Acceler of recoveri from slow inactivation@en-us"/>
-        <variant base="acceleration of recovery from slow inactivation"/>
-        <variant base="acceleration of recovery from slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/ROWM5cmXNzjTPBn7ogKyII" canonical="ROWM5cmXNzjTPBn7ogKyII">
-        <variant base="sever decreas in peak current due to reduc traffick"/>
-        <variant base="Sever decreas in peak current due to reduc trafficking@en-us"/>
-        <variant base="severe decrease in peak current due to reduced trafficking"/>
-        <variant base="r o w m5cm x nzj t p bn7og ky i i"/>
-        <variant base="severe decrease in peak current due to reduced trafficking@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R768x3xvHhzBT7WwmpcMUaP" canonical="R768x3xvHhzBT7WwmpcMUaP">
-        <variant base="overal mix or unclear function effect due to neuron network properti"/>
-        <variant base="Overal mix or unclear function effect due to neuron network properties@en-us"/>
-        <variant base="overall mixed or unclear functional effect due to neuronal network properties@en-us"/>
-        <variant base="overall mixed or unclear functional effect due to neuronal network properties"/>
-        <variant base="r768x3xv hhz b t7 wwmpc m ua p"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDM0lP4PmjUTUE8TDmx0vhO" canonical="RDM0lP4PmjUTUE8TDmx0vhO">
-        <variant base="mild impair or slow in rate of activ (tau activation)"/>
-        <variant base="mild impairment or slowing in rate of activation (tau activation)@en-us"/>
-        <variant base="r d m0l p4 pmj u t u e8 t dmx0vh o"/>
-        <variant base="Mild impair or slow in rate of activ (tau activation)@en-us"/>
-        <variant base="mild impairment or slowing in rate of activation (tau activation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCQHSBGZT4JxStSfikvi8js" canonical="RCQHSBGZT4JxStSfikvi8js">
-        <variant base="effect on entri into slow inactiv"/>
-        <variant base="effect on entry into slow inactivation@en-us"/>
-        <variant base="r c q h s b g z t4 jx st sfikvi8js"/>
-        <variant base="r c q h s b g z t4 jx st sfikvi8j"/>
-        <variant base="effect on entry into slow inactivation"/>
-        <variant base="Effect on entri into slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RVDcHrv1yHMY8q3VkhEV9W" canonical="RVDcHrv1yHMY8q3VkhEV9W">
-        <variant base="decreas in resurg current"/>
-        <variant base="Decreas in resurg current@en-us"/>
-        <variant base="r v dc hrv1i h m y8q3 vkh e v9 w"/>
-        <variant base="r v dc hrv1y h m y8q3 vkh e v9 w"/>
-        <variant base="decrease in resurgent current@en-us"/>
-        <variant base="decrease in resurgent current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9Z6wISzLzKf2jr6s67a677" canonical="R9Z6wISzLzKf2jr6s67a677">
-        <variant base="moderate impairment or slowing in fast inactivation (tau inactivation)"/>
-        <variant base="moder impair or slow in fast inactiv (tau inactivation)"/>
-        <variant base="Moder impair or slow in fast inactiv (tau inactivation)@en-us"/>
-        <variant base="r9 z6w i sz lz kf2jr6s67a677"/>
-        <variant base="moderate impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RoMCTYJPjBEU5d6aaVUh44" canonical="RoMCTYJPjBEU5d6aaVUh44">
-        <variant base="Hyperpolar shift of voltag depend of slow inactiv (left shift)@en-us"/>
-        <variant base="ro m c t y j pj b e u5d6aa v uh44"/>
-        <variant base="hyperpolar shift of voltag depend of slow inactiv (left shift)"/>
-        <variant base="hyperpolarizing shift of voltage dependence of slow inactivation (left shift)@en-us"/>
-        <variant base="hyperpolarizing shift of voltage dependence of slow inactivation (left shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDtSd8oWO4IYoQfAWZxQBNy" canonical="RDtSd8oWO4IYoQfAWZxQBNy">
-        <variant base="r dt sd8o w o4 i yo qf a w zx q b ny"/>
-        <variant base="Overal gain-of-funct effect with respect to biophys channel activity@en-us"/>
-        <variant base="overall gain-of-function effect with respect to biophysical channel activity"/>
-        <variant base="overall gain-of-function effect with respect to biophysical channel activity@en-us"/>
-        <variant base="overal gain-of-funct effect with respect to biophys channel activ"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDN1HidwTo5yxEolQVUN1i2" canonical="RDN1HidwTo5yxEolQVUN1i2">
-        <variant base="acceler or increas in rate of deactiv (tau deactivation)"/>
-        <variant base="acceleration or increase in rate of deactivation (tau deactivation)"/>
-        <variant base="acceleration or increase in rate of deactivation (tau deactivation)@en-us"/>
-        <variant base="Acceler or increas in rate of deactiv (tau deactivation)@en-us"/>
-        <variant base="r d n1 hidw to5yx eol q v u n1i2"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7Q10ohyxQHPdcQsFmhC1Si" canonical="R7Q10ohyxQHPdcQsFmhC1Si">
-        <variant base="overal assess of ion channel function"/>
-        <variant base="r7 q10ohyx q h pdc qs fmh c1 si"/>
-        <variant base="overall assessment of ion channel function"/>
-        <variant base="overall assessment of ion channel function@en-us"/>
-        <variant base="Overal assess of ion channel function@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7jOR4IAP4IwniBv4AwBnrm" canonical="R7jOR4IAP4IwniBv4AwBnrm">
-        <variant base="effect on peak current"/>
-        <variant base="effect on peak current@en-us"/>
-        <variant base="r7j o r4 i a p4 iwni bv4 aw bnrm"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KPCoFR36aEEBnmaUBp1tV" canonical="R8KPCoFR36aEEBnmaUBp1tV">
-        <variant base="r8 k p co f r36a e e bnma u bp1t v"/>
-        <variant base="increase in slope of inactivation"/>
-        <variant base="increas in slope of inactiv"/>
-        <variant base="increase in slope of inactivation@en-us"/>
-        <variant base="Increas in slope of inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7zP9gQPx3KzITlYDUOFZfp" canonical="R7zP9gQPx3KzITlYDUOFZfp">
-        <variant base="normal voltage dependence of slow inactivation"/>
-        <variant base="Normal voltag depend of slow inactivation@en-us"/>
-        <variant base="r7z p9g q px3 kz i tl y d u o f zfp"/>
-        <variant base="normal voltage dependence of slow inactivation@en-us"/>
-        <variant base="normal voltag depend of slow inactiv"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7z6iE87cbBZePvVnmAKuLf" canonical="R7z6iE87cbBZePvVnmAKuLf">
-        <variant base="overal loss-of-funct effect with respect to biophys channel activ"/>
-        <variant base="r7z6i e87cb b ze pv vnm a ku lf"/>
-        <variant base="overall loss-of-function effect with respect to biophysical channel activity"/>
-        <variant base="Overal loss-of-funct effect with respect to biophys channel activity@en-us"/>
-        <variant base="overall loss-of-function effect with respect to biophysical channel activity@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R99KATlEV5UUOxmTthHewYy" canonical="R99KATlEV5UUOxmTthHewYy">
-        <variant base="effect on shift of voltag depend of activ"/>
-        <variant base="effect on shift of voltage dependence of activation"/>
-        <variant base="Effect on shift of voltag depend of activ"/>
-        <variant base="r99 k a tl e v5 u u oxm tth hew yy"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RXhKs55YyYQdgiLKwckPRg" canonical="RXhKs55YyYQdgiLKwckPRg">
-        <variant base="deceleration or slowing of recovery from fast inactivation"/>
-        <variant base="Deceler or slow of recoveri from fast inactivation@en-us"/>
-        <variant base="deceler or slow of recoveri from fast inactiv"/>
-        <variant base="r xh ks55 yy y qdgi l kwck p rg"/>
-        <variant base="deceleration or slowing of recovery from fast inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBWAIKiQem63yDopljeSmcj" canonical="RBWAIKiQem63yDopljeSmcj">
-        <variant base="r b w a i ki qem63y doplje smcj"/>
-        <variant base="component leading to gain-of-function (gof)"/>
-        <variant base="r b w a i ki qem63i doplj smcj"/>
-        <variant base="compon lead to gain-of-funct (gof)"/>
-        <variant base="component leading to gain-of-function (gof)@en-us"/>
-        <variant base="Compon lead to Gain-of-Funct (GoF)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rkesu9uJL9z5Q6W38xiAhQ" canonical="Rkesu9uJL9z5Q6W38xiAhQ">
-        <variant base="severe hyperpolarizing shift of voltage dependence of activation (left shift)"/>
-        <variant base="severe hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
-        <variant base="Sever hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
-        <variant base="rkesu9u j l9z5 q6 w38xi ah q"/>
-        <variant base="sever hyperpolar shift of voltag depend of activ (left shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8oN6Lr9gpAWFhWBexO3rhu" canonical="R8oN6Lr9gpAWFhWBexO3rhu">
-        <variant base="effect on voltag depend of fast inactiv (v1/2)"/>
-        <variant base="Effect on voltag depend of fast inactiv (V1/2)@en-us"/>
-        <variant base="effect on voltage dependence of fast inactivation (v1/2)"/>
-        <variant base="effect on voltage dependence of fast inactivation (v1/2)@en-us"/>
-        <variant base="r8o n6 lr9gp a w fh w bex o3rhu"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD13eaB3fwGp3eE77vJf9J7" canonical="RD13eaB3fwGp3eE77vJf9J7">
-        <variant base="increas of peak current"/>
-        <variant base="Increas of peak current@en-us"/>
-        <variant base="increase of peak current@en-us"/>
-        <variant base="r d13ea b3fw gp3e e77v jf9 j7"/>
-        <variant base="increase of peak current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R989oVaOLlRTh0b3roVWMYa" canonical="R989oVaOLlRTh0b3roVWMYa">
-        <variant base="compon lead to loss-of-funct (lof)"/>
-        <variant base="component leading to loss-of-function (lof)@en-us"/>
-        <variant base="Compon lead to Loss-of-Funct (LoF)@en-us"/>
-        <variant base="component leading to loss-of-function (lof)"/>
-        <variant base="r989o va o ll r th0b3ro v w m ya"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD8Pi69ieWp9K2OhT9WJEG" canonical="RD8Pi69ieWp9K2OhT9WJEG">
-        <variant base="Decreas of decay in current amplitud in use dependence@en-us"/>
-        <variant base="decrease of decay in current amplitude in use dependence"/>
-        <variant base="r d8 pi69ie wp9 k2 oh t9 w j e g"/>
-        <variant base="r d8 pi69i wp9 k2 oh t9 w j e g"/>
-        <variant base="decrease of decay in current amplitude in use dependence@en-us"/>
-        <variant base="decreas of decay in current amplitud in use depend"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9ZPhGuiK6bJRYHFi2PqXZJ" canonical="R9ZPhGuiK6bJRYHFi2PqXZJ">
-        <variant base="normal rate of activation (tau activation)"/>
-        <variant base="normal rate of activation (tau activation)@en-us"/>
-        <variant base="normal rate of activ (tau activation)"/>
-        <variant base="r9 z ph gui k6b j r y h fi2 pq x z j"/>
-        <variant base="Normal rate of activ (tau activation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RNbTxYjtlhgiWW8okEMzyj" canonical="RNbTxYjtlhgiWW8okEMzyj">
-        <variant base="r nb tx yjtlhgi w w8ok e mzyj"/>
-        <variant base="normal current amplitude in use dependence"/>
-        <variant base="normal current amplitud in use depend"/>
-        <variant base="normal current amplitude in use dependence@en-us"/>
-        <variant base="Normal current amplitud in use dependence@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RFM4zJvoKLRdsir6FY0w37" canonical="RFM4zJvoKLRdsir6FY0w37">
-        <variant base="r f m4z jvo k l rdsir6 f y0w37"/>
-        <variant base="sever increas in persist current"/>
-        <variant base="Sever increas in persist current@en-us"/>
-        <variant base="severe increase in persistent current@en-us"/>
-        <variant base="severe increase in persistent current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD4l3irGmoY9l24tfaycvl" canonical="RD4l3irGmoY9l24tfaycvl">
-        <variant base="increase of decay in current amplitude in use dependence"/>
-        <variant base="r d4l3ir gmo y9l24tfaycvl"/>
-        <variant base="increase of decay in current amplitude in use dependence@en-us"/>
-        <variant base="Increas of decay in current amplitud in use dependence@en-us"/>
-        <variant base="increas of decay in current amplitud in use depend"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCQdh0b9O2PwzpekxN1WriE" canonical="RCQdh0b9O2PwzpekxN1WriE">
-        <variant base="Mild hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
-        <variant base="mild hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
-        <variant base="mild hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
-        <variant base="mild hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
-        <variant base="r c qdh0b9 o2 pwzpekx n1 wri e"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RMPJkbO62zkkObPHsJZpnf" canonical="RMPJkbO62zkkObPHsJZpnf">
-        <variant base="Decreas in persist current@en-us"/>
-        <variant base="decrease in persistent current"/>
-        <variant base="decreas in persist current"/>
-        <variant base="decrease in persistent current@en-us"/>
-        <variant base="r m p jkb o62zkk ob p hs j zpnf"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBoUVhAjinxgCZHvQei6QsT" canonical="RBoUVhAjinxgCZHvQei6QsT">
-        <variant base="decrease in slope of activation (k)"/>
-        <variant base="r bo u vh ajinxg c z hv qei6 qs t"/>
-        <variant base="decrease in slope of activation (k)@en-us"/>
-        <variant base="Decreas in slope of activ (k)@en-us"/>
-        <variant base="decreas in slope of activ (k)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCkkho6vZp3kuq92L9UxQ7x" canonical="RCkkho6vZp3kuq92L9UxQ7x">
-        <variant base="Compon lead to normal ion channel function@en-us"/>
-        <variant base="component leading to normal ion channel function@en-us"/>
-        <variant base="component leading to normal ion channel function"/>
-        <variant base="compon lead to normal ion channel function"/>
-        <variant base="r ckkho6v zp3kuq92 l9 ux q7x"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8tC7DUKEOwvWvpkJDURZZk" canonical="R8tC7DUKEOwvWvpkJDURZZk">
-        <variant base="r8t c7 d u k e owv wvpk j d u r z zk"/>
-        <variant base="effect on rate of slow inactivation (tau inactivation)"/>
-        <variant base="effect on rate of slow inactiv (tau inactivation)"/>
-        <variant base="effect on rate of slow inactivation (tau inactivation)@en-us"/>
-        <variant base="Effect on rate of slow inactiv (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R72fldK4dv27Jf7NqXalgS5" canonical="R72fldK4dv27Jf7NqXalgS5">
-        <variant base="moder increas in peak current"/>
-        <variant base="r72fld k4dv27 jf7 nq xalg s5"/>
-        <variant base="moderate increase in peak current"/>
-        <variant base="Moder increas in peak current@en-us"/>
-        <variant base="moderate increase in peak current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7J2tm52qaQH1SwgcywsIqQ" canonical="R7J2tm52qaQH1SwgcywsIqQ">
-        <variant base="overal normal function with respect of biophys channel activ"/>
-        <variant base="overall normal function with respect of biophysical channel activity@en-us"/>
-        <variant base="overall normal function with respect of biophysical channel activity"/>
-        <variant base="Overal normal function with respect of biophys channel activity@en-us"/>
-        <variant base="r7 j2tm52qa q h1 swgcyw iq q"/>
-        <variant base="r7 j2tm52qa q h1 swgcyws iq q"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9SbYpUEIgenr1NAQGsVJLA" canonical="R9SbYpUEIgenr1NAQGsVJLA">
-        <variant base="r9 sb yp u e igenr1 n a q gs v j l a"/>
-        <variant base="effect on voltag depend of fast inactiv"/>
-        <variant base="effect on voltage dependence of fast inactivation@en-us"/>
-        <variant base="Effect on voltag depend of fast inactivation@en-us"/>
-        <variant base="effect on voltage dependence of fast inactivation"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8LYDXXexzlysXjoPyjBePm" canonical="R8LYDXXexzlysXjoPyjBePm">
-        <variant base="moderate hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
-        <variant base="moder hyperpolar shift of voltag depend of activ (left shift)"/>
-        <variant base="r8 l y d x xexzli xjo pyj be pm"/>
-        <variant base="r8 l y d x xexzlys xjo pyj be pm"/>
-        <variant base="moderate hyperpolarizing shift of voltage dependence of activation (left shift)"/>
-        <variant base="Moder hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCEWxMPvxnLPQFI7e1TeyDC" canonical="RCEWxMPvxnLPQFI7e1TeyDC">
-        <variant base="Increas in resurg current@en-us"/>
-        <variant base="increas in resurg current"/>
-        <variant base="r c e wx m pvxn l p q f i7e1 tey d c"/>
-        <variant base="increase in resurgent current"/>
-        <variant base="increase in resurgent current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBSKgEYTBWMuaYGCUWF6iOv" canonical="RBSKgEYTBWMuaYGCUWF6iOv">
-        <variant base="overal loss-of-funct effect due to neuron network properti"/>
-        <variant base="r b s kg e y t b w mua y g c u w f6i ov"/>
-        <variant base="overall loss-of-function effect due to neuronal network properties@en-us"/>
-        <variant base="Overal loss-of-funct effect due to neuron network properties@en-us"/>
-        <variant base="overall loss-of-function effect due to neuronal network properties"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBijWyJfrgnn2shZrQFKwyM" canonical="RBijWyJfrgnn2shZrQFKwyM">
-        <variant base="decrease in peak current"/>
-        <variant base="decrease in peak current@en-us"/>
-        <variant base="Decreas in peak current@en-us"/>
-        <variant base="decreas in peak current"/>
-        <variant base="r bij wy jfrgnn2sh zr q f kwy m"/>
-        <variant base="r bij wy jfrgnn2sh zr q f kwi m"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCxkRIG6UqWPWVsBL3fvLdo" canonical="RCxkRIG6UqWPWVsBL3fvLdo">
-        <variant base="effect on voltag depend of slow inactiv (v1/2)"/>
-        <variant base="r cxk r i g6 uq w p w vs b l3fv ldo"/>
-        <variant base="effect on voltage dependence of slow inactivation (v1/2)"/>
-        <variant base="effect on voltage dependence of slow inactivation (v1/2)@en-us"/>
-        <variant base="Effect on voltag depend of slow inactiv (V1/2)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RiK8rUNBcWv8Rw4Rq5MIQX" canonical="RiK8rUNBcWv8Rw4Rq5MIQX">
-        <variant base="mild to moder impair or slow in rate of activ (tau activation)"/>
-        <variant base="mild to moderate impairment or slowing in rate of activation (tau activation)@en-us"/>
-        <variant base="mild to moderate impairment or slowing in rate of activation (tau activation)"/>
-        <variant base="ri k8r u n bc wv8 rw4 rq5 m i q x"/>
-        <variant base="Mild to Moder impair or slow in rate of activ (tau activation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC7JvpnEA0enGEJxIIdz4c" canonical="RC7JvpnEA0enGEJxIIdz4c">
-        <variant base="sever impair or slow in rate of activ (tau activation)"/>
-        <variant base="r c7 jvpn e a0en g e jx i idz4c"/>
-        <variant base="severe impairment or slowing in rate of activation (tau activation)@en-us"/>
-        <variant base="Sever impair or slow in rate of activ (tau activation)@en-us"/>
-        <variant base="severe impairment or slowing in rate of activation (tau activation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RQNDbYiHvI4VNvMipjKcIZ" canonical="RQNDbYiHvI4VNvMipjKcIZ">
-        <variant base="Deceler or slow of recoveri from slow inactivation@en-us"/>
-        <variant base="deceleration or slowing of recovery from slow inactivation"/>
-        <variant base="r q n db yi hv i4 v nv mipj kc i z"/>
-        <variant base="deceler or slow of recoveri from slow inactiv"/>
-        <variant base="deceleration or slowing of recovery from slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBp4HSri5YtkrPJguFjDAxP" canonical="RBp4HSri5YtkrPJguFjDAxP">
-        <variant base="mild increas in persist current"/>
-        <variant base="mild increase in persistent current"/>
-        <variant base="mild increase in persistent current@en-us"/>
-        <variant base="Mild increas in persist current@en-us"/>
-        <variant base="r bp4 h sri5 ytkr p jgu fj d ax p"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R82G1vBnkSQhiYsTT3hCskW" canonical="R82G1vBnkSQhiYsTT3hCskW">
-        <variant base="increase in slope of activation (k)"/>
-        <variant base="increase in slope of activation (k)@en-us"/>
-        <variant base="r82 g1v bnk s qhi ys t t3h csk w"/>
-        <variant base="increas in slope of activ (k)"/>
-        <variant base="Increas in slope of activ (k)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R787B5RAMG9oetmadppgGCh" canonical="R787B5RAMG9oetmadppgGCh">
-        <variant base="decrease in slope of inactivation@en-us"/>
-        <variant base="Decreas in slope of inactivation@en-us"/>
-        <variant base="decreas in slope of inactiv"/>
-        <variant base="r787 b5 r a m g9oetmadppg g ch"/>
-        <variant base="decrease in slope of inactivation"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RW0QrBvuBOwHBYFFJMntlo" canonical="RW0QrBvuBOwHBYFFJMntlo">
-        <variant base="deceler of entri into slow inactiv"/>
-        <variant base="Deceler of entri into slow inactivation@en-us"/>
-        <variant base="r w0 qr bvu b ow h b y f f j mntlo"/>
-        <variant base="deceleration of entry into slow inactivation"/>
-        <variant base="deceleration of entry into slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9wEM2OxcV4ZL1GcpqWaE52" canonical="R9wEM2OxcV4ZL1GcpqWaE52">
-        <variant base="overall gain-of-function@en-us"/>
-        <variant base="overal gain-of-funct"/>
-        <variant base="overall gain-of-function"/>
-        <variant base="Overal gain-of-function@en-us"/>
-        <variant base="r9w e m2 oxc v4 z l1 gcpq wa e52"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDFDJF4kvghH94F1afcua4w" canonical="RDFDJF4kvghH94F1afcua4w">
-        <variant base="effect on slope of activ (k)"/>
-        <variant base="effect on slope of activation (k)@en-us"/>
-        <variant base="Effect on slope of activ (k)@en-us"/>
-        <variant base="effect on slope of activation (k)"/>
-        <variant base="r d f d j f4kvgh h94 f1afcua4w"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R81aXvSVSyOYsrO0hq6JLkY" canonical="R81aXvSVSyOYsrO0hq6JLkY">
-        <variant base="impairment or slowing of rate in slow inactivation (tau inactivation)"/>
-        <variant base="Impairment or slow of rate in slow inactiv (tau inactivation)@en-us"/>
-        <variant base="impair or slow of rate in slow inactiv (tau inactivation)"/>
-        <variant base="impairment or slowing of rate in slow inactivation (tau inactivation)@en-us"/>
-        <variant base="r81a xv s v sy o ysr o0hq6 j lk y"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RobShQwofhZsmj29NgnSGj" canonical="RobShQwofhZsmj29NgnSGj">
-        <variant base="effect on slow inactivation@en-us"/>
-        <variant base="effect on slow inactivation"/>
-        <variant base="effect on slow inactiv"/>
-        <variant base="rob sh qwofh zsmj29 ngn s gj"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RwcubAXCIcP10yoVjk9JVf" canonical="RwcubAXCIcP10yoVjk9JVf">
-        <variant base="rwcub a x c ic p10yo vjk9 j vf"/>
-        <variant base="Effect on recoveri from slow inactivation@en-us"/>
-        <variant base="effect on recovery from slow inactivation@en-us"/>
-        <variant base="effect on recovery from slow inactivation"/>
-        <variant base="effect on recoveri from slow inactiv"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R3Kr2TGkTE2Cs3wLLgOUHN" canonical="R3Kr2TGkTE2Cs3wLLgOUHN">
-        <variant base="r3 kr2 t gk t e2 cs3w l lg o u h n"/>
-        <variant base="Mild-moder depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
-        <variant base="mild-moder depolar shift of voltag depend of fast inactiv (right shift)"/>
-        <variant base="mild-moderate depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
-        <variant base="mild-moderate depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8tp5Ovyd4qcM5Kfw7lDZCs" canonical="R8tp5Ovyd4qcM5Kfw7lDZCs">
-        <variant base="normal entry into slow inactivation@en-us"/>
-        <variant base="Normal entri into slow inactivation@en-us"/>
-        <variant base="normal entri into slow inactiv"/>
-        <variant base="r8tp5 ovyd4qc m5 kfw7l d z cs"/>
-        <variant base="normal entry into slow inactivation"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RPGjvHXaR7w0A4dKjNGhVc" canonical="RPGjvHXaR7w0A4dKjNGhVc">
-        <variant base="impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
-        <variant base="impair or slow in fast inactiv (tau inactivation)"/>
-        <variant base="impairment or slowing in fast inactivation (tau inactivation)"/>
-        <variant base="Impairment or slow in fast inactiv (tau inactivation)@en-us"/>
-        <variant base="r p gjv h xa r7w0 a4d kj n gh vc"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBBfmTmxXmWBRBGEeKe7r0O" canonical="RBBfmTmxXmWBRBGEeKe7r0O">
-        <variant base="effect on recovery from fast inactivation"/>
-        <variant base="effect on recoveri from fast inactiv"/>
-        <variant base="effect on recovery from fast inactivation@en-us"/>
-        <variant base="Effect on recoveri from fast inactivation@en-us"/>
-        <variant base="r b bfm tmx xm w b r b g ee ke7r0 o"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RFfobOSwAuTUYKPE2tL5xf" canonical="RFfobOSwAuTUYKPE2tL5xf">
-        <variant base="normal slope of slow inactivation@en-us"/>
-        <variant base="r ffob o sw au t u y k p e2t l5xf"/>
-        <variant base="normal slope of slow inactiv"/>
-        <variant base="normal slope of slow inactivation"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rsw2n4guhiNupAT5yaAXtb" canonical="Rsw2n4guhiNupAT5yaAXtb">
-        <variant base="effect on subthreshold current"/>
-        <variant base="rsw2n4guhi nup a t5ya a xtb"/>
-        <variant base="effect on subthreshold current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBKM326sr6YtbqsamE9pEtf" canonical="RBKM326sr6YtbqsamE9pEtf">
-        <variant base="r b k m326sr6 ytbqsam e9p etf"/>
-        <variant base="normal fast inactiv (tau inactivation)"/>
-        <variant base="Normal fast inactiv (tau inactivation)@en-us"/>
-        <variant base="normal fast inactivation (tau inactivation)"/>
-        <variant base="normal fast inactivation (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8S5yVPOmxVdhhUOuyW4oyx" canonical="R8S5yVPOmxVdhhUOuyW4oyx">
-        <variant base="severe increase in peak current"/>
-        <variant base="r8 s5i v p omx vdhh u ouy w4oyx"/>
-        <variant base="severe increase in peak current@en-us"/>
-        <variant base="Sever increas in peak current@en-us"/>
-        <variant base="sever increas in peak current"/>
-        <variant base="r8 s5y v p omx vdhh u ouy w4oyx"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBIy27OxlnSdZXc0c2teiZD" canonical="RBIy27OxlnSdZXc0c2teiZD">
-        <variant base="normal peak current@en-us"/>
-        <variant base="r b iy27 oxln sd z xc0c2tei z d"/>
-        <variant base="normal peak current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDXWDoljWFzQfFl2YI7DCtA" canonical="RDXWDoljWFzQfFl2YI7DCtA">
-        <variant base="effect on voltag depend of slow inactiv"/>
-        <variant base="Effect on voltag depend of slow inactivation@en-us"/>
-        <variant base="effect on voltage dependence of slow inactivation"/>
-        <variant base="r d x w dolj w fz qf fl2 y i7 d ct a"/>
-        <variant base="effect on voltage dependence of slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RwQyQ1jQlK4mhCi3frcbsW" canonical="RwQyQ1jQlK4mhCi3frcbsW">
-        <variant base="rw qy q1j ql k4mh ci3frcbs w"/>
-        <variant base="effect on ion channel biophysical properties"/>
-        <variant base="effect on ion channel biophys properti"/>
-        <variant base="effect on ion channel biophysical properties@en-us"/>
-        <variant base="Effect on ion channel biophys properties@en-us"/>
-        <variant base="rw qy q1j ql k4mh ci3frcb w"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCCYzTbbm9jGGdBAcyrpQbn" canonical="RCCYzTbbm9jGGdBAcyrpQbn">
-        <variant base="acceler entri into slow inactiv"/>
-        <variant base="accelerated entry into slow inactivation"/>
-        <variant base="accelerated entry into slow inactivation@en-us"/>
-        <variant base="Acceler entri into slow inactivation@en-us"/>
-        <variant base="r c c yz tbbm9j g gd b acyrp qbn"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7eGXoO3n3Sj7LwciFM7iUY" canonical="R7eGXoO3n3Sj7LwciFM7iUY">
-        <variant base="Increas of subthreshold current@en-us"/>
-        <variant base="increase of subthreshold current"/>
-        <variant base="increase of subthreshold current@en-us"/>
-        <variant base="increas of subthreshold current"/>
-        <variant base="r7e g xo o3n3 sj7 lwci f m7i u y"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9Up0isZLT8RDpuQWBovMas" canonical="R9Up0isZLT8RDpuQWBovMas">
-        <variant base="moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
-        <variant base="moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
-        <variant base="r9 up0is z l t8 r dpu q w bov mas"/>
-        <variant base="r9 up0i z l t8 r dpu q w bov mas"/>
-        <variant base="moder hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
-        <variant base="Moder hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDnQOos7Y952sZBt7bCl2A" canonical="RDnQOos7Y952sZBt7bCl2A">
-        <variant base="overall normal function"/>
-        <variant base="overal normal function"/>
-        <variant base="r dn q oos7 y952s z bt7b cl2 a"/>
-        <variant base="Overal normal function@en-us"/>
-        <variant base="overall normal function@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RWsIdPK9ef5X7RMzIebmPQ" canonical="RWsIdPK9ef5X7RMzIebmPQ">
-        <variant base="r ws id p k9ef5 x7 r mz iebm p q"/>
-        <variant base="effect on use depend"/>
-        <variant base="effect on use dependence@en-us"/>
-        <variant base="effect on use dependence"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBOVqte4ccjmqTJAI8jkV44" canonical="RBOVqte4ccjmqTJAI8jkV44">
-        <variant base="r b o vqte4ccjmq t j a i8jk v44"/>
-        <variant base="Normal slope of activ (k)@en-us"/>
-        <variant base="normal slope of activ (k)"/>
-        <variant base="normal slope of activation (k)"/>
-        <variant base="normal slope of activation (k)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8Kyj6yec26dDePPO9tgqV2" canonical="R8Kyj6yec26dDePPO9tgqV2">
-        <variant base="effect on ion channel modulation@en-us"/>
-        <variant base="effect on ion channel modulation"/>
-        <variant base="effect on ion channel modul"/>
-        <variant base="r8 kyj6yec26d de p p o9tgq v2"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R6mSCTdmZqoFcoMx49ADHU" canonical="R6mSCTdmZqoFcoMx49ADHU">
-        <variant base="r6m s c tdm zqo fco mx49 a d h u"/>
-        <variant base="normal persistent current"/>
-        <variant base="normal persist current"/>
-        <variant base="Normal persist current@en-us"/>
-        <variant base="normal persistent current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBRr02cNOD5wl0pS44hXqqX" canonical="RBRr02cNOD5wl0pS44hXqqX">
-        <variant base="Mild-moder hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
-        <variant base="mild-moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
-        <variant base="mild-moder hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
-        <variant base="r b rr02c n o d5wl0p s44h xqq x"/>
-        <variant base="mild-moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCvk5iSgbniWz9P4mjJsdlC" canonical="RCvk5iSgbniWz9P4mjJsdlC">
-        <variant base="overall mixed or unclear functional effect not able to be clearly categorized as gain- or loss-of-function@en-us"/>
-        <variant base="r cvk5i sgbni wz9 p4mj jsdl c"/>
-        <variant base="Overal mix or unclear function effect not abl to be clear categor as Gain- or Loss-of-Function@en-us"/>
-        <variant base="overal mix or unclear function effect not abl to be clear categor as gain- or loss-of-funct"/>
-        <variant base="overall mixed or unclear functional effect not able to be clearly categorized as gain- or loss-of-function"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8fyxz5nx0mgxsMOtEoRmWk" canonical="R8fyxz5nx0mgxsMOtEoRmWk">
-        <variant base="r8fyxz5nx0mgxs m ot eo rm wk"/>
-        <variant base="impair or slow in rate of activ (tau activation)"/>
-        <variant base="r8fyxz5nx0mgx m ot eo rm wk"/>
-        <variant base="impairment or slowing in rate of activation (tau activation)@en-us"/>
-        <variant base="Impairment or slow in rate of activ (tau activation)@en-us"/>
-        <variant base="impairment or slowing in rate of activation (tau activation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8LbtdmDXmdcSOQY3QnvrYf" canonical="R8LbtdmDXmdcSOQY3QnvrYf">
-        <variant base="hodgin-huxley-modeling"/>
-        <variant base="hodgin-huxley-model"/>
-        <variant base="hodgin-huxley-modeling@en-us"/>
-        <variant base="r8 lbtdm d xmdc s o q y3 qnvr yf"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDyQ9lJFRvp1SJ8SKR7BkGn" canonical="RDyQ9lJFRvp1SJ8SKR7BkGn">
-        <variant base="effect on voltag depend of activ"/>
-        <variant base="effect on voltage dependence of activation@en-us"/>
-        <variant base="r dy q9l j f rvp1 s j8 s k r7 bk gn"/>
-        <variant base="effect on voltage dependence of activation"/>
-        <variant base="Effect on voltag depend of activation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8IERLt4CJaeXzaPCOzquSB" canonical="R8IERLt4CJaeXzaPCOzquSB">
-        <variant base="severe decrease in peak current due to reduced opening probability@en-us"/>
-        <variant base="severe decrease in peak current due to reduced opening probability"/>
-        <variant base="sever decreas in peak current due to reduc open probabl"/>
-        <variant base="r8 i e r lt4 c jae xza p c ozqu s b"/>
-        <variant base="Sever decreas in peak current due to reduc open probability@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC7UYgJd2o0EeyLF1F20qZG" canonical="RC7UYgJd2o0EeyLF1F20qZG">
-        <variant base="Mild depolar shift of voltag depend of activ (right shift)@en-us"/>
-        <variant base="mild depolarizing shift of voltage dependence of activation (right shift)"/>
-        <variant base="r c7 u yg jd2o0 eey l f1 f20q z g"/>
-        <variant base="mild depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
-        <variant base="mild depolar shift of voltag depend of activ (right shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7dNr0622a5wBESQGcaLkZg" canonical="R7dNr0622a5wBESQGcaLkZg">
-        <variant base="Effect on compon of ion channel function@en-us"/>
-        <variant base="effect on compon of ion channel function"/>
-        <variant base="r7d nr0622a5w b e s q gca lk zg"/>
-        <variant base="effect on component of ion channel function"/>
-        <variant base="effect on component of ion channel function@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R86071iVxOmUgj1ljXI9RwA" canonical="R86071iVxOmUgj1ljXI9RwA">
-        <variant base="overal loss-of-funct"/>
-        <variant base="r86071i vx om ugj1lj x i9 rw a"/>
-        <variant base="overall loss-of-function"/>
-        <variant base="overall loss-of-function@en-us"/>
-        <variant base="Overal loss-of-function@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBJiFsljKf9Ot340DhQvUT" canonical="RBJiFsljKf9Ot340DhQvUT">
-        <variant base="effect on ion channel function involv multipl biophys properti"/>
-        <variant base="effect on ion channel function involving multiple biophysical properties"/>
-        <variant base="r b ji fslj kf9 ot340 dh qv u t"/>
-        <variant base="Effect on ion channel function involv multipl biophys properties@en-us"/>
-        <variant base="effect on ion channel function involving multiple biophysical properties@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rl7K1Hgqs34BVxM4PNtn4w" canonical="Rl7K1Hgqs34BVxM4PNtn4w">
-        <variant base="mild-moderate hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
-        <variant base="Mild-moder hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
-        <variant base="mild-moderate hyperpolarizing shift of voltage dependence of activation (left shift)"/>
-        <variant base="mild-moder hyperpolar shift of voltag depend of activ (left shift)"/>
-        <variant base="rl7 k1 hgqs34 b vx m4 p ntn4w"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RQjP2MguDr8OzKDeceZJ46" canonical="RQjP2MguDr8OzKDeceZJ46">
-        <variant base="mild-moderate depolarizing shift of voltage dependence of activation (right shift)"/>
-        <variant base="r qj p2 mgu dr8 oz k dece z j46"/>
-        <variant base="mild-moder depolar shift of voltag depend of activ (right shift)"/>
-        <variant base="Mild-moder depolar shift of voltag depend of activ (right shift)@en-us"/>
-        <variant base="mild-moderate depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBNgNEEXTwqRuFYweKcutxe" canonical="RBNgNEEXTwqRuFYweKcutxe">
-        <variant base="increase in persistent current"/>
-        <variant base="increas in persist current"/>
-        <variant base="increase in persistent current@en-us"/>
-        <variant base="r b ng n e e x twq ru f ywe kcutxe"/>
-        <variant base="Increas in persist current@en-us"/>
-        <variant base="r b ng n e e x twq ru f ywe kcutx"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7WY7lrtkRqG9NQvD8Fs7Lo" canonical="R7WY7lrtkRqG9NQvD8Fs7Lo">
-        <variant base="sever decreas in peak current due to reduct in conduct"/>
-        <variant base="r7 w y7lrtk rq g9 n qv d8 fs7 lo"/>
-        <variant base="severe decrease in peak current due to reduction in conductance@en-us"/>
-        <variant base="Sever decreas in peak current due to reduct in conductance@en-us"/>
-        <variant base="severe decrease in peak current due to reduction in conductance"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8elYee9oFnTyzGLbmLUaeO" canonical="R8elYee9oFnTyzGLbmLUaeO">
-        <variant base="effect on gating-por current"/>
-        <variant base="r8el yee9o fn tyz g lbm l uae o"/>
-        <variant base="Effect on gating-por current@en-us"/>
-        <variant base="effect on gating-pore current@en-us"/>
-        <variant base="effect on gating-pore current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7rZoUywSrlnsR2QEdxddqS" canonical="R7rZoUywSrlnsR2QEdxddqS">
-        <variant base="r7r zo uyw srlns r2 q edxddq s"/>
-        <variant base="normal recovery from fast inactivation@en-us"/>
-        <variant base="normal recovery from fast inactivation"/>
-        <variant base="Normal recoveri from fast inactivation@en-us"/>
-        <variant base="normal recoveri from fast inactiv"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R6Gg6Rc5Xl21OllEzn2N3h" canonical="R6Gg6Rc5Xl21OllEzn2N3h">
-        <variant base="depolarizing shift of voltage dependence of slow inactivation (right shift)"/>
-        <variant base="depolarizing shift of voltage dependence of slow inactivation (right shift)@en-us"/>
-        <variant base="depolar shift of voltag depend of slow inactiv (right shift)"/>
-        <variant base="Depolar shift of voltag depend of slow inactiv (right shift)@en-us"/>
-        <variant base="r6 gg6 rc5 xl21 oll ezn2 n3h"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R80ryKpw9TZE2fSjbz1ykJ4" canonical="R80ryKpw9TZE2fSjbz1ykJ4">
-        <variant base="r80ri kpw9 t z e2f sjbz1yk j4"/>
-        <variant base="r80ry kpw9 t z e2f sjbz1yk j4"/>
-        <variant base="mild impair or slow in fast inactiv (tau inactivation)"/>
-        <variant base="mild impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
-        <variant base="mild impairment or slowing in fast inactivation (tau inactivation)"/>
-        <variant base="Mild impair or slow in fast inactiv (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDufCzpibYChlFwDOguxQBk" canonical="RDufCzpibYChlFwDOguxQBk">
-        <variant base="acceleration in rate of slow inactivation (tau inactivation)@en-us"/>
-        <variant base="Acceler in rate of slow inactiv (tau inactivation)@en-us"/>
-        <variant base="acceleration in rate of slow inactivation (tau inactivation)"/>
-        <variant base="r duf czpib y chl fw d ogux q bk"/>
-        <variant base="acceler in rate of slow inactiv (tau inactivation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCJNYSXtzUQaxxxeigBc9rg" canonical="RCJNYSXtzUQaxxxeigBc9rg">
-        <variant base="absence of abnormal gating pore current@en-us"/>
-        <variant base="Absenc of abnorm gate pore current@en-us"/>
-        <variant base="absenc of abnorm gate pore current"/>
-        <variant base="absence of abnormal gating pore current"/>
-        <variant base="r c j n y s xtz u qaxxxeig bc9rg"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDGPKWNIULbpyxm7b0wIuii" canonical="RDGPKWNIULbpyxm7b0wIuii">
-        <variant base="decreas in slope of slow inactiv"/>
-        <variant base="decrease in slope of slow inactivation"/>
-        <variant base="Decreas in slope of slow inactivation@en-us"/>
-        <variant base="decrease in slope of slow inactivation@en-us"/>
-        <variant base="r d g p k w n i u lbpyxm7b0w iuii"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RzxAghzfGsgvWX3Ibm1dzr" canonical="RzxAghzfGsgvWX3Ibm1dzr">
-        <variant base="overall mixed or unclear functional effect due to single-cell neuronal properties"/>
-        <variant base="overall mixed or unclear functional effect due to single-cell neuronal properties@en-us"/>
-        <variant base="rzx aghzf gsgv w x3 ibm1dzr"/>
-        <variant base="Overal mix or unclear function effect due to single-cel neuron properties@en-us"/>
-        <variant base="overal mix or unclear function effect due to single-cel neuron properti"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RByNptA431wiEbrBZa4Y14U" canonical="RByNptA431wiEbrBZa4Y14U">
-        <variant base="moderate increase in persistent current@en-us"/>
-        <variant base="moderate increase in persistent current"/>
-        <variant base="moder increas in persist current"/>
-        <variant base="Moder increas in persist current@en-us"/>
-        <variant base="r by npt a431wi ebr b za4 y14 u"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7xYGfLUETEAY1cGj6zqYjl" canonical="R7xYGfLUETEAY1cGj6zqYjl">
-        <variant base="r7x y gf l u e t e a y1c gj6zq yjl"/>
-        <variant base="normal slope of inactivation@en-us"/>
-        <variant base="normal slope of inactiv"/>
-        <variant base="normal slope of inactivation"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R918FRlaBUyZMXc8koNdkxQ" canonical="R918FRlaBUyZMXc8koNdkxQ">
-        <variant base="hyperpolarizing shift of voltage dependence of activation (left shift)"/>
-        <variant base="hyperpolar shift of voltag depend of activ (left shift)"/>
-        <variant base="Hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
-        <variant base="r918 f rla b uy z m xc8ko ndkx q"/>
-        <variant base="hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9YmpNJrUqHfe8VU8jjemmJ" canonical="R9YmpNJrUqHfe8VU8jjemmJ">
-        <variant base="severe decrease in peak current"/>
-        <variant base="sever decreas in peak current"/>
-        <variant base="severe decrease in peak current@en-us"/>
-        <variant base="Sever decreas in peak current@en-us"/>
-        <variant base="r9 ymp n jr uq hfe8 v u8jjemm j"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RYWQSm4huaAno89B4WFQZH" canonical="RYWQSm4huaAno89B4WFQZH">
-        <variant base="Moder decreas in peak current@en-us"/>
-        <variant base="r y w q sm4hua ano89 b4 w f q z h"/>
-        <variant base="moderate decrease in peak current@en-us"/>
-        <variant base="moderate decrease in peak current"/>
-        <variant base="moder decreas in peak current"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDcpKlApCB4PPPBO6hjgl6m" canonical="RDcpKlApCB4PPPBO6hjgl6m">
-        <variant base="severe depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
-        <variant base="severe depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
-        <variant base="Sever depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
-        <variant base="sever depolar shift of voltag depend of fast inactiv (right shift)"/>
-        <variant base="r dcp kl ap c b4 p p p b o6hjgl6m"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDTMAY4Nsd5P8hpcBUUypxU" canonical="RDTMAY4Nsd5P8hpcBUUypxU">
-        <variant base="r d t m a y4 nsd5 p8hpc b u uypx u"/>
-        <variant base="overall gain-of-function effect due to neuronal network properties@en-us"/>
-        <variant base="Overal gain-of-funct effect due to neuron network properties@en-us"/>
-        <variant base="overal gain-of-funct effect due to neuron network properti"/>
-        <variant base="overall gain-of-function effect due to neuronal network properties"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9GXFE2OawwbLewohMEJYng" canonical="R9GXFE2OawwbLewohMEJYng">
-        <variant base="presenc of abnorm gate pore current"/>
-        <variant base="presence of abnormal gating pore current@en-us"/>
-        <variant base="r9 g x f e2 oawwb lewoh m e j yng"/>
-        <variant base="presence of abnormal gating pore current"/>
-        <variant base="Presenc of abnorm gate pore current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9ZUbOgKjGPPQ9CPTMGPh9f" canonical="R9ZUbOgKjGPPQ9CPTMGPh9f">
-        <variant base="severe deceleration or slowing in recovery from fast inactivation"/>
-        <variant base="sever deceler or slow in recoveri from fast inactiv"/>
-        <variant base="Sever deceler or slow in recoveri from fast inactivation@en-us"/>
-        <variant base="severe deceleration or slowing in recovery from fast inactivation@en-us"/>
-        <variant base="r9 z ub og kj g p p q9 c p t m g ph9f"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KZofOQE10FYr0M6IpoJ72" canonical="R8KZofOQE10FYr0M6IpoJ72">
-        <variant base="Overal loss-of-funct effect due to single-cel neuron properties@en-us"/>
-        <variant base="overall loss-of-function effect due to single-cell neuronal properties"/>
-        <variant base="overal loss-of-funct effect due to single-cel neuron properti"/>
-        <variant base="r8 k zof o q e10 f yr0 m6 ipo j72"/>
-        <variant base="overall loss-of-function effect due to single-cell neuronal properties@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rwd2Okf7Sd1xsETaBGsjeS" canonical="Rwd2Okf7Sd1xsETaBGsjeS">
-        <variant base="effect on rate of deactivation@en-us"/>
-        <variant base="effect on rate of deactivation"/>
-        <variant base="rwd2 okf7 sd1xs e ta b gsje s"/>
-        <variant base="effect on rate of deactiv"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RGZCWQhcAEWq0SY26S5m5e" canonical="RGZCWQhcAEWq0SY26S5m5e">
-        <variant base="normal voltage dependence of inactivation"/>
-        <variant base="normal voltag depend of inactiv"/>
-        <variant base="normal voltage dependence of inactivation@en-us"/>
-        <variant base="r g z c w qhc a e wq0 s y26 s5m5e"/>
-        <variant base="Normal voltag depend of inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBjmWtBKwt8nrHDyuxb6Nug" canonical="RBjmWtBKwt8nrHDyuxb6Nug">
-        <variant base="no shift in voltage dependence of activation"/>
-        <variant base="no shift in voltag depend of activ"/>
-        <variant base="r bjm wt b kwt8nr h dyuxb6 nug"/>
-        <variant base="no shift in voltage dependence of activation@en-us"/>
-        <variant base="No shift in voltag depend of activation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBSg2tM1FbJBOPZrJ3Ipe0G" canonical="RBSg2tM1FbJBOPZrJ3Ipe0G">
-        <variant base="mild depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
-        <variant base="Mild depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
-        <variant base="mild depolar shift of voltag depend of fast inactiv (right shift)"/>
-        <variant base="mild depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
-        <variant base="r b sg2t m1 fb j b o p zr j3 ipe0 g"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RB39ECWMLncqVLZXtTVSuW3" canonical="RB39ECWMLncqVLZXtTVSuW3">
-        <variant base="effect on slope of slow inactivation (k)"/>
-        <variant base="effect on slope of slow inactiv (k)"/>
-        <variant base="r b39 e c w m lncq v l z xt t v su w3"/>
-        <variant base="Effect on slope of slow inactiv (k)@en-us"/>
-        <variant base="effect on slope of slow inactivation (k)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KqfFzWrSaU9t4uXABtJRK" canonical="R8KqfFzWrSaU9t4uXABtJRK">
-        <variant base="effect on resurg current"/>
-        <variant base="effect on resurgent current"/>
-        <variant base="r8 kqf fz wr sa u9t4u x a bt j r k"/>
-        <variant base="Effect on resurg current@en-us"/>
-        <variant base="effect on resurgent current@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBJ0Krtjy03lvhvCmwvnsjZ" canonical="RBJ0Krtjy03lvhvCmwvnsjZ">
-        <variant base="acceler or increas in rate of activ (tau activation)"/>
-        <variant base="acceleration or increase in rate of activation (tau activation)"/>
-        <variant base="r b j0 krtjy03lvhv cmwvnsj z"/>
-        <variant base="Acceler or increas in rate of activ (tau activation)@en-us"/>
-        <variant base="acceleration or increase in rate of activation (tau activation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RfJRsrblTGfIJ44dw2SyYJ" canonical="RfJRsrblTGfIJ44dw2SyYJ">
-        <variant base="severe hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
-        <variant base="rf j rsrbl t gf i j44dw2 sy y j"/>
-        <variant base="severe hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
-        <variant base="Sever hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
-        <variant base="sever hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9HYQpAlzBNEVxccrGnZUKO" canonical="R9HYQpAlzBNEVxccrGnZUKO">
-        <variant base="r9 h y qp alz b n e vxccr gn z u k o"/>
-        <variant base="Normal recoveri from slow inactivation@en-us"/>
-        <variant base="normal recovery from slow inactivation"/>
-        <variant base="normal recoveri from slow inactiv"/>
-        <variant base="normal recovery from slow inactivation@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBx87cocPenIzmpmFJRAE8E" canonical="RBx87cocPenIzmpmFJRAE8E">
-        <variant base="r bx87coc pen izmpm f j r a e8 e"/>
-        <variant base="acceleration or increase in fast inactivation (tau inactivation)"/>
-        <variant base="acceleration or increase in fast inactivation (tau inactivation)@en-us"/>
-        <variant base="acceler or increas in fast inactiv (tau inactivation)"/>
-        <variant base="Acceler or increas in fast inactiv (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDuKs2x3U7Ftv1RPSUUW7bG" canonical="RDuKs2x3U7Ftv1RPSUUW7bG">
-        <variant base="overal mix or unclear function effect with respect to biophys channel activ"/>
-        <variant base="Overal mix or unclear function effect with respect to biophys channel activity@en-us"/>
-        <variant base="overall mixed or unclear functional effect with respect to biophysical channel activity"/>
-        <variant base="r du ks2x3 u7 ftv1 r p s u u w7b g"/>
-        <variant base="overall mixed or unclear functional effect with respect to biophysical channel activity@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8hFpMkdFDIganHQtA3nbJV" canonical="R8hFpMkdFDIganHQtA3nbJV">
-        <variant base="effect on rate of activ (tau activation)"/>
-        <variant base="Effect on rate of activ (tau activation)@en-us"/>
-        <variant base="r8h fp mkd f d igan h qt a3nb j v"/>
-        <variant base="effect on rate of activation (tau activation)@en-us"/>
-        <variant base="effect on rate of activation (tau activation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC3aErf3GasgglmgYMcpS4n" canonical="RC3aErf3GasgglmgYMcpS4n">
-        <variant base="acceleration of recovery from fast inactivation"/>
-        <variant base="acceleration of recovery from fast inactivation@en-us"/>
-        <variant base="r c3a erf3 gasgglmg y mcp s4n"/>
-        <variant base="Acceler of recoveri from fast inactivation@en-us"/>
-        <variant base="acceler of recoveri from fast inactiv"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9NOUr9iWj3sPK7GlxuC6dy" canonical="R9NOUr9iWj3sPK7GlxuC6dy">
-        <variant base="mild increase in peak current@en-us"/>
-        <variant base="mild increas in peak current"/>
-        <variant base="mild increase in peak current"/>
-        <variant base="Mild increas in peak current@en-us"/>
-        <variant base="r9 n o ur9i wj3s p k7 glxu c6dy"/>
-        <variant base="r9 n o ur9i wj3s p k7 glxu c6di"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RF33PdZrU9lQq5U6wsPKju" canonical="RF33PdZrU9lQq5U6wsPKju">
-        <variant base="normal rate of deactiv (tau deactivation)"/>
-        <variant base="r f33 pd zr u9l qq5 u6ws p kju"/>
-        <variant base="r f33 pd zr u9l qq5 u6w p kju"/>
-        <variant base="normal rate of deactivation (tau deactivation)@en-us"/>
-        <variant base="Normal rate of deactiv (tau deactivation)@en-us"/>
-        <variant base="normal rate of deactivation (tau deactivation)"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rzl8n5oqmxsKFuEQoGs7ys" canonical="Rzl8n5oqmxsKFuEQoGs7ys">
-        <variant base="normal rate of slow inactivation (tau inactivation)@en-us"/>
-        <variant base="normal rate of slow inactiv (tau inactivation)"/>
-        <variant base="rzl8n5oqmxs k fu e qo gs7ys"/>
-        <variant base="normal rate of slow inactivation (tau inactivation)"/>
-        <variant base="rzl8n5oqmx k fu e qo gs7ys"/>
-        <variant base="Normal rate of slow inactiv (tau inactivation)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9sk2fOWBMQbWVog5qqITs7" canonical="R9sk2fOWBMQbWVog5qqITs7">
-        <variant base="r9sk2f o w b m qb w vog5qq i ts7"/>
-        <variant base="Depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
-        <variant base="depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
-        <variant base="depolar shift of voltag depend of fast inactiv (right shift)"/>
-        <variant base="depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
-    </token>
-    <token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RgGuZhqK1D3ro0nNhiBoXw" canonical="RgGuZhqK1D3ro0nNhiBoXw">
-        <variant base="rg gu zhq k1 d3ro0n nhi bo xw"/>
-        <variant base="normal subthreshold current"/>
-        <variant base="normal subthreshold current@en-us"/>
-    </token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD0BDIIzgUe4mtGYW27xz6H" canonical="RD0BDIIzgUe4mtGYW27xz6H">
+<variant base="Overal normal function due to single-cel neuron properties@en-us"/>
+<variant base="overal normal function due to single-cel neuron properti"/>
+<variant base="overall normal function due to single-cell neuronal properties@en-us"/>
+<variant base="r d0 b d i izg ue4mt g y w27xz6 h"/>
+<variant base="overall normal function due to single-cell neuronal properties"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9wmRpum1ZjBHKOc0cthMrv" canonical="R9wmRpum1ZjBHKOc0cthMrv">
+<variant base="r9wm rpum1 zj b h k oc0cth mrv"/>
+<variant base="depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
+<variant base="Depolar shift of voltag depend of activ (right shift)@en-us"/>
+<variant base="depolar shift of voltag depend of activ (right shift)"/>
+<variant base="depolarizing shift of voltage dependence of activation (right shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RTJTAlmpfiiOAckMP7C8xY" canonical="RTJTAlmpfiiOAckMP7C8xY">
+<variant base="impair or slow in rate of deactiv (tau deactivation)"/>
+<variant base="impairment or slowing in rate of deactivation (tau deactivation)"/>
+<variant base="Impairment or slow in rate of deactiv (tau deactivation)@en-us"/>
+<variant base="r t j t almpfii o ack m p7 c8x y"/>
+<variant base="impairment or slowing in rate of deactivation (tau deactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8iqSYdEKz3pshaN6jwoBjg" canonical="R8iqSYdEKz3pshaN6jwoBjg">
+<variant base="mild-moderate deceleration or slowing in recovery from fast inactivation@en-us"/>
+<variant base="mild-moder deceler or slow in recoveri from fast inactiv"/>
+<variant base="Mild-moder deceler or slow in recoveri from fast inactivation@en-us"/>
+<variant base="mild-moderate deceleration or slowing in recovery from fast inactivation"/>
+<variant base="r8iq s yd e kz3psha n6jwo bjg"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RMxVquE9c2j3gk6Vbhg9TW" canonical="RMxVquE9c2j3gk6Vbhg9TW">
+<variant base="increase in slope of slow inactivation@en-us"/>
+<variant base="r mx vqu e9c2j3gk6 vbhg9 t w"/>
+<variant base="increase in slope of slow inactivation"/>
+<variant base="increas in slope of slow inactiv"/>
+<variant base="Increas in slope of slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDI44zpLiKB8U9OBgFIDIop" canonical="RDI44zpLiKB8U9OBgFIDIop">
+<variant base="effect on slope of inactiv (k)"/>
+<variant base="effect on slope of inactivation (k)@en-us"/>
+<variant base="Effect on slope of inactiv (k)@en-us"/>
+<variant base="r d i44zp li k b8 u9 o bg f i d iop"/>
+<variant base="effect on slope of inactivation (k)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7KOr8G1xCnwPzwaON10MTm" canonical="R7KOr8G1xCnwPzwaON10MTm">
+<variant base="hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
+<variant base="r7 k or8 g1x cnw pzwa o n10 m tm"/>
+<variant base="hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
+<variant base="hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
+<variant base="Hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RbjgdQVqMBklwux9sWTACl" canonical="RbjgdQVqMBklwux9sWTACl">
+<variant base="rbjgd q vq m bklwux9s w t a cl"/>
+<variant base="rbjgd q vq m bklwux9 w t a cl"/>
+<variant base="severe depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
+<variant base="severe depolarizing shift of voltage dependence of activation (right shift)"/>
+<variant base="Sever depolar shift of voltag depend of activ (right shift)@en-us"/>
+<variant base="sever depolar shift of voltag depend of activ (right shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC3cyZOGS7bJrI8gBqDaHzo" canonical="RC3cyZOGS7bJrI8gBqDaHzo">
+<variant base="moder depolar shift of voltag depend of activ (right shift)"/>
+<variant base="r c3cy z o g s7b jr i8g bq da hzo"/>
+<variant base="r c3ci z o g s7b jr i8g bq da hzo"/>
+<variant base="Moder depolar shift of voltag depend of activ (right shift)@en-us"/>
+<variant base="moderate depolarizing shift of voltage dependence of activation (right shift)"/>
+<variant base="moderate depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rbfc13foQ6CEHIWiXh434p" canonical="Rbfc13foQ6CEHIWiXh434p">
+<variant base="Effect on rate of fast inactiv (tau inactivation)@en-us"/>
+<variant base="effect on rate of fast inactiv (tau inactivation)"/>
+<variant base="effect on rate of fast inactivation (tau inactivation)"/>
+<variant base="effect on rate of fast inactivation (tau inactivation)@en-us"/>
+<variant base="rbfc13fo q6 c e h i wi xh434p"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8CM4SZ0Of9GemoYjDN3wjj" canonical="R8CM4SZ0Of9GemoYjDN3wjj">
+<variant base="overal gain-of-funct effect due to single-cel neuron properti"/>
+<variant base="overall gain-of-function effect due to single-cell neuronal properties"/>
+<variant base="Overal gain-of-funct effect due to single-cel neuron properties@en-us"/>
+<variant base="overall gain-of-function effect due to single-cell neuronal properties@en-us"/>
+<variant base="r8 c m4 s z0 of9 gemo yj d n3wjj"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7YvyEoR5sDyyQqL5j9dQoK" canonical="R7YvyEoR5sDyyQqL5j9dQoK">
+<variant base="r7 yvy eo r5s dyy qq l5j9d qo k"/>
+<variant base="effect on persist current"/>
+<variant base="effect on persistent current"/>
+<variant base="effect on persistent current@en-us"/>
+<variant base="Effect on persist current@en-us"/>
+<variant base="r7 yvi eo r5s dyy qq l5j9d qo k"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBdbOghIxdzmUv1FRMZcqMy" canonical="RBdbOghIxdzmUv1FRMZcqMy">
+<variant base="severe impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
+<variant base="Sever impair or slow in fast inactiv (tau inactivation)@en-us"/>
+<variant base="severe impairment or slowing in fast inactivation (tau inactivation)"/>
+<variant base="sever impair or slow in fast inactiv (tau inactivation)"/>
+<variant base="r bdb ogh ixdzm uv1 f r m zcq my"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9vNK7NGPSBEp5FQ7nMB7Z2" canonical="R9vNK7NGPSBEp5FQ7nMB7Z2">
+<variant base="decreas of subthreshold current"/>
+<variant base="decrease of subthreshold current@en-us"/>
+<variant base="Decreas of subthreshold current@en-us"/>
+<variant base="decrease of subthreshold current"/>
+<variant base="r9v n k7 n g p s b ep5 f q7n m b7 z2"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RM0V7djo7NgfCr6xB32iax" canonical="RM0V7djo7NgfCr6xB32iax">
+<variant base="r m0 v7djo7 ngf cr6x b32iax"/>
+<variant base="mild decrease in peak current@en-us"/>
+<variant base="mild decreas in peak current"/>
+<variant base="Mild decreas in peak current@en-us"/>
+<variant base="mild decrease in peak current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R89pOjwORB6pkvDW9u6hoXN" canonical="R89pOjwORB6pkvDW9u6hoXN">
+<variant base="Overal normal function due to neuron network properties@en-us"/>
+<variant base="overall normal function due to neuronal network properties"/>
+<variant base="overall normal function due to neuronal network properties@en-us"/>
+<variant base="r89p ojw o r b6pkv d w9u6ho x n"/>
+<variant base="overal normal function due to neuron network properti"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8asTBmmgK6PYqOlvlLtgpz" canonical="R8asTBmmgK6PYqOlvlLtgpz">
+<variant base="mild hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
+<variant base="Mild hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
+<variant base="mild hyperpolarizing shift of voltage dependence of activation (left shift)"/>
+<variant base="mild hyperpolar shift of voltag depend of activ (left shift)"/>
+<variant base="r8as t bmmg k6 p yq olvl ltgpz"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8boLFt6478JfJZLRmWETDi" canonical="R8boLFt6478JfJZLRmWETDi">
+<variant base="Moder depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
+<variant base="r8bo l ft6478 jf j z l rm w e t di"/>
+<variant base="moderate depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
+<variant base="moderate depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
+<variant base="moder depolar shift of voltag depend of fast inactiv (right shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBeZ7v8FkpfoCRDKvHZD936" canonical="RBeZ7v8FkpfoCRDKvHZD936">
+<variant base="sever decreas in peak current to reduc traffick due to phosphoryl"/>
+<variant base="r be z7v8 fkpfo c r d kv h z d936"/>
+<variant base="Sever decreas in peak current to reduc traffick due to phosphorylation@en-us"/>
+<variant base="severe decrease in peak current to reduced trafficking due to phosphorylation"/>
+<variant base="severe decrease in peak current to reduced trafficking due to phosphorylation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBH2UZNWWHmsOgLS1XKdf8N" canonical="RBH2UZNWWHmsOgLS1XKdf8N">
+<variant base="normal resurg current"/>
+<variant base="Normal resurg current@en-us"/>
+<variant base="normal resurgent current"/>
+<variant base="r b h2 u z n w w hms og l s1 x kdf8 n"/>
+<variant base="normal resurgent current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7zJvOsCc8GUzB5y46iKkAM" canonical="R7zJvOsCc8GUzB5y46iKkAM">
+<variant base="r7z jv os cc8 g uz b5y46i kk a m"/>
+<variant base="acceler of recoveri from slow inactiv"/>
+<variant base="Acceler of recoveri from slow inactivation@en-us"/>
+<variant base="acceleration of recovery from slow inactivation"/>
+<variant base="acceleration of recovery from slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/ROWM5cmXNzjTPBn7ogKyII" canonical="ROWM5cmXNzjTPBn7ogKyII">
+<variant base="sever decreas in peak current due to reduc traffick"/>
+<variant base="Sever decreas in peak current due to reduc trafficking@en-us"/>
+<variant base="severe decrease in peak current due to reduced trafficking"/>
+<variant base="r o w m5cm x nzj t p bn7og ky i i"/>
+<variant base="severe decrease in peak current due to reduced trafficking@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R768x3xvHhzBT7WwmpcMUaP" canonical="R768x3xvHhzBT7WwmpcMUaP">
+<variant base="overal mix or unclear function effect due to neuron network properti"/>
+<variant base="Overal mix or unclear function effect due to neuron network properties@en-us"/>
+<variant base="overall mixed or unclear functional effect due to neuronal network properties@en-us"/>
+<variant base="overall mixed or unclear functional effect due to neuronal network properties"/>
+<variant base="r768x3xv hhz b t7 wwmpc m ua p"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDM0lP4PmjUTUE8TDmx0vhO" canonical="RDM0lP4PmjUTUE8TDmx0vhO">
+<variant base="mild impair or slow in rate of activ (tau activation)"/>
+<variant base="mild impairment or slowing in rate of activation (tau activation)@en-us"/>
+<variant base="r d m0l p4 pmj u t u e8 t dmx0vh o"/>
+<variant base="Mild impair or slow in rate of activ (tau activation)@en-us"/>
+<variant base="mild impairment or slowing in rate of activation (tau activation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCQHSBGZT4JxStSfikvi8js" canonical="RCQHSBGZT4JxStSfikvi8js">
+<variant base="effect on entri into slow inactiv"/>
+<variant base="effect on entry into slow inactivation@en-us"/>
+<variant base="r c q h s b g z t4 jx st sfikvi8js"/>
+<variant base="r c q h s b g z t4 jx st sfikvi8j"/>
+<variant base="effect on entry into slow inactivation"/>
+<variant base="Effect on entri into slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RVDcHrv1yHMY8q3VkhEV9W" canonical="RVDcHrv1yHMY8q3VkhEV9W">
+<variant base="decreas in resurg current"/>
+<variant base="Decreas in resurg current@en-us"/>
+<variant base="r v dc hrv1i h m y8q3 vkh e v9 w"/>
+<variant base="r v dc hrv1y h m y8q3 vkh e v9 w"/>
+<variant base="decrease in resurgent current@en-us"/>
+<variant base="decrease in resurgent current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9Z6wISzLzKf2jr6s67a677" canonical="R9Z6wISzLzKf2jr6s67a677">
+<variant base="moderate impairment or slowing in fast inactivation (tau inactivation)"/>
+<variant base="moder impair or slow in fast inactiv (tau inactivation)"/>
+<variant base="Moder impair or slow in fast inactiv (tau inactivation)@en-us"/>
+<variant base="r9 z6w i sz lz kf2jr6s67a677"/>
+<variant base="moderate impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RoMCTYJPjBEU5d6aaVUh44" canonical="RoMCTYJPjBEU5d6aaVUh44">
+<variant base="Hyperpolar shift of voltag depend of slow inactiv (left shift)@en-us"/>
+<variant base="ro m c t y j pj b e u5d6aa v uh44"/>
+<variant base="hyperpolar shift of voltag depend of slow inactiv (left shift)"/>
+<variant base="hyperpolarizing shift of voltage dependence of slow inactivation (left shift)@en-us"/>
+<variant base="hyperpolarizing shift of voltage dependence of slow inactivation (left shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDtSd8oWO4IYoQfAWZxQBNy" canonical="RDtSd8oWO4IYoQfAWZxQBNy">
+<variant base="r dt sd8o w o4 i yo qf a w zx q b ny"/>
+<variant base="Overal gain-of-funct effect with respect to biophys channel activity@en-us"/>
+<variant base="overall gain-of-function effect with respect to biophysical channel activity"/>
+<variant base="overall gain-of-function effect with respect to biophysical channel activity@en-us"/>
+<variant base="overal gain-of-funct effect with respect to biophys channel activ"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDN1HidwTo5yxEolQVUN1i2" canonical="RDN1HidwTo5yxEolQVUN1i2">
+<variant base="acceler or increas in rate of deactiv (tau deactivation)"/>
+<variant base="acceleration or increase in rate of deactivation (tau deactivation)"/>
+<variant base="acceleration or increase in rate of deactivation (tau deactivation)@en-us"/>
+<variant base="Acceler or increas in rate of deactiv (tau deactivation)@en-us"/>
+<variant base="r d n1 hidw to5yx eol q v u n1i2"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7Q10ohyxQHPdcQsFmhC1Si" canonical="R7Q10ohyxQHPdcQsFmhC1Si">
+<variant base="overal assess of ion channel function"/>
+<variant base="r7 q10ohyx q h pdc qs fmh c1 si"/>
+<variant base="overall assessment of ion channel function"/>
+<variant base="overall assessment of ion channel function@en-us"/>
+<variant base="Overal assess of ion channel function@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7jOR4IAP4IwniBv4AwBnrm" canonical="R7jOR4IAP4IwniBv4AwBnrm">
+<variant base="effect on peak current"/>
+<variant base="effect on peak current@en-us"/>
+<variant base="r7j o r4 i a p4 iwni bv4 aw bnrm"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KPCoFR36aEEBnmaUBp1tV" canonical="R8KPCoFR36aEEBnmaUBp1tV">
+<variant base="r8 k p co f r36a e e bnma u bp1t v"/>
+<variant base="increase in slope of inactivation"/>
+<variant base="increas in slope of inactiv"/>
+<variant base="increase in slope of inactivation@en-us"/>
+<variant base="Increas in slope of inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7zP9gQPx3KzITlYDUOFZfp" canonical="R7zP9gQPx3KzITlYDUOFZfp">
+<variant base="normal voltage dependence of slow inactivation"/>
+<variant base="Normal voltag depend of slow inactivation@en-us"/>
+<variant base="r7z p9g q px3 kz i tl y d u o f zfp"/>
+<variant base="normal voltage dependence of slow inactivation@en-us"/>
+<variant base="normal voltag depend of slow inactiv"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7z6iE87cbBZePvVnmAKuLf" canonical="R7z6iE87cbBZePvVnmAKuLf">
+<variant base="overal loss-of-funct effect with respect to biophys channel activ"/>
+<variant base="r7z6i e87cb b ze pv vnm a ku lf"/>
+<variant base="overall loss-of-function effect with respect to biophysical channel activity"/>
+<variant base="Overal loss-of-funct effect with respect to biophys channel activity@en-us"/>
+<variant base="overall loss-of-function effect with respect to biophysical channel activity@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R99KATlEV5UUOxmTthHewYy" canonical="R99KATlEV5UUOxmTthHewYy">
+<variant base="effect on shift of voltag depend of activ"/>
+<variant base="effect on shift of voltage dependence of activation"/>
+<variant base="Effect on shift of voltag depend of activ"/>
+<variant base="r99 k a tl e v5 u u oxm tth hew yy"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RXhKs55YyYQdgiLKwckPRg" canonical="RXhKs55YyYQdgiLKwckPRg">
+<variant base="deceleration or slowing of recovery from fast inactivation"/>
+<variant base="Deceler or slow of recoveri from fast inactivation@en-us"/>
+<variant base="deceler or slow of recoveri from fast inactiv"/>
+<variant base="r xh ks55 yy y qdgi l kwck p rg"/>
+<variant base="deceleration or slowing of recovery from fast inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBWAIKiQem63yDopljeSmcj" canonical="RBWAIKiQem63yDopljeSmcj">
+<variant base="r b w a i ki qem63y doplje smcj"/>
+<variant base="component leading to gain-of-function (gof)"/>
+<variant base="r b w a i ki qem63i doplj smcj"/>
+<variant base="compon lead to gain-of-funct (gof)"/>
+<variant base="component leading to gain-of-function (gof)@en-us"/>
+<variant base="Compon lead to Gain-of-Funct (GoF)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rkesu9uJL9z5Q6W38xiAhQ" canonical="Rkesu9uJL9z5Q6W38xiAhQ">
+<variant base="severe hyperpolarizing shift of voltage dependence of activation (left shift)"/>
+<variant base="severe hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
+<variant base="Sever hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
+<variant base="rkesu9u j l9z5 q6 w38xi ah q"/>
+<variant base="sever hyperpolar shift of voltag depend of activ (left shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8oN6Lr9gpAWFhWBexO3rhu" canonical="R8oN6Lr9gpAWFhWBexO3rhu">
+<variant base="effect on voltag depend of fast inactiv (v1/2)"/>
+<variant base="Effect on voltag depend of fast inactiv (V1/2)@en-us"/>
+<variant base="effect on voltage dependence of fast inactivation (v1/2)"/>
+<variant base="effect on voltage dependence of fast inactivation (v1/2)@en-us"/>
+<variant base="r8o n6 lr9gp a w fh w bex o3rhu"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD13eaB3fwGp3eE77vJf9J7" canonical="RD13eaB3fwGp3eE77vJf9J7">
+<variant base="increas of peak current"/>
+<variant base="Increas of peak current@en-us"/>
+<variant base="increase of peak current@en-us"/>
+<variant base="r d13ea b3fw gp3e e77v jf9 j7"/>
+<variant base="increase of peak current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R989oVaOLlRTh0b3roVWMYa" canonical="R989oVaOLlRTh0b3roVWMYa">
+<variant base="compon lead to loss-of-funct (lof)"/>
+<variant base="component leading to loss-of-function (lof)@en-us"/>
+<variant base="Compon lead to Loss-of-Funct (LoF)@en-us"/>
+<variant base="component leading to loss-of-function (lof)"/>
+<variant base="r989o va o ll r th0b3ro v w m ya"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD8Pi69ieWp9K2OhT9WJEG" canonical="RD8Pi69ieWp9K2OhT9WJEG">
+<variant base="Decreas of decay in current amplitud in use dependence@en-us"/>
+<variant base="decrease of decay in current amplitude in use dependence"/>
+<variant base="r d8 pi69ie wp9 k2 oh t9 w j e g"/>
+<variant base="r d8 pi69i wp9 k2 oh t9 w j e g"/>
+<variant base="decrease of decay in current amplitude in use dependence@en-us"/>
+<variant base="decreas of decay in current amplitud in use depend"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9ZPhGuiK6bJRYHFi2PqXZJ" canonical="R9ZPhGuiK6bJRYHFi2PqXZJ">
+<variant base="normal rate of activation (tau activation)"/>
+<variant base="normal rate of activation (tau activation)@en-us"/>
+<variant base="normal rate of activ (tau activation)"/>
+<variant base="r9 z ph gui k6b j r y h fi2 pq x z j"/>
+<variant base="Normal rate of activ (tau activation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RNbTxYjtlhgiWW8okEMzyj" canonical="RNbTxYjtlhgiWW8okEMzyj">
+<variant base="r nb tx yjtlhgi w w8ok e mzyj"/>
+<variant base="normal current amplitude in use dependence"/>
+<variant base="normal current amplitud in use depend"/>
+<variant base="normal current amplitude in use dependence@en-us"/>
+<variant base="Normal current amplitud in use dependence@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RFM4zJvoKLRdsir6FY0w37" canonical="RFM4zJvoKLRdsir6FY0w37">
+<variant base="r f m4z jvo k l rdsir6 f y0w37"/>
+<variant base="sever increas in persist current"/>
+<variant base="Sever increas in persist current@en-us"/>
+<variant base="severe increase in persistent current@en-us"/>
+<variant base="severe increase in persistent current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RD4l3irGmoY9l24tfaycvl" canonical="RD4l3irGmoY9l24tfaycvl">
+<variant base="increase of decay in current amplitude in use dependence"/>
+<variant base="r d4l3ir gmo y9l24tfaycvl"/>
+<variant base="increase of decay in current amplitude in use dependence@en-us"/>
+<variant base="Increas of decay in current amplitud in use dependence@en-us"/>
+<variant base="increas of decay in current amplitud in use depend"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCQdh0b9O2PwzpekxN1WriE" canonical="RCQdh0b9O2PwzpekxN1WriE">
+<variant base="Mild hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
+<variant base="mild hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
+<variant base="mild hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
+<variant base="mild hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
+<variant base="r c qdh0b9 o2 pwzpekx n1 wri e"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RMPJkbO62zkkObPHsJZpnf" canonical="RMPJkbO62zkkObPHsJZpnf">
+<variant base="Decreas in persist current@en-us"/>
+<variant base="decrease in persistent current"/>
+<variant base="decreas in persist current"/>
+<variant base="decrease in persistent current@en-us"/>
+<variant base="r m p jkb o62zkk ob p hs j zpnf"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBoUVhAjinxgCZHvQei6QsT" canonical="RBoUVhAjinxgCZHvQei6QsT">
+<variant base="decrease in slope of activation (k)"/>
+<variant base="r bo u vh ajinxg c z hv qei6 qs t"/>
+<variant base="decrease in slope of activation (k)@en-us"/>
+<variant base="Decreas in slope of activ (k)@en-us"/>
+<variant base="decreas in slope of activ (k)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCkkho6vZp3kuq92L9UxQ7x" canonical="RCkkho6vZp3kuq92L9UxQ7x">
+<variant base="Compon lead to normal ion channel function@en-us"/>
+<variant base="component leading to normal ion channel function@en-us"/>
+<variant base="component leading to normal ion channel function"/>
+<variant base="compon lead to normal ion channel function"/>
+<variant base="r ckkho6v zp3kuq92 l9 ux q7x"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8tC7DUKEOwvWvpkJDURZZk" canonical="R8tC7DUKEOwvWvpkJDURZZk">
+<variant base="r8t c7 d u k e owv wvpk j d u r z zk"/>
+<variant base="effect on rate of slow inactivation (tau inactivation)"/>
+<variant base="effect on rate of slow inactiv (tau inactivation)"/>
+<variant base="effect on rate of slow inactivation (tau inactivation)@en-us"/>
+<variant base="Effect on rate of slow inactiv (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R72fldK4dv27Jf7NqXalgS5" canonical="R72fldK4dv27Jf7NqXalgS5">
+<variant base="moder increas in peak current"/>
+<variant base="r72fld k4dv27 jf7 nq xalg s5"/>
+<variant base="moderate increase in peak current"/>
+<variant base="Moder increas in peak current@en-us"/>
+<variant base="moderate increase in peak current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7J2tm52qaQH1SwgcywsIqQ" canonical="R7J2tm52qaQH1SwgcywsIqQ">
+<variant base="overal normal function with respect of biophys channel activ"/>
+<variant base="overall normal function with respect of biophysical channel activity@en-us"/>
+<variant base="overall normal function with respect of biophysical channel activity"/>
+<variant base="Overal normal function with respect of biophys channel activity@en-us"/>
+<variant base="r7 j2tm52qa q h1 swgcyw iq q"/>
+<variant base="r7 j2tm52qa q h1 swgcyws iq q"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9SbYpUEIgenr1NAQGsVJLA" canonical="R9SbYpUEIgenr1NAQGsVJLA">
+<variant base="r9 sb yp u e igenr1 n a q gs v j l a"/>
+<variant base="effect on voltag depend of fast inactiv"/>
+<variant base="effect on voltage dependence of fast inactivation@en-us"/>
+<variant base="Effect on voltag depend of fast inactivation@en-us"/>
+<variant base="effect on voltage dependence of fast inactivation"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8LYDXXexzlysXjoPyjBePm" canonical="R8LYDXXexzlysXjoPyjBePm">
+<variant base="moderate hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
+<variant base="moder hyperpolar shift of voltag depend of activ (left shift)"/>
+<variant base="r8 l y d x xexzli xjo pyj be pm"/>
+<variant base="r8 l y d x xexzlys xjo pyj be pm"/>
+<variant base="moderate hyperpolarizing shift of voltage dependence of activation (left shift)"/>
+<variant base="Moder hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCEWxMPvxnLPQFI7e1TeyDC" canonical="RCEWxMPvxnLPQFI7e1TeyDC">
+<variant base="Increas in resurg current@en-us"/>
+<variant base="increas in resurg current"/>
+<variant base="r c e wx m pvxn l p q f i7e1 tey d c"/>
+<variant base="increase in resurgent current"/>
+<variant base="increase in resurgent current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBSKgEYTBWMuaYGCUWF6iOv" canonical="RBSKgEYTBWMuaYGCUWF6iOv">
+<variant base="overal loss-of-funct effect due to neuron network properti"/>
+<variant base="r b s kg e y t b w mua y g c u w f6i ov"/>
+<variant base="overall loss-of-function effect due to neuronal network properties@en-us"/>
+<variant base="Overal loss-of-funct effect due to neuron network properties@en-us"/>
+<variant base="overall loss-of-function effect due to neuronal network properties"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBijWyJfrgnn2shZrQFKwyM" canonical="RBijWyJfrgnn2shZrQFKwyM">
+<variant base="decrease in peak current"/>
+<variant base="decrease in peak current@en-us"/>
+<variant base="Decreas in peak current@en-us"/>
+<variant base="decreas in peak current"/>
+<variant base="r bij wy jfrgnn2sh zr q f kwy m"/>
+<variant base="r bij wy jfrgnn2sh zr q f kwi m"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCxkRIG6UqWPWVsBL3fvLdo" canonical="RCxkRIG6UqWPWVsBL3fvLdo">
+<variant base="effect on voltag depend of slow inactiv (v1/2)"/>
+<variant base="r cxk r i g6 uq w p w vs b l3fv ldo"/>
+<variant base="effect on voltage dependence of slow inactivation (v1/2)"/>
+<variant base="effect on voltage dependence of slow inactivation (v1/2)@en-us"/>
+<variant base="Effect on voltag depend of slow inactiv (V1/2)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RiK8rUNBcWv8Rw4Rq5MIQX" canonical="RiK8rUNBcWv8Rw4Rq5MIQX">
+<variant base="mild to moder impair or slow in rate of activ (tau activation)"/>
+<variant base="mild to moderate impairment or slowing in rate of activation (tau activation)@en-us"/>
+<variant base="mild to moderate impairment or slowing in rate of activation (tau activation)"/>
+<variant base="ri k8r u n bc wv8 rw4 rq5 m i q x"/>
+<variant base="Mild to Moder impair or slow in rate of activ (tau activation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC7JvpnEA0enGEJxIIdz4c" canonical="RC7JvpnEA0enGEJxIIdz4c">
+<variant base="sever impair or slow in rate of activ (tau activation)"/>
+<variant base="r c7 jvpn e a0en g e jx i idz4c"/>
+<variant base="severe impairment or slowing in rate of activation (tau activation)@en-us"/>
+<variant base="Sever impair or slow in rate of activ (tau activation)@en-us"/>
+<variant base="severe impairment or slowing in rate of activation (tau activation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RQNDbYiHvI4VNvMipjKcIZ" canonical="RQNDbYiHvI4VNvMipjKcIZ">
+<variant base="Deceler or slow of recoveri from slow inactivation@en-us"/>
+<variant base="deceleration or slowing of recovery from slow inactivation"/>
+<variant base="r q n db yi hv i4 v nv mipj kc i z"/>
+<variant base="deceler or slow of recoveri from slow inactiv"/>
+<variant base="deceleration or slowing of recovery from slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBp4HSri5YtkrPJguFjDAxP" canonical="RBp4HSri5YtkrPJguFjDAxP">
+<variant base="mild increas in persist current"/>
+<variant base="mild increase in persistent current"/>
+<variant base="mild increase in persistent current@en-us"/>
+<variant base="Mild increas in persist current@en-us"/>
+<variant base="r bp4 h sri5 ytkr p jgu fj d ax p"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R82G1vBnkSQhiYsTT3hCskW" canonical="R82G1vBnkSQhiYsTT3hCskW">
+<variant base="increase in slope of activation (k)"/>
+<variant base="increase in slope of activation (k)@en-us"/>
+<variant base="r82 g1v bnk s qhi ys t t3h csk w"/>
+<variant base="increas in slope of activ (k)"/>
+<variant base="Increas in slope of activ (k)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R787B5RAMG9oetmadppgGCh" canonical="R787B5RAMG9oetmadppgGCh">
+<variant base="decrease in slope of inactivation@en-us"/>
+<variant base="Decreas in slope of inactivation@en-us"/>
+<variant base="decreas in slope of inactiv"/>
+<variant base="r787 b5 r a m g9oetmadppg g ch"/>
+<variant base="decrease in slope of inactivation"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RW0QrBvuBOwHBYFFJMntlo" canonical="RW0QrBvuBOwHBYFFJMntlo">
+<variant base="deceler of entri into slow inactiv"/>
+<variant base="Deceler of entri into slow inactivation@en-us"/>
+<variant base="r w0 qr bvu b ow h b y f f j mntlo"/>
+<variant base="deceleration of entry into slow inactivation"/>
+<variant base="deceleration of entry into slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9wEM2OxcV4ZL1GcpqWaE52" canonical="R9wEM2OxcV4ZL1GcpqWaE52">
+<variant base="overall gain-of-function@en-us"/>
+<variant base="overal gain-of-funct"/>
+<variant base="overall gain-of-function"/>
+<variant base="Overal gain-of-function@en-us"/>
+<variant base="r9w e m2 oxc v4 z l1 gcpq wa e52"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDFDJF4kvghH94F1afcua4w" canonical="RDFDJF4kvghH94F1afcua4w">
+<variant base="effect on slope of activ (k)"/>
+<variant base="effect on slope of activation (k)@en-us"/>
+<variant base="Effect on slope of activ (k)@en-us"/>
+<variant base="effect on slope of activation (k)"/>
+<variant base="r d f d j f4kvgh h94 f1afcua4w"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R81aXvSVSyOYsrO0hq6JLkY" canonical="R81aXvSVSyOYsrO0hq6JLkY">
+<variant base="impairment or slowing of rate in slow inactivation (tau inactivation)"/>
+<variant base="Impairment or slow of rate in slow inactiv (tau inactivation)@en-us"/>
+<variant base="impair or slow of rate in slow inactiv (tau inactivation)"/>
+<variant base="impairment or slowing of rate in slow inactivation (tau inactivation)@en-us"/>
+<variant base="r81a xv s v sy o ysr o0hq6 j lk y"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RobShQwofhZsmj29NgnSGj" canonical="RobShQwofhZsmj29NgnSGj">
+<variant base="effect on slow inactivation@en-us"/>
+<variant base="effect on slow inactivation"/>
+<variant base="effect on slow inactiv"/>
+<variant base="rob sh qwofh zsmj29 ngn s gj"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RwcubAXCIcP10yoVjk9JVf" canonical="RwcubAXCIcP10yoVjk9JVf">
+<variant base="rwcub a x c ic p10yo vjk9 j vf"/>
+<variant base="Effect on recoveri from slow inactivation@en-us"/>
+<variant base="effect on recovery from slow inactivation@en-us"/>
+<variant base="effect on recovery from slow inactivation"/>
+<variant base="effect on recoveri from slow inactiv"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R3Kr2TGkTE2Cs3wLLgOUHN" canonical="R3Kr2TGkTE2Cs3wLLgOUHN">
+<variant base="r3 kr2 t gk t e2 cs3w l lg o u h n"/>
+<variant base="Mild-moder depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
+<variant base="mild-moder depolar shift of voltag depend of fast inactiv (right shift)"/>
+<variant base="mild-moderate depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
+<variant base="mild-moderate depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8tp5Ovyd4qcM5Kfw7lDZCs" canonical="R8tp5Ovyd4qcM5Kfw7lDZCs">
+<variant base="normal entry into slow inactivation@en-us"/>
+<variant base="Normal entri into slow inactivation@en-us"/>
+<variant base="normal entri into slow inactiv"/>
+<variant base="r8tp5 ovyd4qc m5 kfw7l d z cs"/>
+<variant base="normal entry into slow inactivation"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RPGjvHXaR7w0A4dKjNGhVc" canonical="RPGjvHXaR7w0A4dKjNGhVc">
+<variant base="impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
+<variant base="impair or slow in fast inactiv (tau inactivation)"/>
+<variant base="impairment or slowing in fast inactivation (tau inactivation)"/>
+<variant base="Impairment or slow in fast inactiv (tau inactivation)@en-us"/>
+<variant base="r p gjv h xa r7w0 a4d kj n gh vc"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBBfmTmxXmWBRBGEeKe7r0O" canonical="RBBfmTmxXmWBRBGEeKe7r0O">
+<variant base="effect on recovery from fast inactivation"/>
+<variant base="effect on recoveri from fast inactiv"/>
+<variant base="effect on recovery from fast inactivation@en-us"/>
+<variant base="Effect on recoveri from fast inactivation@en-us"/>
+<variant base="r b bfm tmx xm w b r b g ee ke7r0 o"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RFfobOSwAuTUYKPE2tL5xf" canonical="RFfobOSwAuTUYKPE2tL5xf">
+<variant base="normal slope of slow inactivation@en-us"/>
+<variant base="r ffob o sw au t u y k p e2t l5xf"/>
+<variant base="normal slope of slow inactiv"/>
+<variant base="normal slope of slow inactivation"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rsw2n4guhiNupAT5yaAXtb" canonical="Rsw2n4guhiNupAT5yaAXtb">
+<variant base="effect on subthreshold current"/>
+<variant base="rsw2n4guhi nup a t5ya a xtb"/>
+<variant base="effect on subthreshold current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBKM326sr6YtbqsamE9pEtf" canonical="RBKM326sr6YtbqsamE9pEtf">
+<variant base="r b k m326sr6 ytbqsam e9p etf"/>
+<variant base="normal fast inactiv (tau inactivation)"/>
+<variant base="Normal fast inactiv (tau inactivation)@en-us"/>
+<variant base="normal fast inactivation (tau inactivation)"/>
+<variant base="normal fast inactivation (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8S5yVPOmxVdhhUOuyW4oyx" canonical="R8S5yVPOmxVdhhUOuyW4oyx">
+<variant base="severe increase in peak current"/>
+<variant base="r8 s5i v p omx vdhh u ouy w4oyx"/>
+<variant base="severe increase in peak current@en-us"/>
+<variant base="Sever increas in peak current@en-us"/>
+<variant base="sever increas in peak current"/>
+<variant base="r8 s5y v p omx vdhh u ouy w4oyx"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBIy27OxlnSdZXc0c2teiZD" canonical="RBIy27OxlnSdZXc0c2teiZD">
+<variant base="normal peak current@en-us"/>
+<variant base="r b iy27 oxln sd z xc0c2tei z d"/>
+<variant base="normal peak current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDXWDoljWFzQfFl2YI7DCtA" canonical="RDXWDoljWFzQfFl2YI7DCtA">
+<variant base="effect on voltag depend of slow inactiv"/>
+<variant base="Effect on voltag depend of slow inactivation@en-us"/>
+<variant base="effect on voltage dependence of slow inactivation"/>
+<variant base="r d x w dolj w fz qf fl2 y i7 d ct a"/>
+<variant base="effect on voltage dependence of slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RwQyQ1jQlK4mhCi3frcbsW" canonical="RwQyQ1jQlK4mhCi3frcbsW">
+<variant base="rw qy q1j ql k4mh ci3frcbs w"/>
+<variant base="effect on ion channel biophysical properties"/>
+<variant base="effect on ion channel biophys properti"/>
+<variant base="effect on ion channel biophysical properties@en-us"/>
+<variant base="Effect on ion channel biophys properties@en-us"/>
+<variant base="rw qy q1j ql k4mh ci3frcb w"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCCYzTbbm9jGGdBAcyrpQbn" canonical="RCCYzTbbm9jGGdBAcyrpQbn">
+<variant base="acceler entri into slow inactiv"/>
+<variant base="accelerated entry into slow inactivation"/>
+<variant base="accelerated entry into slow inactivation@en-us"/>
+<variant base="Acceler entri into slow inactivation@en-us"/>
+<variant base="r c c yz tbbm9j g gd b acyrp qbn"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7eGXoO3n3Sj7LwciFM7iUY" canonical="R7eGXoO3n3Sj7LwciFM7iUY">
+<variant base="Increas of subthreshold current@en-us"/>
+<variant base="increase of subthreshold current"/>
+<variant base="increase of subthreshold current@en-us"/>
+<variant base="increas of subthreshold current"/>
+<variant base="r7e g xo o3n3 sj7 lwci f m7i u y"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9Up0isZLT8RDpuQWBovMas" canonical="R9Up0isZLT8RDpuQWBovMas">
+<variant base="moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
+<variant base="moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
+<variant base="r9 up0is z l t8 r dpu q w bov mas"/>
+<variant base="r9 up0i z l t8 r dpu q w bov mas"/>
+<variant base="moder hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
+<variant base="Moder hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDnQOos7Y952sZBt7bCl2A" canonical="RDnQOos7Y952sZBt7bCl2A">
+<variant base="overall normal function"/>
+<variant base="overal normal function"/>
+<variant base="r dn q oos7 y952s z bt7b cl2 a"/>
+<variant base="Overal normal function@en-us"/>
+<variant base="overall normal function@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RWsIdPK9ef5X7RMzIebmPQ" canonical="RWsIdPK9ef5X7RMzIebmPQ">
+<variant base="r ws id p k9ef5 x7 r mz iebm p q"/>
+<variant base="effect on use depend"/>
+<variant base="effect on use dependence@en-us"/>
+<variant base="effect on use dependence"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBOVqte4ccjmqTJAI8jkV44" canonical="RBOVqte4ccjmqTJAI8jkV44">
+<variant base="r b o vqte4ccjmq t j a i8jk v44"/>
+<variant base="Normal slope of activ (k)@en-us"/>
+<variant base="normal slope of activ (k)"/>
+<variant base="normal slope of activation (k)"/>
+<variant base="normal slope of activation (k)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8Kyj6yec26dDePPO9tgqV2" canonical="R8Kyj6yec26dDePPO9tgqV2">
+<variant base="effect on ion channel modulation@en-us"/>
+<variant base="effect on ion channel modulation"/>
+<variant base="effect on ion channel modul"/>
+<variant base="r8 kyj6yec26d de p p o9tgq v2"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R6mSCTdmZqoFcoMx49ADHU" canonical="R6mSCTdmZqoFcoMx49ADHU">
+<variant base="r6m s c tdm zqo fco mx49 a d h u"/>
+<variant base="normal persistent current"/>
+<variant base="normal persist current"/>
+<variant base="Normal persist current@en-us"/>
+<variant base="normal persistent current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBRr02cNOD5wl0pS44hXqqX" canonical="RBRr02cNOD5wl0pS44hXqqX">
+<variant base="Mild-moder hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
+<variant base="mild-moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
+<variant base="mild-moder hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
+<variant base="r b rr02c n o d5wl0p s44h xqq x"/>
+<variant base="mild-moderate hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCvk5iSgbniWz9P4mjJsdlC" canonical="RCvk5iSgbniWz9P4mjJsdlC">
+<variant base="overall mixed or unclear functional effect not able to be clearly categorized as gain- or loss-of-function@en-us"/>
+<variant base="r cvk5i sgbni wz9 p4mj jsdl c"/>
+<variant base="Overal mix or unclear function effect not abl to be clear categor as Gain- or Loss-of-Function@en-us"/>
+<variant base="overal mix or unclear function effect not abl to be clear categor as gain- or loss-of-funct"/>
+<variant base="overall mixed or unclear functional effect not able to be clearly categorized as gain- or loss-of-function"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8fyxz5nx0mgxsMOtEoRmWk" canonical="R8fyxz5nx0mgxsMOtEoRmWk">
+<variant base="r8fyxz5nx0mgxs m ot eo rm wk"/>
+<variant base="impair or slow in rate of activ (tau activation)"/>
+<variant base="r8fyxz5nx0mgx m ot eo rm wk"/>
+<variant base="impairment or slowing in rate of activation (tau activation)@en-us"/>
+<variant base="Impairment or slow in rate of activ (tau activation)@en-us"/>
+<variant base="impairment or slowing in rate of activation (tau activation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8LbtdmDXmdcSOQY3QnvrYf" canonical="R8LbtdmDXmdcSOQY3QnvrYf">
+<variant base="hodgin-huxley-modeling"/>
+<variant base="hodgin-huxley-model"/>
+<variant base="hodgin-huxley-modeling@en-us"/>
+<variant base="r8 lbtdm d xmdc s o q y3 qnvr yf"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDyQ9lJFRvp1SJ8SKR7BkGn" canonical="RDyQ9lJFRvp1SJ8SKR7BkGn">
+<variant base="effect on voltag depend of activ"/>
+<variant base="effect on voltage dependence of activation@en-us"/>
+<variant base="r dy q9l j f rvp1 s j8 s k r7 bk gn"/>
+<variant base="effect on voltage dependence of activation"/>
+<variant base="Effect on voltag depend of activation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8IERLt4CJaeXzaPCOzquSB" canonical="R8IERLt4CJaeXzaPCOzquSB">
+<variant base="severe decrease in peak current due to reduced opening probability@en-us"/>
+<variant base="severe decrease in peak current due to reduced opening probability"/>
+<variant base="sever decreas in peak current due to reduc open probabl"/>
+<variant base="r8 i e r lt4 c jae xza p c ozqu s b"/>
+<variant base="Sever decreas in peak current due to reduc open probability@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC7UYgJd2o0EeyLF1F20qZG" canonical="RC7UYgJd2o0EeyLF1F20qZG">
+<variant base="Mild depolar shift of voltag depend of activ (right shift)@en-us"/>
+<variant base="mild depolarizing shift of voltage dependence of activation (right shift)"/>
+<variant base="r c7 u yg jd2o0 eey l f1 f20q z g"/>
+<variant base="mild depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
+<variant base="mild depolar shift of voltag depend of activ (right shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7dNr0622a5wBESQGcaLkZg" canonical="R7dNr0622a5wBESQGcaLkZg">
+<variant base="Effect on compon of ion channel function@en-us"/>
+<variant base="effect on compon of ion channel function"/>
+<variant base="r7d nr0622a5w b e s q gca lk zg"/>
+<variant base="effect on component of ion channel function"/>
+<variant base="effect on component of ion channel function@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R86071iVxOmUgj1ljXI9RwA" canonical="R86071iVxOmUgj1ljXI9RwA">
+<variant base="overal loss-of-funct"/>
+<variant base="r86071i vx om ugj1lj x i9 rw a"/>
+<variant base="overall loss-of-function"/>
+<variant base="overall loss-of-function@en-us"/>
+<variant base="Overal loss-of-function@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBJiFsljKf9Ot340DhQvUT" canonical="RBJiFsljKf9Ot340DhQvUT">
+<variant base="effect on ion channel function involv multipl biophys properti"/>
+<variant base="effect on ion channel function involving multiple biophysical properties"/>
+<variant base="r b ji fslj kf9 ot340 dh qv u t"/>
+<variant base="Effect on ion channel function involv multipl biophys properties@en-us"/>
+<variant base="effect on ion channel function involving multiple biophysical properties@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rl7K1Hgqs34BVxM4PNtn4w" canonical="Rl7K1Hgqs34BVxM4PNtn4w">
+<variant base="mild-moderate hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
+<variant base="Mild-moder hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
+<variant base="mild-moderate hyperpolarizing shift of voltage dependence of activation (left shift)"/>
+<variant base="mild-moder hyperpolar shift of voltag depend of activ (left shift)"/>
+<variant base="rl7 k1 hgqs34 b vx m4 p ntn4w"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RQjP2MguDr8OzKDeceZJ46" canonical="RQjP2MguDr8OzKDeceZJ46">
+<variant base="mild-moderate depolarizing shift of voltage dependence of activation (right shift)"/>
+<variant base="r qj p2 mgu dr8 oz k dece z j46"/>
+<variant base="mild-moder depolar shift of voltag depend of activ (right shift)"/>
+<variant base="Mild-moder depolar shift of voltag depend of activ (right shift)@en-us"/>
+<variant base="mild-moderate depolarizing shift of voltage dependence of activation (right shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBNgNEEXTwqRuFYweKcutxe" canonical="RBNgNEEXTwqRuFYweKcutxe">
+<variant base="increase in persistent current"/>
+<variant base="increas in persist current"/>
+<variant base="increase in persistent current@en-us"/>
+<variant base="r b ng n e e x twq ru f ywe kcutxe"/>
+<variant base="Increas in persist current@en-us"/>
+<variant base="r b ng n e e x twq ru f ywe kcutx"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7WY7lrtkRqG9NQvD8Fs7Lo" canonical="R7WY7lrtkRqG9NQvD8Fs7Lo">
+<variant base="sever decreas in peak current due to reduct in conduct"/>
+<variant base="r7 w y7lrtk rq g9 n qv d8 fs7 lo"/>
+<variant base="severe decrease in peak current due to reduction in conductance@en-us"/>
+<variant base="Sever decreas in peak current due to reduct in conductance@en-us"/>
+<variant base="severe decrease in peak current due to reduction in conductance"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8elYee9oFnTyzGLbmLUaeO" canonical="R8elYee9oFnTyzGLbmLUaeO">
+<variant base="effect on gating-por current"/>
+<variant base="r8el yee9o fn tyz g lbm l uae o"/>
+<variant base="Effect on gating-por current@en-us"/>
+<variant base="effect on gating-pore current@en-us"/>
+<variant base="effect on gating-pore current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7rZoUywSrlnsR2QEdxddqS" canonical="R7rZoUywSrlnsR2QEdxddqS">
+<variant base="r7r zo uyw srlns r2 q edxddq s"/>
+<variant base="normal recovery from fast inactivation@en-us"/>
+<variant base="normal recovery from fast inactivation"/>
+<variant base="Normal recoveri from fast inactivation@en-us"/>
+<variant base="normal recoveri from fast inactiv"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R6Gg6Rc5Xl21OllEzn2N3h" canonical="R6Gg6Rc5Xl21OllEzn2N3h">
+<variant base="depolarizing shift of voltage dependence of slow inactivation (right shift)"/>
+<variant base="depolarizing shift of voltage dependence of slow inactivation (right shift)@en-us"/>
+<variant base="depolar shift of voltag depend of slow inactiv (right shift)"/>
+<variant base="Depolar shift of voltag depend of slow inactiv (right shift)@en-us"/>
+<variant base="r6 gg6 rc5 xl21 oll ezn2 n3h"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R80ryKpw9TZE2fSjbz1ykJ4" canonical="R80ryKpw9TZE2fSjbz1ykJ4">
+<variant base="r80ri kpw9 t z e2f sjbz1yk j4"/>
+<variant base="r80ry kpw9 t z e2f sjbz1yk j4"/>
+<variant base="mild impair or slow in fast inactiv (tau inactivation)"/>
+<variant base="mild impairment or slowing in fast inactivation (tau inactivation)@en-us"/>
+<variant base="mild impairment or slowing in fast inactivation (tau inactivation)"/>
+<variant base="Mild impair or slow in fast inactiv (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDufCzpibYChlFwDOguxQBk" canonical="RDufCzpibYChlFwDOguxQBk">
+<variant base="acceleration in rate of slow inactivation (tau inactivation)@en-us"/>
+<variant base="Acceler in rate of slow inactiv (tau inactivation)@en-us"/>
+<variant base="acceleration in rate of slow inactivation (tau inactivation)"/>
+<variant base="r duf czpib y chl fw d ogux q bk"/>
+<variant base="acceler in rate of slow inactiv (tau inactivation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RCJNYSXtzUQaxxxeigBc9rg" canonical="RCJNYSXtzUQaxxxeigBc9rg">
+<variant base="absence of abnormal gating pore current@en-us"/>
+<variant base="Absenc of abnorm gate pore current@en-us"/>
+<variant base="absenc of abnorm gate pore current"/>
+<variant base="absence of abnormal gating pore current"/>
+<variant base="r c j n y s xtz u qaxxxeig bc9rg"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDGPKWNIULbpyxm7b0wIuii" canonical="RDGPKWNIULbpyxm7b0wIuii">
+<variant base="decreas in slope of slow inactiv"/>
+<variant base="decrease in slope of slow inactivation"/>
+<variant base="Decreas in slope of slow inactivation@en-us"/>
+<variant base="decrease in slope of slow inactivation@en-us"/>
+<variant base="r d g p k w n i u lbpyxm7b0w iuii"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RzxAghzfGsgvWX3Ibm1dzr" canonical="RzxAghzfGsgvWX3Ibm1dzr">
+<variant base="overall mixed or unclear functional effect due to single-cell neuronal properties"/>
+<variant base="overall mixed or unclear functional effect due to single-cell neuronal properties@en-us"/>
+<variant base="rzx aghzf gsgv w x3 ibm1dzr"/>
+<variant base="Overal mix or unclear function effect due to single-cel neuron properties@en-us"/>
+<variant base="overal mix or unclear function effect due to single-cel neuron properti"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RByNptA431wiEbrBZa4Y14U" canonical="RByNptA431wiEbrBZa4Y14U">
+<variant base="moderate increase in persistent current@en-us"/>
+<variant base="moderate increase in persistent current"/>
+<variant base="moder increas in persist current"/>
+<variant base="Moder increas in persist current@en-us"/>
+<variant base="r by npt a431wi ebr b za4 y14 u"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R7xYGfLUETEAY1cGj6zqYjl" canonical="R7xYGfLUETEAY1cGj6zqYjl">
+<variant base="r7x y gf l u e t e a y1c gj6zq yjl"/>
+<variant base="normal slope of inactivation@en-us"/>
+<variant base="normal slope of inactiv"/>
+<variant base="normal slope of inactivation"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R918FRlaBUyZMXc8koNdkxQ" canonical="R918FRlaBUyZMXc8koNdkxQ">
+<variant base="hyperpolarizing shift of voltage dependence of activation (left shift)"/>
+<variant base="hyperpolar shift of voltag depend of activ (left shift)"/>
+<variant base="Hyperpolar shift of voltag depend of activ (left shift)@en-us"/>
+<variant base="r918 f rla b uy z m xc8ko ndkx q"/>
+<variant base="hyperpolarizing shift of voltage dependence of activation (left shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9YmpNJrUqHfe8VU8jjemmJ" canonical="R9YmpNJrUqHfe8VU8jjemmJ">
+<variant base="severe decrease in peak current"/>
+<variant base="sever decreas in peak current"/>
+<variant base="severe decrease in peak current@en-us"/>
+<variant base="Sever decreas in peak current@en-us"/>
+<variant base="r9 ymp n jr uq hfe8 v u8jjemm j"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RYWQSm4huaAno89B4WFQZH" canonical="RYWQSm4huaAno89B4WFQZH">
+<variant base="Moder decreas in peak current@en-us"/>
+<variant base="r y w q sm4hua ano89 b4 w f q z h"/>
+<variant base="moderate decrease in peak current@en-us"/>
+<variant base="moderate decrease in peak current"/>
+<variant base="moder decreas in peak current"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDcpKlApCB4PPPBO6hjgl6m" canonical="RDcpKlApCB4PPPBO6hjgl6m">
+<variant base="severe depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
+<variant base="severe depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
+<variant base="Sever depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
+<variant base="sever depolar shift of voltag depend of fast inactiv (right shift)"/>
+<variant base="r dcp kl ap c b4 p p p b o6hjgl6m"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDTMAY4Nsd5P8hpcBUUypxU" canonical="RDTMAY4Nsd5P8hpcBUUypxU">
+<variant base="r d t m a y4 nsd5 p8hpc b u uypx u"/>
+<variant base="overall gain-of-function effect due to neuronal network properties@en-us"/>
+<variant base="Overal gain-of-funct effect due to neuron network properties@en-us"/>
+<variant base="overal gain-of-funct effect due to neuron network properti"/>
+<variant base="overall gain-of-function effect due to neuronal network properties"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9GXFE2OawwbLewohMEJYng" canonical="R9GXFE2OawwbLewohMEJYng">
+<variant base="presenc of abnorm gate pore current"/>
+<variant base="presence of abnormal gating pore current@en-us"/>
+<variant base="r9 g x f e2 oawwb lewoh m e j yng"/>
+<variant base="presence of abnormal gating pore current"/>
+<variant base="Presenc of abnorm gate pore current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9ZUbOgKjGPPQ9CPTMGPh9f" canonical="R9ZUbOgKjGPPQ9CPTMGPh9f">
+<variant base="severe deceleration or slowing in recovery from fast inactivation"/>
+<variant base="sever deceler or slow in recoveri from fast inactiv"/>
+<variant base="Sever deceler or slow in recoveri from fast inactivation@en-us"/>
+<variant base="severe deceleration or slowing in recovery from fast inactivation@en-us"/>
+<variant base="r9 z ub og kj g p p q9 c p t m g ph9f"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KZofOQE10FYr0M6IpoJ72" canonical="R8KZofOQE10FYr0M6IpoJ72">
+<variant base="Overal loss-of-funct effect due to single-cel neuron properties@en-us"/>
+<variant base="overall loss-of-function effect due to single-cell neuronal properties"/>
+<variant base="overal loss-of-funct effect due to single-cel neuron properti"/>
+<variant base="r8 k zof o q e10 f yr0 m6 ipo j72"/>
+<variant base="overall loss-of-function effect due to single-cell neuronal properties@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rwd2Okf7Sd1xsETaBGsjeS" canonical="Rwd2Okf7Sd1xsETaBGsjeS">
+<variant base="effect on rate of deactivation@en-us"/>
+<variant base="effect on rate of deactivation"/>
+<variant base="rwd2 okf7 sd1xs e ta b gsje s"/>
+<variant base="effect on rate of deactiv"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RGZCWQhcAEWq0SY26S5m5e" canonical="RGZCWQhcAEWq0SY26S5m5e">
+<variant base="normal voltage dependence of inactivation"/>
+<variant base="normal voltag depend of inactiv"/>
+<variant base="normal voltage dependence of inactivation@en-us"/>
+<variant base="r g z c w qhc a e wq0 s y26 s5m5e"/>
+<variant base="Normal voltag depend of inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBjmWtBKwt8nrHDyuxb6Nug" canonical="RBjmWtBKwt8nrHDyuxb6Nug">
+<variant base="no shift in voltage dependence of activation"/>
+<variant base="no shift in voltag depend of activ"/>
+<variant base="r bjm wt b kwt8nr h dyuxb6 nug"/>
+<variant base="no shift in voltage dependence of activation@en-us"/>
+<variant base="No shift in voltag depend of activation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBSg2tM1FbJBOPZrJ3Ipe0G" canonical="RBSg2tM1FbJBOPZrJ3Ipe0G">
+<variant base="mild depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
+<variant base="Mild depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
+<variant base="mild depolar shift of voltag depend of fast inactiv (right shift)"/>
+<variant base="mild depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
+<variant base="r b sg2t m1 fb j b o p zr j3 ipe0 g"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RB39ECWMLncqVLZXtTVSuW3" canonical="RB39ECWMLncqVLZXtTVSuW3">
+<variant base="effect on slope of slow inactivation (k)"/>
+<variant base="effect on slope of slow inactiv (k)"/>
+<variant base="r b39 e c w m lncq v l z xt t v su w3"/>
+<variant base="Effect on slope of slow inactiv (k)@en-us"/>
+<variant base="effect on slope of slow inactivation (k)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8KqfFzWrSaU9t4uXABtJRK" canonical="R8KqfFzWrSaU9t4uXABtJRK">
+<variant base="effect on resurg current"/>
+<variant base="effect on resurgent current"/>
+<variant base="r8 kqf fz wr sa u9t4u x a bt j r k"/>
+<variant base="Effect on resurg current@en-us"/>
+<variant base="effect on resurgent current@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBJ0Krtjy03lvhvCmwvnsjZ" canonical="RBJ0Krtjy03lvhvCmwvnsjZ">
+<variant base="acceler or increas in rate of activ (tau activation)"/>
+<variant base="acceleration or increase in rate of activation (tau activation)"/>
+<variant base="r b j0 krtjy03lvhv cmwvnsj z"/>
+<variant base="Acceler or increas in rate of activ (tau activation)@en-us"/>
+<variant base="acceleration or increase in rate of activation (tau activation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RfJRsrblTGfIJ44dw2SyYJ" canonical="RfJRsrblTGfIJ44dw2SyYJ">
+<variant base="severe hyperpolarizing shift of voltage dependence of fast inactivation (left shift)"/>
+<variant base="rf j rsrbl t gf i j44dw2 sy y j"/>
+<variant base="severe hyperpolarizing shift of voltage dependence of fast inactivation (left shift)@en-us"/>
+<variant base="Sever hyperpolar shift of voltag depend of fast inactiv (left shift)@en-us"/>
+<variant base="sever hyperpolar shift of voltag depend of fast inactiv (left shift)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9HYQpAlzBNEVxccrGnZUKO" canonical="R9HYQpAlzBNEVxccrGnZUKO">
+<variant base="r9 h y qp alz b n e vxccr gn z u k o"/>
+<variant base="Normal recoveri from slow inactivation@en-us"/>
+<variant base="normal recovery from slow inactivation"/>
+<variant base="normal recoveri from slow inactiv"/>
+<variant base="normal recovery from slow inactivation@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RBx87cocPenIzmpmFJRAE8E" canonical="RBx87cocPenIzmpmFJRAE8E">
+<variant base="r bx87coc pen izmpm f j r a e8 e"/>
+<variant base="acceleration or increase in fast inactivation (tau inactivation)"/>
+<variant base="acceleration or increase in fast inactivation (tau inactivation)@en-us"/>
+<variant base="acceler or increas in fast inactiv (tau inactivation)"/>
+<variant base="Acceler or increas in fast inactiv (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RDuKs2x3U7Ftv1RPSUUW7bG" canonical="RDuKs2x3U7Ftv1RPSUUW7bG">
+<variant base="overal mix or unclear function effect with respect to biophys channel activ"/>
+<variant base="Overal mix or unclear function effect with respect to biophys channel activity@en-us"/>
+<variant base="overall mixed or unclear functional effect with respect to biophysical channel activity"/>
+<variant base="r du ks2x3 u7 ftv1 r p s u u w7b g"/>
+<variant base="overall mixed or unclear functional effect with respect to biophysical channel activity@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R8hFpMkdFDIganHQtA3nbJV" canonical="R8hFpMkdFDIganHQtA3nbJV">
+<variant base="effect on rate of activ (tau activation)"/>
+<variant base="Effect on rate of activ (tau activation)@en-us"/>
+<variant base="r8h fp mkd f d igan h qt a3nb j v"/>
+<variant base="effect on rate of activation (tau activation)@en-us"/>
+<variant base="effect on rate of activation (tau activation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RC3aErf3GasgglmgYMcpS4n" canonical="RC3aErf3GasgglmgYMcpS4n">
+<variant base="acceleration of recovery from fast inactivation"/>
+<variant base="acceleration of recovery from fast inactivation@en-us"/>
+<variant base="r c3a erf3 gasgglmg y mcp s4n"/>
+<variant base="Acceler of recoveri from fast inactivation@en-us"/>
+<variant base="acceler of recoveri from fast inactiv"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9NOUr9iWj3sPK7GlxuC6dy" canonical="R9NOUr9iWj3sPK7GlxuC6dy">
+<variant base="mild increase in peak current@en-us"/>
+<variant base="mild increas in peak current"/>
+<variant base="mild increase in peak current"/>
+<variant base="Mild increas in peak current@en-us"/>
+<variant base="r9 n o ur9i wj3s p k7 glxu c6dy"/>
+<variant base="r9 n o ur9i wj3s p k7 glxu c6di"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RF33PdZrU9lQq5U6wsPKju" canonical="RF33PdZrU9lQq5U6wsPKju">
+<variant base="normal rate of deactiv (tau deactivation)"/>
+<variant base="r f33 pd zr u9l qq5 u6ws p kju"/>
+<variant base="r f33 pd zr u9l qq5 u6w p kju"/>
+<variant base="normal rate of deactivation (tau deactivation)@en-us"/>
+<variant base="Normal rate of deactiv (tau deactivation)@en-us"/>
+<variant base="normal rate of deactivation (tau deactivation)"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/Rzl8n5oqmxsKFuEQoGs7ys" canonical="Rzl8n5oqmxsKFuEQoGs7ys">
+<variant base="normal rate of slow inactivation (tau inactivation)@en-us"/>
+<variant base="normal rate of slow inactiv (tau inactivation)"/>
+<variant base="rzl8n5oqmxs k fu e qo gs7ys"/>
+<variant base="normal rate of slow inactivation (tau inactivation)"/>
+<variant base="rzl8n5oqmx k fu e qo gs7ys"/>
+<variant base="Normal rate of slow inactiv (tau inactivation)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/R9sk2fOWBMQbWVog5qqITs7" canonical="R9sk2fOWBMQbWVog5qqITs7">
+<variant base="r9sk2f o w b m qb w vog5qq i ts7"/>
+<variant base="Depolar shift of voltag depend of fast inactiv (right shift)@en-us"/>
+<variant base="depolarizing shift of voltage dependence of fast inactivation (right shift)"/>
+<variant base="depolar shift of voltag depend of fast inactiv (right shift)"/>
+<variant base="depolarizing shift of voltage dependence of fast inactivation (right shift)@en-us"/>
+</token>
+<token CodeType="FENICS" CodeValue="http://webprotege.stanford.edu/RgGuZhqK1D3ro0nNhiBoXw" canonical="RgGuZhqK1D3ro0nNhiBoXw">
+<variant base="rg gu zhq k1 d3ro0n nhi bo xw"/>
+<variant base="normal subthreshold current"/>
+<variant base="normal subthreshold current@en-us"/>
+</token>
 </synonym>
