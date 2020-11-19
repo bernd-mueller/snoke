@@ -1,151 +1,85 @@
-package de.zbmed.snoke.ontology.epso;
+package de.zbmed.snoke.ontology.common;
 
-import java.io.FileInputStream;
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
+import de.zbmed.snoke.ontology.analysis.DictLoader;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.NamedNodeMap;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
-/**
- * DrugBankMapper
- *
- * @author Bernd Mueller
- * @version 0.1
- * @since 2016
- */
-public class DrugBankMapper {
-	HashMap <String, HashMap <String, ArrayList <String>>> drugbankmap;
-	
-	DocumentBuilderFactory builderFactory;
-	DocumentBuilder builder;
-	Document document;
-	XPath xPath;
-	String expression = "/drugbank//drug";
-	String defaultpath = "resources/drugbank/drugbank.xml";
-	
-	public DrugBankMapper () {
-		constructFromXML (defaultpath);
-	}
-	
-	public DrugBankMapper (String drugbankxmlfile) {
-		
-		constructFromXML (drugbankxmlfile);
-	}
-	
-	public HashMap<String, HashMap<String, ArrayList<String>>> getDrugbankmap() {
-		return drugbankmap;
+public class DrugNameMapper {
+	DictLoader drugnameloader;
+	public Map<String, Set<String>> getDrugmap() {
+		return drugmap;
 	}
 
-	public void setDrugbankmap(HashMap<String, HashMap<String, ArrayList<String>>> drugbankmap) {
-		this.drugbankmap = drugbankmap;
+
+	public void setDrugmap(Map<String, Set<String>> drugmap) {
+		this.drugmap = drugmap;
 	}
 
-	public void constructFromXML (String drugbankxmlfile) {
-		if (drugbankxmlfile == null) {
-			drugbankxmlfile = defaultpath;
-		}
-		drugbankmap = new HashMap <String,HashMap<String, ArrayList <String>>> ();
-		builderFactory = DocumentBuilderFactory.newInstance();
+
+	public Map<String, String> getDrugsynmap() {
+		return drugsynmap;
+	}
+
+
+	public void setDrugsynmap(Map<String, String> drugsynmap) {
+		this.drugsynmap = drugsynmap;
+	}
+	Map <String, String> drugnameidmap;
+	Map <String, Set <String>> drugmap;
+	Map <String, String> drugsynmap;
+	
+	public DrugNameMapper () {
+		drugnameloader = new DictLoader();
+		drugmap = drugnameloader.getMapForDict("dictionaries/Dict_DrugNames.xml");
+		drugsynmap = drugnameloader.getValueMapForDict("dictionaries/Dict_DrugNames.xml");
+		drugnameidmap = readMappingFile("resources/drugbank/db-atc.map");
+	}
+	
+	
+	public Map<String, String> getDrugnameidmap() {
+		return drugnameidmap;
+	}
+
+
+	public void setDrugnameidmap(Map<String, String> drugnameidmap) {
+		this.drugnameidmap = drugnameidmap;
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		DrugNameMapper dbm = new DrugNameMapper ();
+		Map <String, String> m = dbm.readMappingFile("resources/drugbank/db-atc.map");
+		System.out.println(m.keySet().size());
+	}
+
+	public Map <String, String> readMappingFile (String mappingfile) {
+		BufferedReader reader;
+		Map <String, String> m = new HashMap <String, String> ();
 		try {
-			builder = builderFactory.newDocumentBuilder();
-			document = builder.parse(new FileInputStream(drugbankxmlfile));
-			// new FileInputStream("/home/muellerb/test.xml"));
+			reader = new BufferedReader(new FileReader(mappingfile));
+			String row = "";
 
-			xPath = XPathFactory.newInstance().newXPath();
-
-			parseXML();
-			
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			while ((row = reader.readLine()) != null) {
+			    String[] data = row.split("\t");
+			    m.put(data[0], data[3]);
+			}
+			reader.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SAXException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+		return m;
 	}
-
-	public void parseXML () {
-		// read a string value
-		// String email = xPath.compile(expression).evaluate(document);
-		NodeList nodeList;
-		try {
-			nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
-
-			
-
-			for (int i = 0; i < nodeList.getLength(); i++) {
-				String drugname = "";
-				ArrayList <String> synonyms = new ArrayList <String> ();
-				String drugbankid = "";
-				Node n = nodeList.item(i);
-				NodeList nl = n.getChildNodes();
-
-				for (int j = 0; j < nl.getLength(); j++) {
-					Node subn = nl.item(j);
-					// System.out.println(subn.getNodeName());
-					if (subn.getNodeName().equals("drugbank-id")) {
-						NamedNodeMap nnm = subn.getAttributes();
-						for (int a=0; a<nnm.getLength(); a++) {
-							Node atnode = nnm.item(a);
-							if (atnode.getNodeName().equals("primary") &&
-									atnode.getNodeValue().equals("true")) {
-								drugbankid = subn.getTextContent();
-							}
-						}
-					} else if (subn.getNodeName().equals("name")) {
-						drugname = subn.getTextContent();
-					} else if (subn.getNodeName().equals("synonyms")) {
-						NodeList syn_nl = subn.getChildNodes();
-						for (int k = 0; k < nl.getLength(); k++) {
-							Node syn_n = syn_nl.item(k);
-							if (syn_n != null) {
-								String s = syn_n.getTextContent();
-								if (s.trim().length()>0) {
-									synonyms.add(s);
-								}
-								
-							}
-							
-						}
-					}
-				}
-				HashMap <String, ArrayList <String>> drugnamesyn = new HashMap <String, ArrayList <String>> ();
-				drugnamesyn.put(drugname, synonyms);
-				drugbankmap.put(drugbankid, drugnamesyn);
-			}
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		DrugBankMapper dbm = new DrugBankMapper ("D:\\eclipse-workspace\\TDM\\resources\\drugbank\\drugbank.xml");
-	
-		dbm.parseXML();
-			
-	}
-
 }
