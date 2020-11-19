@@ -1,4 +1,4 @@
-package de.zbmed.snoke.util;
+package de.zbmed.snoke.ontology.common;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

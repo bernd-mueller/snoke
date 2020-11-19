@@ -29,7 +29,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import de.zbmed.snoke.util.SnowballStemmer;
+import de.zbmed.snoke.ontology.common.SnowballStemmer;
 /**
  * ConceptDictFromDrugBank
  *
