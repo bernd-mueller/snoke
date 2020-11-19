@@ -10,30 +10,21 @@ import java.util.Set;
 
 import de.zbmed.snoke.ontology.analysis.DictLoader;
 
+/**
+ * Loads dictionary for drug names in order to generate maps with concepts and synonyms
+ * 
+ * @author Muellerb
+ * @since 2020
+ */
 public class DrugNameMapper {
 	DictLoader drugnameloader;
-	public Map<String, Set<String>> getDrugmap() {
-		return drugmap;
-	}
-
-
-	public void setDrugmap(Map<String, Set<String>> drugmap) {
-		this.drugmap = drugmap;
-	}
-
-
-	public Map<String, String> getDrugsynmap() {
-		return drugsynmap;
-	}
-
-
-	public void setDrugsynmap(Map<String, String> drugsynmap) {
-		this.drugsynmap = drugsynmap;
-	}
 	Map <String, String> drugnameidmap;
 	Map <String, Set <String>> drugmap;
 	Map <String, String> drugsynmap;
 	
+	/**
+	 * Default constructor
+	 */
 	public DrugNameMapper () {
 		drugnameloader = new DictLoader();
 		drugmap = drugnameloader.getMapForDict("dictionaries/Dict_DrugNames.xml");
@@ -42,11 +33,58 @@ public class DrugNameMapper {
 	}
 	
 	
+	/**
+	 * Getter for Map of Drug Names
+	 * 
+	 * @return Map with concepts as keys and synonyms as Set of values
+	 */
+	public Map<String, Set<String>> getDrugmap() {
+		return drugmap;
+	}
+
+	/**
+	 * Setter for Map of Drug Names 
+	 * 
+	 * @param drugmap Map with concepts as keys and synonyms as Set of values
+	 */
+	public void setDrugmap(Map<String, Set<String>> drugmap) {
+		this.drugmap = drugmap;
+	}
+
+
+	/**
+	 * Getter for Map with Synonyms of Drug Names 
+	 * 
+	 * return drugmap Map with synonyms as keys and concepts as values
+	 */
+	public Map<String, String> getDrugsynmap() {
+		return drugsynmap;
+	}
+
+
+	/**
+	 * Setter for Map with Synonyms of Drug Names 
+	 * 
+	 * @param drugmap Map with synonyms as keys and concepts as values
+	 */
+	public void setDrugsynmap(Map<String, String> drugsynmap) {
+		this.drugsynmap = drugsynmap;
+	}
+
+	/**
+	 * Getter for Map with Identifiers and names of drugs 
+	 * 
+	 * @return drugnameidmap Map with names as keys and identifiers as values
+	 */
 	public Map<String, String> getDrugnameidmap() {
 		return drugnameidmap;
 	}
 
-
+	/**
+	 * Setter for Map with Identifiers and names of drugs 
+	 * 
+	 * @param drugnameidmap Map with names as keys and identifiers as values
+	 */
 	public void setDrugnameidmap(Map<String, String> drugnameidmap) {
 		this.drugnameidmap = drugnameidmap;
 	}
@@ -60,6 +98,11 @@ public class DrugNameMapper {
 		System.out.println(m.keySet().size());
 	}
 
+	/**
+	 * Reads mapping file into a Map with identifiers as keys and names as synonyms
+	 * @param mappingfile tab-separated columns with information about drug names
+	 * @return map ith identifiers as keys and names as synonyms
+	 */
 	public Map <String, String> readMappingFile (String mappingfile) {
 		BufferedReader reader;
 		Map <String, String> m = new HashMap <String, String> ();
