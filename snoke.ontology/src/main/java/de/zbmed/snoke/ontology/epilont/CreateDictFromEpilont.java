@@ -26,8 +26,8 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Element;
 
 import de.zbmed.snoke.ontology.common.DictHandler;
+import de.zbmed.snoke.ontology.common.SnowballStemmer;
 import de.zbmed.snoke.ontology.fenics.CreateDictFromFENICS;
-import de.zbmed.snoke.util.SnowballStemmer;
 
 /**
  * CreateDictFromEpilont
