@@ -4,23 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
-
-import gov.nih.nlm.uts.webservice.AtomDTO;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -32,7 +18,6 @@ import org.apache.commons.cli.ParseException;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
-import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.NodeIterator;
 import org.apache.jena.rdf.model.Property;
@@ -41,13 +26,11 @@ import org.apache.jena.shared.JenaException;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.w3c.dom.Attr;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 
+import de.zbmed.snoke.ontology.analysis.DictLoader;
 import de.zbmed.snoke.ontology.common.DictHandler;
-import de.zbmed.snoke.ontology.esso.CreateDictFromESSO;
-import de.zbmed.snoke.util.SnowballStemmer;
+import de.zbmed.snoke.ontology.common.DrugNameMapper;
+import gov.nih.nlm.uts.webservice.AtomDTO;
 
 /**
  * CreateDictFromEpSO
@@ -62,19 +45,22 @@ public class CreateDictFromEpSO extends DictHandler {
 	
 	String nemourl = "http://purl.bioontology.org/NEMO/ontology/NEMO.owl";
 	String fmaurl = "http://sig.uw.edu/fma";
+	String rxurl = "http://purl.bioontology.org/ontology/RXNORM/";
+	String drugbankdict = "dictionaries/Dict_DrugNames.xml";
 
 	OntModel nemo;
 
-	// RxNormClient rx;
+	RxNormClient rx;
 	// Model rxnorm;
 	
-	DrugBankMapper dbm;
+	DrugNameMapper dbm;
 	UMLS_Client umls;
 	OntHandlerFMA fma;
-
 	public CreateDictFromEpSO () {
 		super();
-		// rx = new RxNormClient ();
+		dbm = new DrugNameMapper ();
+		rx = new RxNormClient ();
+		
 	}
 
 	public static void readCLI(String args[]) {
@@ -112,11 +98,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		// TODO Auto-generated method stub
 		readCLI(args);
 		CreateDictFromEpSO cep = new CreateDictFromEpSO ();
-		
 
-		
-		// cep.printNamedClasses();
-		
 		cep.getOntologyModel(inputFilePath);
 		// cep.createConceptMapperDictionary(cep.ont, outputFilePath);
 		cep.createConceptMapperDictionary(cep.ont, outputFilePath, "EpSO");
@@ -135,9 +117,8 @@ public class CreateDictFromEpSO extends DictHandler {
 			}
 		}
 		if (synonyms != null && !synonyms.equals(label) && !synonyms.equals("")) {
-//			System.out.println(synonyms);
 			if (synonyms.startsWith("http")) {
-//				System.out.println(localName + "\t\t\t" + synonyms);
+				System.out.println("############"+synonyms);
 				if (synonyms.startsWith(nemourl)) {
 //					System.out.println("Processing NEMO... " + synonyms);
 					
@@ -156,19 +137,13 @@ public class CreateDictFromEpSO extends DictHandler {
 					 */
 					synset = processSynonymsFromFMA (synonyms, synset);
 					
-				} else {
-					
+				} else if (synonyms.startsWith(rxurl)) {
+					synset = processSynonymsFromRxNORM (synonyms, synset);
 				}
 			}
 		}
 		return synset;
 	}
-	
-	
-	
-
-	
-
 	
 	public Set <String> processSynonymsFromFMA (String synonyms, Set <String> synset) {
 		if (synonyms.startsWith(fmaurl)) {
@@ -192,25 +167,28 @@ public class CreateDictFromEpSO extends DictHandler {
 		return synset;
 	}
 
-/*
-	public Element processSynonymsFromRxNORM (String synonyms, Element token) {
-		if (synonyms.startsWith("RxCUI")) {
-			String rxcui = synonyms.replace("RxCUI ", "");
-			String meshid = rx.getMeSH(rxcui);
-			String umlscui = rx.getUMLS(rxcui);
-			String drugbankid = getDrunkBankId (umlscui);
-			HashMap <String, ArrayList <String>> drugbanksyns = dbm.getDrugbankmap().get(drugbankid);
-			for (String curdrugname : drugbanksyns.keySet()) {
-				ArrayList <String> drugsyns = drugbanksyns.get(curdrugname);
-				addSynonymToToken (curdrugname, token);
-				for (String curdrugsyn : drugsyns) {
-					addSynonymToToken(curdrugsyn, token);
+
+	public Set <String> processSynonymsFromRxNORM (String synonyms, Set <String> synset) {
+
+		if (synonyms.startsWith(rxurl)) {
+			String rxcui = synonyms.replace(rxurl, "");
+
+			String drugnameid = rx.getDrugBankMapping(rxcui);
+			String drugname = dbm.getDrugnameidmap().get(drugnameid);
+			System.out.println("Processing RxNorm ID " + rxcui + " with DrugBank name " + drugname);
+			if (dbm.getDrugmap().containsKey(drugname)) {
+				for (String newsyn : dbm.getDrugmap().get(drugname)) {
+					synset = addSynonymToToken (newsyn, synset);
+					System.out.println("RxNorm: Adding " + newsyn);
 				}
+			} else {
+				System.out.println("Not found: " + drugname);
 			}
+			
 		}
-		return token;
+		return synset;
 	}
-	*/
+	
 	public String getDrunkBankId (String umlscui) {
 		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
 		for (AtomDTO a : atoms) {
@@ -277,32 +255,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		return s.replaceAll("_", " ");
 	}
 	
-	/*
-	public Element addSynonymToToken (String syn, Element t) {
-		syn = replaceUnderScoreBySpace (syn);
-		Element variantsyn = dict_doc.createElement("variant");
-		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(syn.toLowerCase());
-		variantsyn.setAttributeNode(attr_base);
-		t.appendChild(variantsyn);
-		
-		addStemmedSynonymToToken(syn, t);
-		
-		return t;
-	}
-	*/
-	/*
-	public Element addStemmedSynonymToToken (String syn, Element t) {
-		syn = replaceUnderScoreBySpace (syn);
-		syn = snow.doTheSnowballStem(syn);
-		Element variantsyn = dict_doc.createElement("variant");
-		Attr attr_base = dict_doc.createAttribute("base");
-		attr_base.setValue(syn);
-		variantsyn.setAttributeNode(attr_base);
-		t.appendChild(variantsyn);
-		return t;
-	}
-	*/
+
 	
 	public void printNamedClasses () {
 		ExtendedIterator<OntClass> eiter = ont.listNamedClasses();
