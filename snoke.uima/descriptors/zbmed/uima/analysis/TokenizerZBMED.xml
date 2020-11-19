@@ -75,7 +75,7 @@
 		<typeSystemDescription>
 						<imports>
 				
-				<import name="descriptors/zbmed/uima/analysis/DictTerm_DrugBank" />
+				<import name="descriptors/zbmed/uima/analysis/DictTerm_DrugNames" />
 				<import	name="descriptors/zbmed/uima/analysis/TokenAnnotation" />
 				<import	name="descriptors/zbmed/uima/analysis/SentenceAnnotation" />
 			</imports>
