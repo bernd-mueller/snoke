@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.util.Set;
 
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
@@ -69,6 +70,12 @@ public class CreateDictFromESSO extends DictHandler {
 		CreateDictFromESSO cdfe = new CreateDictFromESSO();
 		cdfe.getOntologyModel(inputFilePath);
 		cdfe.createConceptMapperDictionary(cdfe.ont, outputFilePath, "ESSO");
+	}
+
+	@Override
+	public Set<String> processPropertySeeAlso(OntClass oc, Set<String> synset) {
+		// TODO Auto-generated method stub
+		return synset;
 	}
 	
 

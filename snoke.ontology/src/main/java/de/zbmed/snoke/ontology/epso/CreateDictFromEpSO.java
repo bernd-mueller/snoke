@@ -42,25 +42,18 @@ import gov.nih.nlm.uts.webservice.AtomDTO;
 public class CreateDictFromEpSO extends DictHandler {
 	String CodeType = "EpSO";
 	private static final Logger log = LoggerFactory.getLogger(CreateDictFromEpSO.class);
+
+	OntModel nemo;
+	RxNormClient rx;
+	OntHandlerFMA fma;
+	UMLS_Client umls;
 	
 	String nemourl = "http://purl.bioontology.org/NEMO/ontology/NEMO.owl";
 	String fmaurl = "http://sig.uw.edu/fma";
 	String rxurl = "http://purl.bioontology.org/ontology/RXNORM/";
-	String drugbankdict = "dictionaries/Dict_DrugNames.xml";
-
-	OntModel nemo;
-
-	RxNormClient rx;
-	// Model rxnorm;
-	
-	DrugNameMapper dbm;
-	UMLS_Client umls;
-	OntHandlerFMA fma;
 	public CreateDictFromEpSO () {
-		super();
-		dbm = new DrugNameMapper ();
+		super();		
 		rx = new RxNormClient ();
-		
 	}
 
 	public static void readCLI(String args[]) {
@@ -104,153 +97,10 @@ public class CreateDictFromEpSO extends DictHandler {
 		cep.createConceptMapperDictionary(cep.ont, outputFilePath, "EpSO");
 	}
 	
-	public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset) {
-		Property palso = ont.getOntProperty("http://www.w3.org/2000/01/rdf-schema#seeAlso");	
-		RDFNode ralso = oc.getPropertyValue(palso);
-		String label = oc.getLabel(null);
 
-		String synonyms = "";
-		if (ralso != null) {
-			if (ralso.isLiteral()) {
-				synonyms = ralso.toString();
-			} else if (ralso.isResource()) {				
-			}
-		}
-		if (synonyms != null && !synonyms.equals(label) && !synonyms.equals("")) {
-			if (synonyms.startsWith("http")) {
-				System.out.println("############"+synonyms);
-				if (synonyms.startsWith(nemourl)) {
-//					System.out.println("Processing NEMO... " + synonyms);
-					
-					/**
-					 * Resolve NEMO ontology to retrieve synonyms
-					 */
-					synset = processSynonymsFromNemo (synonyms,synset);
-				} else if (synonyms.startsWith(fmaurl)) {
-//					System.out.println("Processing FMA... " + synonyms);
-					/*
-					 * EpSo refers to incorrect class names in FMA
-					 * Anyways... FMA has not many usable synonyms
-					 */
-					/**
-					 * Resolve FMA ontology to retrieve synonyms
-					 */
-					synset = processSynonymsFromFMA (synonyms, synset);
-					
-				} else if (synonyms.startsWith(rxurl)) {
-					synset = processSynonymsFromRxNORM (synonyms, synset);
-				}
-			}
-		}
-		return synset;
-	}
+
 	
-	public Set <String> processSynonymsFromFMA (String synonyms, Set <String> synset) {
-		if (synonyms.startsWith(fmaurl)) {
-			
-			String fmaid = synonyms.replace(fmaurl + "#", "");
-			String synFromLabel = fmaid.replaceAll("_", " ");
-			String fmasyn = fma.labelsynmap.get(synFromLabel);
-			System.out.println("#FMA\t\t" + fmaid + "\t" + fmasyn);
-			if (fmaid != null && fmaid.length()>0) {
-				synset = addSynonymToToken (synFromLabel.toLowerCase(), synset);
-				synset= addStemmedSynonymToToken (synFromLabel.toLowerCase(), synset);
-				System.out.println("Added as synonym from FMA label:\t" + synFromLabel);
-			}
-			if (fmasyn != null && fmasyn.length()>0) {
-				synset = addSynonymToToken (fmasyn.toLowerCase(), synset);
-				synset = addStemmedSynonymToToken (fmasyn.toLowerCase(), synset);
-				System.out.println("Added as synonym from FMA synonym:\t" + fmasyn);
-			}
-		}
 
-		return synset;
-	}
-
-
-	public Set <String> processSynonymsFromRxNORM (String synonyms, Set <String> synset) {
-
-		if (synonyms.startsWith(rxurl)) {
-			String rxcui = synonyms.replace(rxurl, "");
-
-			String drugnameid = rx.getDrugBankMapping(rxcui);
-			String drugname = dbm.getDrugnameidmap().get(drugnameid);
-			System.out.println("Processing RxNorm ID " + rxcui + " with DrugBank name " + drugname);
-			if (dbm.getDrugmap().containsKey(drugname)) {
-				for (String newsyn : dbm.getDrugmap().get(drugname)) {
-					synset = addSynonymToToken (newsyn, synset);
-					System.out.println("RxNorm: Adding " + newsyn);
-				}
-			} else {
-				System.out.println("Not found: " + drugname);
-			}
-			
-		}
-		return synset;
-	}
-	
-	public String getDrunkBankId (String umlscui) {
-		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
-		for (AtomDTO a : atoms) {
-		    String aui = a.getUi();
-		    String tty = a.getTermType();
-		    String atomname = a.getTermString().getName();
-		    String sourceId = a.getCode().getUi();
-		    String rsab = a.getRootSource();
-		    // System.out.println(aui + "\t" + tty + "\t" + atomname + "\t" + sourceId + "\t" + rsab);
-  
-		    if (rsab.equals("DRUGBANK")) {
-		    	return sourceId;
-			}
-		}
-		return "";
-	}
-	
-	public Set <String> processSynonymsFromNemo (String synonyms, Set <String> synset) {
-		System.out.println("Doing something in NEMO:\t" + synonyms);
-		if (synonyms.startsWith(nemourl)) {
-			String nemoid = synonyms.replace(nemourl + "#", "");
-			OntClass nemoclass = nemo.getOntClass(synonyms);
-			if (nemoclass != null) {
-	
-				String nemolabel = nemoclass.getLabel(null);
-				String nemosyn = "";
-				String synonymFromLabel = "";
-				
-				if (nemolabel.contains("_")) {
-					synonymFromLabel = nemolabel.replaceAll("_", " ");
-				}
-				
-				Property pnemosyn = nemo.getOntProperty("http://purl.bioontology.org/NEMO/ontology/NEMO_annotation_properties.owl#synonym");
-				if (nemoclass.getPropertyValue(pnemosyn) != null) {
-					RDFNode rnemosyn = nemoclass.getPropertyValue(pnemosyn);
-					
-					if (rnemosyn.isLiteral()) {
-						nemosyn = rnemosyn.asLiteral().getString();
-						//System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel + "#\t" + nemosyn);
-					} else {
-						//System.out.println(rnemosyn.isResource());
-					}
-						
-				} else {
-					// System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel);
-				}
-				if (nemosyn.length()>0) {
-					System.out.println("Adding synonym retrieved from NEMO:\t" + nemosyn);
-					
-					synset = addSynonymToToken(nemosyn.toLowerCase(), synset);
-					synset = addStemmedSynonymToToken(nemosyn.toLowerCase(), synset);
-				}
-				if (synonymFromLabel.length()>0) {
-					synset = addSynonymToToken(synonymFromLabel.toLowerCase(), synset);
-					synset = addStemmedSynonymToToken(synonymFromLabel.toLowerCase(), synset);
-				}
-			} else {
-				System.err.println("NEMO class cannot be processed:\t" + synonyms);
-			}
-		}
-		return synset;
-	}
 	public String replaceUnderScoreBySpace (String s) {
 		return s.replaceAll("_", " ");
 	}
@@ -345,23 +195,154 @@ public class CreateDictFromEpSO extends DictHandler {
 	public void loadFMA (String fmaontoFile) {
 		fma = new OntHandlerFMA(fmaontoFile);
 	}
-	/*
-	public void loadRxNorm (String rxnormFile) {
-		rxnorm = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
-		
-		try {
-			InputStream is = new FileInputStream (new File (rxnormFile));
-			//ont.read(ontoFile);
-			rxnorm.read(is, null,"TTL") ;
-			log.info("Ontology " + rxnormFile + " loaded.");
-		} catch (JenaException je) {
-			log.error("ERROR" + je.getMessage());
-			je.printStackTrace();
-			System.exit(0);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+
+	/**
+	 * Method for generating a synonym out of the property see also from an ontology class
+	 * 
+	 * @param oc the ontology class
+     * @param synset the current set of synonyms
+     * @return the extended set of synonyms
+	 */	
+	public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset) {
+		Property palso = ont.getOntProperty("http://www.w3.org/2000/01/rdf-schema#seeAlso");	
+		RDFNode ralso = oc.getPropertyValue(palso);
+		String label = oc.getLabel(null);
+
+		String synonyms = "";
+		if (ralso != null) {
+			if (ralso.isLiteral()) {
+				synonyms = ralso.toString();
+			} else if (ralso.isResource()) {				
+			}
 		}
+		if (synonyms != null && !synonyms.equals(label) && !synonyms.equals("")) {
+			if (synonyms.startsWith("http")) {
+				System.out.println("############"+synonyms);
+				if (synonyms.startsWith(nemourl)) {
+					/**
+					 * Resolve NEMO ontology to retrieve synonyms
+					 */
+					synset = processSynonymsFromNemo (synonyms,synset);
+				} else if (synonyms.startsWith(fmaurl)) {
+//					System.out.println("Processing FMA... " + synonyms);
+					/*
+					 * EpSo refers to incorrect class names in FMA
+					 * Anyways... FMA has not many usable synonyms
+					 */
+					/**
+					 * Resolve FMA ontology to retrieve synonyms
+					 */
+					synset = processSynonymsFromFMA (synonyms, synset);
+					
+				} else if (synonyms.startsWith(rxurl)) {
+					synset = processSynonymsFromRxNORM (synonyms, synset);
+				}
+			}
+		}
+		return synset;
 	}
-*/
+	
+	public String getDrunkBankId (String umlscui) {
+		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
+		for (AtomDTO a : atoms) {
+		    String aui = a.getUi();
+		    String tty = a.getTermType();
+		    String atomname = a.getTermString().getName();
+		    String sourceId = a.getCode().getUi();
+		    String rsab = a.getRootSource();
+		    // System.out.println(aui + "\t" + tty + "\t" + atomname + "\t" + sourceId + "\t" + rsab);
+  
+		    if (rsab.equals("DRUGBANK")) {
+		    	return sourceId;
+			}
+		}
+		return "";
+	}
+	public Set <String> processSynonymsFromFMA (String synonyms, Set <String> synset) {
+		if (synonyms.startsWith(fmaurl)) {
+			
+			String fmaid = synonyms.replace(fmaurl + "#", "");
+			String synFromLabel = fmaid.replaceAll("_", " ");
+			String fmasyn = fma.labelsynmap.get(synFromLabel);
+			System.out.println("#FMA\t\t" + fmaid + "\t" + fmasyn);
+			if (fmaid != null && fmaid.length()>0) {
+				synset = addSynonymToToken (synFromLabel.toLowerCase(), synset);
+				synset= addStemmedSynonymToToken (synFromLabel.toLowerCase(), synset);
+				System.out.println("Added as synonym from FMA label:\t" + synFromLabel);
+			}
+			if (fmasyn != null && fmasyn.length()>0) {
+				synset = addSynonymToToken (fmasyn.toLowerCase(), synset);
+				synset = addStemmedSynonymToToken (fmasyn.toLowerCase(), synset);
+				System.out.println("Added as synonym from FMA synonym:\t" + fmasyn);
+			}
+		}
+
+		return synset;
+	}
+
+	public Set <String> processSynonymsFromNemo (String synonyms, Set <String> synset) {
+		System.out.println("Doing something in NEMO:\t" + synonyms);
+		if (synonyms.startsWith(nemourl)) {
+			String nemoid = synonyms.replace(nemourl + "#", "");
+			OntClass nemoclass = nemo.getOntClass(synonyms);
+			if (nemoclass != null) {
+	
+				String nemolabel = nemoclass.getLabel(null);
+				String nemosyn = "";
+				String synonymFromLabel = "";
+				
+				if (nemolabel.contains("_")) {
+					synonymFromLabel = nemolabel.replaceAll("_", " ");
+				}
+				
+				Property pnemosyn = nemo.getOntProperty("http://purl.bioontology.org/NEMO/ontology/NEMO_annotation_properties.owl#synonym");
+				if (nemoclass.getPropertyValue(pnemosyn) != null) {
+					RDFNode rnemosyn = nemoclass.getPropertyValue(pnemosyn);
+					
+					if (rnemosyn.isLiteral()) {
+						nemosyn = rnemosyn.asLiteral().getString();
+						//System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel + "#\t" + nemosyn);
+					} else {
+						//System.out.println(rnemosyn.isResource());
+					}
+						
+				} else {
+					// System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel);
+				}
+				if (nemosyn.length()>0) {
+					System.out.println("Adding synonym retrieved from NEMO:\t" + nemosyn);
+					
+					synset = addSynonymToToken(nemosyn.toLowerCase(), synset);
+					synset = addStemmedSynonymToToken(nemosyn.toLowerCase(), synset);
+				}
+				if (synonymFromLabel.length()>0) {
+					synset = addSynonymToToken(synonymFromLabel.toLowerCase(), synset);
+					synset = addStemmedSynonymToToken(synonymFromLabel.toLowerCase(), synset);
+				}
+			} else {
+				System.err.println("NEMO class cannot be processed:\t" + synonyms);
+			}
+		}
+		return synset;
+	}
+	public Set <String> processSynonymsFromRxNORM (String synonyms, Set <String> synset) {
+
+		if (synonyms.startsWith(rxurl)) {
+			String rxcui = synonyms.replace(rxurl, "");
+
+			String drugnameid = rx.getDrugBankMapping(rxcui);
+			String drugname = getDbm().getDrugnameidmap().get(drugnameid);
+			System.out.println("Processing RxNorm ID " + rxcui + " with DrugBank name " + drugname);
+			if (getDbm().getDrugmap().containsKey(drugname)) {
+				for (String newsyn : getDbm().getDrugmap().get(drugname)) {
+					synset = addSynonymToToken (newsyn, synset);
+					System.out.println("RxNorm: Adding " + newsyn);
+				}
+			} else {
+				System.out.println("Not found: " + drugname);
+			}
+			
+		}
+		return synset;
+	}
 }

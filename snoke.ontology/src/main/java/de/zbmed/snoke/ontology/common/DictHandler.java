@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -37,28 +38,67 @@ import org.w3c.dom.Element;
 
 import de.zbmed.snoke.ontology.esso.CreateDictFromESSO;
 import de.zbmed.snoke.util.SnowballStemmer;
+import gov.nih.nlm.uts.webservice.AtomDTO;
 
 /**
- * DictHandler
+ * DictHandler is the common super class for the conversion of ontology resources into dictionary files that can
+ * be loaded by the UIMA Analysis Engine ConceptMapper
  *
  * @author Bernd Mueller
  * @version 0.1
  * @since 2016
  */
-public class DictHandler {
+public abstract class DictHandler {
+
+	String drugbankdict = "dictionaries/Dict_DrugNames.xml";
+
+	DrugNameMapper dbm;
+
+
+	
+
+
 	DocumentBuilderFactory builderFactory;
 	DocumentBuilder builder;
 	public SnowballStemmer snow;
 	public OntModel ont;	
 	public Document dict_doc;
 	
-	DrugNameMapper dbm;
-
-	
     private static final Logger log = LoggerFactory.getLogger(DictHandler.class);
     static public String inputFilePath = "";
     static public String outputFilePath = "";
     
+    /**
+     * Default constructor creating instances of member variables
+     * 
+     */
+	public DictHandler () {
+		snow = new SnowballStemmer ();
+		dbm = new DrugNameMapper ();
+		try {
+			builderFactory = DocumentBuilderFactory.newInstance();
+			builder = builderFactory.newDocumentBuilder();
+			dict_doc = builder.newDocument();
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public DrugNameMapper getDbm() {
+		return dbm;
+	}
+
+
+	public void setDbm(DrugNameMapper dbm) {
+		this.dbm = dbm;
+	}
+	
+    /**
+     * Method for processing command line parameters. This can be used when running an exported jar file.
+     * 
+     * @param args the command line parameters.
+     */
     public static void readCLI (String args[]) {
     	Options options = new Options();
 
@@ -92,19 +132,14 @@ public class DictHandler {
         log.info("\toutput: " + outputFilePath);
     }
     
-	public DictHandler () {
-		snow = new SnowballStemmer ();
-		dbm = new DrugNameMapper ();
-		try {
-			builderFactory = DocumentBuilderFactory.newInstance();
-			builder = builderFactory.newDocumentBuilder();
-			dict_doc = builder.newDocument();
-		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
+
+    /**
+     * Method for adding a new synonym to the current set of synonyms
+     * 
+     * @param syn the synonym that should be processed and added to the synset
+     * @param synset the current set of synonyms
+     * @return the extended set of synonyms
+     */
 	public Set <String> addStemmedSynonymToToken (String syn, Set <String> synset) {
 		syn = replaceUnderScoreBySpace (syn);
 		
@@ -131,7 +166,13 @@ public class DictHandler {
 		return synset;
 	}
 	
-	
+	/**
+	 * Method for generating a synonym out of the local name of an ontology class
+	 * 
+	 * @param localName the local name that should be used for the synonym generation
+     * @param synset the current set of synonyms
+     * @return the extended set of synonyms
+	 */
 	public Set <String> genSynonymFromLocalName (String localName, Set <String> synset) {
 		/**
 		 * Get synonyms from local name by splitting on capital letters and inserting blanks between the words
@@ -158,44 +199,6 @@ public class DictHandler {
 		return synset;
 	}
 
-	public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset) {
-		Property palso = ont.getOntProperty("http://www.w3.org/2000/01/rdf-schema#seeAlso");	
-		RDFNode ralso = oc.getPropertyValue(palso);
-		String label = oc.getLabel(null);
-
-		String synonyms = "";
-		if (ralso != null) {
-			if (ralso.isLiteral()) {
-				synonyms = ralso.toString();
-			} else if (ralso.isResource()) {				
-			}
-		}
-		if (synonyms != null && !synonyms.equals(label) && !synonyms.equals("")) {
-//			System.out.println(synonyms);
-			if (synonyms.startsWith("http")) {
-//				System.out.println(localName + "\t\t\t" + synonyms);
-				// if (synonyms.startsWith(nemourl)) {
-//					System.out.println("Processing NEMO... " + synonyms);
-					
-					/**
-					 * Resolve NEMO ontology to retrieve synonyms
-					 */
-					// processSynonymsFromNemo (synonyms,token);
-				// } else if (synonyms.startsWith(fmaurl)) {
-//					System.out.println("Processing FMA... " + synonyms);
-					/*
-					 * EpSo refers to incorrect class names in FMA
-					 * Anyways... FMA has not many usable synonyms
-					 */
-					/**
-					 * Resolve FMA ontology to retrieve synonyms
-					 */
-					// processSynonymsFromFMA (synonyms, token);
-
-			}
-		}
-		return synset;
-	}
 	
 	public Element createTokenFromOntClass(OntClass oc, String CodeType) {
 		Element token = dict_doc.createElement("token");
@@ -225,6 +228,8 @@ public class DictHandler {
 		
 		return token;
 	}
+	
+	abstract public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset);
 	
 	public Set <String> addDrugNamesToSynonymSet (Set <String> synset) {
 		Set <String> locSynSet = synset;
