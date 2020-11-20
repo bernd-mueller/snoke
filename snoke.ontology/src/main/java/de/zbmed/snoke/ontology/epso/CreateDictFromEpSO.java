@@ -217,23 +217,10 @@ public class CreateDictFromEpSO extends DictHandler {
 		}
 		if (synonyms != null && !synonyms.equals(label) && !synonyms.equals("")) {
 			if (synonyms.startsWith("http")) {
-				System.out.println("############"+synonyms);
 				if (synonyms.startsWith(nemourl)) {
-					/**
-					 * Resolve NEMO ontology to retrieve synonyms
-					 */
 					synset = processSynonymsFromNemo (synonyms,synset);
 				} else if (synonyms.startsWith(fmaurl)) {
-//					System.out.println("Processing FMA... " + synonyms);
-					/*
-					 * EpSo refers to incorrect class names in FMA
-					 * Anyways... FMA has not many usable synonyms
-					 */
-					/**
-					 * Resolve FMA ontology to retrieve synonyms
-					 */
 					synset = processSynonymsFromFMA (synonyms, synset);
-					
 				} else if (synonyms.startsWith(rxurl)) {
 					synset = processSynonymsFromRxNORM (synonyms, synset);
 				}
@@ -245,13 +232,8 @@ public class CreateDictFromEpSO extends DictHandler {
 	public String getDrunkBankId (String umlscui) {
 		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
 		for (AtomDTO a : atoms) {
-		    String aui = a.getUi();
-		    String tty = a.getTermType();
-		    String atomname = a.getTermString().getName();
 		    String sourceId = a.getCode().getUi();
 		    String rsab = a.getRootSource();
-		    // System.out.println(aui + "\t" + tty + "\t" + atomname + "\t" + sourceId + "\t" + rsab);
-  
 		    if (rsab.equals("DRUGBANK")) {
 		    	return sourceId;
 			}
@@ -329,18 +311,9 @@ public class CreateDictFromEpSO extends DictHandler {
 
 		if (synonyms.startsWith(rxurl)) {
 			String rxcui = synonyms.replace(rxurl, "");
-
-			String drugnameid = rx.getDrugBankMapping(rxcui);
-			String drugname = getDbm().getDrugnameidmap().get(drugnameid);
-			System.out.println("Processing RxNorm ID " + rxcui + " with DrugBank name " + drugname);
-			if (getDbm().getDrugmap().containsKey(drugname)) {
-				for (String newsyn : getDbm().getDrugmap().get(drugname)) {
-					synset = addSynonymToToken (newsyn, synset);
-					System.out.println("RxNorm: Adding " + newsyn);
-				}
-			} else {
-				System.out.println("Not found: " + drugname);
-			}
+			String drugname = rx.getConceptnameForIdentifier(rxcui);
+			synset = addSynonymToToken (drugname, synset);
+			System.out.println("Added as synonym from RxNORM synonym:\t" + drugname);
 			
 		}
 		return synset;

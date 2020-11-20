@@ -1,10 +1,7 @@
 package de.zbmed.snoke.ontology.common;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -36,10 +33,6 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-import de.zbmed.snoke.ontology.esso.CreateDictFromESSO;
-import de.zbmed.snoke.util.SnowballStemmer;
-import gov.nih.nlm.uts.webservice.AtomDTO;
-
 /**
  * DictHandler is the common super class for the conversion of ontology resources into dictionary files that can
  * be loaded by the UIMA Analysis Engine ConceptMapper
@@ -53,11 +46,6 @@ public abstract class DictHandler {
 	String drugbankdict = "dictionaries/Dict_DrugNames.xml";
 
 	DrugNameMapper dbm;
-
-
-	
-
-
 	DocumentBuilderFactory builderFactory;
 	DocumentBuilder builder;
 	public SnowballStemmer snow;
