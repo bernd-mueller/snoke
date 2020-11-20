@@ -24,6 +24,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Rapiflux" canonical="Rapiflux">
 <variant base="rapiflux"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;352940&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BenignChildhoodEpilepsyWithCentrotemporalSpikes" canonical="BenignChildhoodEpilepsyWithCentrotemporalSpikes">
 <variant base="benign childhood epilepsy with centrotemporal spikes"/>
@@ -56,6 +57,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Mellaril-S" canonical="Mellaril-S">
 <variant base="mellaril- s"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;218304&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LossOfConsciousnessState" canonical="LossOfConsciousnessState">
 <variant base="loss of consciousness (loc) refers to complete unresponsiveness with postictal amnesia for the events that happened during the seizure."/>
@@ -184,6 +186,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Prolixin" canonical="Prolixin">
 <variant base="prolixin"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;8741&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BasalTemporalLobeSegment" canonical="BasalTemporalLobeSegment">
 <variant base="basal temporal"/>
@@ -252,6 +255,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PentazineVC" canonical="PentazineVC">
 <variant base="pentazine v c"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;631706&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="pentazin v c"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ContinuousSlowActivityOnset" canonical="ContinuousSlowActivityOnset">
@@ -265,9 +269,6 @@
 <variant base="precis drug ingredi"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Maprotiline" canonical="Maprotiline">
-<variant base="maprotilinum"/>
-<variant base="maprotylina"/>
-<variant base="maprotilina"/>
 <variant base="maprotiline"/>
 <variant base="maprotilin"/>
 </token>
@@ -287,14 +288,8 @@
 <variant base="micropsia status"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Thiothixene" canonical="Thiothixene">
-<variant base="tiotixene"/>
-<variant base="cis-thiothixene"/>
-<variant base="cis-thiothixen"/>
 <variant base="thiothixen"/>
-<variant base="tiotixen"/>
 <variant base="thiothixene"/>
-<variant base="tiotixeno"/>
-<variant base="tiotixenum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#HippocampalFormation" canonical="HippocampalFormation">
 <variant base="hippocampal formation"/>
@@ -347,13 +342,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Amoxapine" canonical="Amoxapine">
 <variant base="amoxapin"/>
-<variant base="2-chloro-11-(1-piperazinyl)dibenz(b,f)(1,4)oxazepine"/>
-<variant base="2-chloro-11-(1-piperazinyl)dibenz(b,f)(1,4)oxazepin"/>
-<variant base="amoxapinum"/>
-<variant base="desmethylloxapin"/>
-<variant base="amoxepin"/>
-<variant base="amoxapina"/>
-<variant base="amoxepine"/>
 <variant base="amoxapine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Geodon" canonical="Geodon">
@@ -383,6 +371,7 @@
 <variant base="intra cranial e e g data"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Tofranil-PM" canonical="Tofranil-PM">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;220334&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="tofranil- p m"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BordmannArea4RightPostcentralGyrus" canonical="BordmannArea4RightPostcentralGyrus">
@@ -394,6 +383,7 @@
 <variant base="bordmann area4 right postcentral gyrus"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ProCentra" canonical="ProCentra">
+<variant base="procentra"/>
 <variant base="pro centra"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ComplexVisualHallucination" canonical="ComplexVisualHallucination">
@@ -402,6 +392,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PhenTussAD" canonical="PhenTussAD">
 <variant base="phen tuss a d"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;539987&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeA1" canonical="ElectrodeA1">
 <variant base="electrod a1"/>
@@ -412,8 +403,6 @@
 <variant base="left cerebr hemispher"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Rufinamide" canonical="Rufinamide">
-<variant base="rufinamida"/>
-<variant base="xilep "/>
 <variant base="rufinamide"/>
 <variant base="rufinamid"/>
 </token>
@@ -422,6 +411,7 @@
 <variant base="electrode c p2"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Permitil" canonical="Permitil">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;219172&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="permitil"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeTP7" canonical="ElectrodeTP7">
@@ -469,35 +459,12 @@
 <variant base="focal cortic dysplasia type i i i n o s"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Fluphenazine" canonical="Fluphenazine">
-<variant base="10-(3-(2-hydroxyethyl)piperazinopropyl)-2-(trifluoromethyl)phenothiazine"/>
-<variant base="triflumethazine"/>
-<variant base="4-(3-(2-(trifluoromethyl)-10h-phenothiazin-10-yl)propyl)-1-piperazineethanol"/>
-<variant base="1-(2-hydroxyethyl)-4-(3-(trifluoromethyl-10-phenothiazinyl)propyl)-piperazin"/>
-<variant base="fluphenazinum"/>
-<variant base="fluorfenazin"/>
-<variant base="fluorphenazine"/>
-<variant base="fluorphenazin"/>
-<variant base="fluorophenazine"/>
-<variant base="1-(2-hydroxyethyl)-4-(3-(trifluoromethyl-10-phenothiazinyl)propyl)-piperazine"/>
-<variant base="10-(3-(2-hydroxyethyl)piperazinopropyl)-2-(trifluoromethyl)phenothiazin"/>
-<variant base="4-(3-(-trifluoromethyl-10-phenothiazyl)-propyl)-1-piperazineethanol"/>
-<variant base="10-(3'-(4''-(β-hydroxyethyl)-1''-piperazinyl)-propyl)-3-trifluoromethylphenothiazine"/>
-<variant base="fluorophenazin"/>
-<variant base="fluorfenazine"/>
-<variant base="fluphénazin"/>
-<variant base="triflumethazin"/>
 <variant base="fluphenazin"/>
 <variant base="fluphenazine"/>
-<variant base="2-(trifluoromethyl)-10-(3-(1-(β-hydroxyethyl)-4-piperazinyl)propyl)phenothiazine"/>
-<variant base="flufenazina"/>
-<variant base="4-(3-(2-trifluoromethyl-10-phenothiazyl)-propyl)-1-piperazineethanol"/>
-<variant base="fluphénazine"/>
-<variant base="2-(4-(3-[2-(trifluoromethyl)-10h-phenothiazin-10-yl]propyl)-1-piperazinyl)ethanol"/>
-<variant base="10-(3'-(4''-(β-hydroxyethyl)-1''-piperazinyl)-propyl)-3-trifluoromethylphenothiazin"/>
-<variant base="2-(trifluoromethyl)-10-(3-(1-(β-hydroxyethyl)-4-piperazinyl)propyl)phenothiazin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PentazineCodeine" canonical="PentazineCodeine">
 <variant base="pentazine codeine"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;688896&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="pentazin codein"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#SeizurePattern" canonical="SeizurePattern">
@@ -538,32 +505,11 @@
 <variant base="maprotilin mesyl"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Clonazepam" canonical="Clonazepam">
-<variant base="5-(2-chloro-phenyl)-7-nitro-1,3-dihydro-benzo[e][1,4]diazepin-2-on"/>
-<variant base="1,3-dihydro-7-nitro-5-(2-chlorophenyl)-2h-1,4.benzodiazepin-2-one"/>
-<variant base="1,3-dihydro-7-nitro-5-(2-chlorophenyl)-2h-1,4.benzodiazepin-2-on"/>
-<variant base="5-(2-chlorophenyl)-7-nitro-1h-benzo[e][1,4]diazepin-2(3h)-one"/>
-<variant base="5-(2-chlorophenyl)-7-nitro-1h-benzo[e][1,4]diazepin-2(3h)-on"/>
-<variant base="clonazepamum"/>
 <variant base="clonazepam"/>
-<variant base="5-(o-chlorophenyl)-7-nitro-1,3-dihydro-2h-1,4-benzodiazepin-2-one"/>
-<variant base="5-(2-chloro-phenyl)-7-nitro-1,3-dihydro-benzo[e][1,4]diazepin-2-one"/>
-<variant base="5-(o-chlorophenyl)-7-nitro-1,3-dihydro-2h-1,4-benzodiazepin-2-on"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Trifluoperazine" canonical="Trifluoperazine">
-<variant base="10-[3-(4-methyl-1-piperazinyl)propyl]-2-(trifluoromethyl)-10h-phenothiazine"/>
-<variant base="trifluperazine"/>
-<variant base="trifluoperazine"/>
-<variant base="trifluopérazin"/>
-<variant base="trifluperazin"/>
-<variant base="trifluopérazine"/>
-<variant base="trifluoperazinum"/>
-<variant base="trifluoperazina"/>
-<variant base="trifluoromethyl-10-(3'-(1-methyl-4-piperazinyl)propyl)phenothiazin"/>
-<variant base="trifluoroperazine"/>
 <variant base="trifluoperazin"/>
-<variant base="trifluoromethyl-10-(3'-(1-methyl-4-piperazinyl)propyl)phenothiazine"/>
-<variant base="10-[3-(4-methyl-1-piperazinyl)propyl]-2-(trifluoromethyl)-10h-phenothiazin"/>
-<variant base="trifluoroperazin"/>
+<variant base="trifluoperazine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeFT7" canonical="ElectrodeFT7">
 <variant base="electrod f t7"/>
@@ -590,12 +536,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Duloxetine" canonical="Duloxetine">
 <variant base="duloxetin"/>
-<variant base="(3s)-n-methyl-3-(1-naphthyloxy)-3-(2-thienyl)propan-1-amine"/>
-<variant base="(s)-duloxetine"/>
-<variant base="(s)-duloxetin"/>
-<variant base="(3s)-n-methyl-3-(1-naphthyloxy)-3-(2-thienyl)propan-1-amin"/>
 <variant base="duloxetine"/>
-<variant base="duloxetina"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrodmannArea3Segment" canonical="BrodmannArea3Segment">
 <variant base="brodmann area 3 segment"/>
@@ -743,6 +684,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Fanatrex" canonical="Fanatrex">
 <variant base="fanatrex"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;997847&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Tegretol" canonical="Tegretol">
 <variant base="tegretol®"/>
@@ -754,6 +696,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Citalopraam" canonical="Citalopraam">
 <variant base="citalopraam"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;540845&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Diagnosis" canonical="Diagnosis">
 <variant base="diagnosis"/>
@@ -783,6 +726,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Donnapine" canonical="Donnapine">
 <variant base="donnapin"/>
 <variant base="donnapine"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;216723&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LateralTemporalEpilepsy" canonical="LateralTemporalEpilepsy">
 <variant base="lateral temporal epilepsy"/>
@@ -819,16 +763,6 @@
 <variant base="clinic onset"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Promazine" canonical="Promazine">
-<variant base="n,n-dimethyl-3-(10h-phenothiazin-10-yl)-propan-1-amine"/>
-<variant base="promazinum"/>
-<variant base="n,n-dimethyl-3-(10h-phenothiazin-10-yl)-propan-1-amin"/>
-<variant base="n-(3-dimethylaminopropyl)phenothiazin"/>
-<variant base="promazina"/>
-<variant base="n-dimethylamino-1-methylethyl thiodiphenylamin"/>
-<variant base="n-(3-dimethylaminopropyl)phenothiazine"/>
-<variant base="10-(3-(dimethylamino)propyl)phenothiazin"/>
-<variant base="n-dimethylamino-1-methylethyl thiodiphenylamine"/>
-<variant base="10-(3-(dimethylamino)propyl)phenothiazine"/>
 <variant base="promazine"/>
 <variant base="promazin"/>
 </token>
@@ -938,10 +872,12 @@
 <variant base="right mesial occipit lobe segment"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Gabarone" canonical="Gabarone">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;602396&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="gabarone"/>
 <variant base="gabaron"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#D-Tal" canonical="D-Tal">
+<variant base="d-tal"/>
 <variant base="d- tal"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightFrontoParietalAbcess" canonical="RightFrontoParietalAbcess">
@@ -983,17 +919,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Nortriptyline" canonical="Nortriptyline">
 <variant base="nortriptyline"/>
-<variant base="desmethylamitriptylin"/>
-<variant base="demethylamitriptylin"/>
-<variant base="10,11-dihydro-n-methyl-5h-dibenzo[a,d]cycloheptene-δ5,γ-propylamine"/>
-<variant base="nortriptylina"/>
-<variant base="desmethylamitriptyline"/>
 <variant base="nortriptylin"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo[a,d]cyclohepten-5-ylidene)-n-methyl-1-propanamine"/>
-<variant base="demethylamitriptyline"/>
-<variant base="10,11-dihydro-n-methyl-5h-dibenzo[a,d]cycloheptene-δ5,γ-propylamin"/>
-<variant base="nortriptylinum"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo[a,d]cyclohepten-5-ylidene)-n-methyl-1-propanamin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AmitriptylineOxide" canonical="AmitriptylineOxide">
 <variant base="amitriptyline oxide"/>
@@ -1011,6 +937,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Servira" canonical="Servira">
 <variant base="servira"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;753345&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftHippocampalFormation" canonical="LeftHippocampalFormation">
 <variant base="left hippocamp format"/>
@@ -1143,6 +1070,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Serentil" canonical="Serentil">
 <variant base="serentil"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;9670&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ThalamusSegment" canonical="ThalamusSegment">
 <variant base="thalamus segment"/>
@@ -1235,9 +1163,7 @@
 <variant base="ritalin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Pimozide" canonical="Pimozide">
-<variant base="pimozida"/>
 <variant base="pimozid"/>
-<variant base="pimozidum"/>
 <variant base="pimozide"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#EEGStatisticalTMap" canonical="EEGStatisticalTMap">
@@ -1316,6 +1242,7 @@
 <variant base="segment of ventral posterior nucleus"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Topiragen" canonical="Topiragen">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;901323&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="topiragen"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Telencephalon" canonical="Telencephalon">
@@ -1342,12 +1269,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Moclobemide" canonical="Moclobemide">
 <variant base="moclobemid"/>
-<variant base="p-chloro-n-(2-morpholinoethyl)benzamid"/>
 <variant base="moclobemide"/>
-<variant base="moclobemidum"/>
-<variant base="p-chloro-n-(2-morpholinoethyl)benzamide"/>
-<variant base="moclobemida"/>
-<variant base="4-chlor-n-(2-morpholinoethyl)benzamid"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TimeUnit" canonical="TimeUnit">
 <variant base="time unit"/>
@@ -1371,40 +1293,8 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#m2e" canonical="m2e"/>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Dextroamphetamine" canonical="Dextroamphetamine">
-<variant base="dexanfetamina"/>
-<variant base="(αs)-α-methylbenzeneethanamine"/>
-<variant base="(s)-(+)-amphetamine"/>
-<variant base="(s)-1-phenyl-2-propylamine"/>
-<variant base="(s)-amphetamin"/>
-<variant base="(+)-α-methylphenethylamine"/>
-<variant base="dexamfetamina"/>
-<variant base="d-amphetamine"/>
-<variant base="dexamphetamine"/>
 <variant base="dextroamphetamin"/>
-<variant base="(s)-1-phenyl-2-aminopropan"/>
 <variant base="dextroamphetamine"/>
-<variant base="(+)-α-methylphenylethylamine"/>
-<variant base="(+)-α-methylphenylethylamin"/>
-<variant base="(+)-amphetamine"/>
-<variant base="(s)-α-methylbenzeneethanamine"/>
-<variant base="dexamphetamin"/>
-<variant base="(+)-(s)-amphetamin"/>
-<variant base="(s)-1-phenyl-2-propylamin"/>
-<variant base="(s)-α-methylbenzeneethanamin"/>
-<variant base="(s)-(+)-β-phenylisopropylamine"/>
-<variant base="(+)-(s)-amphetamine"/>
-<variant base="d-amphetamin"/>
-<variant base="(s)-(+)-β-phenylisopropylamin"/>
-<variant base="(s)-1-phenyl-2-aminopropane"/>
-<variant base="(αs)-α-methylbenzeneethanamin"/>
-<variant base="(+)-amphetamin"/>
-<variant base="dexamfetaminum"/>
-<variant base="desamfetamina"/>
-<variant base="(+)-α-methylphenethylamin"/>
-<variant base="(s)-amphetamine"/>
-<variant base="dexamfetamine"/>
-<variant base="dexamfetamin"/>
-<variant base="(s)-(+)-amphetamin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftFrontalLobeOrbitofrontalSegment" canonical="LeftFrontalLobeOrbitofrontalSegment">
 <variant base="left frontal lobe orbitofront segment"/>
@@ -1492,14 +1382,8 @@
 <variant base="peri-ict headach"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Paroxetine" canonical="Paroxetine">
-<variant base="paroxetinum"/>
-<variant base="(−)-(3s,4r)-4-(p-fluorophenyl)-3-((3,4-(methylenedioxy)phenoxy)methyl)piperidin"/>
-<variant base="(3s-trans)-3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)piperidine"/>
 <variant base="paroxetine"/>
 <variant base="paroxetin"/>
-<variant base="(3s-trans)-3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)piperidin"/>
-<variant base="(−)-(3s,4r)-4-(p-fluorophenyl)-3-((3,4-(methylenedioxy)phenoxy)methyl)piperidine"/>
-<variant base="paroxetina"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightFoot" canonical="RightFoot">
 <variant base="right foot"/>
@@ -1526,28 +1410,11 @@
 <variant base="one dimensional xcoordinate datum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Chlorprothixene" canonical="Chlorprothixene">
-<variant base="chlorprotixen"/>
 <variant base="chlorprothixene"/>
-<variant base="chlothixen"/>
-<variant base="chlorprotixene"/>
-<variant base="alpha-chlorprothixen"/>
 <variant base="chlorprothixen"/>
-<variant base="chlorprotixine"/>
-<variant base="alpha-chlorprothixene"/>
-<variant base="chlorprothixine"/>
-<variant base="chlorprothixin"/>
-<variant base="chlorprotixin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Thioridazine" canonical="Thioridazine">
-<variant base="10-[2-(1-methyl-2-piperidyl)ethyl]-2-methylsulfanyl-phenothiazin"/>
-<variant base="10-[2-(1-methyl-2-piperidyl)ethyl]-2-methylsulfanyl-phenothiazine"/>
-<variant base="3-methylmercapto-n-(2'-(n-methyl-2-piperidyl)ethyl)phenothiazin"/>
-<variant base="3-methylmercapto-n-(2'-(n-methyl-2-piperidyl)ethyl)phenothiazine"/>
-<variant base="tioridazina"/>
-<variant base="2-methylmercapto-10-(2-(n-methyl-2-piperidyl)ethyl)phenothiazin"/>
-<variant base="thioridazinum"/>
 <variant base="thioridazin"/>
-<variant base="2-methylmercapto-10-(2-(n-methyl-2-piperidyl)ethyl)phenothiazine"/>
 <variant base="thioridazine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LateralHypothalamusZone" canonical="LateralHypothalamusZone">
@@ -1588,6 +1455,7 @@
 <variant base="abilifi"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Stavzor" canonical="Stavzor">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;804548&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="stavzor"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AphasicSeizure" canonical="AphasicSeizure">
@@ -1690,6 +1558,7 @@
 <variant base="hemi clonic status"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Inapsine" canonical="Inapsine">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;202603&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="inapsin"/>
 <variant base="inapsine"/>
 </token>
@@ -1707,10 +1576,7 @@
 <variant base="vermis of cerebellum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Lorazepam" canonical="Lorazepam">
-<variant base="loracepam"/>
 <variant base="lorazepam"/>
-<variant base="o-chlorooxazepam"/>
-<variant base="o-chloroxazepam"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AutonomicStatus" canonical="AutonomicStatus">
 <variant base="autonomic status"/>
@@ -1741,22 +1607,15 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Luminal" canonical="Luminal">
 <variant base="lumin"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;847470&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="luminal"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Methylin" canonical="Methylin">
 <variant base="methylin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Chlorpromazine" canonical="Chlorpromazine">
-<variant base="3-(2-chloro-10h-phenothiazin-10-yl)-n,n-dimethyl-1-propanamine"/>
-<variant base="3-(2-chlorophenothiazin-10-yl)-n,n-dimethyl-propan-1-amine"/>
-<variant base="clorpromazina"/>
 <variant base="chlorpromazine"/>
-<variant base="3-(2-chlorophenothiazin-10-yl)-n,n-dimethyl-propan-1-amin"/>
-<variant base="n-(3-dimethylaminopropyl)-3-chlorophenothiazine"/>
-<variant base="n-(3-dimethylaminopropyl)-3-chlorophenothiazin"/>
-<variant base="chlorpromazinum"/>
 <variant base="chlorpromazin"/>
-<variant base="3-(2-chloro-10h-phenothiazin-10-yl)-n,n-dimethyl-1-propanamin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#VisualIllusion" canonical="VisualIllusion">
 <variant base="visual illusion"/>
@@ -1777,6 +1636,7 @@
 <variant base="frontal lobe"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#KeppraXR" canonical="KeppraXR">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;827207&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="keppra x r"/>
 <variant base="keppra xr™"/>
 </token>
@@ -1842,10 +1702,12 @@
 <variant base="typical dialeptic seizure"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Mellaril" canonical="Mellaril">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;152018&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="mellaril"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PhenTussDM" canonical="PhenTussDM">
 <variant base="phen tuss d m"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;540019&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LateralOccipitalLobeSegment" canonical="LateralOccipitalLobeSegment">
 <variant base="later occipit lobe segment"/>
@@ -1861,7 +1723,6 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Aripiprazole" canonical="Aripiprazole">
 <variant base="aripiprazole"/>
 <variant base="aripiprazol"/>
-<variant base="aripiprazolum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AstaticSeizure" canonical="AstaticSeizure">
 <variant base="astatic seizure"/>
@@ -1875,6 +1736,7 @@
 <variant base="right hand"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Adgan" canonical="Adgan">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;215027&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="adgan"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RetroOlivaryArea" canonical="RetroOlivaryArea">
@@ -1892,9 +1754,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Milnacipran" canonical="Milnacipran">
 <variant base="milnacipran"/>
-<variant base="midalcipran"/>
-<variant base="milnacipranum"/>
-<variant base="(+-)-milnacipran"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Prudoxin" canonical="Prudoxin">
 <variant base="prudoxin"/>
@@ -1922,6 +1781,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Buproban" canonical="Buproban">
 <variant base="buproban"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;581650&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#EEGPattern" canonical="EEGPattern">
 <variant base="e e g pattern"/>
@@ -1935,9 +1795,7 @@
 <variant base="electrode p l5"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Bupropion" canonical="Bupropion">
-<variant base="amfebutamon"/>
 <variant base="bupropion"/>
-<variant base="amfebutamone"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#NeuronalHeterotopia" canonical="NeuronalHeterotopia">
 <variant base="neuronal heterotopia"/>
@@ -1948,39 +1806,8 @@
 <variant base="second digit of hand"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Ethosuximide" canonical="Ethosuximide">
-<variant base="etosuximida"/>
-<variant base="thilopem"/>
-<variant base="3-methyl-3-ethylpyrrolidine-2,5-dione"/>
-<variant base="3-methyl-3-ethylpyrrolidine-2,5-dion"/>
-<variant base="(±)-2-ethyl-2-methylsuccinimide"/>
-<variant base="2-methyl-2-ethylsuccinimid"/>
 <variant base="ethosuximid"/>
-<variant base="α-ethyl-α-methylsuccinimid"/>
-<variant base="γ-ethyl-γ-methyl-succinimide"/>
-<variant base="éthosuximide"/>
-<variant base="α-methyl-α-ethylsuccinimid"/>
-<variant base="ethosuximidum"/>
-<variant base="γ-methyl-γ-ethyl-succinimid"/>
-<variant base="3-ethyl-3-methyl-2,5-pyrrolidinedion"/>
-<variant base="2-ethyl-2-methylsuccinimid"/>
-<variant base="éthosuximid"/>
-<variant base="γ-ethyl-γ-methyl-succinimid"/>
-<variant base="thilopemal"/>
-<variant base="2-ethyl-2-methylsuccinimide"/>
-<variant base="3-ethyl-3-methyl-2,5-pyrrolidinedione"/>
-<variant base="atysmal"/>
-<variant base="γ-methyl-γ-ethyl-succinimide"/>
-<variant base="2-methyl-2-ethylsuccinimide"/>
-<variant base="3-ethyl-3-methylsuccinimide"/>
-<variant base="3-methyl-3-ethylsuccinimide"/>
-<variant base="3-methyl-3-ethylsuccinimid"/>
-<variant base="3-ethyl-3-methylsuccinimid"/>
-<variant base="α-ethyl-α-methylsuccinimide"/>
-<variant base="aethosuximide"/>
-<variant base="(±)-2-ethyl-2-methylsuccinimid"/>
-<variant base="α-methyl-α-ethylsuccinimide"/>
 <variant base="ethosuximide"/>
-<variant base="aethosuximid"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#HemisphericEpileptogenicZone" canonical="HemisphericEpileptogenicZone">
 <variant base="hemispher epileptogen zone"/>
@@ -2024,10 +1851,6 @@
 <variant base="parietal"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Flupenthixol" canonical="Flupenthixol">
-<variant base="flupenthixole"/>
-<variant base="flupentixolum"/>
-<variant base="flupentixolo"/>
-<variant base="flupentixol"/>
 <variant base="flupenthixol"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightArm" canonical="RightArm">
@@ -2043,6 +1866,7 @@
 <variant base="anterior temporal lobe segment"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Epilim" canonical="Epilim">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;151706&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="epilim"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ThetaStupor" canonical="ThetaStupor">
@@ -2159,6 +1983,7 @@
 <variant base="gustatory aura"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Antinaus" canonical="Antinaus">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;992865&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="antinaus"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Macropsia" canonical="Macropsia">
@@ -2306,10 +2131,7 @@
 <variant base="lofepramin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Isocarboxazid" canonical="Isocarboxazid">
-<variant base="isocarboxazide"/>
 <variant base="isocarboxazid"/>
-<variant base="isocarboxazida"/>
-<variant base="isocarboxazidum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#EpilepticSpasmStatus" canonical="EpilepticSpasmStatus">
 <variant base="epileptic spasm status"/>
@@ -2324,18 +2146,7 @@
 <variant base="electrode c4"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Droperidol" canonical="Droperidol">
-<variant base="1-(1-(3-(p-fluorobenzoyl)propyl)-1,2,3,6-tetrahydro-4-pyridyl)-2-benzimidazolinone"/>
 <variant base="droperidol"/>
-<variant base="1-(1-(3-(p-fluorobenzoyl)propyl)-1,2,3,6-tetrahydro-4-pyridyl)-2-benzimidazolinon"/>
-<variant base="1-(1-(4-(p-fluorophenyl)-4-oxobutyl)-1,2,3,6-tetrahydro-4-pyridyl)-2-benzimidazolinon"/>
-<variant base="1-{1-[4-(4-fluorophenyl)-4-oxobutyl]-1,2,3,6-tetrahydro-4-pyridinyl}-2,3-dihydro-1h-benzo[d]imidazol-2-one"/>
-<variant base="droperidolo"/>
-<variant base="1-{1-[4-(4-fluoro-phenyl)-4-oxo-butyl]-1,2,3,6-tetrahydro-pyridin-4-yl}-1,3-dihydro-benzoimidazol-2-on"/>
-<variant base="dropéridol"/>
-<variant base="1-(1-(4-(p-fluorophenyl)-4-oxobutyl)-1,2,3,6-tetrahydro-4-pyridyl)-2-benzimidazolinone"/>
-<variant base="droperidolum"/>
-<variant base="1-{1-[4-(4-fluorophenyl)-4-oxobutyl]-1,2,3,6-tetrahydro-4-pyridinyl}-2,3-dihydro-1h-benzo[d]imidazol-2-on"/>
-<variant base="1-{1-[4-(4-fluoro-phenyl)-4-oxo-butyl]-1,2,3,6-tetrahydro-pyridin-4-yl}-1,3-dihydro-benzoimidazol-2-one"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#OpipramolHydrochloride" canonical="OpipramolHydrochloride">
 <variant base="opipramol hydrochloride"/>
@@ -2417,6 +2228,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Haponal" canonical="Haponal">
 <variant base="hapon"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;217492&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="haponal"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CCL23" canonical="CCL23">
@@ -2565,19 +2377,8 @@
 <variant base="e e g seizure end"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Dexmethylphenidate" canonical="Dexmethylphenidate">
-<variant base="d-threo-methylphenid"/>
-<variant base="dexmetilfenidato"/>
-<variant base="dexméthylphénid"/>
-<variant base="methyl (r)-phenyl[(r)-piperidin-2-yl]acet"/>
-<variant base="dexméthylphénidate"/>
-<variant base="(+)-threo-methylphenidate"/>
-<variant base="(+)-threo-methylphenid"/>
-<variant base="d-threo-methylphenidate"/>
 <variant base="dexmethylphenidate"/>
 <variant base="dexmethylphenid"/>
-<variant base="dexmethylphenidatum"/>
-<variant base="d-tmp"/>
-<variant base="methyl (r)-phenyl[(r)-piperidin-2-yl]acetate"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftMesialFrontalLobeSegment" canonical="LeftMesialFrontalLobeSegment">
 <variant base="left mesial frontal lobe segment"/>
@@ -2597,12 +2398,13 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Adult" canonical="Adult">
 <variant base="adult"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Anergan" canonical="Anergan">
-<variant base="anergan"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrainVentricularSystem" canonical="BrainVentricularSystem">
 <variant base="ventricular system of brain"/>
 <variant base="brain ventricular system"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Anergan" canonical="Anergan">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;992861&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
+<variant base="anergan"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeCI5" canonical="ElectrodeCI5">
 <variant base="electrod c i5"/>
@@ -2620,6 +2422,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Promacot" canonical="Promacot">
 <variant base="promacot"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;219440&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Frontal10-10System" canonical="Frontal10-10System">
 <variant base="frontal 10-10 system"/>
@@ -2695,9 +2498,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Sertindole" canonical="Sertindole">
 <variant base="sertindol"/>
-<variant base="sertindolum"/>
-<variant base="1-[2-[4-[5-chloro-1-(4-fluorophenyl)-indol-3-yl]-1-piperidyl]ethyl]imidazolidin-2-on"/>
-<variant base="1-[2-[4-[5-chloro-1-(4-fluorophenyl)-indol-3-yl]-1-piperidyl]ethyl]imidazolidin-2-one"/>
 <variant base="sertindole"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrodmannArea3LeftParacentralLobuleAnteriorSegment" canonical="BrodmannArea3LeftParacentralLobuleAnteriorSegment">
@@ -2725,15 +2525,7 @@
 <variant base="electrod f5"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Vigabatrin" canonical="Vigabatrin">
-<variant base="vigabatrine"/>
-<variant base="vinyl gamma-aminobutyric acid"/>
-<variant base="vigabatrinum"/>
 <variant base="vigabatrin"/>
-<variant base="4-amino-5-hexenoic acid"/>
-<variant base="vigabatrina"/>
-<variant base="gamma vinyl gaba"/>
-<variant base="gamma-vinyl gaba"/>
-<variant base="gamma-vinyl-gamma-aminobutyric acid"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Meningitis" canonical="Meningitis">
 <variant base="meningitis"/>
@@ -2748,7 +2540,6 @@
 <variant base="electrode p2"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Asenapine" canonical="Asenapine">
-<variant base="asenapina"/>
 <variant base="asenapin"/>
 <variant base="asenapine"/>
 </token>
@@ -2784,6 +2575,7 @@
 <variant base="depakot er®"/>
 <variant base="depakote er®"/>
 <variant base="depakot e r"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;284710&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="depakote e r"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Encephalitis" canonical="Encephalitis">
@@ -2830,6 +2622,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Noxene" canonical="Noxene">
 <variant base="noxen"/>
 <variant base="noxene"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;541408&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#EpilepticSpasm" canonical="EpilepticSpasm">
 <variant base="epilept spasm"/>
@@ -2891,9 +2684,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Zuclopenthixol" canonical="Zuclopenthixol">
 <variant base="zuclopenthixol"/>
-<variant base="(z)-4-(3-(2-chlorothioxanthen-9-ylidene)propyl)-1-piperazineethanol"/>
-<variant base="zuclopentixol"/>
-<variant base="zuclopenthixolum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#HypothalamicEpilepsy" canonical="HypothalamicEpilepsy">
 <variant base="hypothalam epilepsi"/>
@@ -2980,6 +2770,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Alkabel" canonical="Alkabel">
 <variant base="alkabel"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;608686&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Amygdala" canonical="Amygdala">
 <variant base="amygdala"/>
@@ -3048,16 +2839,8 @@
 <variant base="spike-and-slow-wav complex"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Amisulpride" canonical="Amisulpride">
-<variant base="4-amino-n-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-o-anisamide"/>
 <variant base="amisulpride"/>
 <variant base="amisulprid"/>
-<variant base="4-amino-n-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-2-methoxybenzamide"/>
-<variant base="4-amino-n-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-o-anisamid"/>
-<variant base="4-amino-n-((1-ethyl-2-pyrrolidinyl)methyl)-5-(ethylsulfonyl)-2-methoxybenzamid"/>
-<variant base="aminosultoprid"/>
-<variant base="amisulpridum"/>
-<variant base="amisulprida"/>
-<variant base="aminosultopride"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftLateralFrontalLobeSegment" canonical="LeftLateralFrontalLobeSegment">
 <variant base="left later frontal"/>
@@ -3211,6 +2994,7 @@
 <variant base="e e g32 channel topograph wave plot"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#DextroStat" canonical="DextroStat">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;216555&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="dextro stat"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightShoulder" canonical="RightShoulder">
@@ -3413,9 +3197,7 @@
 <variant base="extract e r p pattern"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Lurasidone" canonical="Lurasidone">
-<variant base="lurasidona"/>
 <variant base="lurasidone"/>
-<variant base="lurasidonum"/>
 <variant base="lurasidon"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#VenousAngioma" canonical="VenousAngioma">
@@ -3468,15 +3250,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Iloperidone" canonical="Iloperidone">
 <variant base="iloperidon"/>
-<variant base="iloperidonum"/>
-<variant base="4'-(3-(4-(6-fluoro-1,2-benzisoxazol-3-yl)piperidino)propoxy)-3'-methoxyacetophenon"/>
-<variant base="4'-(3-(4-(6-fluoro-1,2-benzisoxazol-3-yl)piperidino)propoxy)-3'-methoxyacetophenone"/>
-<variant base="1-[4-[3-[4-(6-fluoro-1,2-benzisoxazol-3-yl)-1- piperidinyl]propoxy]-3-methoxyphenyl]ethanon"/>
 <variant base="iloperidone"/>
-<variant base="1-[4-[3-[4-(6-fluoro-1,2-benzisoxazol-3-yl)-1- piperidinyl]propoxy]-3-methoxyphenyl]ethanone"/>
-<variant base="iloperidona"/>
-<variant base="ilopéridon"/>
-<variant base="ilopéridone"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TemporoOccipitalEpilepsy" canonical="TemporoOccipitalEpilepsy">
 <variant base="temporo occipit epilepsi"/>
@@ -3555,27 +3329,8 @@
 <variant base="amphetamine saccharate"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Perphenazine" canonical="Perphenazine">
-<variant base="2-chloro-10-(3-(4-(2-hydroxyethyl)piperazin-1-yl)propyl)phenothiazin"/>
-<variant base="perfenazina"/>
 <variant base="perphenazine"/>
-<variant base="perfenazine"/>
-<variant base="4-[3-(2-chloro-10h-phenothiazin-10-yl)propyl]-1-piperazineethanol"/>
-<variant base="γ-(4-(β-hydroxyethyl)piperazin-1-yl)propyl-2-chlorophenothiazine"/>
-<variant base="perfenazin"/>
-<variant base="chlorpiprazin"/>
-<variant base="4-[3-(2-chlorophenothiazin-10-yl)propyl]-1-piperazineethanol"/>
-<variant base="2-chloro-10-(3-(4-(2-hydroxyethyl)piperazin-1-yl)propyl)phenothiazine"/>
-<variant base="γ-(4-(β-hydroxyethyl)piperazin-1-yl)propyl-2-chlorophenothiazin"/>
-<variant base="perphénazine"/>
-<variant base="chlorpiprazine"/>
-<variant base="perphenazinum"/>
-<variant base="perphénazin"/>
-<variant base="ethaperazin"/>
-<variant base="2-(4-[3-(2-chloro-10h-phenothiazin-10-yl)propyl]-1-piperazinyl)ethanol"/>
-<variant base="etaperazin"/>
-<variant base="etaperazine"/>
 <variant base="perphenazin"/>
-<variant base="ethaperazine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CCL5" canonical="CCL5">
 <variant base="chemokine (c-c motif) ligand 5"/>
@@ -3635,16 +3390,8 @@
 <variant base="cerebellum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Tetrabenazine" canonical="Tetrabenazine">
-<variant base="2-oxo-3-isobutyl-9,10-dimethoxy-1,3,4,6,7,11b-hexahydro-2h-benzoquinolizin"/>
 <variant base="tetrabenazin"/>
-<variant base="2-oxo-3-isobutyl-9,10-dimethoxy-1,2,3,4,6,7-hexahydro-11bh-benzo[a]quinolizine"/>
-<variant base="1,2,4,6,7,11b-hexahydro-3-isobutyl-9,10-dimethoxy-2h-benzo[a]quinolizin-2-on"/>
 <variant base="tetrabenazine"/>
-<variant base="2-oxo-3-isobutyl-9,10-dimethoxy-1,2,3,4,6,7-hexahydro-11bh-benzo[a]quinolizin"/>
-<variant base="1,2,4,6,7,11b-hexahydro-3-isobutyl-9,10-dimethoxy-2h-benzo[a]quinolizin-2-one"/>
-<variant base="2-oxo-3-isobutyl-9,10-dimethoxy-1,3,4,6,7,11b-hexahydro-2h-benzoquinolizine"/>
-<variant base="tetrabenazina"/>
-<variant base="tetrabenazinum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PeriodicPattern" canonical="PeriodicPattern">
 <variant base="period pattern"/>
@@ -3715,8 +3462,6 @@
 <variant base="diencephalon zone"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Ziprasidone" canonical="Ziprasidone">
-<variant base="ziprasidonum"/>
-<variant base="ziprasidona"/>
 <variant base="ziprasidon"/>
 <variant base="ziprasidone"/>
 </token>
@@ -3755,11 +3500,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Clobazam" canonical="Clobazam">
 <variant base="clobazam"/>
-<variant base="7-chloro-1-methyl-5-phenyl-1,5-dihydro-benzo[b][1,4]diazepine-2,4-dion"/>
-<variant base="1-phenyl-5-methyl-8-chloro-1,2,4,5-tetrahydro-2,4-dioxo-3h-1,5-benzodiazepine"/>
-<variant base="7-chloro-1-methyl-5-phenyl-1,5-dihydro-benzo[b][1,4]diazepine-2,4-dione"/>
-<variant base="1-phenyl-5-methyl-8-chloro-1,2,4,5-tetrahydro-2,4-dioxo-3h-1,5-benzodiazepin"/>
-<variant base="clobazamum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#StimulusPrecedingNegativity" canonical="StimulusPrecedingNegativity">
 <variant base="stimulus preceding negativity"/>
@@ -3803,8 +3543,6 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Fluvoxamine" canonical="Fluvoxamine">
 <variant base="fluvoxamine"/>
 <variant base="fluvoxamin"/>
-<variant base="fluvoxaminum"/>
-<variant base="fluvoxamina"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftAnteriorTemporalLobeSegment" canonical="LeftAnteriorTemporalLobeSegment">
 <variant base="left anterior tempor lobe segment"/>
@@ -3898,9 +3636,6 @@
 <variant base="phenytek"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Pregabalin" canonical="Pregabalin">
-<variant base="pregabalina"/>
-<variant base="3-isobutyl gaba"/>
-<variant base="(s)-3-isobutyl gaba"/>
 <variant base="pregabalin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Neonate" canonical="Neonate">
@@ -3926,16 +3661,16 @@
 <variant base="anterior median eminence"/>
 <variant base="anterior median emin"/>
 </token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Depression" canonical="Depression">
+<variant base="depress"/>
+<variant base="depression"/>
+</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Gender" canonical="Gender">
 <variant base="gender"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeFC5" canonical="ElectrodeFC5">
 <variant base="electrode f c5"/>
 <variant base="electrod f c5"/>
-</token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Depression" canonical="Depression">
-<variant base="depress"/>
-<variant base="depression"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrodmannArea3FrontalLobe" canonical="BrodmannArea3FrontalLobe">
 <variant base="brodmann area 3 of frontal lobe"/>
@@ -3954,6 +3689,7 @@
 <variant base="hippocampus"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Trilafon" canonical="Trilafon">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;202730&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="trilafon"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeF3" canonical="ElectrodeF3">
@@ -3984,8 +3720,6 @@
 <variant base="neuropsychiatr problem"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Levetiracetam" canonical="Levetiracetam">
-<variant base="levetiracetamum"/>
-<variant base="levetiracetame"/>
 <variant base="levetiracetam"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#MultiLobarEpilepticZone" canonical="MultiLobarEpilepticZone">
@@ -4032,6 +3766,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Quadrinal" canonical="Quadrinal">
 <variant base="quadrinal"/>
 <variant base="quadrin"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;35177&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CXCL10" canonical="CXCL10">
 <variant base="chemokin (c-x-c motif) ligand 10"/>
@@ -4137,34 +3872,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Prochlorperazine" canonical="Prochlorperazine">
 <variant base="prochlorperazine"/>
-<variant base="prochlorperazinum"/>
-<variant base="3-chloro-10-(3-(4-methyl-1-piperazinyl)propyl)phenothiazine"/>
-<variant base="n-(gamma-(4'-methylpiperazinyl-1')propyl)-3-chlorophenothiazin"/>
-<variant base="procloperazin"/>
-<variant base="3-chloro-10-(3-(1-methyl-4-piperazinyl)propyl)phenothiazine"/>
-<variant base="capazine"/>
-<variant base="n-(gamma-(4'-methylpiperazinyl-1')propyl)-3-chlorophenothiazine"/>
-<variant base="prochlorpromazin"/>
-<variant base="2-chloro-10-(3-(1-methyl-4-piperazinyl)propyl)-phenothiazin"/>
-<variant base="chloro-3 (n-methylpiperazinyl-3 propyl)-10 phenothiazine"/>
-<variant base="procloperazine"/>
-<variant base="chloro-3 (n-methylpiperazinyl-3 propyl)-10 phenothiazin"/>
-<variant base="capazin"/>
-<variant base="3-chloro-10-(3-(4-methyl-1-piperazinyl)propyl)phenothiazin"/>
-<variant base="2-chloro-10-(3-(4-methyl-1-piperazinyl)propyl)phenothiazine"/>
-<variant base="prochlorpromazine"/>
-<variant base="3-chloro-10-(3-(1-methyl-4-piperazinyl)propyl)phenothiazin"/>
-<variant base="prochlorpermazin"/>
-<variant base="prochlorpermazine"/>
-<variant base="chloropernazin"/>
-<variant base="2-chloro-10-(3-(1-methyl-4-piperazinyl)propyl)-phenothiazine"/>
-<variant base="2-chloro-10-(3-(4-methyl-1-piperazinyl)propyl)phenothiazin"/>
-<variant base="chlormeprazin"/>
-<variant base="chloropernazine"/>
-<variant base="prochlorpérazine"/>
-<variant base="prochlorpérazin"/>
-<variant base="chlormeprazine"/>
-<variant base="proclorperazina"/>
 <variant base="prochlorperazin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BetaStupor" canonical="BetaStupor">
@@ -4410,21 +4117,8 @@
 <variant base="brodmann area 4 of left paracentr lobul"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Methylphenidate" canonical="Methylphenidate">
-<variant base="α-phenyl-2-piperidineacetic acid methyl est"/>
 <variant base="methylphenidate"/>
-<variant base="methylphenidatum"/>
-<variant base="methyl phenidylacet"/>
-<variant base="methyl phenidylacetate"/>
-<variant base="methyl α-phenyl-α-2-piperidinylacet"/>
-<variant base="methylphenidan"/>
-<variant base="metilfenidato"/>
 <variant base="methylphenid"/>
-<variant base="methyl phenyl(piperidin-2-yl)acet"/>
-<variant base="methyl α-phenyl-α-(2-piperidyl)acet"/>
-<variant base="α-phenyl-2-piperidineacetic acid methyl ester"/>
-<variant base="methyl phenyl(piperidin-2-yl)acetate"/>
-<variant base="methyl α-phenyl-α-2-piperidinylacetate"/>
-<variant base="methyl α-phenyl-α-(2-piperidyl)acetate"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightHippocampus" canonical="RightHippocampus">
 <variant base="right hippocampus"/>
@@ -4461,15 +4155,7 @@
 <variant base="mianserin hydrochloride"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Mianserin" canonical="Mianserin">
-<variant base="1,2,3,4,10,14b-hexahydro-2-methyldibenzo(c,f)pyrazino(1,2-a)azepin"/>
-<variant base="mianserine"/>
-<variant base="miansérine"/>
-<variant base="1,2,3,4,10,14b-hexahydro-2-methyldibenzo(c,f)pyrazino(1,2-a)azepine"/>
 <variant base="mianserin"/>
-<variant base="mianserinum"/>
-<variant base="miansérin"/>
-<variant base="mianserina"/>
-<variant base="mianseryna"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PolyopiaStatus" canonical="PolyopiaStatus">
 <variant base="polyopia status"/>
@@ -4645,10 +4331,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Paliperidone" canonical="Paliperidone">
 <variant base="paliperidone"/>
-<variant base="paliperidona"/>
 <variant base="paliperidon"/>
-<variant base="9-hydroxyrisperidone"/>
-<variant base="9-hydroxyrisperidon"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#SecondToe" canonical="SecondToe">
 <variant base="second toe"/>
@@ -4687,15 +4370,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Zonisamide" canonical="Zonisamide">
 <variant base="zonisamid"/>
-<variant base="zonisamida"/>
-<variant base="1,2-benzisoxazole-3-methanesulfonamide"/>
 <variant base="zonisamide"/>
-<variant base="benzo[d]isoxazol-3-yl-methanesulfonamid"/>
-<variant base="benzo[d]isoxazol-3-yl-methanesulfonamide"/>
-<variant base="3-(sulfamoylmethyl)-1,2-benzisoxazole"/>
-<variant base="1,2-benzisoxazole-3-methanesulfonamid"/>
-<variant base="zonisamidum"/>
-<variant base="3-(sulfamoylmethyl)-1,2-benzisoxazol"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#NightTerror" canonical="NightTerror">
 <variant base="night terror"/>
@@ -4711,30 +4386,8 @@
 <variant base="right posterior temporal lobe segment"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Phenobarbital" canonical="Phenobarbital">
-<variant base="5-ethyl-5-phenyl-pyrimidine-2,4,6-trion"/>
-<variant base="phenylethylbarbituric acid"/>
-<variant base="phenylethylbarbitursäur"/>
-<variant base="phenylethylmalonylurea"/>
-<variant base="phenobarbitol"/>
-<variant base="fenobarbit"/>
-<variant base="phenobarbiton"/>
-<variant base="5-ethyl-5-phenylpyrimidine-2,4,6(1h,3h,5h)-trion"/>
-<variant base="phenobarbitone"/>
-<variant base="phenobarbit"/>
-<variant base="phenylethylbarbitur"/>
-<variant base="phenyläthylbarbitursäure"/>
-<variant base="fenobarbital"/>
-<variant base="5-ethyl-5-phenyl-2,4,6(1h,3h,5h)-pyrimidinetrion"/>
-<variant base="phenylethylbarbitursäure"/>
 <variant base="phenobarbital"/>
-<variant base="5-ethyl-5-phenylbarbituric acid"/>
-<variant base="5-ethyl-5-phenyl-pyrimidine-2,4,6-trione"/>
-<variant base="5-ethyl-5-phenyl-2,4,6(1h,3h,5h)-pyrimidinetrione"/>
-<variant base="phenylethylbarbiturate"/>
-<variant base="5-ethyl-5-phenylpyrimidine-2,4,6(1h,3h,5h)-trione"/>
-<variant base="phenobarbituric acid"/>
-<variant base="phenyläthylbarbitursäur"/>
-<variant base="5-phenyl-5-ethylbarbituric acid"/>
+<variant base="phenobarbit"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ParoxysmalEvent" canonical="ParoxysmalEvent">
 <variant base="seizure semiology"/>
@@ -4757,14 +4410,8 @@
 <variant base="hyperventilation response"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Primidone" canonical="Primidone">
-<variant base="2-deoxyphenobarbital"/>
-<variant base="2-deoxyphenobarbit"/>
-<variant base="primidonum"/>
 <variant base="primidon"/>
-<variant base="primidona"/>
 <variant base="primidone"/>
-<variant base="5-phenyl-5-ethyl-hexahydropyrimidine-4,6-dione"/>
-<variant base="5-phenyl-5-ethyl-hexahydropyrimidine-4,6-dion"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ScalpElectrode" canonical="ScalpElectrode">
 <variant base="scalp electrod"/>
@@ -4816,25 +4463,15 @@
 <variant base="electrod f c1"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Ezogabine" canonical="Ezogabine">
-<variant base="n-(2-amino-4-(4-fluorobenzylamino)-phenyl) carbamic acid ethyl ester"/>
 <variant base="ezogabin"/>
-<variant base="ethyl {2-amino-4-[(4-fluorobenzyl)amino]phenyl}carbam"/>
-<variant base="n-(2-amino-4-(4-fluorobenzylamino)-phenyl) carbamic acid ethyl est"/>
-<variant base="ethyl {2-amino-4-[(4-fluorobenzyl)amino]phenyl}carbamate"/>
-<variant base="n-(2-amino-4-(4-fluorobenzylamino)phenyl)carbamic acid ethyl est"/>
-<variant base="retigabin"/>
-<variant base="retigabina"/>
-<variant base="retigabine"/>
 <variant base="ezogabine"/>
-<variant base="n-(2-amino-4-(4-fluorobenzylamino)phenyl)carbamic acid ethyl ester"/>
-<variant base="ethyl 2-amino-4-((p-fluorobenzyl)amino)carbanil"/>
-<variant base="ethyl 2-amino-4-((p-fluorobenzyl)amino)carbanilate"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#HypomotorEpisode" canonical="HypomotorEpisode">
 <variant base="hypomotor episode"/>
 <variant base="hypomotor episod"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Potiga" canonical="Potiga">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;1112994&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="potiga"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeCPz" canonical="ElectrodeCPz">
@@ -4851,24 +4488,20 @@
 <variant base="brodmann area 4 segment"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Lamotrigine" canonical="Lamotrigine">
-<variant base="lamotrigina"/>
-<variant base="3,5-diamino-6-(2,3-dichlorophenyl)-1,2,4-triazin"/>
-<variant base="lamotriginum"/>
 <variant base="lamotrigine"/>
-<variant base="3,5-diamino-6-(2,3-dichlorophenyl)-1,2,4-triazine"/>
 <variant base="lamotrigin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightDorsalHypothalamicArea" canonical="RightDorsalHypothalamicArea">
 <variant base="right dorsal hypothalam area"/>
 <variant base="right dorsal hypothalamic area"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClinicalEvaluation" canonical="ClinicalEvaluation">
-<variant base="clinic evalu"/>
-<variant base="clinical evaluation"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#SexualSeizure" canonical="SexualSeizure">
 <variant base="sexual seizure"/>
 <variant base="sexual seizur"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClinicalEvaluation" canonical="ClinicalEvaluation">
+<variant base="clinic evalu"/>
+<variant base="clinical evaluation"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CardinalFreeLimbSegment" canonical="CardinalFreeLimbSegment">
 <variant base="cardin free limb segment"/>
@@ -4948,13 +4581,13 @@
 <variant base="hypothalamic hamartoma"/>
 <variant base="hypothalam hamartoma"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePL6" canonical="ElectrodePL6">
-<variant base="electrod p l6"/>
-<variant base="electrode p l6"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ClomipramineHydrochloride" canonical="ClomipramineHydrochloride">
 <variant base="clomipramin hydrochlorid"/>
 <variant base="clomipramine hydrochloride"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePL6" canonical="ElectrodePL6">
+<variant base="electrod p l6"/>
+<variant base="electrode p l6"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#FocalCorticalDysplasiaTypeII" canonical="FocalCorticalDysplasiaTypeII">
 <variant base="focal cortic dysplasia type i i"/>
@@ -4991,11 +4624,7 @@
 <variant base="frontocentr n270"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Diazepam" canonical="Diazepam">
-<variant base="methyl diazepinon"/>
 <variant base="diazepam"/>
-<variant base="methyl diazepinone"/>
-<variant base="7-chloro-1,3-dihydro-1-methyl-5-phenyl-2h-1,4-benzodiazepin-2-on"/>
-<variant base="7-chloro-1,3-dihydro-1-methyl-5-phenyl-2h-1,4-benzodiazepin-2-one"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#InsulaAnteriorLobule" canonical="InsulaAnteriorLobule">
 <variant base="anterior lobul of insula"/>
@@ -5042,6 +4671,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TegretolXR" canonical="TegretolXR">
 <variant base="tegretol x r"/>
 <variant base="tegretol xr®"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;152408&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Limbitrol" canonical="Limbitrol">
 <variant base="limbitrol"/>
@@ -5059,11 +4689,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Olanzapine" canonical="Olanzapine">
 <variant base="olanzapine"/>
-<variant base="olanzapinum"/>
-<variant base="2-methyl-4-(4-methyl-1-piperazinyl)-10h-thieno[2,3-b][1,5]benzodiazepin"/>
 <variant base="olanzapin"/>
-<variant base="olanzapina"/>
-<variant base="2-methyl-4-(4-methyl-1-piperazinyl)-10h-thieno[2,3-b][1,5]benzodiazepine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeAP6" canonical="ElectrodeAP6">
 <variant base="electrode a p6"/>
@@ -5090,6 +4716,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#DesipramineHydrochloride" canonical="DesipramineHydrochloride">
 <variant base="desipramine hydrochloride"/>
 <variant base="desipramin hydrochlorid"/>
+<variant base="desipramine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ThermalStatus" canonical="ThermalStatus">
 <variant base="thermal status"/>
@@ -5119,6 +4746,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Pertofrane" canonical="Pertofrane">
 <variant base="pertofrane"/>
 <variant base="pertofran"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;8078&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodeAM7" canonical="ElectrodeAM7">
 <variant base="electrode a m7"/>
@@ -5153,17 +4781,7 @@
 <variant base="automotor status"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Triflupromazine" canonical="Triflupromazine">
-<variant base="2-trifluoromethyl-10-(gamma-dimethylaminopropyl)phenothiazine"/>
-<variant base="triflupromazina"/>
-<variant base="10-(3-(dimethylamino)propyl)-2-(trifluoromethyl)phenothiazin"/>
-<variant base="10-(3-(dimethylamino)propyl)-2-(trifluoromethyl)phenothiazine"/>
-<variant base="2-(trifluoromethyl)promazin"/>
-<variant base="2-(trifluoromethyl)promazine"/>
-<variant base="fluopromazine"/>
-<variant base="2-trifluoromethyl-10-(gamma-dimethylaminopropyl)phenothiazin"/>
 <variant base="triflupromazin"/>
-<variant base="fluopromazin"/>
-<variant base="triflupromazinum"/>
 <variant base="triflupromazine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightCingulateGyrus" canonical="RightCingulateGyrus">
@@ -5194,6 +4812,7 @@
 <variant base="foot"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Vanatrip" canonical="Vanatrip">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;220736&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="vanatrip"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#JuvenileAbsenceEpilepsy" canonical="JuvenileAbsenceEpilepsy">
@@ -5311,7 +4930,6 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Zotepine" canonical="Zotepine">
 <variant base="zotepin"/>
-<variant base="zotepina"/>
 <variant base="zotepine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#GABRG2" canonical="GABRG2">
@@ -5336,14 +4954,11 @@
 <variant base="cavernous angioma"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Nefazodone" canonical="Nefazodone">
-<variant base="1-(3-(4-(m-chlorophenyl)-1-piperazinyl)propyl)-3-ethyl-4-(2-phenoxyethyl)-delta2-1,2,4-triazolin-5-one"/>
 <variant base="nefazodone"/>
 <variant base="nefazodon"/>
-<variant base="nefazodonum"/>
-<variant base="nefazodona"/>
-<variant base="1-(3-(4-(m-chlorophenyl)-1-piperazinyl)propyl)-3-ethyl-4-(2-phenoxyethyl)-delta2-1,2,4-triazolin-5-on"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Di-Phen" canonical="Di-Phen">
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;216561&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="di- phen"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AmphetamineAspartateMonohydrate" canonical="AmphetamineAspartateMonohydrate">
@@ -5353,6 +4968,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Serzone" canonical="Serzone">
 <variant base="serzone"/>
 <variant base="serzon"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;151679&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Sclerosis" canonical="Sclerosis">
 <variant base="sclerosis"/>
@@ -5389,6 +5005,7 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Navane" canonical="Navane">
 <variant base="navane"/>
 <variant base="navan"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;227449&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#OlfactoryAuraStatus" canonical="OlfactoryAuraStatus">
 <variant base="olfactory aura status"/>
@@ -5427,6 +5044,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Cipramil" canonical="Cipramil">
 <variant base="cipramil"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;151516&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightCerebralHemisphere" canonical="RightCerebralHemisphere">
 <variant base="right cerebr hemispher"/>
@@ -5470,14 +5088,16 @@
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Primazine" canonical="Primazine">
 <variant base="primazin"/>
 <variant base="primazine"/>
-</token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Stelazine" canonical="Stelazine">
-<variant base="stelazin"/>
-<variant base="stelazine"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;545267&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectrodePO7" canonical="ElectrodePO7">
 <variant base="electrode p o7"/>
 <variant base="electrod p o7"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Stelazine" canonical="Stelazine">
+<variant base="stelazin"/>
+<variant base="stelazine"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;227572&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TonicSeizureEnd" canonical="TonicSeizureEnd">
 <variant base="tonic seizur end"/>
@@ -5527,10 +5147,6 @@
 <variant base="cerebr hemispher lobe"/>
 <variant base="cerebral lobe"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AkinecticStatus" canonical="AkinecticStatus">
-<variant base="akinect status"/>
-<variant base="akinectic status"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TemporalLobe" canonical="TemporalLobe">
 <variant base="temporal lobe"/>
 <variant base="tempor"/>
@@ -5541,6 +5157,10 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#FootSegment" canonical="FootSegment">
 <variant base="foot segment"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AkinecticStatus" canonical="AkinecticStatus">
+<variant base="akinect status"/>
+<variant base="akinectic status"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#NonEpilepticSeizure" canonical="NonEpilepticSeizure">
 <variant base="episod semiolog #opic#"/>
@@ -5557,23 +5177,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Amitriptyline" canonical="Amitriptyline">
 <variant base="amitriptyline"/>
-<variant base="5-(γ-dimethylaminopropylidene)-5h-dibenzo[a,d][1,4]cycloheptadien"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo[a,d]cyclohepten-5-ylidene)-n,n-dimethylpropan-1-amine"/>
-<variant base="10,11-dihydro-n,n-dimethyl-5h-dibenzo(a,d)heptalene-δ5,γ-propylamin"/>
-<variant base="amitriptylinum"/>
-<variant base="5-(3-dimethylaminopropylidene)-10,11-dihydro-5h-dibenzo(a,d)cycloheptatriene"/>
-<variant base="10,11-dihydro-5-(γ-dimethylaminopropylidene)-5h-dibenzo(a,d)cyclohepten"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo[a,d]cyclohepten-5-ylidene)-n,n-dimethylpropan-1-amin"/>
-<variant base="5-(3-dimethylaminopropylidene)-10,11-dihydro-5h-dibenzo(a,d)cycloheptatrien"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo(a,d)cyclohepten-5-ylidene)-n,n-dimethyl-1-propanamin"/>
-<variant base="10,11-dihydro-n,n-dimethyl-5h-dibenzo(a,d)heptalene-δ5,γ-propylamine"/>
-<variant base="3-(10,11-dihydro-5h-dibenzo(a,d)cyclohepten-5-ylidene)-n,n-dimethyl-1-propanamine"/>
 <variant base="amitriptylin"/>
-<variant base="5-(3-dimethylaminopropylidene)-10,11-dihydro-5h-dibenzo(a,d)cyclohepten"/>
-<variant base="5-(γ-dimethylaminopropylidene)-5h-dibenzo[a,d][1,4]cycloheptadiene"/>
-<variant base="amitriptilina"/>
-<variant base="10,11-dihydro-5-(γ-dimethylaminopropylidene)-5h-dibenzo(a,d)cycloheptene"/>
-<variant base="5-(3-dimethylaminopropylidene)-10,11-dihydro-5h-dibenzo(a,d)cycloheptene"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#GelasticStatus" canonical="GelasticStatus">
 <variant base="gelast status"/>
@@ -5618,22 +5222,8 @@
 <variant base="brodmann area 3 of left frontal lobe"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Mesoridazine" canonical="Mesoridazine">
-<variant base="10-(2(1-methyl-2-piperidyl)ethyl)-2-(methylsulfinyl)phenothiazine"/>
-<variant base="2-methanesulfinyl-10-[2-(1-methyl-piperidin-2-yl)-ethyl]-10h-phenothiazin"/>
-<variant base="2-methanesulfinyl-10-[2-(1-methyl-piperidin-2-yl)-ethyl]-10h-phenothiazine"/>
-<variant base="mesoridazinum"/>
 <variant base="mesoridazin"/>
-<variant base="10-(2-(1-methyl-2-piperidyl)ethyl)-2-methylsulfinyl phenothiazin"/>
-<variant base="10-(2(1-methyl-2-piperidyl)ethyl)-2-(methylsulfinyl)phenothiazin"/>
-<variant base="thioridazine 2-sulfoxid"/>
-<variant base="thioridazine thiomethyl sulfoxide"/>
-<variant base="thioridazine-2-sulfoxid"/>
-<variant base="10-(2-(1-methyl-2-piperidyl)ethyl)-2-methylsulfinyl phenothiazine"/>
-<variant base="thioridazine 2-sulfoxide"/>
-<variant base="mesoridazina"/>
-<variant base="thioridazine-2-sulfoxide"/>
 <variant base="mesoridazine"/>
-<variant base="thioridazine thiomethyl sulfoxid"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightMesialLesion" canonical="RightMesialLesion">
 <variant base="right mesial lesion"/>
@@ -5647,15 +5237,8 @@
 <variant base="anterior tempor epilepsi"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Atomoxetine" canonical="Atomoxetine">
-<variant base="tomoxetina"/>
-<variant base="tomoxetine"/>
-<variant base="(-)-tomoxetine"/>
-<variant base="atomoxetina"/>
 <variant base="atomoxetin"/>
-<variant base="(-)-tomoxetin"/>
 <variant base="atomoxetine"/>
-<variant base="tomoxetinum"/>
-<variant base="tomoxetin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Infant" canonical="Infant">
 <variant base="infant"/>
@@ -5709,20 +5292,8 @@
 <variant base="genetic defect"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Methotrimeprazine" canonical="Methotrimeprazine">
-<variant base="levomepromazina"/>
-<variant base="(-)-(2r)-3-(2-methoxy-10h-phenothiazin-10-yl)-n,n,2-trimethylpropan-1-amin"/>
-<variant base="levomepromazine"/>
-<variant base="2-methoxytrimeprazin"/>
-<variant base="(-)-10-(3-(dimethylamino)-2-methylpropyl)-2-methoxyphenothiazin"/>
-<variant base="(-)-10-(3-(dimethylamino)-2-methylpropyl)-2-methoxyphenothiazine"/>
-<variant base="levomepromazinum"/>
-<variant base="(-)-(2r)-3-(2-methoxy-10h-phenothiazin-10-yl)-n,n,2-trimethylpropan-1-amine"/>
-<variant base="2-methoxytrimeprazine"/>
 <variant base="methotrimeprazin"/>
 <variant base="methotrimeprazine"/>
-<variant base="lévomépromazin"/>
-<variant base="levomepromazin"/>
-<variant base="lévomépromazine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AmygdalopiriformTransitionArea" canonical="AmygdalopiriformTransitionArea">
 <variant base="amygdalopiriform transition area"/>
@@ -5770,45 +5341,16 @@
 <variant base="electrod a m5"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Amphetamine" canonical="Amphetamine">
-<variant base="α-methylphenethylamin"/>
-<variant base="amfetaminum"/>
-<variant base="rac-amphetamin"/>
-<variant base="rac-(2r)-1-phenylpropan-2-amin"/>
-<variant base="beta-aminopropylbenzen"/>
-<variant base="(+-)-alpha-methylphenylethylamine"/>
-<variant base="rac-amphetamine"/>
-<variant base="β-aminopropylbenzene"/>
-<variant base="β-phenylisopropylamin"/>
-<variant base="amphetamin"/>
-<variant base="amfetamin"/>
-<variant base="α-methylbenzeneethaneamin"/>
-<variant base="desoxynorephedrine"/>
-<variant base="(+-)-alpha-methylphenylethylamin"/>
-<variant base="beta-phenylisopropylamin"/>
-<variant base="rac-(2r)-1-phenylpropan-2-amine"/>
-<variant base="alpha-methylbenzeneethaneamin"/>
-<variant base="1-phenyl-2-aminopropane"/>
-<variant base="β-phenylisopropylamine"/>
-<variant base="α-methylphenethylamine"/>
-<variant base="α-methylbenzeneethaneamine"/>
-<variant base="amfetamina"/>
 <variant base="amphetamine"/>
-<variant base="β-aminopropylbenzen"/>
-<variant base="amfetamine"/>
-<variant base="desoxynorephedrin"/>
-<variant base="alpha-methylbenzeneethaneamine"/>
-<variant base="1-phenyl-2-aminopropan"/>
-<variant base="beta-aminopropylbenzene"/>
+<variant base="amphetamin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CerebrovascularDisease" canonical="CerebrovascularDisease">
 <variant base="cerebrovascular disease"/>
 <variant base="cerebrovascular diseas"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Clozapine" canonical="Clozapine">
-<variant base="clozapinum"/>
 <variant base="clozapine"/>
 <variant base="clozapin"/>
-<variant base="clozapina"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Tofranil" canonical="Tofranil">
 <variant base="tofranil"/>
@@ -5824,12 +5366,7 @@
 <variant base="electrode f6"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Gabapentin" canonical="Gabapentin">
-<variant base="gabapentino"/>
 <variant base="gabapentin"/>
-<variant base="gabapentine"/>
-<variant base="gabapentina"/>
-<variant base="1-(aminomethyl)cyclohexaneacetic acid"/>
-<variant base="gabapentinum"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#NortriptylineHydrochloride" canonical="NortriptylineHydrochloride">
 <variant base="nortriptylin hydrochlorid"/>
@@ -5859,6 +5396,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Bellatal" canonical="Bellatal">
 <variant base="bellatal"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;215608&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="bellat"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#TelencephalonBasalGanglion" canonical="TelencephalonBasalGanglion">
@@ -5898,26 +5436,8 @@
 <variant base="temporal intermittent rythmic delta activity"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Periciazine" canonical="Periciazine">
-<variant base="propericiazine"/>
-<variant base="periciazinum"/>
-<variant base="10-(3-(4-hydroxypiperidino)propyl)phenothiazine-2-carbonitril"/>
-<variant base="10-(3-(4-hydroxypiperidino)propyl)phenothiazine-2-carbonitrile"/>
-<variant base="piperocyanomazine"/>
-<variant base="periciazin"/>
-<variant base="pericyazine"/>
-<variant base="cyano-3 ((hydroxy-4 piperidyl-1)-3 propyl)-10 phenothiazin"/>
-<variant base="piperocyanomazin"/>
-<variant base="propericiazin"/>
-<variant base="périciazin"/>
-<variant base="périciazine"/>
-<variant base="periciazina"/>
-<variant base="cyano-3 ((hydroxy-4 piperidyl-1)-3 propyl)-10 phenothiazine"/>
 <variant base="periciazine"/>
-<variant base="2-cyano-10-(3-(4-hydroxy-1-piperidyl)propyl)phenothiazine"/>
-<variant base="2-cyano-10-(3-(4-hydroxypiperidino)propyl)phenothiazine"/>
-<variant base="2-cyano-10-(3-(4-hydroxypiperidino)propyl)phenothiazin"/>
-<variant base="2-cyano-10-(3-(4-hydroxy-1-piperidyl)propyl)phenothiazin"/>
-<variant base="pericyazin"/>
+<variant base="periciazin"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#FrontalLobeOrbitobasalSegment" canonical="FrontalLobeOrbitobasalSegment">
 <variant base="orbitobasal segment of frontal lobe"/>
@@ -5954,12 +5474,8 @@
 <variant base="amygdalohippocamp area"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Risperidone" canonical="Risperidone">
-<variant base="rispéridon"/>
 <variant base="risperidon"/>
-<variant base="risperidonum"/>
 <variant base="risperidone"/>
-<variant base="risperidona"/>
-<variant base="rispéridone"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#AuditoryAura" canonical="AuditoryAura">
 <variant base="auditory aura"/>
@@ -6040,21 +5556,22 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Frisium" canonical="Frisium">
 <variant base="frisium"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;151794&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LeftSignOfFour" canonical="LeftSignOfFour">
 <variant base="left sign of 4"/>
 <variant base="left sign of four"/>
-</token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrodmannArea4LeftFrontalLobe" canonical="BrodmannArea4LeftFrontalLobe">
-<variant base="brodmann area 4 of left frontal lobe"/>
-<variant base="brodmann area 4 left frontal lobe"/>
-<variant base="brodmann area4 left frontal lobe"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElementaryAuditoryAura" canonical="ElementaryAuditoryAura">
 <variant base="elementari auditori aura"/>
 <variant base="simple auditory aura"/>
 <variant base="simpl auditori aura"/>
 <variant base="elementary auditory aura"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#BrodmannArea4LeftFrontalLobe" canonical="BrodmannArea4LeftFrontalLobe">
+<variant base="brodmann area 4 of left frontal lobe"/>
+<variant base="brodmann area 4 left frontal lobe"/>
+<variant base="brodmann area4 left frontal lobe"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightFrontalLobeOrbitobasalSegment" canonical="RightFrontalLobeOrbitobasalSegment">
 <variant base="orbitobasal segment of right frontal lobe"/>
@@ -6066,15 +5583,15 @@
 <variant base="zuclopenthixol decano"/>
 <variant base="zuclopenthixol decanoate"/>
 </token>
-<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CXCL9" canonical="CXCL9">
-<variant base="chemokine (c-x-c motif) ligand 9"/>
-<variant base="c x c l9"/>
-<variant base="chemokin (c-x-c motif) ligand 9"/>
-</token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Depakote" canonical="Depakote">
 <variant base="depakote"/>
 <variant base="depakote®"/>
 <variant base="depakot"/>
+</token>
+<token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#CXCL9" canonical="CXCL9">
+<variant base="chemokine (c-x-c motif) ligand 9"/>
+<variant base="c x c l9"/>
+<variant base="chemokin (c-x-c motif) ligand 9"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Forebrain" canonical="Forebrain">
 <variant base="forebrain"/>
@@ -6098,9 +5615,11 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Budeprion" canonical="Budeprion">
 <variant base="budeprion"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;581646&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#PhenerganCodeine" canonical="PhenerganCodeine">
 <variant base="phenergan codein"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;93766&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 <variant base="phenergan codeine"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#RightFrontalLobe" canonical="RightFrontalLobe">
@@ -6149,6 +5668,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#LiquADD" canonical="LiquADD">
 <variant base="liqu a d d"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;800481&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Lisdexamfetamine" canonical="Lisdexamfetamine">
 <variant base="lisdexamfetamin"/>
@@ -6173,20 +5693,7 @@
 <variant base="auditori aura status"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Haloperidol" canonical="Haloperidol">
-<variant base="4-[4-(4-chlorophenyl)-4-hydroxy-1-piperidyl]-1-(4-fluorophenyl)-butan-1-one"/>
-<variant base="4'-fluoro-4-(4-(p-chlorophenyl)-4-hydroxypiperidinyl)butyrophenone"/>
-<variant base="4'-fluoro-4-(4-hydroxy-4-(4'-chlorophenyl)piperidino)butyrophenone"/>
 <variant base="haloperidol"/>
-<variant base="γ-(4-(p-chlorophenyl)-4-hydroxpiperidino)-p-fluorbutyrophenone"/>
-<variant base="4'-fluoro-4-(4-hydroxy-4-(4'-chlorophenyl)piperidino)butyrophenon"/>
-<variant base="4-(4-(para-chlorophenyl)-4-hydroxypiperidino)-4'-fluorobutyrophenone"/>
-<variant base="4-[4-(4-chlorophenyl)-4-hydroxy-1-piperidyl]-1-(4-fluorophenyl)-butan-1-on"/>
-<variant base="γ-(4-(p-chlorophenyl)-4-hydroxpiperidino)-p-fluorbutyrophenon"/>
-<variant base="1-(3-p-fluorobenzoylpropyl)-4-p-chlorophenyl-4-hydroxypiperidine"/>
-<variant base="4'-fluoro-4-(4-(p-chlorophenyl)-4-hydroxypiperidinyl)butyrophenon"/>
-<variant base="haloperidolum"/>
-<variant base="1-(3-p-fluorobenzoylpropyl)-4-p-chlorophenyl-4-hydroxypiperidin"/>
-<variant base="4-(4-(para-chlorophenyl)-4-hydroxypiperidino)-4'-fluorobutyrophenon"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Epilepsy" canonical="Epilepsy">
 <variant base="epilepsy"/>
@@ -6226,6 +5733,7 @@
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Hyosophen" canonical="Hyosophen">
 <variant base="hyosophen"/>
+<variant base="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot;?&gt;&lt;rxnormdata&gt;&lt;idgroup&gt;&lt;rxnormid&gt;217656&lt;/rxnormid&gt;&lt;/idgroup&gt;&lt;/rxnormdata&gt;"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#ElectroencephalographyData" canonical="ElectroencephalographyData">
 <variant base="eeg data"/>
@@ -6234,13 +5742,8 @@
 <variant base="electroencephalography data"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Lacosamide" canonical="Lacosamide">
-<variant base="lacosamida"/>
 <variant base="lacosamide"/>
-<variant base="erlosamide"/>
-<variant base="erlosamid"/>
 <variant base="lacosamid"/>
-<variant base="harkoserid"/>
-<variant base="harkoseride"/>
 </token>
 <token CodeType="EpSO" CodeValue="http://www.case.edu/EpSO.owl#Sarafem" canonical="Sarafem">
 <variant base="sarafem"/>

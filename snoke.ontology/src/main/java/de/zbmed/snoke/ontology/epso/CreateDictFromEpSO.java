@@ -74,7 +74,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		try {
 			cmd = parser.parse(options, args);
 		} catch (ParseException e) {
-			System.out.println(e.getMessage());
+			log.error(e.getMessage());
 			formatter.printHelp("utility-name", options);
 
 			System.exit(1);
@@ -113,7 +113,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		int counter = 0;
 		while (eiter.hasNext()) {
 			OntClass oc = eiter.next();
-			System.out.println(++counter + 
+			log.debug(++counter + 
 					"\t" + oc.getLocalName() + 
 					"\t" + oc.getPropertyValue(psyn) + 
 					"\t" + oc.getLabel(null) + 
@@ -126,7 +126,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		int counter = 0;
 		while (iter.hasNext()) {
 			RDFNode rdf = iter.nextNode();
-			System.out.println(++counter + "\t" + rdf.toString());
+			log.debug(++counter + "\t" + rdf.toString());
 		}
 	}
 	
@@ -135,7 +135,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		int counter = 0;
 		while (eiter.hasNext()) {
 			OntClass oc = eiter.next();
-			System.out.println(++counter + "\t" + oc.getLocalName());
+			log.debug(++counter + "\t" + oc.getLocalName());
 		}
 	}
 	
@@ -150,16 +150,11 @@ public class CreateDictFromEpSO extends DictHandler {
 		} catch (JenaException je) {
 			log.error("ERROR" + je.getMessage());
 			je.printStackTrace();
-			System.exit(0);
+			System.exit(-1);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		/**
-		 * Load RXNORM ontology
-		 */
-		// loadRxNorm ("resources/ontologies/RXNORM.ttl");
 		
 		/**
 		 * Load NEMO ontology
@@ -246,7 +241,7 @@ public class CreateDictFromEpSO extends DictHandler {
 			String fmaid = synonyms.replace(fmaurl + "#", "");
 			String synFromLabel = fmaid.replaceAll("_", " ");
 			String fmasyn = fma.labelsynmap.get(synFromLabel);
-			System.out.println("#FMA\t\t" + fmaid + "\t" + fmasyn);
+			log.debug("#FMA\t\t" + fmaid + "\t" + fmasyn);
 			if (fmaid != null && fmaid.length()>0) {
 				synset = addSynonymToToken (synFromLabel.toLowerCase(), synset);
 				synset= addStemmedSynonymToToken (synFromLabel.toLowerCase(), synset);
@@ -255,7 +250,7 @@ public class CreateDictFromEpSO extends DictHandler {
 			if (fmasyn != null && fmasyn.length()>0) {
 				synset = addSynonymToToken (fmasyn.toLowerCase(), synset);
 				synset = addStemmedSynonymToToken (fmasyn.toLowerCase(), synset);
-				System.out.println("Added as synonym from FMA synonym:\t" + fmasyn);
+				log.debug("Added as synonym from FMA synonym:\t" + fmasyn);
 			}
 		}
 
@@ -263,7 +258,7 @@ public class CreateDictFromEpSO extends DictHandler {
 	}
 
 	public Set <String> processSynonymsFromNemo (String synonyms, Set <String> synset) {
-		System.out.println("Doing something in NEMO:\t" + synonyms);
+		log.debug("Doing something in NEMO:\t" + synonyms);
 		if (synonyms.startsWith(nemourl)) {
 			String nemoid = synonyms.replace(nemourl + "#", "");
 			OntClass nemoclass = nemo.getOntClass(synonyms);
@@ -283,17 +278,10 @@ public class CreateDictFromEpSO extends DictHandler {
 					
 					if (rnemosyn.isLiteral()) {
 						nemosyn = rnemosyn.asLiteral().getString();
-						//System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel + "#\t" + nemosyn);
-					} else {
-						//System.out.println(rnemosyn.isResource());
-					}
-						
-				} else {
-					// System.out.println("\t#\t" + nemoclass.getLocalName() + "\t" + nemolabel);
+					} 
 				}
 				if (nemosyn.length()>0) {
 					System.out.println("Adding synonym retrieved from NEMO:\t" + nemosyn);
-					
 					synset = addSynonymToToken(nemosyn.toLowerCase(), synset);
 					synset = addStemmedSynonymToToken(nemosyn.toLowerCase(), synset);
 				}
@@ -313,8 +301,7 @@ public class CreateDictFromEpSO extends DictHandler {
 			String rxcui = synonyms.replace(rxurl, "");
 			String drugname = rx.getConceptnameForIdentifier(rxcui);
 			synset = addSynonymToToken (drugname, synset);
-			System.out.println("Added as synonym from RxNORM synonym:\t" + drugname);
-			
+			log.debug("Added as synonym from RxNORM synonym:\t" + drugname);
 		}
 		return synset;
 	}
