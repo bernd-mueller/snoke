@@ -2206,11 +2206,11 @@
 <variant base="noachter 1999 evoked response"/>
 <variant base="noachter 1999 evoked response: tautology. use of term discouraged. term suggested: evoked potential."/>
 </token>
-<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Heterotopia" canonical="Heterotopia">
-<variant base="heterotopia"/>
-</token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Eyelid_Flutter" canonical="Eyelid_Flutter">
 <variant base="eyelid flutter"/>
+</token>
+<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Heterotopia" canonical="Heterotopia">
+<variant base="heterotopia"/>
 </token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Classification_System" canonical="Classification_System">
 <variant base="classification system"/>
@@ -3224,6 +3224,8 @@
 </token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atonic_Seizure" canonical="Atonic_Seizure">
 <variant base="atonic seizure"/>
+<variant base="bancaud 1981 a sudden diminution in muscle tone occurs which may be fragmentary, leading to a head drop with slackening of the jaw, the dropping of a limb or a loss of all muscle tone leading to a slumping to the ground. when these attacks are extremely brief they are known a s ‘‘drop attacks.” if consciousness is lost, this loss is extremely brief. the sudden loss of postural tone in the head and trunk may lead to injury by projecting objects. the face is particularly subject to injury. in the case of more prolonged atonic attacks, the slumping may be progressive in a rhythmic, successive relaxation manner. (so-called drop attacks may be seen in conditions other than epilepsy, such as brainstem ischemia and narcolepsy cataplexy syndrome.) absence with atonic components atonic seizures eeg seizure type polyspikes and wave or flattening or low-voltage fast activity eeg interictal expression polyspike and slow wave ilae 1989 luders 1998 atonic seizure location: left/right/axial/generalized/bilateral asymmetric blume 2001 1.1.4 atonic: sudden loss of diminution of muscle tone without apparent preceding myoclonic or tonic event lasting &gt;1 to 2 s, involving head, trunk, jaw, or limb musculature. engel 2001 myoclonic atonic seizures atonic seizures berg 2010 atonic location: left/right/axial/generalized/bilateral asymmetric"/>
+<variant base="Bancaud 1981 A sudden diminut in muscl tone occur which may be fragmentary, lead to a head drop with slacken of the jaw, the drop of a limb or a loss of all muscl tone lead to a slump to the ground. When these attack are extrem brief they are known a s ‘‘drop attacks.” If conscious is lost, this loss is extrem brief. The sudden loss of postur tone in the head and trunk may lead to injuri by project objects. The face is particular subject to injury. In the case of more prolong aton attacks, the slump may be progress in a rhythmic, success relax manner. (So-cal drop attack may be seen in condit other than epilepsy, such as brainstem ischemia and narcolepsi cataplexi syndrome.) Absenc with aton compon Atonic seizur EEG Seizur Type Polyspik and wave or flatten or low-voltag fast activ EEG interict Expression Polyspik and slow wave ILAE 1989 Luder 1998 Atonic Seizur Location: Left/Right/Axial/Generalized/Bilater Asymmetr Blume 2001 1.1.4 Atonic: Sudden loss of diminut of muscl tone without appar preced myoclon or tonic event last &gt;1 to 2 s, involv head, trunk, jaw, or limb musculature. Engel 2001 Myoclon aton seizur Atonic seizur Berg 2010 Atonic Location: Left/right/axial/generalized/bilater asymmetr"/>
 <variant base="aton seizur"/>
 </token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Noachter_1999_High_Frequency_Response" canonical="Noachter_1999_High_Frequency_Response">
@@ -5124,14 +5126,14 @@
 <variant base="thurman 2011 epidemiolgoic surveillance and study concepts"/>
 <variant base="thurman 2011 to assess the public health importance of epilepsy and to design and promote effective health care and service programs it is necessary to describe: • the magnitude of the problem (e.g., total number of cases; incidence rate, i.e., the rate of new cases occurring in the population; mortality rate, i.e., the rate of deaths occurring with the condition; and prevalence, i.e., the proportion of the population with the condition) • populations at highest risk of epilepsy (e.g., demographic characteristics) • associations, risk factors, and causes • severity and outcome (e.g., seizure frequency and duration, symptoms, comorbidities, resulting disability, and cost of care)"/>
 </token>
+<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Benign_Familial_Infantile_Seizures" canonical="Engel_2006_Benign_Familial_Infantile_Seizures">
+<variant base="engel 2006 benign famili infantil seizur"/>
+<variant base="engel 2006 benign familial infantile seizures"/>
+</token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Epilepsia_Partialis_Continua_Of_Kojevnikov" canonical="Engel_2001_Epilepsia_Partialis_Continua_Of_Kojevnikov">
 <variant base="engel 2001 epilepsia partiali continua of kojevnikov"/>
 <variant base="engel 2001 epilepsia partialis continua of kojevnikov"/>
 <variant base="Engel 2001 Epilepsia Partiali Continua of Kojevnikov"/>
-</token>
-<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Benign_Familial_Infantile_Seizures" canonical="Engel_2006_Benign_Familial_Infantile_Seizures">
-<variant base="engel 2006 benign famili infantil seizur"/>
-<variant base="engel 2006 benign familial infantile seizures"/>
 </token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type" canonical="Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type">
 <variant base="early- onset benign childhood occipit epilepsy- panayiotopoulo type"/>
@@ -9236,17 +9238,17 @@
 <variant base="engel 2001 continu seizur type"/>
 <variant base="Engel 2001 Continu Seizur Type"/>
 </token>
-<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Thurman_2011_Populations_at_Highest_Risk" canonical="Thurman_2011_Populations_at_Highest_Risk">
-<variant base="thurman 2011 popul at highest risk"/>
-<variant base="Thurman 2011 To assess the public health import of epilepsi and to design and promot effect health care and servic program it is necessari to describe: • popul at highest risk of epilepsi (e.g., demograph characteristics)"/>
-<variant base="thurman 2011 populations at highest risk"/>
-<variant base="thurman 2011 to assess the public health importance of epilepsy and to design and promote effective health care and service programs it is necessary to describe: • populations at highest risk of epilepsy (e.g., demographic characteristics)"/>
-</token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Flexor_Muscle_Group" canonical="Flexor_Muscle_Group">
 <variant base="flexor muscl group"/>
 <variant base="Bancaud 1981 Flexor muscl group"/>
 <variant base="flexor muscle group"/>
 <variant base="bancaud 1981 flexor muscle group"/>
+</token>
+<token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Thurman_2011_Populations_at_Highest_Risk" canonical="Thurman_2011_Populations_at_Highest_Risk">
+<variant base="thurman 2011 popul at highest risk"/>
+<variant base="Thurman 2011 To assess the public health import of epilepsi and to design and promot effect health care and servic program it is necessari to describe: • popul at highest risk of epilepsi (e.g., demograph characteristics)"/>
+<variant base="thurman 2011 populations at highest risk"/>
+<variant base="thurman 2011 to assess the public health importance of epilepsy and to design and promote effective health care and service programs it is necessary to describe: • populations at highest risk of epilepsy (e.g., demographic characteristics)"/>
 </token>
 <token CodeType="ESSO" CodeValue="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Respiratory_Sign" canonical="Respiratory_Sign">
 <variant base="respiratori sign"/>
