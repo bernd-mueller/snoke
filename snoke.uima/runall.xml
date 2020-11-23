@@ -91,7 +91,7 @@
         </collectionIterator>
             
     </collectionReader>
-    <casProcessors casPoolSize="256" processingUnitThreadCount="64">
+    <casProcessors casPoolSize="256" processingUnitThreadCount="56">
             
         <casProcessor deployment="integrated" name="TokenizerZBMED">
                     
@@ -100,7 +100,9 @@
                 <import location="descriptors/zbmed/uima/analysis/TokenizerZBMED.xml"/>
                         
             </descriptor>
-	    <deploymentParameters/>
+	    <deploymentParameters>
+  			<parameter name="service-access" value="exclusive" />
+		</deploymentParameters>
 	    <configurationParameterSettings>
                             
                   <nameValuePair>
@@ -362,11 +364,11 @@
             </configurationParameterSettings>
                 
         </casProcessor>
-        <casProcessor deployment="integrated" name="ConceptMapper_Dict_DrugBank">
+        <casProcessor deployment="integrated" name="ConceptMapper_Dict_DrugNames">
                     
             <descriptor>
                             
-                <import location="descriptors/zbmed/uima/analysis/ConceptMapperOffsetTokenizer_Dict_DrugBank.xml"/>
+                <import location="descriptors/zbmed/uima/analysis/ConceptMapperOffsetTokenizer_Dict_DrugNames.xml"/>
                         
             </descriptor>
             <deploymentParameters/>
@@ -453,7 +455,7 @@
                                     
                     <value>
                                             
-                        <string>uimaall</string>
+                        <string>uimaall-2020-11-19</string>
                                         
                     </value>
                                 
