@@ -12,7 +12,7 @@
     	<developer>
     		<name>Bernd Müller</name>
     		<email>{bernd.mueller,muellerb}@zbmed.de</email>
-    		<url>https://labs.livivo.de</url>
+    		<url>https://github.com/bernd-mueller/</url>
     		<id>
     			0000-0003-3062-8192
     		</id>
@@ -253,6 +253,6 @@
     	<module>snoke.dl</module>
     	<module>snoke.ontology</module>
     	<module>snoke.neo4j</module>
-    <module>snoke.utility</module>
-  </modules>
+    	<module>snoke.utility</module>
+  	</modules>
 </project>
