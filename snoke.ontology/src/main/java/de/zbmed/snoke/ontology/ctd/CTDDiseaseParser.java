@@ -35,6 +35,9 @@ import org.xml.sax.SAXException;
  * @since 2016
  */
 public class CTDDiseaseParser {
+	CTDDiseaseParser () {
+		
+	}
 
 	public void readCLI (String [] args) {
 		

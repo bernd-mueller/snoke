@@ -75,8 +75,6 @@ public class CTDParserForDrugMeSH {
 			HelpFormatter formatter = new HelpFormatter();
 			formatter.printHelp(this.getClass().getName(), options );
 		}
-		
-
 	}
 	
 	public void parseCTDForDrugBankMeSHMapping (String ctdfile, String outfile) {
