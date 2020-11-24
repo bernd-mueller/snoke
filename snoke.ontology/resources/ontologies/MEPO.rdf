@@ -1,0 +1,1341 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ESSO="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#"
+    xmlns:EPILONT="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:EPISEM="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:FENICS="http://webprotege.stanford.edu/"
+    xmlns:EpSO="http://www.case.edu/EpSO.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Visual_Hallucination">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/visual_hallucination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Limbic_Encephalitis_with_Negative_Antibodies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myasthenia_Gravis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SomatosensoryAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Somatosensory_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AtonicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atonic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Coma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/coma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AphasicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aphasic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MentalRetardation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mental_retardation"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mental_Retardation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Pyruvate_Dehydrogenase_Deficiency">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Pyruvate_Dehydrogenase_Deficiency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focal_Cortical_Dysplasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Multifocal_Cortical_Dysplasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Absence_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Absence_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VisualAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Visual_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epidemiologic_Factor">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#epidemiologic_factor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MyoclonicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutonomicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Autonomic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Infant_1_Month_to_1_Year">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_child_1_to_11_yrs"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_infant_1_to_12_months"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_adolescent_12_18_yrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#BenignChildhoodEpilepsyWithCentrotemporalSpikes">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_childhood_epilepsy_with_centrotemporal_spikes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Numbness">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/numbness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ClonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Clonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Electrodecrement">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Electrodecrement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Ethosuximide">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ethosuximide"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#PsychicAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Psychic_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Neck">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/left_carotid_bruit"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/right_carotid_bruit"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/bilateral_carotid_bruit"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neck"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Macropsia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Macropsia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Microdysgenesis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Microdysgenesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Myoclonic_Status_In_Nonprogressive_Encephalopathies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Status_In_Nonprogressive_Encephalopathies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VisualAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Visual_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Encephalopathy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/encephalopathy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sensory_Symptom">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/sensory_symptoms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Spike">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Spike"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#EpilepticSpasmStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epileptic_Spasm_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AtypicalDialepticStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atypical_Dialeptic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Drowsiness">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/drowsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Narcolepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/narcolepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Typical_Absence_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Typical_Absence_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tremor">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/tremor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Hemimegalencephaly">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemimegalencephaly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Isolated_Lissencephaly_Sequence">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Isolated_Lissencephaly_Sequence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Auditory_Hallucination">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/auditory_hallucinations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ictal">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ictal_infantile_spasms"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ictal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Adult_Greater_Than_18-60_years">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_adult_19_to_60_yrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Posttraumatic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Posttraumatic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Posttraumatic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_somatosensory"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_smell_uncinate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Automatism">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/automatisms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Immediate_And_Early_Posttraumatic_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Posttraumatic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Posttraumatic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Posttraumatic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lafora_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lafora_disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Impaired_Cognition">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/impaired_cognition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutonomicAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Autonomic_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussens_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussen_Syndrome"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Rasmussen_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Brain">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Brain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Tuberous_Sclerosis_Complex">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tuberous_Sclerosis_Complex"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HypermotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypermotor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Sulphite-Oxidase_Deficiency">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sulphite-Oxidase_Deficiency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fear">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HypomotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypomotor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Fragile_X_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fragile_X_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_Epilepsies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Reflex_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Meningitis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/meningism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_myoclonic_epilepsy_in_infancy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Myoclonic_Epilepsy_in_Infancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cortical_Dysplasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cortical_Dysplasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#B12_Metabolism_Disorder">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Folic_Acid_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AtonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atonic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Paresthesia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/paresthesia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ohtahara_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ohtahara_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemianopsia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_jaw_muscles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#GelasticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Gelastic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gelastic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Spatial_Disorientation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/spatial_disorientation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Adolescent_Greater_Than_12-18_years">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_child_1_to_11_yrs"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_infant_1_to_12_months"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_adolescent_12_18_yrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Telencephalon">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Telencephalon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_temporal_lobe_epilepsies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Familial_Temporal_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Unilateral_Polymicrogyria">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Unilateral_Polymicrogyria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Todd&apos;sParalysis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Todd&apos;s_Paralysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Amnesia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/amnesia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#FrontalLobeEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Frontal_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_1"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lafora_disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lafora_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MyoclonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Absence_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/absence_seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Syncope">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/syncope"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Electrode">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Electrode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Unverricht–Lundborg_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Unverricht-Lundborg_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Unresponsiveness">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/unresponsiveness"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/unresponsive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Epilepsy_With_Myoclonic_Astatic_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Astatic_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Sanfilippo_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sanfilippo_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#West_syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Infantile_Spasms"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#West_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SimpleMotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Simple_Motor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#DialepticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Dialeptic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AuditoryAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Auditory_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#JamaisVu">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/jamais_vu"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Jamais_Vu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Confusion">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/confusion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Idiopathic_Generalized_Epilepsy_With_Variable_Phenotype">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_generalized_epilepsies_with_variable_phenotypes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ChromosomalAbnormality">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Chromosomal_Abnormality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic_absences">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epilepsy_with_Myoclonic_Absence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cognition">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cognitive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atypical_Absence_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atypical_Absence_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sandhoff_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tay-Sachs_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SimpleMotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Simple_Motor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Fructose_1-6_Diphosphatase_Deficiency">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fructose_1-6_Diphosphatase_Deficiency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Vertigo">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/vertigo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ComplexMotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Complex_Motor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#PrimaryReadingEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Primary_reading_epilepsy"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Primary_Reading_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Head">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/small_head_circumference"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/microcephaly"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/dysmorphic_face"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/increased_head_circumference"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypertelorism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ChildhoodEpilepsyWithOccipitalParoxysms">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Childhood_Epilepsy_with_Occipital_Paroxysms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Complex_Partial_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/complex_partial_seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Familial_Temporal_Lobe_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Familial_temporal_lobe_epilepsies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focal_Cortical_Dysplasia"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Multifocal_Cortical_Dysplasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#GeneralLearningDisability">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mental_retardation"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mental_Retardation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypotonia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypotonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Aura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_somatosensory"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_smell_uncinate"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Startle_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Startle_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ContinuousSlowActivity">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Continuous_Slow_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Limbic_Epilepsies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Limbic_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#DejaVu">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/deja_vu"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Deja_Vu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AstaticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Astatic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Confused">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/confusion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ParoxysmalEvent">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Paroxysmal_Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Mitochondrial_Encephalomyopathy_Lactic_Acidosis_And_Stroke-Like_Symptoms_MELAS">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mitochondrial_Encephalomyopathy_Lactic_Acidosis_and_Stroke-Like_Symptoms_MELAS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gelastic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Gelastic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Benign_Infantile_Seizures_Non-Familial">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Infantile_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Jansky_Bielschoski_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Late_Infantile_Ceroid-Lipofuscinoisis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Subcortical_Band_Heterotopia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Subcortical_Band_Heterotopia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Generalized_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/generalized_seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Benign_Infantile_Seizures_Nonfamilial">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Infantile_Seizure_Nonfamilial"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Interictal">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Interictal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Periventricular_Nodular_Heterotopia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Periventricular_Nodular_Heterotopia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fever">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fever"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Drug_Or_Other_Chemically_Induced_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Chemically_Induced_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Drug_Induced_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TypicalDialepticStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Typical_Dialeptic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Glucose_Transport_Protein_Deficiency">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Glucose_Transport_Protein_Deficiency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#IctalNystagmus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ictal_nystagmus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AuditoryAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Auditory_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Spasm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Spasms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AbdominalAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Abdominal_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Chromosomal_Abnormalities">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Chromosomal_Abnormality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VersiveSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Versive_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Neuroaxonal_Dystrophy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neuroaxonal_Dystrophy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TypicalDialepticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Typical_Dialeptic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SleepParalysis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/sleep_paralysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AkineticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Akinetic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Drug_Induced_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Chemically_Induced_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutonomicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Autonomic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Sialidosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sialidosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Rett_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rett_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Reflex_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_seizures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Headache">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/headache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AbdominalAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Abdominal_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Myoclonic_Absence_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Absence_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CerebrovascularDisease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cerebrovascular_disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#IntermittentSlowActivity">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Intermittent_Slow_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Prognosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Prognosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Gangliocytoma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gangliocytoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutosomalDominantNocturnalFrontalLobeEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Autosomal_dominant_nocturnal_frontal_lobe_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VisualHallucination">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/visual_hallucination"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Visual_Hallucination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#DeltaRhythm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Delta_Rhythm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fatigue">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/fatigue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Cataplexy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cataplexy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Ganglioglioma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ganglioglioma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/generalized_seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ataxia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ataxia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Dentatorubropallidoluysian_Atrophy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Denatorubropallidoluysian_Atrophy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AtypicalDialepticSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atypical_Dialeptic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epilepsy_with_Myoclonic_Absence">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy_with_myoclonic_absences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Focus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neonate_Less_Than_or_Equal_to_1_Month_or_44_weeks_gestation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_neonate_birth_to_1_month"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#LambdaWave">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lambda_Wave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Myoclonic_Epilepsy_in_Infancy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_myoclonic_epilepsy_in_infancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Idiopathic_Focal_Epilepsy_of_Infancy_and_Childhood">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutomotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Automotor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ClonicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Clonic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#EpilepsyWithGeneralTonicClonicSeizureOnAwakening">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epilepsy_with_General_Tonic_Clonic_Seizure_on_Awakening"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#DialepticStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Dialeptic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutonomicAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Autonomic_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer&apos;s_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave&apos;s_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington&apos;s_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Motor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Febrile_seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Febrile_Seizures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ictal">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ictal_infantile_spasms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Primary_Reading_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Primary_reading_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Gene">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gene"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Paroxysm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Paroxysmal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#OlfactoryAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Olfactory_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epilepsy_Syndrome_List_Cited_from_1989_to_2014">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#epilepsy_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Urea_Cycle_DIsorder">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Urea_Cycle_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#West_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Infantile_Spasms"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#West_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Krabbe_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Krabbe_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Glycogen-Storage_Disorders">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Glycogen-Storage_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TonicClonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/tonic_clonic_seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic-clonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AphasicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aphasic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Decorticate_Posturing">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/decorticate_posture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Febrile_Infection-Related_Epilepsy_Syndrome_FIRES">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fever-Induced_Refractory_Epileptic_Encephalopathy_in_School-Aged_Children_FIRES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aura_Continua">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura_Continua"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Elderly_Greater_Than_60_Years">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_elderly_greater_than_60_yrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Migrating_Partial_Seizures_Of_Infancy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Migrating_Partial_Seizures_of_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Skin_Findings">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/skin_finding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Microcephaly">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/microcephaly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SomatosensoryAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Somatosensory_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#GustatoryAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gustatory_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Limbic_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Limbic_epilepsies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mitochondrial_Myopathy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ramsay-Hunt_Like_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Posttraumatic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Posttraumatic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Posttraumatic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fever-Induced_Refractory_Epileptic_Encephalopathy_in_School-Aged_Children_FIRES">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Febrile_Infection-Related_Epilepsy_Syndrome_FIRES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Malformations_Due_To_Abnormal_Cortical_Developments">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cortical_Malformation_Abnormal_Development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#OccipitalLobeEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Occipital_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Weakness">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/right_foot_drop"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/finger_and_wrist_extensor_weakness"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_knee_extension"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_intrinsic_hand_muscles"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hand_grip"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_ankle_plantar_flexion"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/distal_muscle_weakness_mild"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_in_both_legs"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_neck_extensors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_abdominals"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/left_foot_drop"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hip_extensors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_ankle_eversion"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/foot_dorsiflexor_weakness"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_knee_flexors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_ankle_dorsiflexion"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_wrist_flexion"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_thumb_opposition"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hip_abductors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/proximal_muscle_weakness_limb_girdle_distribution"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hip_flexor_weakness"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_wrist"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_thumb_abduction"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weak_right_hand"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_ankle_inversion"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_finger_abduction_left_hand"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_knee"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_right_leg"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_finger_abduction_of_right_hand"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/upper_and_lower_limb_weakness"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/right_hemiparesis"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_finger_extensors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/proximal_weakness_of_the_lower_extremities"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hip_adductors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hip_flexors"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/muscle_weakness_proximal_limb_muscle_mild_to_moderate"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/weakness_of_hip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SharpWave">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Sharp_Wave"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sharp_Wave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Vomiting">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/vomiting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#JuvenileMyoclonicEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Juvenile_myoclonic_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VersiveStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Versive_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers&apos;_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes&apos;_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Dysphasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/dysphasia"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aphasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Post_Cerebral_Insult_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Post_Cerebral_Insult_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Dravet’s_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet&apos;s_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TemporalLobeEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Temporal_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Tongue">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tongue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Primary_reading_epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Primary_Reading_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Consciousness">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Consciousness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Posttraumatic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Posttraumatic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Posttraumatic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AlphaRhythm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpha_Rhythm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Folic_Acid_Disorder"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#B12_Metabolism_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Palinopsia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/palinopsia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Febrile_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Febrile_seizures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Focal_Heterotopia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focal_Heterotopia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ohtahara_syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ohtahara_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Olfactory_Hallucination">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/olfactory_hallucination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#BackgroundSlowActivity">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Background_Slow_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Choking">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/choking"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Aminoacidopathies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aminoacidopathy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ComplexMotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Complex_Motor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Nausea">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/nausea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Burning_Pain">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/burning_pain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mydriasis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mydriasis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_infantile_seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Familial_Infantile_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#EpilepticSpasm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epileptic_Spasm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Trunk">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Trunk"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Torso"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Maple_Syrup_Urine_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Maple_Syrup_Urine_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Symptom">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Atonic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Atonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neck">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/right_carotid_bruit"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/bilateral_carotid_bruit"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/left_carotid_bruit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Generalized_Status_Epilepticus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Generalized_Status_Epilepticus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Urea_Cycle_Disorders">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Urea_Cycle_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Lafora_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Lafora_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Forearm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Forearm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Micropsia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Micropsia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Miller–Dieker_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Miller-Dieker_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ParietalLobe">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Parietal_Lobe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Learning_Disability">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/learning_disability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Cerebellum">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cerebellum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CerebralInfarction">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cerebral_infarction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TriphasicWave">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Triphasic_Wave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Face">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Face"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ParacentralLobule">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Paracentral_Lobule"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Foot">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Foot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Late_Infantile_Ceroid-Lipofuscinoisis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Jansky_Bielschoski_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Lobe_Epilepsy_Defined_By_Specific_Etiology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave&apos;s_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington&apos;s_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer&apos;s_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TemporalLobe">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Temporal_Lobe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Aura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_smell_uncinate"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/aura_somatosensory"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Post_Cerebral_Insult_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Post_Cerebral_Insult_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#PrecociousPuberty">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Precocious_Puberty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Benign_Familial_Neonatal_Seizures">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Familial_Neonatal_Seizures_BFNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Depression">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/depressed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Simple_Partial_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/simple_partial_seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#GelasticStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gelastic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Familial_Temporal_Lobe_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Familial_Temporal_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Folic_Acid_Disorder">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#B12_Metabolism_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Mouth">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mouth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Disorders_Of_Biotin_Metabolism">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Biotin_Metabolism_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Jamais_Vu">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/jamais_vu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Phenylketonuria">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Phenylketonuria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ChildhoodAbsenceEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Childhood_absence_epilepsy"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Childhood_Absence_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Balance">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/unable_to_stand"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/impaired_balance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VisualAgnosia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/visual_agnosia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Hemiconvulsion-Hemiplegia_Epilepsy_HHE_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemiconvulsion-Hemiplegia_Epilepsy_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers&apos;_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes&apos;_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SubstanceAbuse">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Substance_Abuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#PhotoparoxysmalResponse">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Photoparoxysmal_Response"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Hypsarrhythmia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypsarrhythmia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Pain">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/pain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Bipolar">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/bipolar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CorticalDevelopmentMalformation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Malformations_of_Cortical_Development"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CerebralPalsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Palsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CerebralHemorrhage">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/cerebral_hemorrhage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#NegativeMyoclonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Negative_Myoclonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Microdysgenesis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Microdysgenesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Lennox–Gastaut_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gastaut_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutismSpectrumDisorder">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Autism_Spectrum_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Parasomnias">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Parasomnia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Chemically_Induced_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Drug_Induced_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Peroxisomal_Disorders">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Peroxisomal_Disorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sharp_Wave">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Sharp_Wave"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Hamartoma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hamartoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ramsay-Hunt_Like_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mitochondrial_Myopathy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Microcephaly">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/microcephaly"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Microcephaly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes&apos;_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers&apos;_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Angelman_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Angelman_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AstaticStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Astatic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Metamorphopsia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/metamorphopsia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Child_Greater_Than_1-12_years">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_infant_1_to_12_months"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_child_1_to_11_yrs"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#current_adolescent_12_18_yrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Respiratory_Chain_Defects">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Respiratory_Chain_Defect"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Huntington_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington&apos;s_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#JuvenileAbsenceEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Juvenile_absence_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Coffin–Lowry_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Coffin-Lowry_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AlcoholAbuse">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alcohol_Abuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Clonic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Clonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Schizophrenia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Schizophrenia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Benign_Familial_Infantile_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Benign_familial_infantile_seizures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_1">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CerebralHemisphere">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Cerebral_Hemisphere"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Scotoma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/scotoma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Disorders_Of_Carbohydrate_Metabolism">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Carbohydrate_Metabolism_DIsorder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Lobe_Epilepsy_Defined_By_Specific_Etiology">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Electrodecrement">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ictal_infantile_spasms"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Ictal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#OccipitalLobe">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Occipital_Lobe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mental_Retardation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/mental_retardation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#VisualIllusion">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Visual_Illusion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Propionic_Acidemia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Propionic_Acidemia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Deja_Vu">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/deja_vu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Multifocal_Cortical_Dysplasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focal_Cortical_Dysplasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Amaurosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Amaurosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MotorStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Motor_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#OlfactoryAura">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Olfactory_Aura"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MultiFocalEpileptogenicZone">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Multiregional"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Fumarase_Deficiency">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fumarase_Deficiency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Childhood_Absence_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Childhood_absence_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Other_Organic_Acidurias">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Other_Organic_Aciduria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Finger">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Fingers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Limbic_epilepsies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Limbic_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Idiopathic_Generalized_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_Generalized_Epilepsies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Head">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypertelorism"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/small_head_circumference"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/dysmorphic_face"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/microcephaly"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/increased_head_circumference"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Head"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Migrating_Partial_Seizures_Of_Early_Infancy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Migrating_Partial_Seizures_Of_Early_Infancy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tonic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Tonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_X-Linked_Lissencephaly">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#X-Linked_Lissencephaly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Nonketotic_Hyperglycinemia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Nonketotic_Hyperglycinemia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HypermotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypermotor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Automatism">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/automatisms"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Automatism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Thigh">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Thigh"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tay-Sachs_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Sandhoff_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#SlowActivity">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Slow_Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Idiopathic_Photosensitive_Occipital_Lobe_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Idiopathic_photosensitive_occipital_lobe_epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#UnknownCause">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Unknown_Cause"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Phenobarbital">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Phenobarbital"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MesialTemporalSclerosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Sclerosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave&apos;s_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington&apos;s_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer&apos;s_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TraumaticBrainInjury">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Traumatic_Brain_Injury"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#AutomotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Automotor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Reflex_Epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Reflex_Epilepsies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HypomotorSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypomotor_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#IctalSpeech">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/ictal_speech"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#MuRhythm">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mu_Rhythm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#TonicStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tonic_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington&apos;s_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave&apos;s_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer&apos;s_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#IctalDystonia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/dystonic_posture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Bilateral_Perisylvian_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Bilateral_Perisylvian_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Celiac_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Celiac_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#FrontalLobe">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Frontal_Lobe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Encephalitis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Encephalitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Diplopia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/diplopia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Hand">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hand"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Schizencephalies">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Schizencephaly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Myoclonic_Absence_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonic_Absence_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers&apos;_Disease"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes&apos;_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#GustatoryAuraStatus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gustatory_Aura_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CavernousAngioma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cavernous_Angiomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Ceroid_Lipofuscinosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Ceroid_Lipofuscinosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Unconscious">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/unconscious"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_D-Glyceric_Acidemia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#D-Glyceric_Acidemia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#ParietalLobeEpilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Parietal_Lobe_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#FocalCorticalDysplasia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Focal_Cortical_Dysplasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Childhood_absence_epilepsy">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Childhood_Absence_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Neurofibromatosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_1"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemiparesis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hemiparesis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#CingulateGyrus">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cingulate_Region"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Cingulate_Gyrus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/seizures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Epidermal_Nevus_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Epidermal_Nevus_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussen_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussens_Syndrome"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Rasmussen_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypertonia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/hypertonia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HypothalamicHamartoma">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hypothalamic_Hamartomas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Early_Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Onset_Benign_Occipital_Epilepsy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Electric_Shock_Sensation">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/electric_shock_sensations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Early_Post_Cerebral_Insult_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Immediate_Post_Cerebral_Insult_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Postictal">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Postictal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Dravet’s_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet&apos;s_syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#HemiClonicSeizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Hemiclonic_Seizure"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemiclonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Insomnia">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/insomnia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Rasmussen_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussen_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Depression">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/depressed"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Depression"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Hemiclonic_Seizure">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Hemiclonic_Seizure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#Diencephalon">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Diencephalon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.case.edu/EpSO.owl#WicketSpike">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Wicket_Spikes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_2">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis_1"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Neurofibromatosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Retropulsion">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/retropulsion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Mitochondrial_Diseases">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Mitochondrial_Disease"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Myasthenia_Gravis">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Limbic_Encephalitis_with_Negative_Antibodies"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Rasmussen_syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussens_Syndrome"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Rasmussen_Syndrome"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Lennox–Gastaut_Syndrome">
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Gastaut_Syndrome"/>
+  </rdf:Description>
+</rdf:RDF>
