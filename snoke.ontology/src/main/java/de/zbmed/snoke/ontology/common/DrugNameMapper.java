@@ -55,7 +55,7 @@ public class DrugNameMapper {
 	/**
 	 * Getter for Map with Synonyms of Drug Names 
 	 * 
-	 * return drugmap Map with synonyms as keys and concepts as values
+	 * @return drugmap Map with synonyms as keys and concepts as values
 	 */
 	public Map<String, String> getDrugsynmap() {
 		return drugsynmap;
@@ -65,7 +65,7 @@ public class DrugNameMapper {
 	/**
 	 * Setter for Map with Synonyms of Drug Names 
 	 * 
-	 * @param drugmap Map with synonyms as keys and concepts as values
+	 * @param drugsynmap Map with synonyms as keys and concepts as values
 	 */
 	public void setDrugsynmap(Map<String, String> drugsynmap) {
 		this.drugsynmap = drugsynmap;

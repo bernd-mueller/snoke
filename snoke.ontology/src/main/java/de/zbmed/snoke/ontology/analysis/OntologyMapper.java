@@ -5,7 +5,11 @@ import java.io.FileOutputStream;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.jena.ontology.ObjectProperty;
+import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.ontology.OntResource;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
@@ -150,23 +154,26 @@ public class OntologyMapper {
 		om.writeModelToFile(m);
 	}
 	
-	OntModel createOntMappingModel () {
-		OntModel m = ModelFactory.createOntologyModel("http://www.w3.org/2002/07/owl#");
-		 String nsEpSO = "http://www.case.edu/EpSO.owl#";
-		 m.setNsPrefix("EpSO", nsEpSO);
-		 String nsESSO = "http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#";
-		 m.setNsPrefix("ESSO", nsESSO);
-		 String nsEPILONT = "http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#";
-		 m.setNsPrefix("EPILONT", nsEPILONT);
-		 String nsEPISEM = "http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/";
-		 m.setNsPrefix("EPISEM", nsEPISEM);
-		 String nsFENICS = "http://webprotege.stanford.edu/";
-		 m.setNsPrefix("FENICS", nsFENICS);
-		 String nsOWL = "http://www.w3.org/2002/07/owl#";
-		 m.setNsPrefix("owl", nsOWL);
-		 return m;
+	OntModel createOntMappingModel() {
+		String uri = "https://www.zbmed.de/mepo";
+		String ns = uri + "#";
+		OntModel m = ModelFactory.createOntologyModel( OntModelSpec.OWL_MEM );
+		
+		String nsEpSO = "http://www.case.edu/EpSO.owl#";
+		m.setNsPrefix("EpSO", nsEpSO);
+		String nsESSO = "http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#";
+		m.setNsPrefix("ESSO", nsESSO);
+		String nsEPILONT = "http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#";
+		m.setNsPrefix("EPILONT", nsEPILONT);
+		String nsEPISEM = "http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/";
+		m.setNsPrefix("EPISEM", nsEPISEM);
+		String nsFENICS = "http://webprotege.stanford.edu/";
+		m.setNsPrefix("FENICS", nsFENICS);
+		String nsOWL = "http://www.w3.org/2002/07/owl#";
+		m.setNsPrefix("owl", nsOWL);
+		return m;
 	}
-	
+
 	Model addEquivalenceToModel (OntModel m, String a, String b) {
 		if (!a.equals(b)) {
 			 String nsOWL = "http://www.w3.org/2002/07/owl#";
@@ -174,16 +181,15 @@ public class OntologyMapper {
 			 Property sameAs = m.createProperty(nsOWL + "sameAs");
 			 Resource right = m.createResource(b);
 			 m.add(left, sameAs, right);
-			 
 		}
 		 return m;
 	}
 	
 	void writeModelToFile (OntModel m) {
 		try {
-			FileOutputStream fos = new FileOutputStream("resources/ontologies/MEPOS.rdf");
+			FileOutputStream fos = new FileOutputStream("resources/ontologies/MEPOS.xrdf");
 			//m.write(fos);
-			m.write(fos, "RDF/XML");
+			m.write(fos, "RDF/XML-ABBREV");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
