@@ -1,0 +1,2505 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(ESSO:=<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#>)
+Prefix(EpSO:=<http://www.case.edu/EpSO.owl#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(EPISEM:=<http://www.semanticweb.org/danielhier/ontologies/2019/3/untitled-ontology-57/>)
+Prefix(FENICS:=<http://webprotege.stanford.edu/>)
+Prefix(EPILONT:=<http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#>)
+
+
+Ontology(
+Declaration(NamedIndividual(EpSO:AbdominalAura))
+Declaration(NamedIndividual(EpSO:AbdominalAuraStatus))
+Declaration(NamedIndividual(EpSO:AkineticSeizure))
+Declaration(NamedIndividual(EpSO:AlcoholAbuse))
+Declaration(NamedIndividual(EpSO:AlphaRhythm))
+Declaration(NamedIndividual(EpSO:Amaurosis))
+Declaration(NamedIndividual(EpSO:AphasicSeizure))
+Declaration(NamedIndividual(EpSO:AphasicStatus))
+Declaration(NamedIndividual(EpSO:AstaticSeizure))
+Declaration(NamedIndividual(EpSO:AstaticStatus))
+Declaration(NamedIndividual(EpSO:AtonicSeizure))
+Declaration(NamedIndividual(EpSO:AtonicStatus))
+Declaration(NamedIndividual(EpSO:AtypicalDialepticSeizure))
+Declaration(NamedIndividual(EpSO:AtypicalDialepticStatus))
+Declaration(NamedIndividual(EpSO:AuditoryAura))
+Declaration(NamedIndividual(EpSO:AuditoryAuraStatus))
+Declaration(NamedIndividual(EpSO:Aura))
+Declaration(NamedIndividual(EpSO:AutismSpectrumDisorder))
+Declaration(NamedIndividual(EpSO:AutomotorSeizure))
+Declaration(NamedIndividual(EpSO:AutomotorStatus))
+Declaration(NamedIndividual(EpSO:AutonomicAura))
+Declaration(NamedIndividual(EpSO:AutonomicAuraStatus))
+Declaration(NamedIndividual(EpSO:AutonomicSeizure))
+Declaration(NamedIndividual(EpSO:AutonomicStatus))
+Declaration(NamedIndividual(EpSO:AutosomalDominantNocturnalFrontalLobeEpilepsy))
+Declaration(NamedIndividual(EpSO:BackgroundSlowActivity))
+Declaration(NamedIndividual(EpSO:BenignChildhoodEpilepsyWithCentrotemporalSpikes))
+Declaration(NamedIndividual(EpSO:Brain))
+Declaration(NamedIndividual(EpSO:Cataplexy))
+Declaration(NamedIndividual(EpSO:CavernousAngioma))
+Declaration(NamedIndividual(EpSO:Cerebellum))
+Declaration(NamedIndividual(EpSO:CerebralHemisphere))
+Declaration(NamedIndividual(EpSO:CerebralHemorrhage))
+Declaration(NamedIndividual(EpSO:CerebralInfarction))
+Declaration(NamedIndividual(EpSO:CerebralPalsy))
+Declaration(NamedIndividual(EpSO:CerebrovascularDisease))
+Declaration(NamedIndividual(EpSO:ChildhoodAbsenceEpilepsy))
+Declaration(NamedIndividual(EpSO:ChildhoodEpilepsyWithOccipitalParoxysms))
+Declaration(NamedIndividual(EpSO:ChromosomalAbnormality))
+Declaration(NamedIndividual(EpSO:CingulateGyrus))
+Declaration(NamedIndividual(EpSO:ClonicSeizure))
+Declaration(NamedIndividual(EpSO:ClonicStatus))
+Declaration(NamedIndividual(EpSO:ComplexMotorSeizure))
+Declaration(NamedIndividual(EpSO:ComplexMotorStatus))
+Declaration(NamedIndividual(EpSO:ContinuousSlowActivity))
+Declaration(NamedIndividual(EpSO:CorticalDevelopmentMalformation))
+Declaration(NamedIndividual(EpSO:DejaVu))
+Declaration(NamedIndividual(EpSO:DeltaRhythm))
+Declaration(NamedIndividual(EpSO:Depression))
+Declaration(NamedIndividual(EpSO:DialepticSeizure))
+Declaration(NamedIndividual(EpSO:DialepticStatus))
+Declaration(NamedIndividual(EpSO:Diencephalon))
+Declaration(NamedIndividual(EpSO:Diplopia))
+Declaration(NamedIndividual(EpSO:Disease))
+Declaration(NamedIndividual(EpSO:Electrode))
+Declaration(NamedIndividual(EpSO:Electrodecrement))
+Declaration(NamedIndividual(EpSO:Encephalitis))
+Declaration(NamedIndividual(EpSO:Epilepsy))
+Declaration(NamedIndividual(EpSO:EpilepsyWithGeneralTonicClonicSeizureOnAwakening))
+Declaration(NamedIndividual(EpSO:EpilepticSpasm))
+Declaration(NamedIndividual(EpSO:EpilepticSpasmStatus))
+Declaration(NamedIndividual(EpSO:Ethosuximide))
+Declaration(NamedIndividual(EpSO:Face))
+Declaration(NamedIndividual(EpSO:Finger))
+Declaration(NamedIndividual(EpSO:FocalCorticalDysplasia))
+Declaration(NamedIndividual(EpSO:Foot))
+Declaration(NamedIndividual(EpSO:Forearm))
+Declaration(NamedIndividual(EpSO:FrontalLobe))
+Declaration(NamedIndividual(EpSO:FrontalLobeEpilepsy))
+Declaration(NamedIndividual(EpSO:Gangliocytoma))
+Declaration(NamedIndividual(EpSO:Ganglioglioma))
+Declaration(NamedIndividual(EpSO:GelasticSeizure))
+Declaration(NamedIndividual(EpSO:GelasticStatus))
+Declaration(NamedIndividual(EpSO:Gene))
+Declaration(NamedIndividual(EpSO:GeneralLearningDisability))
+Declaration(NamedIndividual(EpSO:GustatoryAura))
+Declaration(NamedIndividual(EpSO:GustatoryAuraStatus))
+Declaration(NamedIndividual(EpSO:Hamartoma))
+Declaration(NamedIndividual(EpSO:Hand))
+Declaration(NamedIndividual(EpSO:Head))
+Declaration(NamedIndividual(EpSO:HemiClonicSeizure))
+Declaration(NamedIndividual(EpSO:Hemimegalencephaly))
+Declaration(NamedIndividual(EpSO:HypermotorSeizure))
+Declaration(NamedIndividual(EpSO:HypermotorStatus))
+Declaration(NamedIndividual(EpSO:HypomotorSeizure))
+Declaration(NamedIndividual(EpSO:HypomotorStatus))
+Declaration(NamedIndividual(EpSO:HypothalamicHamartoma))
+Declaration(NamedIndividual(EpSO:Hypsarrhythmia))
+Declaration(NamedIndividual(EpSO:IctalDystonia))
+Declaration(NamedIndividual(EpSO:IctalNystagmus))
+Declaration(NamedIndividual(EpSO:IctalSpeech))
+Declaration(NamedIndividual(EpSO:Insomnia))
+Declaration(NamedIndividual(EpSO:IntermittentSlowActivity))
+Declaration(NamedIndividual(EpSO:JamaisVu))
+Declaration(NamedIndividual(EpSO:JuvenileAbsenceEpilepsy))
+Declaration(NamedIndividual(EpSO:JuvenileMyoclonicEpilepsy))
+Declaration(NamedIndividual(EpSO:LambdaWave))
+Declaration(NamedIndividual(EpSO:Macropsia))
+Declaration(NamedIndividual(EpSO:Meningitis))
+Declaration(NamedIndividual(EpSO:MentalRetardation))
+Declaration(NamedIndividual(EpSO:MesialTemporalSclerosis))
+Declaration(NamedIndividual(EpSO:Metamorphopsia))
+Declaration(NamedIndividual(EpSO:Microcephaly))
+Declaration(NamedIndividual(EpSO:Microdysgenesis))
+Declaration(NamedIndividual(EpSO:Micropsia))
+Declaration(NamedIndividual(EpSO:MotorSeizure))
+Declaration(NamedIndividual(EpSO:MotorStatus))
+Declaration(NamedIndividual(EpSO:Mouth))
+Declaration(NamedIndividual(EpSO:MuRhythm))
+Declaration(NamedIndividual(EpSO:MultiFocalEpileptogenicZone))
+Declaration(NamedIndividual(EpSO:MyoclonicSeizure))
+Declaration(NamedIndividual(EpSO:MyoclonicStatus))
+Declaration(NamedIndividual(EpSO:Narcolepsy))
+Declaration(NamedIndividual(EpSO:Neck))
+Declaration(NamedIndividual(EpSO:NegativeMyoclonicSeizure))
+Declaration(NamedIndividual(EpSO:OccipitalLobe))
+Declaration(NamedIndividual(EpSO:OccipitalLobeEpilepsy))
+Declaration(NamedIndividual(EpSO:OlfactoryAura))
+Declaration(NamedIndividual(EpSO:OlfactoryAuraStatus))
+Declaration(NamedIndividual(EpSO:Palinopsia))
+Declaration(NamedIndividual(EpSO:ParacentralLobule))
+Declaration(NamedIndividual(EpSO:Parasomnias))
+Declaration(NamedIndividual(EpSO:ParietalLobe))
+Declaration(NamedIndividual(EpSO:ParietalLobeEpilepsy))
+Declaration(NamedIndividual(EpSO:ParoxysmalEvent))
+Declaration(NamedIndividual(EpSO:Phenobarbital))
+Declaration(NamedIndividual(EpSO:PhotoparoxysmalResponse))
+Declaration(NamedIndividual(EpSO:PrecociousPuberty))
+Declaration(NamedIndividual(EpSO:PrimaryReadingEpilepsy))
+Declaration(NamedIndividual(EpSO:PsychicAura))
+Declaration(NamedIndividual(EpSO:Schizophrenia))
+Declaration(NamedIndividual(EpSO:SharpWave))
+Declaration(NamedIndividual(EpSO:SimpleMotorSeizure))
+Declaration(NamedIndividual(EpSO:SimpleMotorStatus))
+Declaration(NamedIndividual(EpSO:SleepParalysis))
+Declaration(NamedIndividual(EpSO:SlowActivity))
+Declaration(NamedIndividual(EpSO:SomatosensoryAura))
+Declaration(NamedIndividual(EpSO:SomatosensoryAuraStatus))
+Declaration(NamedIndividual(EpSO:Spike))
+Declaration(NamedIndividual(EpSO:SubstanceAbuse))
+Declaration(NamedIndividual(EpSO:Telencephalon))
+Declaration(NamedIndividual(EpSO:TemporalLobe))
+Declaration(NamedIndividual(EpSO:TemporalLobeEpilepsy))
+Declaration(NamedIndividual(EpSO:Thigh))
+Declaration(NamedIndividual(EpSO:Tongue))
+Declaration(NamedIndividual(EpSO:TonicClonicSeizure))
+Declaration(NamedIndividual(EpSO:TonicSeizure))
+Declaration(NamedIndividual(EpSO:TonicStatus))
+Declaration(NamedIndividual(EpSO:TraumaticBrainInjury))
+Declaration(NamedIndividual(EpSO:TriphasicWave))
+Declaration(NamedIndividual(EpSO:Trunk))
+Declaration(NamedIndividual(EpSO:TypicalDialepticSeizure))
+Declaration(NamedIndividual(EpSO:TypicalDialepticStatus))
+Declaration(NamedIndividual(EpSO:UnknownCause))
+Declaration(NamedIndividual(EpSO:VersiveSeizure))
+Declaration(NamedIndividual(EpSO:VersiveStatus))
+Declaration(NamedIndividual(EpSO:VisualAgnosia))
+Declaration(NamedIndividual(EpSO:VisualAura))
+Declaration(NamedIndividual(EpSO:VisualAuraStatus))
+Declaration(NamedIndividual(EpSO:VisualHallucination))
+Declaration(NamedIndividual(EpSO:VisualIllusion))
+Declaration(NamedIndividual(EpSO:WicketSpike))
+Declaration(NamedIndividual(<http://www.case.edu/EpSO.owl#Todd'sParalysis>))
+Declaration(NamedIndividual(EPISEM:absence_seizure))
+Declaration(NamedIndividual(EPISEM:amnesia))
+Declaration(NamedIndividual(EPISEM:aphasia))
+Declaration(NamedIndividual(EPISEM:ataxia))
+Declaration(NamedIndividual(EPISEM:auditory_hallucinations))
+Declaration(NamedIndividual(EPISEM:aura))
+Declaration(NamedIndividual(EPISEM:aura_smell_uncinate))
+Declaration(NamedIndividual(EPISEM:aura_somatosensory))
+Declaration(NamedIndividual(EPISEM:automatisms))
+Declaration(NamedIndividual(EPISEM:bilateral_carotid_bruit))
+Declaration(NamedIndividual(EPISEM:bipolar))
+Declaration(NamedIndividual(EPISEM:burning_pain))
+Declaration(NamedIndividual(EPISEM:cataplexy))
+Declaration(NamedIndividual(EPISEM:cerebral_hemorrhage))
+Declaration(NamedIndividual(EPISEM:cerebral_infarction))
+Declaration(NamedIndividual(EPISEM:cerebrovascular_disease))
+Declaration(NamedIndividual(EPISEM:choking))
+Declaration(NamedIndividual(EPISEM:coma))
+Declaration(NamedIndividual(EPISEM:complex_partial_seizure))
+Declaration(NamedIndividual(EPISEM:confusion))
+Declaration(NamedIndividual(EPISEM:decorticate_posture))
+Declaration(NamedIndividual(EPISEM:deja_vu))
+Declaration(NamedIndividual(EPISEM:depressed))
+Declaration(NamedIndividual(EPISEM:diplopia))
+Declaration(NamedIndividual(EPISEM:distal_muscle_weakness_mild))
+Declaration(NamedIndividual(EPISEM:drowsy))
+Declaration(NamedIndividual(EPISEM:dysmorphic_face))
+Declaration(NamedIndividual(EPISEM:dysphasia))
+Declaration(NamedIndividual(EPISEM:dystonic_posture))
+Declaration(NamedIndividual(EPISEM:electric_shock_sensations))
+Declaration(NamedIndividual(EPISEM:encephalopathy))
+Declaration(NamedIndividual(EPISEM:fatigue))
+Declaration(NamedIndividual(EPISEM:fear))
+Declaration(NamedIndividual(EPISEM:fever))
+Declaration(NamedIndividual(EPISEM:finger_and_wrist_extensor_weakness))
+Declaration(NamedIndividual(EPISEM:foot_dorsiflexor_weakness))
+Declaration(NamedIndividual(EPISEM:generalized_seizure))
+Declaration(NamedIndividual(EPISEM:headache))
+Declaration(NamedIndividual(EPISEM:hemiparesis))
+Declaration(NamedIndividual(EPISEM:hip_flexor_weakness))
+Declaration(NamedIndividual(EPISEM:hypertelorism))
+Declaration(NamedIndividual(EPISEM:hypertonia))
+Declaration(NamedIndividual(EPISEM:hypotonia))
+Declaration(NamedIndividual(EPISEM:ictal_infantile_spasms))
+Declaration(NamedIndividual(EPISEM:ictal_nystagmus))
+Declaration(NamedIndividual(EPISEM:ictal_speech))
+Declaration(NamedIndividual(EPISEM:impaired_balance))
+Declaration(NamedIndividual(EPISEM:impaired_cognition))
+Declaration(NamedIndividual(EPISEM:increased_head_circumference))
+Declaration(NamedIndividual(EPISEM:insomnia))
+Declaration(NamedIndividual(EPISEM:jamais_vu))
+Declaration(NamedIndividual(EPISEM:learning_disability))
+Declaration(NamedIndividual(EPISEM:left_carotid_bruit))
+Declaration(NamedIndividual(EPISEM:left_foot_drop))
+Declaration(NamedIndividual(EPISEM:meningism))
+Declaration(NamedIndividual(EPISEM:mental_retardation))
+Declaration(NamedIndividual(EPISEM:metamorphopsia))
+Declaration(NamedIndividual(EPISEM:microcephaly))
+Declaration(NamedIndividual(EPISEM:muscle_weakness_proximal_limb_muscle_mild_to_moderate))
+Declaration(NamedIndividual(EPISEM:mydriasis))
+Declaration(NamedIndividual(EPISEM:narcolepsy))
+Declaration(NamedIndividual(EPISEM:nausea))
+Declaration(NamedIndividual(EPISEM:numbness))
+Declaration(NamedIndividual(EPISEM:olfactory_hallucination))
+Declaration(NamedIndividual(EPISEM:pain))
+Declaration(NamedIndividual(EPISEM:palinopsia))
+Declaration(NamedIndividual(EPISEM:paresthesia))
+Declaration(NamedIndividual(EPISEM:proximal_muscle_weakness_limb_girdle_distribution))
+Declaration(NamedIndividual(EPISEM:proximal_weakness_of_the_lower_extremities))
+Declaration(NamedIndividual(EPISEM:retropulsion))
+Declaration(NamedIndividual(EPISEM:right_carotid_bruit))
+Declaration(NamedIndividual(EPISEM:right_foot_drop))
+Declaration(NamedIndividual(EPISEM:right_hemiparesis))
+Declaration(NamedIndividual(EPISEM:scotoma))
+Declaration(NamedIndividual(EPISEM:seizures))
+Declaration(NamedIndividual(EPISEM:sensory_symptoms))
+Declaration(NamedIndividual(EPISEM:simple_partial_seizure))
+Declaration(NamedIndividual(EPISEM:skin_finding))
+Declaration(NamedIndividual(EPISEM:sleep_paralysis))
+Declaration(NamedIndividual(EPISEM:small_head_circumference))
+Declaration(NamedIndividual(EPISEM:spatial_disorientation))
+Declaration(NamedIndividual(EPISEM:symptom))
+Declaration(NamedIndividual(EPISEM:syncope))
+Declaration(NamedIndividual(EPISEM:tonic_clonic_seizure))
+Declaration(NamedIndividual(EPISEM:tremor))
+Declaration(NamedIndividual(EPISEM:unable_to_stand))
+Declaration(NamedIndividual(EPISEM:unconscious))
+Declaration(NamedIndividual(EPISEM:unresponsive))
+Declaration(NamedIndividual(EPISEM:unresponsiveness))
+Declaration(NamedIndividual(EPISEM:upper_and_lower_limb_weakness))
+Declaration(NamedIndividual(EPISEM:vertigo))
+Declaration(NamedIndividual(EPISEM:visual_agnosia))
+Declaration(NamedIndividual(EPISEM:visual_hallucination))
+Declaration(NamedIndividual(EPISEM:vomiting))
+Declaration(NamedIndividual(EPISEM:weak_right_hand))
+Declaration(NamedIndividual(EPISEM:weakness_in_both_legs))
+Declaration(NamedIndividual(EPISEM:weakness_of_abdominals))
+Declaration(NamedIndividual(EPISEM:weakness_of_ankle_dorsiflexion))
+Declaration(NamedIndividual(EPISEM:weakness_of_ankle_eversion))
+Declaration(NamedIndividual(EPISEM:weakness_of_ankle_inversion))
+Declaration(NamedIndividual(EPISEM:weakness_of_ankle_plantar_flexion))
+Declaration(NamedIndividual(EPISEM:weakness_of_finger_abduction_left_hand))
+Declaration(NamedIndividual(EPISEM:weakness_of_finger_abduction_of_right_hand))
+Declaration(NamedIndividual(EPISEM:weakness_of_finger_extensors))
+Declaration(NamedIndividual(EPISEM:weakness_of_hand_grip))
+Declaration(NamedIndividual(EPISEM:weakness_of_hip))
+Declaration(NamedIndividual(EPISEM:weakness_of_hip_abductors))
+Declaration(NamedIndividual(EPISEM:weakness_of_hip_adductors))
+Declaration(NamedIndividual(EPISEM:weakness_of_hip_extensors))
+Declaration(NamedIndividual(EPISEM:weakness_of_hip_flexors))
+Declaration(NamedIndividual(EPISEM:weakness_of_intrinsic_hand_muscles))
+Declaration(NamedIndividual(EPISEM:weakness_of_jaw_muscles))
+Declaration(NamedIndividual(EPISEM:weakness_of_knee))
+Declaration(NamedIndividual(EPISEM:weakness_of_knee_extension))
+Declaration(NamedIndividual(EPISEM:weakness_of_knee_flexors))
+Declaration(NamedIndividual(EPISEM:weakness_of_neck_extensors))
+Declaration(NamedIndividual(EPISEM:weakness_of_right_leg))
+Declaration(NamedIndividual(EPISEM:weakness_of_thumb_abduction))
+Declaration(NamedIndividual(EPISEM:weakness_of_thumb_opposition))
+Declaration(NamedIndividual(EPISEM:weakness_of_wrist))
+Declaration(NamedIndividual(EPISEM:weakness_of_wrist_flexion))
+Declaration(NamedIndividual(EPILONT:Atonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Atypical_Absence_Seizure))
+Declaration(NamedIndividual(EPILONT:Aura))
+Declaration(NamedIndividual(EPILONT:Aura_Continua))
+Declaration(NamedIndividual(EPILONT:Automatism))
+Declaration(NamedIndividual(EPILONT:Autosomal_dominant_nocturnal_frontal_lobe_epilepsy))
+Declaration(NamedIndividual(EPILONT:Benign_childhood_epilepsy_with_centrotemporal_spikes))
+Declaration(NamedIndividual(EPILONT:Benign_familial_infantile_seizures))
+Declaration(NamedIndividual(EPILONT:Benign_myoclonic_epilepsy_in_infancy))
+Declaration(NamedIndividual(EPILONT:Cerebral_Hemisphere))
+Declaration(NamedIndividual(EPILONT:Cerebral_Palsy))
+Declaration(NamedIndividual(EPILONT:Childhood_absence_epilepsy))
+Declaration(NamedIndividual(EPILONT:Clonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Cognitive))
+Declaration(NamedIndividual(EPILONT:Consciousness))
+Declaration(NamedIndividual(EPILONT:Cortical_Dysplasia))
+Declaration(NamedIndividual(EPILONT:Electrode))
+Declaration(NamedIndividual(EPILONT:Epilepsy))
+Declaration(NamedIndividual(EPILONT:Epilepsy_with_myoclonic_absences))
+Declaration(NamedIndividual(EPILONT:Familial_temporal_lobe_epilepsies))
+Declaration(NamedIndividual(EPILONT:Febrile_seizures))
+Declaration(NamedIndividual(EPILONT:Focus))
+Declaration(NamedIndividual(EPILONT:Gelastic_Seizure))
+Declaration(NamedIndividual(EPILONT:Generalized_Seizure))
+Declaration(NamedIndividual(EPILONT:Generalized_Status_Epilepticus))
+Declaration(NamedIndividual(EPILONT:Hemiclonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Ictal))
+Declaration(NamedIndividual(EPILONT:Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood))
+Declaration(NamedIndividual(EPILONT:Idiopathic_Generalized_Epilepsies))
+Declaration(NamedIndividual(EPILONT:Idiopathic_generalized_epilepsies_with_variable_phenotypes))
+Declaration(NamedIndividual(EPILONT:Idiopathic_photosensitive_occipital_lobe_epilepsy))
+Declaration(NamedIndividual(EPILONT:Interictal))
+Declaration(NamedIndividual(EPILONT:Juvenile_absence_epilepsy))
+Declaration(NamedIndividual(EPILONT:Juvenile_myoclonic_epilepsy))
+Declaration(NamedIndividual(EPILONT:Limbic_epilepsies))
+Declaration(NamedIndividual(EPILONT:Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies))
+Declaration(NamedIndividual(EPILONT:Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis))
+Declaration(NamedIndividual(EPILONT:Myoclonic_Absence_Seizure))
+Declaration(NamedIndividual(EPILONT:Myoclonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Ohtahara_syndrome))
+Declaration(NamedIndividual(EPILONT:Paroxysmal))
+Declaration(NamedIndividual(EPILONT:Postictal))
+Declaration(NamedIndividual(EPILONT:Primary_reading_epilepsy))
+Declaration(NamedIndividual(EPILONT:Prognosis))
+Declaration(NamedIndividual(EPILONT:Rasmussen_syndrome))
+Declaration(NamedIndividual(EPILONT:Reflex_Epilepsies))
+Declaration(NamedIndividual(EPILONT:Reflex_seizures))
+Declaration(NamedIndividual(EPILONT:Seizure))
+Declaration(NamedIndividual(EPILONT:Sharp_Wave))
+Declaration(NamedIndividual(EPILONT:Spasms))
+Declaration(NamedIndividual(EPILONT:Spike))
+Declaration(NamedIndividual(EPILONT:Startle_epilepsy))
+Declaration(NamedIndividual(EPILONT:Syncope))
+Declaration(NamedIndividual(EPILONT:Tonic-clonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Tonic_Seizure))
+Declaration(NamedIndividual(EPILONT:Typical_Absence_Seizure))
+Declaration(NamedIndividual(EPILONT:West_syndrome))
+Declaration(NamedIndividual(<http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome>))
+Declaration(NamedIndividual(ESSO:Abdominal_Aura))
+Declaration(NamedIndividual(ESSO:Abdominal_Aura_Status))
+Declaration(NamedIndividual(ESSO:Absence_Seizure))
+Declaration(NamedIndividual(ESSO:Adolescent_Greater_Than_12-18_years))
+Declaration(NamedIndividual(ESSO:Adult_Greater_Than_18-60_years))
+Declaration(NamedIndividual(ESSO:Akinetic_Seizure))
+Declaration(NamedIndividual(ESSO:Alcohol_Abuse))
+Declaration(NamedIndividual(ESSO:Alpha_Rhythm))
+Declaration(NamedIndividual(ESSO:Amaurosis))
+Declaration(NamedIndividual(ESSO:Aminoacidopathy))
+Declaration(NamedIndividual(ESSO:Amnesia))
+Declaration(NamedIndividual(ESSO:Angelman_Syndrome))
+Declaration(NamedIndividual(ESSO:Aphasic_Seizure))
+Declaration(NamedIndividual(ESSO:Aphasic_Status))
+Declaration(NamedIndividual(ESSO:Astatic_Seizure))
+Declaration(NamedIndividual(ESSO:Astatic_Status))
+Declaration(NamedIndividual(ESSO:Ataxia))
+Declaration(NamedIndividual(ESSO:Atonic_Seizure))
+Declaration(NamedIndividual(ESSO:Atonic_Status))
+Declaration(NamedIndividual(ESSO:Atypical_Absence_Seizure))
+Declaration(NamedIndividual(ESSO:Atypical_Dialeptic_Seizure))
+Declaration(NamedIndividual(ESSO:Atypical_Dialeptic_Status))
+Declaration(NamedIndividual(ESSO:Auditory_Aura))
+Declaration(NamedIndividual(ESSO:Auditory_Aura_Status))
+Declaration(NamedIndividual(ESSO:Auditory_Hallucination))
+Declaration(NamedIndividual(ESSO:Aura))
+Declaration(NamedIndividual(ESSO:Aura_Continua))
+Declaration(NamedIndividual(ESSO:Autism_Spectrum_Disorder))
+Declaration(NamedIndividual(ESSO:Automatism))
+Declaration(NamedIndividual(ESSO:Automotor_Seizure))
+Declaration(NamedIndividual(ESSO:Automotor_Status))
+Declaration(NamedIndividual(ESSO:Autonomic_Aura))
+Declaration(NamedIndividual(ESSO:Autonomic_Aura_Status))
+Declaration(NamedIndividual(ESSO:Autonomic_Seizure))
+Declaration(NamedIndividual(ESSO:Autonomic_Status))
+Declaration(NamedIndividual(ESSO:B12_Metabolism_Disorder))
+Declaration(NamedIndividual(ESSO:Background_Slow_Activity))
+Declaration(NamedIndividual(ESSO:Balance))
+Declaration(NamedIndividual(ESSO:Benign_Familial_Infantile_Seizure))
+Declaration(NamedIndividual(ESSO:Benign_Familial_Neonatal_Seizures_BFNS))
+Declaration(NamedIndividual(ESSO:Benign_Infantile_Seizure))
+Declaration(NamedIndividual(ESSO:Benign_Infantile_Seizure_Nonfamilial))
+Declaration(NamedIndividual(ESSO:Benign_Myoclonic_Epilepsy_in_Infancy))
+Declaration(NamedIndividual(ESSO:Bilateral_Perisylvian_Syndrome))
+Declaration(NamedIndividual(ESSO:Biotin_Metabolism_Disorder))
+Declaration(NamedIndividual(ESSO:Bipolar))
+Declaration(NamedIndividual(ESSO:Brain))
+Declaration(NamedIndividual(ESSO:Burning_Pain))
+Declaration(NamedIndividual(ESSO:Carbohydrate_Metabolism_DIsorder))
+Declaration(NamedIndividual(ESSO:Cavernous_Angiomas))
+Declaration(NamedIndividual(ESSO:Celiac_Disease))
+Declaration(NamedIndividual(ESSO:Cerebellum))
+Declaration(NamedIndividual(ESSO:Ceroid_Lipofuscinosis))
+Declaration(NamedIndividual(ESSO:Chemically_Induced_Seizure))
+Declaration(NamedIndividual(ESSO:Child_Greater_Than_1-12_years))
+Declaration(NamedIndividual(ESSO:Childhood_Absence_Epilepsy))
+Declaration(NamedIndividual(ESSO:Childhood_Epilepsy_with_Occipital_Paroxysms))
+Declaration(NamedIndividual(ESSO:Choking))
+Declaration(NamedIndividual(ESSO:Chromosomal_Abnormality))
+Declaration(NamedIndividual(ESSO:Cingulate_Gyrus))
+Declaration(NamedIndividual(ESSO:Cingulate_Region))
+Declaration(NamedIndividual(ESSO:Clonic_Seizure))
+Declaration(NamedIndividual(ESSO:Clonic_Status))
+Declaration(NamedIndividual(ESSO:Coffin-Lowry_Syndrome))
+Declaration(NamedIndividual(ESSO:Cognition))
+Declaration(NamedIndividual(ESSO:Coma))
+Declaration(NamedIndividual(ESSO:Complex_Motor_Seizure))
+Declaration(NamedIndividual(ESSO:Complex_Motor_Status))
+Declaration(NamedIndividual(ESSO:Complex_Partial_Seizure))
+Declaration(NamedIndividual(ESSO:Confused))
+Declaration(NamedIndividual(ESSO:Confusion))
+Declaration(NamedIndividual(ESSO:Consciousness))
+Declaration(NamedIndividual(ESSO:Continuous_Slow_Activity))
+Declaration(NamedIndividual(ESSO:Cortical_Dysplasia))
+Declaration(NamedIndividual(ESSO:Cortical_Malformation_Abnormal_Development))
+Declaration(NamedIndividual(ESSO:D-Glyceric_Acidemia))
+Declaration(NamedIndividual(ESSO:Decorticate_Posturing))
+Declaration(NamedIndividual(ESSO:Deja_Vu))
+Declaration(NamedIndividual(ESSO:Delta_Rhythm))
+Declaration(NamedIndividual(ESSO:Denatorubropallidoluysian_Atrophy))
+Declaration(NamedIndividual(ESSO:Depression))
+Declaration(NamedIndividual(ESSO:Dialeptic_Seizure))
+Declaration(NamedIndividual(ESSO:Dialeptic_Status))
+Declaration(NamedIndividual(ESSO:Diencephalon))
+Declaration(NamedIndividual(ESSO:Disease))
+Declaration(NamedIndividual(ESSO:Drowsiness))
+Declaration(NamedIndividual(ESSO:Drug_Induced_Seizure))
+Declaration(NamedIndividual(ESSO:Dysphasia))
+Declaration(NamedIndividual(ESSO:Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type))
+Declaration(NamedIndividual(ESSO:Early_Onset_Benign_Occipital_Epilepsy))
+Declaration(NamedIndividual(ESSO:Early_Post_Cerebral_Insult_Seizure))
+Declaration(NamedIndividual(ESSO:Early_Posttraumatic_Seizure))
+Declaration(NamedIndividual(ESSO:Elderly_Greater_Than_60_Years))
+Declaration(NamedIndividual(ESSO:Electric_Shock_Sensation))
+Declaration(NamedIndividual(ESSO:Electrodecrement))
+Declaration(NamedIndividual(ESSO:Encephalitis))
+Declaration(NamedIndividual(ESSO:Encephalopathy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Aminoacidopathies))
+Declaration(NamedIndividual(ESSO:Engel_2001_Angelman_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Benign_Familial_Neonatal_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Benign_Infantile_Seizures_Non-Familial))
+Declaration(NamedIndividual(ESSO:Engel_2001_Benign_Infantile_Seizures_Nonfamilial))
+Declaration(NamedIndividual(ESSO:Engel_2001_Bilateral_Perisylvian_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Celiac_Disease))
+Declaration(NamedIndividual(ESSO:Engel_2001_Ceroid_Lipofuscinosis))
+Declaration(NamedIndividual(ESSO:Engel_2001_Chromosomal_Abnormalities))
+Declaration(NamedIndividual(ESSO:Engel_2001_D-Glyceric_Acidemia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Dentatorubropallidoluysian_Atrophy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Disorders_Of_Biotin_Metabolism))
+Declaration(NamedIndividual(ESSO:Engel_2001_Disorders_Of_Carbohydrate_Metabolism))
+Declaration(NamedIndividual(ESSO:Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism))
+Declaration(NamedIndividual(ESSO:Engel_2001_Drug_Or_Other_Chemically_Induced_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type))
+Declaration(NamedIndividual(ESSO:Engel_2001_Early_Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type))
+Declaration(NamedIndividual(ESSO:Engel_2001_Epidermal_Nevus_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Epilepsy_With_Myoclonic_Astatic_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Familial_Temporal_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Focal_Heterotopia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Fragile_X_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Fructose_1-6_Diphosphatase_Deficiency))
+Declaration(NamedIndividual(ESSO:Engel_2001_Fumarase_Deficiency))
+Declaration(NamedIndividual(ESSO:Engel_2001_Glucose_Transport_Protein_Deficiency))
+Declaration(NamedIndividual(ESSO:Engel_2001_Glycogen-Storage_Disorders))
+Declaration(NamedIndividual(ESSO:Engel_2001_Hemiconvulsion-Hemiplegia_Epilepsy_HHE_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Huntington_Disease))
+Declaration(NamedIndividual(ESSO:Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Isolated_Lissencephaly_Sequence))
+Declaration(NamedIndividual(ESSO:Engel_2001_Krabbe_Disease))
+Declaration(NamedIndividual(ESSO:Engel_2001_Lafora_Disease))
+Declaration(NamedIndividual(ESSO:Engel_2001_Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type))
+Declaration(NamedIndividual(ESSO:Engel_2001_Limbic_Epilepsies))
+Declaration(NamedIndividual(ESSO:Engel_2001_Malformations_Due_To_Abnormal_Cortical_Developments))
+Declaration(NamedIndividual(ESSO:Engel_2001_Maple_Syrup_Urine_Disease))
+Declaration(NamedIndividual(ESSO:Engel_2001_Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis))
+Declaration(NamedIndividual(ESSO:Engel_2001_Microdysgenesis))
+Declaration(NamedIndividual(ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Early_Infancy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Infancy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Mitochondrial_Diseases))
+Declaration(NamedIndividual(ESSO:Engel_2001_Mitochondrial_Encephalomyopathy_Lactic_Acidosis_And_Stroke-Like_Symptoms_MELAS))
+Declaration(NamedIndividual(ESSO:Engel_2001_Myoclonic_Absence_Seizures))
+Declaration(NamedIndividual(ESSO:Engel_2001_Myoclonic_Status_In_Nonprogressive_Encephalopathies))
+Declaration(NamedIndividual(ESSO:Engel_2001_Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF))
+Declaration(NamedIndividual(ESSO:Engel_2001_Neuroaxonal_Dystrophy))
+Declaration(NamedIndividual(ESSO:Engel_2001_Neurofibromatosis))
+Declaration(NamedIndividual(ESSO:Engel_2001_Nonketotic_Hyperglycinemia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Other_Organic_Acidurias))
+Declaration(NamedIndividual(ESSO:Engel_2001_Periventricular_Nodular_Heterotopia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Peroxisomal_Disorders))
+Declaration(NamedIndividual(ESSO:Engel_2001_Phenylketonuria))
+Declaration(NamedIndividual(ESSO:Engel_2001_Propionic_Acidemia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Pyruvate_Dehydrogenase_Deficiency))
+Declaration(NamedIndividual(ESSO:Engel_2001_Rasmussen_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Respiratory_Chain_Defects))
+Declaration(NamedIndividual(ESSO:Engel_2001_Rett_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Sanfilippo_Syndrome))
+Declaration(NamedIndividual(ESSO:Engel_2001_Schizencephalies))
+Declaration(NamedIndividual(ESSO:Engel_2001_Sialidosis))
+Declaration(NamedIndividual(ESSO:Engel_2001_Subcortical_Band_Heterotopia))
+Declaration(NamedIndividual(ESSO:Engel_2001_Sulphite-Oxidase_Deficiency))
+Declaration(NamedIndividual(ESSO:Engel_2001_Tuberous_Sclerosis_Complex))
+Declaration(NamedIndividual(ESSO:Engel_2001_Unilateral_Polymicrogyria))
+Declaration(NamedIndividual(ESSO:Engel_2001_Urea_Cycle_Disorders))
+Declaration(NamedIndividual(ESSO:Engel_2001_X-Linked_Lissencephaly))
+Declaration(NamedIndividual(ESSO:Epidemiologic_Factor))
+Declaration(NamedIndividual(ESSO:Epidermal_Nevus_Syndrome))
+Declaration(NamedIndividual(ESSO:Epilepsy_Syndrome_List_Cited_from_1989_to_2014))
+Declaration(NamedIndividual(ESSO:Epilepsy_with_General_Tonic_Clonic_Seizure_on_Awakening))
+Declaration(NamedIndividual(ESSO:Epilepsy_with_Myoclonic_Absence))
+Declaration(NamedIndividual(ESSO:Epileptic_Spasm))
+Declaration(NamedIndividual(ESSO:Epileptic_Spasm_Status))
+Declaration(NamedIndividual(ESSO:Ethosuximide))
+Declaration(NamedIndividual(ESSO:Face))
+Declaration(NamedIndividual(ESSO:Familial_Temporal_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Fatigue))
+Declaration(NamedIndividual(ESSO:Fear))
+Declaration(NamedIndividual(ESSO:Febrile_Infection-Related_Epilepsy_Syndrome_FIRES))
+Declaration(NamedIndividual(ESSO:Febrile_Seizures))
+Declaration(NamedIndividual(ESSO:Fever))
+Declaration(NamedIndividual(ESSO:Fever-Induced_Refractory_Epileptic_Encephalopathy_in_School-Aged_Children_FIRES))
+Declaration(NamedIndividual(ESSO:Fingers))
+Declaration(NamedIndividual(ESSO:Focal_Cortical_Dysplasia))
+Declaration(NamedIndividual(ESSO:Focal_Heterotopia))
+Declaration(NamedIndividual(ESSO:Focus))
+Declaration(NamedIndividual(ESSO:Folic_Acid_Disorder))
+Declaration(NamedIndividual(ESSO:Foot))
+Declaration(NamedIndividual(ESSO:Forearm))
+Declaration(NamedIndividual(ESSO:Fragile_X_Syndrome))
+Declaration(NamedIndividual(ESSO:Frontal_Lobe))
+Declaration(NamedIndividual(ESSO:Frontal_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Fructose_1-6_Diphosphatase_Deficiency))
+Declaration(NamedIndividual(ESSO:Fumarase_Deficiency))
+Declaration(NamedIndividual(ESSO:Gangliocytoma))
+Declaration(NamedIndividual(ESSO:Ganglioglioma))
+Declaration(NamedIndividual(ESSO:Gastaut_Syndrome))
+Declaration(NamedIndividual(ESSO:Gelastic_Seizure))
+Declaration(NamedIndividual(ESSO:Gelastic_Status))
+Declaration(NamedIndividual(ESSO:Gene))
+Declaration(NamedIndividual(ESSO:Generalized_Seizure))
+Declaration(NamedIndividual(ESSO:Generalized_Status_Epilepticus))
+Declaration(NamedIndividual(ESSO:Glucose_Transport_Protein_Deficiency))
+Declaration(NamedIndividual(ESSO:Glycogen-Storage_Disorder))
+Declaration(NamedIndividual(ESSO:Gustatory_Aura))
+Declaration(NamedIndividual(ESSO:Gustatory_Aura_Status))
+Declaration(NamedIndividual(ESSO:Hamartoma))
+Declaration(NamedIndividual(ESSO:Hand))
+Declaration(NamedIndividual(ESSO:Head))
+Declaration(NamedIndividual(ESSO:Headache))
+Declaration(NamedIndividual(ESSO:Hemianopsia))
+Declaration(NamedIndividual(ESSO:Hemiclonic_Seizure))
+Declaration(NamedIndividual(ESSO:Hemiconvulsion-Hemiplegia_Epilepsy_Syndrome))
+Declaration(NamedIndividual(ESSO:Hemimegalencephaly))
+Declaration(NamedIndividual(ESSO:Hemiparesis))
+Declaration(NamedIndividual(ESSO:Hypermotor_Seizure))
+Declaration(NamedIndividual(ESSO:Hypermotor_Status))
+Declaration(NamedIndividual(ESSO:Hypertonia))
+Declaration(NamedIndividual(ESSO:Hypomotor_Seizure))
+Declaration(NamedIndividual(ESSO:Hypomotor_Status))
+Declaration(NamedIndividual(ESSO:Hypothalamic_Hamartomas))
+Declaration(NamedIndividual(ESSO:Hypotonia))
+Declaration(NamedIndividual(ESSO:Hypsarrhythmia))
+Declaration(NamedIndividual(ESSO:Ictal))
+Declaration(NamedIndividual(ESSO:Idiopathic_Focal_Epilepsy_of_Infancy_and_Childhood))
+Declaration(NamedIndividual(ESSO:Idiopathic_Generalized_Epilepsy))
+Declaration(NamedIndividual(ESSO:Idiopathic_Generalized_Epilepsy_With_Variable_Phenotype))
+Declaration(NamedIndividual(ESSO:Idiopathic_Photosensitive_Occipital_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Immediate_Post_Cerebral_Insult_Seizure))
+Declaration(NamedIndividual(ESSO:Immediate_Posttraumatic_Seizure))
+Declaration(NamedIndividual(ESSO:Impaired_Cognition))
+Declaration(NamedIndividual(ESSO:Infant_1_Month_to_1_Year))
+Declaration(NamedIndividual(ESSO:Infantile_Spasms))
+Declaration(NamedIndividual(ESSO:Interictal))
+Declaration(NamedIndividual(ESSO:Intermittent_Slow_Activity))
+Declaration(NamedIndividual(ESSO:Isolated_Lissencephaly_Sequence))
+Declaration(NamedIndividual(ESSO:Jamais_Vu))
+Declaration(NamedIndividual(ESSO:Jansky_Bielschoski_Disease))
+Declaration(NamedIndividual(ESSO:Krabbe_Disease))
+Declaration(NamedIndividual(ESSO:Lafora_Disease))
+Declaration(NamedIndividual(ESSO:Lafora_disease))
+Declaration(NamedIndividual(ESSO:Lambda_Wave))
+Declaration(NamedIndividual(ESSO:Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type))
+Declaration(NamedIndividual(ESSO:Late_Infantile_Ceroid-Lipofuscinoisis))
+Declaration(NamedIndividual(ESSO:Learning_Disability))
+Declaration(NamedIndividual(ESSO:Limbic_Encephalitis_with_Negative_Antibodies))
+Declaration(NamedIndividual(ESSO:Limbic_Epilepsy))
+Declaration(NamedIndividual(ESSO:Macropsia))
+Declaration(NamedIndividual(ESSO:Malformations_of_Cortical_Development))
+Declaration(NamedIndividual(ESSO:Maple_Syrup_Urine_Disease))
+Declaration(NamedIndividual(ESSO:Mental_Retardation))
+Declaration(NamedIndividual(ESSO:Mesial_Temporal_Lobe_Epilepsy_Defined_By_Specific_Etiology))
+Declaration(NamedIndividual(ESSO:Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis))
+Declaration(NamedIndividual(ESSO:Mesial_Temporal_Sclerosis))
+Declaration(NamedIndividual(ESSO:Microcephaly))
+Declaration(NamedIndividual(ESSO:Microdysgenesis))
+Declaration(NamedIndividual(ESSO:Micropsia))
+Declaration(NamedIndividual(ESSO:Migrating_Partial_Seizures_Of_Early_Infancy))
+Declaration(NamedIndividual(ESSO:Migrating_Partial_Seizures_of_Epilepsy))
+Declaration(NamedIndividual(ESSO:Miller-Dieker_Syndrome))
+Declaration(NamedIndividual(ESSO:Mitochondrial_Disease))
+Declaration(NamedIndividual(ESSO:Mitochondrial_Encephalomyopathy_Lactic_Acidosis_and_Stroke-Like_Symptoms_MELAS))
+Declaration(NamedIndividual(ESSO:Mitochondrial_Myopathy))
+Declaration(NamedIndividual(ESSO:Motor_Seizure))
+Declaration(NamedIndividual(ESSO:Motor_Status))
+Declaration(NamedIndividual(ESSO:Mouth))
+Declaration(NamedIndividual(ESSO:Mu_Rhythm))
+Declaration(NamedIndividual(ESSO:Multifocal_Cortical_Dysplasia))
+Declaration(NamedIndividual(ESSO:Multiregional))
+Declaration(NamedIndividual(ESSO:Myasthenia_Gravis))
+Declaration(NamedIndividual(ESSO:Mydriasis))
+Declaration(NamedIndividual(ESSO:Myoclonic_Absence_Seizure))
+Declaration(NamedIndividual(ESSO:Myoclonic_Astatic_Epilepsy))
+Declaration(NamedIndividual(ESSO:Myoclonic_Seizure))
+Declaration(NamedIndividual(ESSO:Myoclonic_Status))
+Declaration(NamedIndividual(ESSO:Myoclonic_Status_In_Nonprogressive_Encephalopathies))
+Declaration(NamedIndividual(ESSO:Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF))
+Declaration(NamedIndividual(ESSO:Nausea))
+Declaration(NamedIndividual(ESSO:Neck))
+Declaration(NamedIndividual(ESSO:Negative_Myoclonic_Seizure))
+Declaration(NamedIndividual(ESSO:Neonate_Less_Than_or_Equal_to_1_Month_or_44_weeks_gestation))
+Declaration(NamedIndividual(ESSO:Neuroaxonal_Dystrophy))
+Declaration(NamedIndividual(ESSO:Neurofibromatosis))
+Declaration(NamedIndividual(ESSO:Neurofibromatosis_1))
+Declaration(NamedIndividual(ESSO:Neurofibromatosis_2))
+Declaration(NamedIndividual(ESSO:Nonketotic_Hyperglycinemia))
+Declaration(NamedIndividual(ESSO:Numbness))
+Declaration(NamedIndividual(ESSO:Occipital_Lobe))
+Declaration(NamedIndividual(ESSO:Occipital_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Ohtahara_Syndrome))
+Declaration(NamedIndividual(ESSO:Olfactory_Aura))
+Declaration(NamedIndividual(ESSO:Olfactory_Aura_Status))
+Declaration(NamedIndividual(ESSO:Olfactory_Hallucination))
+Declaration(NamedIndividual(ESSO:Other_Organic_Aciduria))
+Declaration(NamedIndividual(ESSO:Pain))
+Declaration(NamedIndividual(ESSO:Paracentral_Lobule))
+Declaration(NamedIndividual(ESSO:Parasomnia))
+Declaration(NamedIndividual(ESSO:Paresthesia))
+Declaration(NamedIndividual(ESSO:Parietal_Lobe))
+Declaration(NamedIndividual(ESSO:Parietal_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Paroxysm))
+Declaration(NamedIndividual(ESSO:Paroxysmal_Event))
+Declaration(NamedIndividual(ESSO:Periventricular_Nodular_Heterotopia))
+Declaration(NamedIndividual(ESSO:Peroxisomal_Disorder))
+Declaration(NamedIndividual(ESSO:Phenobarbital))
+Declaration(NamedIndividual(ESSO:Phenylketonuria))
+Declaration(NamedIndividual(ESSO:Photoparoxysmal_Response))
+Declaration(NamedIndividual(ESSO:Postictal))
+Declaration(NamedIndividual(ESSO:Posttraumatic_Seizure))
+Declaration(NamedIndividual(ESSO:Precocious_Puberty))
+Declaration(NamedIndividual(ESSO:Primary_Reading_Epilepsy))
+Declaration(NamedIndividual(ESSO:Prognosis))
+Declaration(NamedIndividual(ESSO:Propionic_Acidemia))
+Declaration(NamedIndividual(ESSO:Psychic_Aura))
+Declaration(NamedIndividual(ESSO:Pyruvate_Dehydrogenase_Deficiency))
+Declaration(NamedIndividual(ESSO:Ramsay-Hunt_Like_Syndrome))
+Declaration(NamedIndividual(ESSO:Rasmussen_Syndrome))
+Declaration(NamedIndividual(ESSO:Rasmussens_Syndrome))
+Declaration(NamedIndividual(ESSO:Reflex_Epilepsy))
+Declaration(NamedIndividual(ESSO:Reflex_Seizure))
+Declaration(NamedIndividual(ESSO:Respiratory_Chain_Defect))
+Declaration(NamedIndividual(ESSO:Retropulsion))
+Declaration(NamedIndividual(ESSO:Rett_Syndrome))
+Declaration(NamedIndividual(ESSO:Sandhoff_Disease))
+Declaration(NamedIndividual(ESSO:Sanfilippo_Syndrome))
+Declaration(NamedIndividual(ESSO:Schizencephaly))
+Declaration(NamedIndividual(ESSO:Schizophrenia))
+Declaration(NamedIndividual(ESSO:Scotoma))
+Declaration(NamedIndividual(ESSO:Sensory_Symptom))
+Declaration(NamedIndividual(ESSO:Sharp_Wave))
+Declaration(NamedIndividual(ESSO:Sialidosis))
+Declaration(NamedIndividual(ESSO:Simple_Motor_Seizure))
+Declaration(NamedIndividual(ESSO:Simple_Motor_Status))
+Declaration(NamedIndividual(ESSO:Simple_Partial_Seizure))
+Declaration(NamedIndividual(ESSO:Skin_Findings))
+Declaration(NamedIndividual(ESSO:Slow_Activity))
+Declaration(NamedIndividual(ESSO:Somatosensory_Aura))
+Declaration(NamedIndividual(ESSO:Somatosensory_Aura_Status))
+Declaration(NamedIndividual(ESSO:Spasm))
+Declaration(NamedIndividual(ESSO:Spatial_Disorientation))
+Declaration(NamedIndividual(ESSO:Startle_Epilepsy))
+Declaration(NamedIndividual(ESSO:Subcortical_Band_Heterotopia))
+Declaration(NamedIndividual(ESSO:Substance_Abuse))
+Declaration(NamedIndividual(ESSO:Sulphite-Oxidase_Deficiency))
+Declaration(NamedIndividual(ESSO:Symptom))
+Declaration(NamedIndividual(ESSO:Tay-Sachs_Disease))
+Declaration(NamedIndividual(ESSO:Telencephalon))
+Declaration(NamedIndividual(ESSO:Temporal_Lobe))
+Declaration(NamedIndividual(ESSO:Temporal_Lobe_Epilepsy))
+Declaration(NamedIndividual(ESSO:Thigh))
+Declaration(NamedIndividual(ESSO:Tongue))
+Declaration(NamedIndividual(ESSO:Tonic_Seizure))
+Declaration(NamedIndividual(ESSO:Tonic_Status))
+Declaration(NamedIndividual(ESSO:Torso))
+Declaration(NamedIndividual(ESSO:Traumatic_Brain_Injury))
+Declaration(NamedIndividual(ESSO:Tremor))
+Declaration(NamedIndividual(ESSO:Triphasic_Wave))
+Declaration(NamedIndividual(ESSO:Trunk))
+Declaration(NamedIndividual(ESSO:Tuberous_Sclerosis_Complex))
+Declaration(NamedIndividual(ESSO:Typical_Absence_Seizure))
+Declaration(NamedIndividual(ESSO:Typical_Dialeptic_Seizure))
+Declaration(NamedIndividual(ESSO:Typical_Dialeptic_Status))
+Declaration(NamedIndividual(ESSO:Unconscious))
+Declaration(NamedIndividual(ESSO:Unilateral_Polymicrogyria))
+Declaration(NamedIndividual(ESSO:Unknown_Cause))
+Declaration(NamedIndividual(ESSO:Unresponsiveness))
+Declaration(NamedIndividual(ESSO:Unverricht-Lundborg_Disease))
+Declaration(NamedIndividual(ESSO:Urea_Cycle_DIsorder))
+Declaration(NamedIndividual(ESSO:Urea_Cycle_Disorder))
+Declaration(NamedIndividual(ESSO:Versive_Seizure))
+Declaration(NamedIndividual(ESSO:Versive_Status))
+Declaration(NamedIndividual(ESSO:Vertigo))
+Declaration(NamedIndividual(ESSO:Visual_Aura))
+Declaration(NamedIndividual(ESSO:Visual_Aura_Status))
+Declaration(NamedIndividual(ESSO:Visual_Hallucination))
+Declaration(NamedIndividual(ESSO:Visual_Illusion))
+Declaration(NamedIndividual(ESSO:Vomiting))
+Declaration(NamedIndividual(ESSO:Weakness))
+Declaration(NamedIndividual(ESSO:West_Syndrome))
+Declaration(NamedIndividual(ESSO:Wicket_Spikes))
+Declaration(NamedIndividual(ESSO:X-Linked_Lissencephaly))
+Declaration(NamedIndividual(ESSO:current_adolescent_12_18_yrs))
+Declaration(NamedIndividual(ESSO:current_adult_19_to_60_yrs))
+Declaration(NamedIndividual(ESSO:current_child_1_to_11_yrs))
+Declaration(NamedIndividual(ESSO:current_elderly_greater_than_60_yrs))
+Declaration(NamedIndividual(ESSO:current_infant_1_to_12_months))
+Declaration(NamedIndividual(ESSO:current_neonate_birth_to_1_month))
+Declaration(NamedIndividual(ESSO:disease))
+Declaration(NamedIndividual(ESSO:epidemiologic_factor))
+Declaration(NamedIndividual(ESSO:epilepsy_syndrome))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Coffin–Lowry_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Dravet’s_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Lennox–Gastaut_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Miller–Dieker_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Unverricht–Lundborg_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Dravet’s_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Lennox–Gastaut_Syndrome>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington's_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes'_Disease>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Todd's_Paralysis>))
+############################
+#   Named Individuals
+############################
+
+# Individual: EpSO:AbdominalAura (EpSO:AbdominalAura)
+
+SameIndividual(EpSO:AbdominalAura ESSO:Abdominal_Aura)
+
+# Individual: EpSO:AbdominalAuraStatus (EpSO:AbdominalAuraStatus)
+
+SameIndividual(EpSO:AbdominalAuraStatus ESSO:Abdominal_Aura_Status)
+
+# Individual: EpSO:AkineticSeizure (EpSO:AkineticSeizure)
+
+SameIndividual(EpSO:AkineticSeizure ESSO:Akinetic_Seizure)
+
+# Individual: EpSO:AlcoholAbuse (EpSO:AlcoholAbuse)
+
+SameIndividual(EpSO:AlcoholAbuse ESSO:Alcohol_Abuse)
+
+# Individual: EpSO:AlphaRhythm (EpSO:AlphaRhythm)
+
+SameIndividual(EpSO:AlphaRhythm ESSO:Alpha_Rhythm)
+
+# Individual: EpSO:Amaurosis (EpSO:Amaurosis)
+
+SameIndividual(EpSO:Amaurosis ESSO:Amaurosis)
+
+# Individual: EpSO:AphasicSeizure (EpSO:AphasicSeizure)
+
+SameIndividual(EpSO:AphasicSeizure ESSO:Aphasic_Seizure)
+
+# Individual: EpSO:AphasicStatus (EpSO:AphasicStatus)
+
+SameIndividual(EpSO:AphasicStatus ESSO:Aphasic_Status)
+
+# Individual: EpSO:AstaticSeizure (EpSO:AstaticSeizure)
+
+SameIndividual(EpSO:AstaticSeizure ESSO:Astatic_Seizure)
+
+# Individual: EpSO:AstaticStatus (EpSO:AstaticStatus)
+
+SameIndividual(EpSO:AstaticStatus ESSO:Astatic_Status)
+
+# Individual: EpSO:AtonicSeizure (EpSO:AtonicSeizure)
+
+SameIndividual(EpSO:AtonicSeizure EPILONT:Atonic_Seizure)
+SameIndividual(EpSO:AtonicSeizure ESSO:Atonic_Seizure)
+
+# Individual: EpSO:AtonicStatus (EpSO:AtonicStatus)
+
+SameIndividual(EpSO:AtonicStatus ESSO:Atonic_Status)
+
+# Individual: EpSO:AtypicalDialepticSeizure (EpSO:AtypicalDialepticSeizure)
+
+SameIndividual(EpSO:AtypicalDialepticSeizure ESSO:Atypical_Dialeptic_Seizure)
+
+# Individual: EpSO:AtypicalDialepticStatus (EpSO:AtypicalDialepticStatus)
+
+SameIndividual(EpSO:AtypicalDialepticStatus ESSO:Atypical_Dialeptic_Status)
+
+# Individual: EpSO:AuditoryAura (EpSO:AuditoryAura)
+
+SameIndividual(EpSO:AuditoryAura ESSO:Auditory_Aura)
+
+# Individual: EpSO:AuditoryAuraStatus (EpSO:AuditoryAuraStatus)
+
+SameIndividual(EpSO:AuditoryAuraStatus ESSO:Auditory_Aura_Status)
+
+# Individual: EpSO:Aura (EpSO:Aura)
+
+SameIndividual(EpSO:Aura EPISEM:aura)
+SameIndividual(EpSO:Aura EPISEM:aura_smell_uncinate)
+SameIndividual(EpSO:Aura EPISEM:aura_somatosensory)
+SameIndividual(EpSO:Aura EPILONT:Aura)
+SameIndividual(EpSO:Aura ESSO:Aura)
+
+# Individual: EpSO:AutismSpectrumDisorder (EpSO:AutismSpectrumDisorder)
+
+SameIndividual(EpSO:AutismSpectrumDisorder ESSO:Autism_Spectrum_Disorder)
+
+# Individual: EpSO:AutomotorSeizure (EpSO:AutomotorSeizure)
+
+SameIndividual(EpSO:AutomotorSeizure ESSO:Automotor_Seizure)
+
+# Individual: EpSO:AutomotorStatus (EpSO:AutomotorStatus)
+
+SameIndividual(EpSO:AutomotorStatus ESSO:Automotor_Status)
+
+# Individual: EpSO:AutonomicAura (EpSO:AutonomicAura)
+
+SameIndividual(EpSO:AutonomicAura ESSO:Autonomic_Aura)
+
+# Individual: EpSO:AutonomicAuraStatus (EpSO:AutonomicAuraStatus)
+
+SameIndividual(EpSO:AutonomicAuraStatus ESSO:Autonomic_Aura_Status)
+
+# Individual: EpSO:AutonomicSeizure (EpSO:AutonomicSeizure)
+
+SameIndividual(EpSO:AutonomicSeizure ESSO:Autonomic_Seizure)
+
+# Individual: EpSO:AutonomicStatus (EpSO:AutonomicStatus)
+
+SameIndividual(EpSO:AutonomicStatus ESSO:Autonomic_Status)
+
+# Individual: EpSO:AutosomalDominantNocturnalFrontalLobeEpilepsy (EpSO:AutosomalDominantNocturnalFrontalLobeEpilepsy)
+
+SameIndividual(EpSO:AutosomalDominantNocturnalFrontalLobeEpilepsy EPILONT:Autosomal_dominant_nocturnal_frontal_lobe_epilepsy)
+
+# Individual: EpSO:BackgroundSlowActivity (EpSO:BackgroundSlowActivity)
+
+SameIndividual(EpSO:BackgroundSlowActivity ESSO:Background_Slow_Activity)
+
+# Individual: EpSO:BenignChildhoodEpilepsyWithCentrotemporalSpikes (EpSO:BenignChildhoodEpilepsyWithCentrotemporalSpikes)
+
+SameIndividual(EpSO:BenignChildhoodEpilepsyWithCentrotemporalSpikes EPILONT:Benign_childhood_epilepsy_with_centrotemporal_spikes)
+
+# Individual: EpSO:Brain (EpSO:Brain)
+
+SameIndividual(EpSO:Brain ESSO:Brain)
+
+# Individual: EpSO:Cataplexy (EpSO:Cataplexy)
+
+SameIndividual(EpSO:Cataplexy EPISEM:cataplexy)
+
+# Individual: EpSO:CavernousAngioma (EpSO:CavernousAngioma)
+
+SameIndividual(EpSO:CavernousAngioma ESSO:Cavernous_Angiomas)
+
+# Individual: EpSO:Cerebellum (EpSO:Cerebellum)
+
+SameIndividual(EpSO:Cerebellum ESSO:Cerebellum)
+
+# Individual: EpSO:CerebralHemisphere (EpSO:CerebralHemisphere)
+
+SameIndividual(EpSO:CerebralHemisphere EPILONT:Cerebral_Hemisphere)
+
+# Individual: EpSO:CerebralHemorrhage (EpSO:CerebralHemorrhage)
+
+SameIndividual(EpSO:CerebralHemorrhage EPISEM:cerebral_hemorrhage)
+
+# Individual: EpSO:CerebralInfarction (EpSO:CerebralInfarction)
+
+SameIndividual(EpSO:CerebralInfarction EPISEM:cerebral_infarction)
+
+# Individual: EpSO:CerebralPalsy (EpSO:CerebralPalsy)
+
+SameIndividual(EpSO:CerebralPalsy EPILONT:Cerebral_Palsy)
+
+# Individual: EpSO:CerebrovascularDisease (EpSO:CerebrovascularDisease)
+
+SameIndividual(EpSO:CerebrovascularDisease EPISEM:cerebrovascular_disease)
+
+# Individual: EpSO:ChildhoodAbsenceEpilepsy (EpSO:ChildhoodAbsenceEpilepsy)
+
+SameIndividual(EpSO:ChildhoodAbsenceEpilepsy EPILONT:Childhood_absence_epilepsy)
+SameIndividual(EpSO:ChildhoodAbsenceEpilepsy ESSO:Childhood_Absence_Epilepsy)
+
+# Individual: EpSO:ChildhoodEpilepsyWithOccipitalParoxysms (EpSO:ChildhoodEpilepsyWithOccipitalParoxysms)
+
+SameIndividual(EpSO:ChildhoodEpilepsyWithOccipitalParoxysms ESSO:Childhood_Epilepsy_with_Occipital_Paroxysms)
+
+# Individual: EpSO:ChromosomalAbnormality (EpSO:ChromosomalAbnormality)
+
+SameIndividual(EpSO:ChromosomalAbnormality ESSO:Chromosomal_Abnormality)
+
+# Individual: EpSO:CingulateGyrus (EpSO:CingulateGyrus)
+
+SameIndividual(EpSO:CingulateGyrus ESSO:Cingulate_Gyrus)
+SameIndividual(EpSO:CingulateGyrus ESSO:Cingulate_Region)
+
+# Individual: EpSO:ClonicSeizure (EpSO:ClonicSeizure)
+
+SameIndividual(EpSO:ClonicSeizure EPILONT:Clonic_Seizure)
+SameIndividual(EpSO:ClonicSeizure ESSO:Clonic_Seizure)
+
+# Individual: EpSO:ClonicStatus (EpSO:ClonicStatus)
+
+SameIndividual(EpSO:ClonicStatus ESSO:Clonic_Status)
+
+# Individual: EpSO:ComplexMotorSeizure (EpSO:ComplexMotorSeizure)
+
+SameIndividual(EpSO:ComplexMotorSeizure ESSO:Complex_Motor_Seizure)
+
+# Individual: EpSO:ComplexMotorStatus (EpSO:ComplexMotorStatus)
+
+SameIndividual(EpSO:ComplexMotorStatus ESSO:Complex_Motor_Status)
+
+# Individual: EpSO:ContinuousSlowActivity (EpSO:ContinuousSlowActivity)
+
+SameIndividual(EpSO:ContinuousSlowActivity ESSO:Continuous_Slow_Activity)
+
+# Individual: EpSO:CorticalDevelopmentMalformation (EpSO:CorticalDevelopmentMalformation)
+
+SameIndividual(EpSO:CorticalDevelopmentMalformation ESSO:Malformations_of_Cortical_Development)
+
+# Individual: EpSO:DejaVu (EpSO:DejaVu)
+
+SameIndividual(EpSO:DejaVu EPISEM:deja_vu)
+SameIndividual(EpSO:DejaVu ESSO:Deja_Vu)
+
+# Individual: EpSO:DeltaRhythm (EpSO:DeltaRhythm)
+
+SameIndividual(EpSO:DeltaRhythm ESSO:Delta_Rhythm)
+
+# Individual: EpSO:Depression (EpSO:Depression)
+
+SameIndividual(EpSO:Depression EPISEM:depressed)
+SameIndividual(EpSO:Depression ESSO:Depression)
+
+# Individual: EpSO:DialepticSeizure (EpSO:DialepticSeizure)
+
+SameIndividual(EpSO:DialepticSeizure ESSO:Dialeptic_Seizure)
+
+# Individual: EpSO:DialepticStatus (EpSO:DialepticStatus)
+
+SameIndividual(EpSO:DialepticStatus ESSO:Dialeptic_Status)
+
+# Individual: EpSO:Diencephalon (EpSO:Diencephalon)
+
+SameIndividual(EpSO:Diencephalon ESSO:Diencephalon)
+
+# Individual: EpSO:Diplopia (EpSO:Diplopia)
+
+SameIndividual(EpSO:Diplopia EPISEM:diplopia)
+
+# Individual: EpSO:Disease (EpSO:Disease)
+
+SameIndividual(EpSO:Disease ESSO:Disease)
+SameIndividual(EpSO:Disease ESSO:disease)
+
+# Individual: EpSO:Electrode (EpSO:Electrode)
+
+SameIndividual(EpSO:Electrode EPILONT:Electrode)
+
+# Individual: EpSO:Electrodecrement (EpSO:Electrodecrement)
+
+SameIndividual(EpSO:Electrodecrement ESSO:Electrodecrement)
+
+# Individual: EpSO:Encephalitis (EpSO:Encephalitis)
+
+SameIndividual(EpSO:Encephalitis ESSO:Encephalitis)
+
+# Individual: EpSO:Epilepsy (EpSO:Epilepsy)
+
+SameIndividual(EpSO:Epilepsy EPILONT:Epilepsy)
+
+# Individual: EpSO:EpilepsyWithGeneralTonicClonicSeizureOnAwakening (EpSO:EpilepsyWithGeneralTonicClonicSeizureOnAwakening)
+
+SameIndividual(EpSO:EpilepsyWithGeneralTonicClonicSeizureOnAwakening ESSO:Epilepsy_with_General_Tonic_Clonic_Seizure_on_Awakening)
+
+# Individual: EpSO:EpilepticSpasm (EpSO:EpilepticSpasm)
+
+SameIndividual(EpSO:EpilepticSpasm ESSO:Epileptic_Spasm)
+
+# Individual: EpSO:EpilepticSpasmStatus (EpSO:EpilepticSpasmStatus)
+
+SameIndividual(EpSO:EpilepticSpasmStatus ESSO:Epileptic_Spasm_Status)
+
+# Individual: EpSO:Ethosuximide (EpSO:Ethosuximide)
+
+SameIndividual(EpSO:Ethosuximide ESSO:Ethosuximide)
+
+# Individual: EpSO:Face (EpSO:Face)
+
+SameIndividual(EpSO:Face ESSO:Face)
+
+# Individual: EpSO:Finger (EpSO:Finger)
+
+SameIndividual(EpSO:Finger ESSO:Fingers)
+
+# Individual: EpSO:FocalCorticalDysplasia (EpSO:FocalCorticalDysplasia)
+
+SameIndividual(EpSO:FocalCorticalDysplasia ESSO:Focal_Cortical_Dysplasia)
+
+# Individual: EpSO:Foot (EpSO:Foot)
+
+SameIndividual(EpSO:Foot ESSO:Foot)
+
+# Individual: EpSO:Forearm (EpSO:Forearm)
+
+SameIndividual(EpSO:Forearm ESSO:Forearm)
+
+# Individual: EpSO:FrontalLobe (EpSO:FrontalLobe)
+
+SameIndividual(EpSO:FrontalLobe ESSO:Frontal_Lobe)
+
+# Individual: EpSO:FrontalLobeEpilepsy (EpSO:FrontalLobeEpilepsy)
+
+SameIndividual(EpSO:FrontalLobeEpilepsy ESSO:Frontal_Lobe_Epilepsy)
+
+# Individual: EpSO:Gangliocytoma (EpSO:Gangliocytoma)
+
+SameIndividual(EpSO:Gangliocytoma ESSO:Gangliocytoma)
+
+# Individual: EpSO:Ganglioglioma (EpSO:Ganglioglioma)
+
+SameIndividual(EpSO:Ganglioglioma ESSO:Ganglioglioma)
+
+# Individual: EpSO:GelasticSeizure (EpSO:GelasticSeizure)
+
+SameIndividual(EpSO:GelasticSeizure EPILONT:Gelastic_Seizure)
+SameIndividual(EpSO:GelasticSeizure ESSO:Gelastic_Seizure)
+
+# Individual: EpSO:GelasticStatus (EpSO:GelasticStatus)
+
+SameIndividual(EpSO:GelasticStatus ESSO:Gelastic_Status)
+
+# Individual: EpSO:Gene (EpSO:Gene)
+
+SameIndividual(EpSO:Gene ESSO:Gene)
+
+# Individual: EpSO:GeneralLearningDisability (EpSO:GeneralLearningDisability)
+
+SameIndividual(EpSO:GeneralLearningDisability EPISEM:mental_retardation)
+SameIndividual(EpSO:GeneralLearningDisability ESSO:Mental_Retardation)
+
+# Individual: EpSO:GustatoryAura (EpSO:GustatoryAura)
+
+SameIndividual(EpSO:GustatoryAura ESSO:Gustatory_Aura)
+
+# Individual: EpSO:GustatoryAuraStatus (EpSO:GustatoryAuraStatus)
+
+SameIndividual(EpSO:GustatoryAuraStatus ESSO:Gustatory_Aura_Status)
+
+# Individual: EpSO:Hamartoma (EpSO:Hamartoma)
+
+SameIndividual(EpSO:Hamartoma ESSO:Hamartoma)
+
+# Individual: EpSO:Hand (EpSO:Hand)
+
+SameIndividual(EpSO:Hand ESSO:Hand)
+
+# Individual: EpSO:Head (EpSO:Head)
+
+SameIndividual(EpSO:Head EPISEM:dysmorphic_face)
+SameIndividual(EpSO:Head EPISEM:hypertelorism)
+SameIndividual(EpSO:Head EPISEM:increased_head_circumference)
+SameIndividual(EpSO:Head EPISEM:microcephaly)
+SameIndividual(EpSO:Head EPISEM:small_head_circumference)
+SameIndividual(EpSO:Head ESSO:Head)
+
+# Individual: EpSO:HemiClonicSeizure (EpSO:HemiClonicSeizure)
+
+SameIndividual(EpSO:HemiClonicSeizure EPILONT:Hemiclonic_Seizure)
+SameIndividual(EpSO:HemiClonicSeizure ESSO:Hemiclonic_Seizure)
+
+# Individual: EpSO:Hemimegalencephaly (EpSO:Hemimegalencephaly)
+
+SameIndividual(EpSO:Hemimegalencephaly ESSO:Hemimegalencephaly)
+
+# Individual: EpSO:HypermotorSeizure (EpSO:HypermotorSeizure)
+
+SameIndividual(EpSO:HypermotorSeizure ESSO:Hypermotor_Seizure)
+
+# Individual: EpSO:HypermotorStatus (EpSO:HypermotorStatus)
+
+SameIndividual(EpSO:HypermotorStatus ESSO:Hypermotor_Status)
+
+# Individual: EpSO:HypomotorSeizure (EpSO:HypomotorSeizure)
+
+SameIndividual(EpSO:HypomotorSeizure ESSO:Hypomotor_Seizure)
+
+# Individual: EpSO:HypomotorStatus (EpSO:HypomotorStatus)
+
+SameIndividual(EpSO:HypomotorStatus ESSO:Hypomotor_Status)
+
+# Individual: EpSO:HypothalamicHamartoma (EpSO:HypothalamicHamartoma)
+
+SameIndividual(EpSO:HypothalamicHamartoma ESSO:Hypothalamic_Hamartomas)
+
+# Individual: EpSO:Hypsarrhythmia (EpSO:Hypsarrhythmia)
+
+SameIndividual(EpSO:Hypsarrhythmia ESSO:Hypsarrhythmia)
+
+# Individual: EpSO:IctalDystonia (EpSO:IctalDystonia)
+
+SameIndividual(EpSO:IctalDystonia EPISEM:dystonic_posture)
+
+# Individual: EpSO:IctalNystagmus (EpSO:IctalNystagmus)
+
+SameIndividual(EpSO:IctalNystagmus EPISEM:ictal_nystagmus)
+
+# Individual: EpSO:IctalSpeech (EpSO:IctalSpeech)
+
+SameIndividual(EpSO:IctalSpeech EPISEM:ictal_speech)
+
+# Individual: EpSO:Insomnia (EpSO:Insomnia)
+
+SameIndividual(EpSO:Insomnia EPISEM:insomnia)
+
+# Individual: EpSO:IntermittentSlowActivity (EpSO:IntermittentSlowActivity)
+
+SameIndividual(EpSO:IntermittentSlowActivity ESSO:Intermittent_Slow_Activity)
+
+# Individual: EpSO:JamaisVu (EpSO:JamaisVu)
+
+SameIndividual(EpSO:JamaisVu EPISEM:jamais_vu)
+SameIndividual(EpSO:JamaisVu ESSO:Jamais_Vu)
+
+# Individual: EpSO:JuvenileAbsenceEpilepsy (EpSO:JuvenileAbsenceEpilepsy)
+
+SameIndividual(EpSO:JuvenileAbsenceEpilepsy EPILONT:Juvenile_absence_epilepsy)
+
+# Individual: EpSO:JuvenileMyoclonicEpilepsy (EpSO:JuvenileMyoclonicEpilepsy)
+
+SameIndividual(EpSO:JuvenileMyoclonicEpilepsy EPILONT:Juvenile_myoclonic_epilepsy)
+
+# Individual: EpSO:LambdaWave (EpSO:LambdaWave)
+
+SameIndividual(EpSO:LambdaWave ESSO:Lambda_Wave)
+
+# Individual: EpSO:Macropsia (EpSO:Macropsia)
+
+SameIndividual(EpSO:Macropsia ESSO:Macropsia)
+
+# Individual: EpSO:Meningitis (EpSO:Meningitis)
+
+SameIndividual(EpSO:Meningitis EPISEM:meningism)
+
+# Individual: EpSO:MentalRetardation (EpSO:MentalRetardation)
+
+SameIndividual(EpSO:MentalRetardation EPISEM:mental_retardation)
+SameIndividual(EpSO:MentalRetardation ESSO:Mental_Retardation)
+
+# Individual: EpSO:MesialTemporalSclerosis (EpSO:MesialTemporalSclerosis)
+
+SameIndividual(EpSO:MesialTemporalSclerosis ESSO:Mesial_Temporal_Sclerosis)
+
+# Individual: EpSO:Metamorphopsia (EpSO:Metamorphopsia)
+
+SameIndividual(EpSO:Metamorphopsia EPISEM:metamorphopsia)
+
+# Individual: EpSO:Microcephaly (EpSO:Microcephaly)
+
+SameIndividual(EpSO:Microcephaly EPISEM:microcephaly)
+SameIndividual(EpSO:Microcephaly ESSO:Microcephaly)
+
+# Individual: EpSO:Microdysgenesis (EpSO:Microdysgenesis)
+
+SameIndividual(EpSO:Microdysgenesis ESSO:Microdysgenesis)
+
+# Individual: EpSO:Micropsia (EpSO:Micropsia)
+
+SameIndividual(EpSO:Micropsia ESSO:Micropsia)
+
+# Individual: EpSO:MotorSeizure (EpSO:MotorSeizure)
+
+SameIndividual(EpSO:MotorSeizure ESSO:Motor_Seizure)
+
+# Individual: EpSO:MotorStatus (EpSO:MotorStatus)
+
+SameIndividual(EpSO:MotorStatus ESSO:Motor_Status)
+
+# Individual: EpSO:Mouth (EpSO:Mouth)
+
+SameIndividual(EpSO:Mouth ESSO:Mouth)
+
+# Individual: EpSO:MuRhythm (EpSO:MuRhythm)
+
+SameIndividual(EpSO:MuRhythm ESSO:Mu_Rhythm)
+
+# Individual: EpSO:MultiFocalEpileptogenicZone (EpSO:MultiFocalEpileptogenicZone)
+
+SameIndividual(EpSO:MultiFocalEpileptogenicZone ESSO:Multiregional)
+
+# Individual: EpSO:MyoclonicSeizure (EpSO:MyoclonicSeizure)
+
+SameIndividual(EpSO:MyoclonicSeizure EPILONT:Myoclonic_Seizure)
+SameIndividual(EpSO:MyoclonicSeizure ESSO:Myoclonic_Seizure)
+
+# Individual: EpSO:MyoclonicStatus (EpSO:MyoclonicStatus)
+
+SameIndividual(EpSO:MyoclonicStatus ESSO:Myoclonic_Status)
+
+# Individual: EpSO:Narcolepsy (EpSO:Narcolepsy)
+
+SameIndividual(EpSO:Narcolepsy EPISEM:narcolepsy)
+
+# Individual: EpSO:Neck (EpSO:Neck)
+
+SameIndividual(EpSO:Neck EPISEM:bilateral_carotid_bruit)
+SameIndividual(EpSO:Neck EPISEM:left_carotid_bruit)
+SameIndividual(EpSO:Neck EPISEM:right_carotid_bruit)
+SameIndividual(EpSO:Neck ESSO:Neck)
+
+# Individual: EpSO:NegativeMyoclonicSeizure (EpSO:NegativeMyoclonicSeizure)
+
+SameIndividual(EpSO:NegativeMyoclonicSeizure ESSO:Negative_Myoclonic_Seizure)
+
+# Individual: EpSO:OccipitalLobe (EpSO:OccipitalLobe)
+
+SameIndividual(EpSO:OccipitalLobe ESSO:Occipital_Lobe)
+
+# Individual: EpSO:OccipitalLobeEpilepsy (EpSO:OccipitalLobeEpilepsy)
+
+SameIndividual(EpSO:OccipitalLobeEpilepsy ESSO:Occipital_Lobe_Epilepsy)
+
+# Individual: EpSO:OlfactoryAura (EpSO:OlfactoryAura)
+
+SameIndividual(EpSO:OlfactoryAura ESSO:Olfactory_Aura)
+
+# Individual: EpSO:OlfactoryAuraStatus (EpSO:OlfactoryAuraStatus)
+
+SameIndividual(EpSO:OlfactoryAuraStatus ESSO:Olfactory_Aura_Status)
+
+# Individual: EpSO:Palinopsia (EpSO:Palinopsia)
+
+SameIndividual(EpSO:Palinopsia EPISEM:palinopsia)
+
+# Individual: EpSO:ParacentralLobule (EpSO:ParacentralLobule)
+
+SameIndividual(EpSO:ParacentralLobule ESSO:Paracentral_Lobule)
+
+# Individual: EpSO:Parasomnias (EpSO:Parasomnias)
+
+SameIndividual(EpSO:Parasomnias ESSO:Parasomnia)
+
+# Individual: EpSO:ParietalLobe (EpSO:ParietalLobe)
+
+SameIndividual(EpSO:ParietalLobe ESSO:Parietal_Lobe)
+
+# Individual: EpSO:ParietalLobeEpilepsy (EpSO:ParietalLobeEpilepsy)
+
+SameIndividual(EpSO:ParietalLobeEpilepsy ESSO:Parietal_Lobe_Epilepsy)
+
+# Individual: EpSO:ParoxysmalEvent (EpSO:ParoxysmalEvent)
+
+SameIndividual(EpSO:ParoxysmalEvent ESSO:Paroxysmal_Event)
+
+# Individual: EpSO:Phenobarbital (EpSO:Phenobarbital)
+
+SameIndividual(EpSO:Phenobarbital ESSO:Phenobarbital)
+
+# Individual: EpSO:PhotoparoxysmalResponse (EpSO:PhotoparoxysmalResponse)
+
+SameIndividual(EpSO:PhotoparoxysmalResponse ESSO:Photoparoxysmal_Response)
+
+# Individual: EpSO:PrecociousPuberty (EpSO:PrecociousPuberty)
+
+SameIndividual(EpSO:PrecociousPuberty ESSO:Precocious_Puberty)
+
+# Individual: EpSO:PrimaryReadingEpilepsy (EpSO:PrimaryReadingEpilepsy)
+
+SameIndividual(EpSO:PrimaryReadingEpilepsy EPILONT:Primary_reading_epilepsy)
+SameIndividual(EpSO:PrimaryReadingEpilepsy ESSO:Primary_Reading_Epilepsy)
+
+# Individual: EpSO:PsychicAura (EpSO:PsychicAura)
+
+SameIndividual(EpSO:PsychicAura ESSO:Psychic_Aura)
+
+# Individual: EpSO:Schizophrenia (EpSO:Schizophrenia)
+
+SameIndividual(EpSO:Schizophrenia ESSO:Schizophrenia)
+
+# Individual: EpSO:SharpWave (EpSO:SharpWave)
+
+SameIndividual(EpSO:SharpWave EPILONT:Sharp_Wave)
+SameIndividual(EpSO:SharpWave ESSO:Sharp_Wave)
+
+# Individual: EpSO:SimpleMotorSeizure (EpSO:SimpleMotorSeizure)
+
+SameIndividual(EpSO:SimpleMotorSeizure ESSO:Simple_Motor_Seizure)
+
+# Individual: EpSO:SimpleMotorStatus (EpSO:SimpleMotorStatus)
+
+SameIndividual(EpSO:SimpleMotorStatus ESSO:Simple_Motor_Status)
+
+# Individual: EpSO:SleepParalysis (EpSO:SleepParalysis)
+
+SameIndividual(EpSO:SleepParalysis EPISEM:sleep_paralysis)
+
+# Individual: EpSO:SlowActivity (EpSO:SlowActivity)
+
+SameIndividual(EpSO:SlowActivity ESSO:Slow_Activity)
+
+# Individual: EpSO:SomatosensoryAura (EpSO:SomatosensoryAura)
+
+SameIndividual(EpSO:SomatosensoryAura ESSO:Somatosensory_Aura)
+
+# Individual: EpSO:SomatosensoryAuraStatus (EpSO:SomatosensoryAuraStatus)
+
+SameIndividual(EpSO:SomatosensoryAuraStatus ESSO:Somatosensory_Aura_Status)
+
+# Individual: EpSO:Spike (EpSO:Spike)
+
+SameIndividual(EpSO:Spike EPILONT:Spike)
+
+# Individual: EpSO:SubstanceAbuse (EpSO:SubstanceAbuse)
+
+SameIndividual(EpSO:SubstanceAbuse ESSO:Substance_Abuse)
+
+# Individual: EpSO:Telencephalon (EpSO:Telencephalon)
+
+SameIndividual(EpSO:Telencephalon ESSO:Telencephalon)
+
+# Individual: EpSO:TemporalLobe (EpSO:TemporalLobe)
+
+SameIndividual(EpSO:TemporalLobe ESSO:Temporal_Lobe)
+
+# Individual: EpSO:TemporalLobeEpilepsy (EpSO:TemporalLobeEpilepsy)
+
+SameIndividual(EpSO:TemporalLobeEpilepsy ESSO:Temporal_Lobe_Epilepsy)
+
+# Individual: EpSO:Thigh (EpSO:Thigh)
+
+SameIndividual(EpSO:Thigh ESSO:Thigh)
+
+# Individual: EpSO:Tongue (EpSO:Tongue)
+
+SameIndividual(EpSO:Tongue ESSO:Tongue)
+
+# Individual: EpSO:TonicClonicSeizure (EpSO:TonicClonicSeizure)
+
+SameIndividual(EpSO:TonicClonicSeizure EPISEM:tonic_clonic_seizure)
+SameIndividual(EpSO:TonicClonicSeizure EPILONT:Tonic-clonic_Seizure)
+
+# Individual: EpSO:TonicSeizure (EpSO:TonicSeizure)
+
+SameIndividual(EpSO:TonicSeizure EPILONT:Tonic_Seizure)
+SameIndividual(EpSO:TonicSeizure ESSO:Tonic_Seizure)
+
+# Individual: EpSO:TonicStatus (EpSO:TonicStatus)
+
+SameIndividual(EpSO:TonicStatus ESSO:Tonic_Status)
+
+# Individual: EpSO:TraumaticBrainInjury (EpSO:TraumaticBrainInjury)
+
+SameIndividual(EpSO:TraumaticBrainInjury ESSO:Traumatic_Brain_Injury)
+
+# Individual: EpSO:TriphasicWave (EpSO:TriphasicWave)
+
+SameIndividual(EpSO:TriphasicWave ESSO:Triphasic_Wave)
+
+# Individual: EpSO:Trunk (EpSO:Trunk)
+
+SameIndividual(EpSO:Trunk ESSO:Torso)
+SameIndividual(EpSO:Trunk ESSO:Trunk)
+
+# Individual: EpSO:TypicalDialepticSeizure (EpSO:TypicalDialepticSeizure)
+
+SameIndividual(EpSO:TypicalDialepticSeizure ESSO:Typical_Dialeptic_Seizure)
+
+# Individual: EpSO:TypicalDialepticStatus (EpSO:TypicalDialepticStatus)
+
+SameIndividual(EpSO:TypicalDialepticStatus ESSO:Typical_Dialeptic_Status)
+
+# Individual: EpSO:UnknownCause (EpSO:UnknownCause)
+
+SameIndividual(EpSO:UnknownCause ESSO:Unknown_Cause)
+
+# Individual: EpSO:VersiveSeizure (EpSO:VersiveSeizure)
+
+SameIndividual(EpSO:VersiveSeizure ESSO:Versive_Seizure)
+
+# Individual: EpSO:VersiveStatus (EpSO:VersiveStatus)
+
+SameIndividual(EpSO:VersiveStatus ESSO:Versive_Status)
+
+# Individual: EpSO:VisualAgnosia (EpSO:VisualAgnosia)
+
+SameIndividual(EpSO:VisualAgnosia EPISEM:visual_agnosia)
+
+# Individual: EpSO:VisualAura (EpSO:VisualAura)
+
+SameIndividual(EpSO:VisualAura ESSO:Visual_Aura)
+
+# Individual: EpSO:VisualAuraStatus (EpSO:VisualAuraStatus)
+
+SameIndividual(EpSO:VisualAuraStatus ESSO:Visual_Aura_Status)
+
+# Individual: EpSO:VisualHallucination (EpSO:VisualHallucination)
+
+SameIndividual(EpSO:VisualHallucination EPISEM:visual_hallucination)
+SameIndividual(EpSO:VisualHallucination ESSO:Visual_Hallucination)
+
+# Individual: EpSO:VisualIllusion (EpSO:VisualIllusion)
+
+SameIndividual(EpSO:VisualIllusion ESSO:Visual_Illusion)
+
+# Individual: EpSO:WicketSpike (EpSO:WicketSpike)
+
+SameIndividual(EpSO:WicketSpike ESSO:Wicket_Spikes)
+
+# Individual: <http://www.case.edu/EpSO.owl#Todd'sParalysis> (<http://www.case.edu/EpSO.owl#Todd'sParalysis>)
+
+SameIndividual(<http://www.case.edu/EpSO.owl#Todd'sParalysis> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Todd's_Paralysis>)
+
+# Individual: EPISEM:absence_seizure (EPISEM:absence_seizure)
+
+SameIndividual(EPISEM:absence_seizure ESSO:Absence_Seizure)
+
+# Individual: EPISEM:amnesia (EPISEM:amnesia)
+
+SameIndividual(EPISEM:amnesia ESSO:Amnesia)
+
+# Individual: EPISEM:aphasia (EPISEM:aphasia)
+
+SameIndividual(EPISEM:aphasia ESSO:Dysphasia)
+
+# Individual: EPISEM:ataxia (EPISEM:ataxia)
+
+SameIndividual(EPISEM:ataxia ESSO:Ataxia)
+
+# Individual: EPISEM:auditory_hallucinations (EPISEM:auditory_hallucinations)
+
+SameIndividual(EPISEM:auditory_hallucinations ESSO:Auditory_Hallucination)
+
+# Individual: EPISEM:aura (EPISEM:aura)
+
+SameIndividual(EPISEM:aura EPILONT:Aura)
+SameIndividual(EPISEM:aura ESSO:Aura)
+
+# Individual: EPISEM:aura_smell_uncinate (EPISEM:aura_smell_uncinate)
+
+SameIndividual(EPISEM:aura_smell_uncinate EPILONT:Aura)
+SameIndividual(EPISEM:aura_smell_uncinate ESSO:Aura)
+
+# Individual: EPISEM:aura_somatosensory (EPISEM:aura_somatosensory)
+
+SameIndividual(EPISEM:aura_somatosensory EPILONT:Aura)
+SameIndividual(EPISEM:aura_somatosensory ESSO:Aura)
+
+# Individual: EPISEM:automatisms (EPISEM:automatisms)
+
+SameIndividual(EPISEM:automatisms EPILONT:Automatism)
+SameIndividual(EPISEM:automatisms ESSO:Automatism)
+
+# Individual: EPISEM:bilateral_carotid_bruit (EPISEM:bilateral_carotid_bruit)
+
+SameIndividual(EPISEM:bilateral_carotid_bruit ESSO:Neck)
+
+# Individual: EPISEM:bipolar (EPISEM:bipolar)
+
+SameIndividual(EPISEM:bipolar ESSO:Bipolar)
+
+# Individual: EPISEM:burning_pain (EPISEM:burning_pain)
+
+SameIndividual(EPISEM:burning_pain ESSO:Burning_Pain)
+
+# Individual: EPISEM:choking (EPISEM:choking)
+
+SameIndividual(EPISEM:choking ESSO:Choking)
+
+# Individual: EPISEM:coma (EPISEM:coma)
+
+SameIndividual(EPISEM:coma ESSO:Coma)
+
+# Individual: EPISEM:complex_partial_seizure (EPISEM:complex_partial_seizure)
+
+SameIndividual(EPISEM:complex_partial_seizure ESSO:Complex_Partial_Seizure)
+
+# Individual: EPISEM:confusion (EPISEM:confusion)
+
+SameIndividual(EPISEM:confusion ESSO:Confused)
+SameIndividual(EPISEM:confusion ESSO:Confusion)
+
+# Individual: EPISEM:decorticate_posture (EPISEM:decorticate_posture)
+
+SameIndividual(EPISEM:decorticate_posture ESSO:Decorticate_Posturing)
+
+# Individual: EPISEM:deja_vu (EPISEM:deja_vu)
+
+SameIndividual(EPISEM:deja_vu ESSO:Deja_Vu)
+
+# Individual: EPISEM:depressed (EPISEM:depressed)
+
+SameIndividual(EPISEM:depressed ESSO:Depression)
+
+# Individual: EPISEM:distal_muscle_weakness_mild (EPISEM:distal_muscle_weakness_mild)
+
+SameIndividual(EPISEM:distal_muscle_weakness_mild ESSO:Weakness)
+
+# Individual: EPISEM:drowsy (EPISEM:drowsy)
+
+SameIndividual(EPISEM:drowsy ESSO:Drowsiness)
+
+# Individual: EPISEM:dysmorphic_face (EPISEM:dysmorphic_face)
+
+SameIndividual(EPISEM:dysmorphic_face ESSO:Head)
+
+# Individual: EPISEM:dysphasia (EPISEM:dysphasia)
+
+SameIndividual(EPISEM:dysphasia ESSO:Dysphasia)
+
+# Individual: EPISEM:electric_shock_sensations (EPISEM:electric_shock_sensations)
+
+SameIndividual(EPISEM:electric_shock_sensations ESSO:Electric_Shock_Sensation)
+
+# Individual: EPISEM:encephalopathy (EPISEM:encephalopathy)
+
+SameIndividual(EPISEM:encephalopathy ESSO:Encephalopathy)
+
+# Individual: EPISEM:fatigue (EPISEM:fatigue)
+
+SameIndividual(EPISEM:fatigue ESSO:Fatigue)
+
+# Individual: EPISEM:fear (EPISEM:fear)
+
+SameIndividual(EPISEM:fear ESSO:Fear)
+
+# Individual: EPISEM:fever (EPISEM:fever)
+
+SameIndividual(EPISEM:fever ESSO:Fever)
+
+# Individual: EPISEM:finger_and_wrist_extensor_weakness (EPISEM:finger_and_wrist_extensor_weakness)
+
+SameIndividual(EPISEM:finger_and_wrist_extensor_weakness ESSO:Weakness)
+
+# Individual: EPISEM:foot_dorsiflexor_weakness (EPISEM:foot_dorsiflexor_weakness)
+
+SameIndividual(EPISEM:foot_dorsiflexor_weakness ESSO:Weakness)
+
+# Individual: EPISEM:generalized_seizure (EPISEM:generalized_seizure)
+
+SameIndividual(EPISEM:generalized_seizure EPILONT:Generalized_Seizure)
+SameIndividual(EPISEM:generalized_seizure ESSO:Generalized_Seizure)
+
+# Individual: EPISEM:headache (EPISEM:headache)
+
+SameIndividual(EPISEM:headache ESSO:Headache)
+
+# Individual: EPISEM:hemiparesis (EPISEM:hemiparesis)
+
+SameIndividual(EPISEM:hemiparesis ESSO:Hemiparesis)
+
+# Individual: EPISEM:hip_flexor_weakness (EPISEM:hip_flexor_weakness)
+
+SameIndividual(EPISEM:hip_flexor_weakness ESSO:Weakness)
+
+# Individual: EPISEM:hypertelorism (EPISEM:hypertelorism)
+
+SameIndividual(EPISEM:hypertelorism ESSO:Head)
+
+# Individual: EPISEM:hypertonia (EPISEM:hypertonia)
+
+SameIndividual(EPISEM:hypertonia ESSO:Hypertonia)
+
+# Individual: EPISEM:hypotonia (EPISEM:hypotonia)
+
+SameIndividual(EPISEM:hypotonia ESSO:Hypotonia)
+
+# Individual: EPISEM:ictal_infantile_spasms (EPISEM:ictal_infantile_spasms)
+
+SameIndividual(EPISEM:ictal_infantile_spasms EPILONT:Ictal)
+SameIndividual(EPISEM:ictal_infantile_spasms ESSO:Electrodecrement)
+SameIndividual(EPISEM:ictal_infantile_spasms ESSO:Ictal)
+
+# Individual: EPISEM:impaired_balance (EPISEM:impaired_balance)
+
+SameIndividual(EPISEM:impaired_balance ESSO:Balance)
+
+# Individual: EPISEM:impaired_cognition (EPISEM:impaired_cognition)
+
+SameIndividual(EPISEM:impaired_cognition ESSO:Impaired_Cognition)
+
+# Individual: EPISEM:increased_head_circumference (EPISEM:increased_head_circumference)
+
+SameIndividual(EPISEM:increased_head_circumference ESSO:Head)
+
+# Individual: EPISEM:jamais_vu (EPISEM:jamais_vu)
+
+SameIndividual(EPISEM:jamais_vu ESSO:Jamais_Vu)
+
+# Individual: EPISEM:learning_disability (EPISEM:learning_disability)
+
+SameIndividual(EPISEM:learning_disability ESSO:Learning_Disability)
+
+# Individual: EPISEM:left_carotid_bruit (EPISEM:left_carotid_bruit)
+
+SameIndividual(EPISEM:left_carotid_bruit ESSO:Neck)
+
+# Individual: EPISEM:left_foot_drop (EPISEM:left_foot_drop)
+
+SameIndividual(EPISEM:left_foot_drop ESSO:Weakness)
+
+# Individual: EPISEM:mental_retardation (EPISEM:mental_retardation)
+
+SameIndividual(EPISEM:mental_retardation ESSO:Mental_Retardation)
+
+# Individual: EPISEM:microcephaly (EPISEM:microcephaly)
+
+SameIndividual(EPISEM:microcephaly ESSO:Head)
+SameIndividual(EPISEM:microcephaly ESSO:Microcephaly)
+
+# Individual: EPISEM:muscle_weakness_proximal_limb_muscle_mild_to_moderate (EPISEM:muscle_weakness_proximal_limb_muscle_mild_to_moderate)
+
+SameIndividual(EPISEM:muscle_weakness_proximal_limb_muscle_mild_to_moderate ESSO:Weakness)
+
+# Individual: EPISEM:mydriasis (EPISEM:mydriasis)
+
+SameIndividual(EPISEM:mydriasis ESSO:Mydriasis)
+
+# Individual: EPISEM:nausea (EPISEM:nausea)
+
+SameIndividual(EPISEM:nausea ESSO:Nausea)
+
+# Individual: EPISEM:numbness (EPISEM:numbness)
+
+SameIndividual(EPISEM:numbness ESSO:Numbness)
+
+# Individual: EPISEM:olfactory_hallucination (EPISEM:olfactory_hallucination)
+
+SameIndividual(EPISEM:olfactory_hallucination ESSO:Olfactory_Hallucination)
+
+# Individual: EPISEM:pain (EPISEM:pain)
+
+SameIndividual(EPISEM:pain ESSO:Pain)
+
+# Individual: EPISEM:paresthesia (EPISEM:paresthesia)
+
+SameIndividual(EPISEM:paresthesia ESSO:Paresthesia)
+
+# Individual: EPISEM:proximal_muscle_weakness_limb_girdle_distribution (EPISEM:proximal_muscle_weakness_limb_girdle_distribution)
+
+SameIndividual(EPISEM:proximal_muscle_weakness_limb_girdle_distribution ESSO:Weakness)
+
+# Individual: EPISEM:proximal_weakness_of_the_lower_extremities (EPISEM:proximal_weakness_of_the_lower_extremities)
+
+SameIndividual(EPISEM:proximal_weakness_of_the_lower_extremities ESSO:Weakness)
+
+# Individual: EPISEM:retropulsion (EPISEM:retropulsion)
+
+SameIndividual(EPISEM:retropulsion ESSO:Retropulsion)
+
+# Individual: EPISEM:right_carotid_bruit (EPISEM:right_carotid_bruit)
+
+SameIndividual(EPISEM:right_carotid_bruit ESSO:Neck)
+
+# Individual: EPISEM:right_foot_drop (EPISEM:right_foot_drop)
+
+SameIndividual(EPISEM:right_foot_drop ESSO:Weakness)
+
+# Individual: EPISEM:right_hemiparesis (EPISEM:right_hemiparesis)
+
+SameIndividual(EPISEM:right_hemiparesis ESSO:Weakness)
+
+# Individual: EPISEM:scotoma (EPISEM:scotoma)
+
+SameIndividual(EPISEM:scotoma ESSO:Scotoma)
+
+# Individual: EPISEM:seizures (EPISEM:seizures)
+
+SameIndividual(EPISEM:seizures EPILONT:Seizure)
+
+# Individual: EPISEM:sensory_symptoms (EPISEM:sensory_symptoms)
+
+SameIndividual(EPISEM:sensory_symptoms ESSO:Sensory_Symptom)
+
+# Individual: EPISEM:simple_partial_seizure (EPISEM:simple_partial_seizure)
+
+SameIndividual(EPISEM:simple_partial_seizure ESSO:Simple_Partial_Seizure)
+
+# Individual: EPISEM:skin_finding (EPISEM:skin_finding)
+
+SameIndividual(EPISEM:skin_finding ESSO:Skin_Findings)
+
+# Individual: EPISEM:small_head_circumference (EPISEM:small_head_circumference)
+
+SameIndividual(EPISEM:small_head_circumference ESSO:Head)
+
+# Individual: EPISEM:spatial_disorientation (EPISEM:spatial_disorientation)
+
+SameIndividual(EPISEM:spatial_disorientation ESSO:Spatial_Disorientation)
+
+# Individual: EPISEM:symptom (EPISEM:symptom)
+
+SameIndividual(EPISEM:symptom ESSO:Symptom)
+
+# Individual: EPISEM:syncope (EPISEM:syncope)
+
+SameIndividual(EPISEM:syncope EPILONT:Syncope)
+
+# Individual: EPISEM:tremor (EPISEM:tremor)
+
+SameIndividual(EPISEM:tremor ESSO:Tremor)
+
+# Individual: EPISEM:unable_to_stand (EPISEM:unable_to_stand)
+
+SameIndividual(EPISEM:unable_to_stand ESSO:Balance)
+
+# Individual: EPISEM:unconscious (EPISEM:unconscious)
+
+SameIndividual(EPISEM:unconscious ESSO:Unconscious)
+
+# Individual: EPISEM:unresponsive (EPISEM:unresponsive)
+
+SameIndividual(EPISEM:unresponsive ESSO:Unresponsiveness)
+
+# Individual: EPISEM:unresponsiveness (EPISEM:unresponsiveness)
+
+SameIndividual(EPISEM:unresponsiveness ESSO:Unresponsiveness)
+
+# Individual: EPISEM:upper_and_lower_limb_weakness (EPISEM:upper_and_lower_limb_weakness)
+
+SameIndividual(EPISEM:upper_and_lower_limb_weakness ESSO:Weakness)
+
+# Individual: EPISEM:vertigo (EPISEM:vertigo)
+
+SameIndividual(EPISEM:vertigo ESSO:Vertigo)
+
+# Individual: EPISEM:visual_hallucination (EPISEM:visual_hallucination)
+
+SameIndividual(EPISEM:visual_hallucination ESSO:Visual_Hallucination)
+
+# Individual: EPISEM:vomiting (EPISEM:vomiting)
+
+SameIndividual(EPISEM:vomiting ESSO:Vomiting)
+
+# Individual: EPISEM:weak_right_hand (EPISEM:weak_right_hand)
+
+SameIndividual(EPISEM:weak_right_hand ESSO:Weakness)
+
+# Individual: EPISEM:weakness_in_both_legs (EPISEM:weakness_in_both_legs)
+
+SameIndividual(EPISEM:weakness_in_both_legs ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_abdominals (EPISEM:weakness_of_abdominals)
+
+SameIndividual(EPISEM:weakness_of_abdominals ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_ankle_dorsiflexion (EPISEM:weakness_of_ankle_dorsiflexion)
+
+SameIndividual(EPISEM:weakness_of_ankle_dorsiflexion ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_ankle_eversion (EPISEM:weakness_of_ankle_eversion)
+
+SameIndividual(EPISEM:weakness_of_ankle_eversion ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_ankle_inversion (EPISEM:weakness_of_ankle_inversion)
+
+SameIndividual(EPISEM:weakness_of_ankle_inversion ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_ankle_plantar_flexion (EPISEM:weakness_of_ankle_plantar_flexion)
+
+SameIndividual(EPISEM:weakness_of_ankle_plantar_flexion ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_finger_abduction_left_hand (EPISEM:weakness_of_finger_abduction_left_hand)
+
+SameIndividual(EPISEM:weakness_of_finger_abduction_left_hand ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_finger_abduction_of_right_hand (EPISEM:weakness_of_finger_abduction_of_right_hand)
+
+SameIndividual(EPISEM:weakness_of_finger_abduction_of_right_hand ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_finger_extensors (EPISEM:weakness_of_finger_extensors)
+
+SameIndividual(EPISEM:weakness_of_finger_extensors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hand_grip (EPISEM:weakness_of_hand_grip)
+
+SameIndividual(EPISEM:weakness_of_hand_grip ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hip (EPISEM:weakness_of_hip)
+
+SameIndividual(EPISEM:weakness_of_hip ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hip_abductors (EPISEM:weakness_of_hip_abductors)
+
+SameIndividual(EPISEM:weakness_of_hip_abductors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hip_adductors (EPISEM:weakness_of_hip_adductors)
+
+SameIndividual(EPISEM:weakness_of_hip_adductors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hip_extensors (EPISEM:weakness_of_hip_extensors)
+
+SameIndividual(EPISEM:weakness_of_hip_extensors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_hip_flexors (EPISEM:weakness_of_hip_flexors)
+
+SameIndividual(EPISEM:weakness_of_hip_flexors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_intrinsic_hand_muscles (EPISEM:weakness_of_intrinsic_hand_muscles)
+
+SameIndividual(EPISEM:weakness_of_intrinsic_hand_muscles ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_jaw_muscles (EPISEM:weakness_of_jaw_muscles)
+
+SameIndividual(EPISEM:weakness_of_jaw_muscles ESSO:Hemianopsia)
+
+# Individual: EPISEM:weakness_of_knee (EPISEM:weakness_of_knee)
+
+SameIndividual(EPISEM:weakness_of_knee ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_knee_extension (EPISEM:weakness_of_knee_extension)
+
+SameIndividual(EPISEM:weakness_of_knee_extension ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_knee_flexors (EPISEM:weakness_of_knee_flexors)
+
+SameIndividual(EPISEM:weakness_of_knee_flexors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_neck_extensors (EPISEM:weakness_of_neck_extensors)
+
+SameIndividual(EPISEM:weakness_of_neck_extensors ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_right_leg (EPISEM:weakness_of_right_leg)
+
+SameIndividual(EPISEM:weakness_of_right_leg ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_thumb_abduction (EPISEM:weakness_of_thumb_abduction)
+
+SameIndividual(EPISEM:weakness_of_thumb_abduction ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_thumb_opposition (EPISEM:weakness_of_thumb_opposition)
+
+SameIndividual(EPISEM:weakness_of_thumb_opposition ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_wrist (EPISEM:weakness_of_wrist)
+
+SameIndividual(EPISEM:weakness_of_wrist ESSO:Weakness)
+
+# Individual: EPISEM:weakness_of_wrist_flexion (EPISEM:weakness_of_wrist_flexion)
+
+SameIndividual(EPISEM:weakness_of_wrist_flexion ESSO:Weakness)
+
+# Individual: EPILONT:Atonic_Seizure (EPILONT:Atonic_Seizure)
+
+SameIndividual(EPILONT:Atonic_Seizure ESSO:Atonic_Seizure)
+
+# Individual: EPILONT:Atypical_Absence_Seizure (EPILONT:Atypical_Absence_Seizure)
+
+SameIndividual(EPILONT:Atypical_Absence_Seizure ESSO:Atypical_Absence_Seizure)
+
+# Individual: EPILONT:Aura (EPILONT:Aura)
+
+SameIndividual(EPILONT:Aura ESSO:Aura)
+
+# Individual: EPILONT:Aura_Continua (EPILONT:Aura_Continua)
+
+SameIndividual(EPILONT:Aura_Continua ESSO:Aura_Continua)
+
+# Individual: EPILONT:Automatism (EPILONT:Automatism)
+
+SameIndividual(EPILONT:Automatism ESSO:Automatism)
+
+# Individual: EPILONT:Benign_familial_infantile_seizures (EPILONT:Benign_familial_infantile_seizures)
+
+SameIndividual(EPILONT:Benign_familial_infantile_seizures ESSO:Benign_Familial_Infantile_Seizure)
+
+# Individual: EPILONT:Benign_myoclonic_epilepsy_in_infancy (EPILONT:Benign_myoclonic_epilepsy_in_infancy)
+
+SameIndividual(EPILONT:Benign_myoclonic_epilepsy_in_infancy ESSO:Benign_Myoclonic_Epilepsy_in_Infancy)
+
+# Individual: EPILONT:Childhood_absence_epilepsy (EPILONT:Childhood_absence_epilepsy)
+
+SameIndividual(EPILONT:Childhood_absence_epilepsy ESSO:Childhood_Absence_Epilepsy)
+
+# Individual: EPILONT:Clonic_Seizure (EPILONT:Clonic_Seizure)
+
+SameIndividual(EPILONT:Clonic_Seizure ESSO:Clonic_Seizure)
+
+# Individual: EPILONT:Cognitive (EPILONT:Cognitive)
+
+SameIndividual(EPILONT:Cognitive ESSO:Cognition)
+
+# Individual: EPILONT:Consciousness (EPILONT:Consciousness)
+
+SameIndividual(EPILONT:Consciousness ESSO:Consciousness)
+
+# Individual: EPILONT:Cortical_Dysplasia (EPILONT:Cortical_Dysplasia)
+
+SameIndividual(EPILONT:Cortical_Dysplasia ESSO:Cortical_Dysplasia)
+
+# Individual: EPILONT:Epilepsy_with_myoclonic_absences (EPILONT:Epilepsy_with_myoclonic_absences)
+
+SameIndividual(EPILONT:Epilepsy_with_myoclonic_absences ESSO:Epilepsy_with_Myoclonic_Absence)
+
+# Individual: EPILONT:Familial_temporal_lobe_epilepsies (EPILONT:Familial_temporal_lobe_epilepsies)
+
+SameIndividual(EPILONT:Familial_temporal_lobe_epilepsies ESSO:Familial_Temporal_Lobe_Epilepsy)
+
+# Individual: EPILONT:Febrile_seizures (EPILONT:Febrile_seizures)
+
+SameIndividual(EPILONT:Febrile_seizures ESSO:Febrile_Seizures)
+
+# Individual: EPILONT:Focus (EPILONT:Focus)
+
+SameIndividual(EPILONT:Focus ESSO:Focus)
+
+# Individual: EPILONT:Gelastic_Seizure (EPILONT:Gelastic_Seizure)
+
+SameIndividual(EPILONT:Gelastic_Seizure ESSO:Gelastic_Seizure)
+
+# Individual: EPILONT:Generalized_Seizure (EPILONT:Generalized_Seizure)
+
+SameIndividual(EPILONT:Generalized_Seizure ESSO:Generalized_Seizure)
+
+# Individual: EPILONT:Generalized_Status_Epilepticus (EPILONT:Generalized_Status_Epilepticus)
+
+SameIndividual(EPILONT:Generalized_Status_Epilepticus ESSO:Generalized_Status_Epilepticus)
+
+# Individual: EPILONT:Hemiclonic_Seizure (EPILONT:Hemiclonic_Seizure)
+
+SameIndividual(EPILONT:Hemiclonic_Seizure ESSO:Hemiclonic_Seizure)
+
+# Individual: EPILONT:Ictal (EPILONT:Ictal)
+
+SameIndividual(EPILONT:Ictal ESSO:Electrodecrement)
+SameIndividual(EPILONT:Ictal ESSO:Ictal)
+
+# Individual: EPILONT:Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood (EPILONT:Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood)
+
+SameIndividual(EPILONT:Idiopathic_Focal_Epilepsies_of_Infancy_and_Childhood ESSO:Idiopathic_Focal_Epilepsy_of_Infancy_and_Childhood)
+
+# Individual: EPILONT:Idiopathic_Generalized_Epilepsies (EPILONT:Idiopathic_Generalized_Epilepsies)
+
+SameIndividual(EPILONT:Idiopathic_Generalized_Epilepsies ESSO:Idiopathic_Generalized_Epilepsy)
+
+# Individual: EPILONT:Idiopathic_generalized_epilepsies_with_variable_phenotypes (EPILONT:Idiopathic_generalized_epilepsies_with_variable_phenotypes)
+
+SameIndividual(EPILONT:Idiopathic_generalized_epilepsies_with_variable_phenotypes ESSO:Idiopathic_Generalized_Epilepsy_With_Variable_Phenotype)
+
+# Individual: EPILONT:Idiopathic_photosensitive_occipital_lobe_epilepsy (EPILONT:Idiopathic_photosensitive_occipital_lobe_epilepsy)
+
+SameIndividual(EPILONT:Idiopathic_photosensitive_occipital_lobe_epilepsy ESSO:Idiopathic_Photosensitive_Occipital_Lobe_Epilepsy)
+
+# Individual: EPILONT:Interictal (EPILONT:Interictal)
+
+SameIndividual(EPILONT:Interictal ESSO:Interictal)
+
+# Individual: EPILONT:Limbic_epilepsies (EPILONT:Limbic_epilepsies)
+
+SameIndividual(EPILONT:Limbic_epilepsies ESSO:Limbic_Epilepsy)
+
+# Individual: EPILONT:Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies (EPILONT:Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies)
+
+SameIndividual(EPILONT:Mesial_temporal_lobe_epilepsy_defined_by_specific_etiologies ESSO:Mesial_Temporal_Lobe_Epilepsy_Defined_By_Specific_Etiology)
+
+# Individual: EPILONT:Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis (EPILONT:Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis)
+
+SameIndividual(EPILONT:Mesial_temporal_lobe_epilepsy_with_hippocampal_sclerosis ESSO:Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis)
+
+# Individual: EPILONT:Myoclonic_Absence_Seizure (EPILONT:Myoclonic_Absence_Seizure)
+
+SameIndividual(EPILONT:Myoclonic_Absence_Seizure ESSO:Myoclonic_Absence_Seizure)
+
+# Individual: EPILONT:Myoclonic_Seizure (EPILONT:Myoclonic_Seizure)
+
+SameIndividual(EPILONT:Myoclonic_Seizure ESSO:Myoclonic_Seizure)
+
+# Individual: EPILONT:Ohtahara_syndrome (EPILONT:Ohtahara_syndrome)
+
+SameIndividual(EPILONT:Ohtahara_syndrome ESSO:Ohtahara_Syndrome)
+
+# Individual: EPILONT:Paroxysmal (EPILONT:Paroxysmal)
+
+SameIndividual(EPILONT:Paroxysmal ESSO:Paroxysm)
+
+# Individual: EPILONT:Postictal (EPILONT:Postictal)
+
+SameIndividual(EPILONT:Postictal ESSO:Postictal)
+
+# Individual: EPILONT:Primary_reading_epilepsy (EPILONT:Primary_reading_epilepsy)
+
+SameIndividual(EPILONT:Primary_reading_epilepsy ESSO:Primary_Reading_Epilepsy)
+
+# Individual: EPILONT:Prognosis (EPILONT:Prognosis)
+
+SameIndividual(EPILONT:Prognosis ESSO:Prognosis)
+
+# Individual: EPILONT:Rasmussen_syndrome (EPILONT:Rasmussen_syndrome)
+
+SameIndividual(EPILONT:Rasmussen_syndrome ESSO:Rasmussen_Syndrome)
+SameIndividual(EPILONT:Rasmussen_syndrome ESSO:Rasmussens_Syndrome)
+
+# Individual: EPILONT:Reflex_Epilepsies (EPILONT:Reflex_Epilepsies)
+
+SameIndividual(EPILONT:Reflex_Epilepsies ESSO:Reflex_Epilepsy)
+
+# Individual: EPILONT:Reflex_seizures (EPILONT:Reflex_seizures)
+
+SameIndividual(EPILONT:Reflex_seizures ESSO:Reflex_Seizure)
+
+# Individual: EPILONT:Sharp_Wave (EPILONT:Sharp_Wave)
+
+SameIndividual(EPILONT:Sharp_Wave ESSO:Sharp_Wave)
+
+# Individual: EPILONT:Spasms (EPILONT:Spasms)
+
+SameIndividual(EPILONT:Spasms ESSO:Spasm)
+
+# Individual: EPILONT:Startle_epilepsy (EPILONT:Startle_epilepsy)
+
+SameIndividual(EPILONT:Startle_epilepsy ESSO:Startle_Epilepsy)
+
+# Individual: EPILONT:Tonic_Seizure (EPILONT:Tonic_Seizure)
+
+SameIndividual(EPILONT:Tonic_Seizure ESSO:Tonic_Seizure)
+
+# Individual: EPILONT:Typical_Absence_Seizure (EPILONT:Typical_Absence_Seizure)
+
+SameIndividual(EPILONT:Typical_Absence_Seizure ESSO:Typical_Absence_Seizure)
+
+# Individual: EPILONT:West_syndrome (EPILONT:West_syndrome)
+
+SameIndividual(EPILONT:West_syndrome ESSO:Infantile_Spasms)
+SameIndividual(EPILONT:West_syndrome ESSO:West_Syndrome)
+
+# Individual: <http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome> (<http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome>)
+
+SameIndividual(<http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Dravet’s_Syndrome>)
+SameIndividual(<http://www.semanticweb.org/ontologies/2009/3/EpilepsyOntology.owl#Dravet's_syndrome> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Dravet’s_Syndrome>)
+
+# Individual: ESSO:Adolescent_Greater_Than_12-18_years (ESSO:Adolescent_Greater_Than_12-18_years)
+
+SameIndividual(ESSO:Adolescent_Greater_Than_12-18_years ESSO:current_adolescent_12_18_yrs)
+SameIndividual(ESSO:Adolescent_Greater_Than_12-18_years ESSO:current_child_1_to_11_yrs)
+SameIndividual(ESSO:Adolescent_Greater_Than_12-18_years ESSO:current_infant_1_to_12_months)
+
+# Individual: ESSO:Adult_Greater_Than_18-60_years (ESSO:Adult_Greater_Than_18-60_years)
+
+SameIndividual(ESSO:Adult_Greater_Than_18-60_years ESSO:current_adult_19_to_60_yrs)
+
+# Individual: ESSO:Aminoacidopathy (ESSO:Aminoacidopathy)
+
+SameIndividual(ESSO:Aminoacidopathy ESSO:Engel_2001_Aminoacidopathies)
+
+# Individual: ESSO:Angelman_Syndrome (ESSO:Angelman_Syndrome)
+
+SameIndividual(ESSO:Angelman_Syndrome ESSO:Engel_2001_Angelman_Syndrome)
+
+# Individual: ESSO:B12_Metabolism_Disorder (ESSO:B12_Metabolism_Disorder)
+
+SameIndividual(ESSO:B12_Metabolism_Disorder ESSO:Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism)
+SameIndividual(ESSO:B12_Metabolism_Disorder ESSO:Folic_Acid_Disorder)
+
+# Individual: ESSO:Benign_Familial_Neonatal_Seizures_BFNS (ESSO:Benign_Familial_Neonatal_Seizures_BFNS)
+
+SameIndividual(ESSO:Benign_Familial_Neonatal_Seizures_BFNS ESSO:Engel_2001_Benign_Familial_Neonatal_Seizures)
+
+# Individual: ESSO:Benign_Infantile_Seizure (ESSO:Benign_Infantile_Seizure)
+
+SameIndividual(ESSO:Benign_Infantile_Seizure ESSO:Engel_2001_Benign_Infantile_Seizures_Non-Familial)
+
+# Individual: ESSO:Benign_Infantile_Seizure_Nonfamilial (ESSO:Benign_Infantile_Seizure_Nonfamilial)
+
+SameIndividual(ESSO:Benign_Infantile_Seizure_Nonfamilial ESSO:Engel_2001_Benign_Infantile_Seizures_Nonfamilial)
+
+# Individual: ESSO:Bilateral_Perisylvian_Syndrome (ESSO:Bilateral_Perisylvian_Syndrome)
+
+SameIndividual(ESSO:Bilateral_Perisylvian_Syndrome ESSO:Engel_2001_Bilateral_Perisylvian_Syndrome)
+
+# Individual: ESSO:Biotin_Metabolism_Disorder (ESSO:Biotin_Metabolism_Disorder)
+
+SameIndividual(ESSO:Biotin_Metabolism_Disorder ESSO:Engel_2001_Disorders_Of_Biotin_Metabolism)
+
+# Individual: ESSO:Carbohydrate_Metabolism_DIsorder (ESSO:Carbohydrate_Metabolism_DIsorder)
+
+SameIndividual(ESSO:Carbohydrate_Metabolism_DIsorder ESSO:Engel_2001_Disorders_Of_Carbohydrate_Metabolism)
+
+# Individual: ESSO:Celiac_Disease (ESSO:Celiac_Disease)
+
+SameIndividual(ESSO:Celiac_Disease ESSO:Engel_2001_Celiac_Disease)
+
+# Individual: ESSO:Ceroid_Lipofuscinosis (ESSO:Ceroid_Lipofuscinosis)
+
+SameIndividual(ESSO:Ceroid_Lipofuscinosis ESSO:Engel_2001_Ceroid_Lipofuscinosis)
+
+# Individual: ESSO:Chemically_Induced_Seizure (ESSO:Chemically_Induced_Seizure)
+
+SameIndividual(ESSO:Chemically_Induced_Seizure ESSO:Drug_Induced_Seizure)
+SameIndividual(ESSO:Chemically_Induced_Seizure ESSO:Engel_2001_Drug_Or_Other_Chemically_Induced_Seizures)
+
+# Individual: ESSO:Child_Greater_Than_1-12_years (ESSO:Child_Greater_Than_1-12_years)
+
+SameIndividual(ESSO:Child_Greater_Than_1-12_years ESSO:current_adolescent_12_18_yrs)
+SameIndividual(ESSO:Child_Greater_Than_1-12_years ESSO:current_child_1_to_11_yrs)
+SameIndividual(ESSO:Child_Greater_Than_1-12_years ESSO:current_infant_1_to_12_months)
+
+# Individual: ESSO:Chromosomal_Abnormality (ESSO:Chromosomal_Abnormality)
+
+SameIndividual(ESSO:Chromosomal_Abnormality ESSO:Engel_2001_Chromosomal_Abnormalities)
+
+# Individual: ESSO:Coffin-Lowry_Syndrome (ESSO:Coffin-Lowry_Syndrome)
+
+SameIndividual(ESSO:Coffin-Lowry_Syndrome <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Coffin–Lowry_Syndrome>)
+
+# Individual: ESSO:Cortical_Malformation_Abnormal_Development (ESSO:Cortical_Malformation_Abnormal_Development)
+
+SameIndividual(ESSO:Cortical_Malformation_Abnormal_Development ESSO:Engel_2001_Malformations_Due_To_Abnormal_Cortical_Developments)
+
+# Individual: ESSO:D-Glyceric_Acidemia (ESSO:D-Glyceric_Acidemia)
+
+SameIndividual(ESSO:D-Glyceric_Acidemia ESSO:Engel_2001_D-Glyceric_Acidemia)
+
+# Individual: ESSO:Denatorubropallidoluysian_Atrophy (ESSO:Denatorubropallidoluysian_Atrophy)
+
+SameIndividual(ESSO:Denatorubropallidoluysian_Atrophy ESSO:Engel_2001_Dentatorubropallidoluysian_Atrophy)
+
+# Individual: ESSO:Disease (ESSO:Disease)
+
+SameIndividual(ESSO:Disease ESSO:disease)
+
+# Individual: ESSO:Drug_Induced_Seizure (ESSO:Drug_Induced_Seizure)
+
+SameIndividual(ESSO:Drug_Induced_Seizure ESSO:Engel_2001_Drug_Or_Other_Chemically_Induced_Seizures)
+
+# Individual: ESSO:Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type (ESSO:Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type)
+
+SameIndividual(ESSO:Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type ESSO:Engel_2001_Early-Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type)
+
+# Individual: ESSO:Early_Onset_Benign_Occipital_Epilepsy (ESSO:Early_Onset_Benign_Occipital_Epilepsy)
+
+SameIndividual(ESSO:Early_Onset_Benign_Occipital_Epilepsy ESSO:Engel_2001_Early_Onset_Benign_Childhood_Occipital_Epilepsy-Panayiotopoulos_Type)
+
+# Individual: ESSO:Early_Post_Cerebral_Insult_Seizure (ESSO:Early_Post_Cerebral_Insult_Seizure)
+
+SameIndividual(ESSO:Early_Post_Cerebral_Insult_Seizure ESSO:Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures)
+SameIndividual(ESSO:Early_Post_Cerebral_Insult_Seizure ESSO:Immediate_Post_Cerebral_Insult_Seizure)
+
+# Individual: ESSO:Early_Posttraumatic_Seizure (ESSO:Early_Posttraumatic_Seizure)
+
+SameIndividual(ESSO:Early_Posttraumatic_Seizure ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures)
+SameIndividual(ESSO:Early_Posttraumatic_Seizure ESSO:Immediate_Posttraumatic_Seizure)
+SameIndividual(ESSO:Early_Posttraumatic_Seizure ESSO:Posttraumatic_Seizure)
+
+# Individual: ESSO:Elderly_Greater_Than_60_Years (ESSO:Elderly_Greater_Than_60_Years)
+
+SameIndividual(ESSO:Elderly_Greater_Than_60_Years ESSO:current_elderly_greater_than_60_yrs)
+
+# Individual: ESSO:Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism (ESSO:Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism)
+
+SameIndividual(ESSO:Engel_2001_Disorders_Of_Folic_Acid_And_B12_Metabolism ESSO:Folic_Acid_Disorder)
+
+# Individual: ESSO:Engel_2001_Epidermal_Nevus_Syndrome (ESSO:Engel_2001_Epidermal_Nevus_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Epidermal_Nevus_Syndrome ESSO:Epidermal_Nevus_Syndrome)
+
+# Individual: ESSO:Engel_2001_Epilepsy_With_Myoclonic_Astatic_Seizures (ESSO:Engel_2001_Epilepsy_With_Myoclonic_Astatic_Seizures)
+
+SameIndividual(ESSO:Engel_2001_Epilepsy_With_Myoclonic_Astatic_Seizures ESSO:Myoclonic_Astatic_Epilepsy)
+
+# Individual: ESSO:Engel_2001_Familial_Temporal_Lobe_Epilepsy (ESSO:Engel_2001_Familial_Temporal_Lobe_Epilepsy)
+
+SameIndividual(ESSO:Engel_2001_Familial_Temporal_Lobe_Epilepsy ESSO:Familial_Temporal_Lobe_Epilepsy)
+
+# Individual: ESSO:Engel_2001_Focal_Heterotopia (ESSO:Engel_2001_Focal_Heterotopia)
+
+SameIndividual(ESSO:Engel_2001_Focal_Heterotopia ESSO:Focal_Heterotopia)
+
+# Individual: ESSO:Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia (ESSO:Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia)
+
+SameIndividual(ESSO:Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia ESSO:Focal_Cortical_Dysplasia)
+SameIndividual(ESSO:Engel_2001_Focal_Or_Multifocal_Cortical_Dysplasia ESSO:Multifocal_Cortical_Dysplasia)
+
+# Individual: ESSO:Engel_2001_Fragile_X_Syndrome (ESSO:Engel_2001_Fragile_X_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Fragile_X_Syndrome ESSO:Fragile_X_Syndrome)
+
+# Individual: ESSO:Engel_2001_Fructose_1-6_Diphosphatase_Deficiency (ESSO:Engel_2001_Fructose_1-6_Diphosphatase_Deficiency)
+
+SameIndividual(ESSO:Engel_2001_Fructose_1-6_Diphosphatase_Deficiency ESSO:Fructose_1-6_Diphosphatase_Deficiency)
+
+# Individual: ESSO:Engel_2001_Fumarase_Deficiency (ESSO:Engel_2001_Fumarase_Deficiency)
+
+SameIndividual(ESSO:Engel_2001_Fumarase_Deficiency ESSO:Fumarase_Deficiency)
+
+# Individual: ESSO:Engel_2001_Glucose_Transport_Protein_Deficiency (ESSO:Engel_2001_Glucose_Transport_Protein_Deficiency)
+
+SameIndividual(ESSO:Engel_2001_Glucose_Transport_Protein_Deficiency ESSO:Glucose_Transport_Protein_Deficiency)
+
+# Individual: ESSO:Engel_2001_Glycogen-Storage_Disorders (ESSO:Engel_2001_Glycogen-Storage_Disorders)
+
+SameIndividual(ESSO:Engel_2001_Glycogen-Storage_Disorders ESSO:Glycogen-Storage_Disorder)
+
+# Individual: ESSO:Engel_2001_Hemiconvulsion-Hemiplegia_Epilepsy_HHE_Syndrome (ESSO:Engel_2001_Hemiconvulsion-Hemiplegia_Epilepsy_HHE_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Hemiconvulsion-Hemiplegia_Epilepsy_HHE_Syndrome ESSO:Hemiconvulsion-Hemiplegia_Epilepsy_Syndrome)
+
+# Individual: ESSO:Engel_2001_Huntington_Disease (ESSO:Engel_2001_Huntington_Disease)
+
+SameIndividual(ESSO:Engel_2001_Huntington_Disease <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington's_Disease>)
+
+# Individual: ESSO:Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures (ESSO:Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures)
+
+SameIndividual(ESSO:Engel_2001_Immediate_And_Early_Post_Cerebral_Insult_Seizures ESSO:Immediate_Post_Cerebral_Insult_Seizure)
+
+# Individual: ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures (ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures)
+
+SameIndividual(ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures ESSO:Immediate_Posttraumatic_Seizure)
+SameIndividual(ESSO:Engel_2001_Immediate_And_Early_Posttraumatic_Seizures ESSO:Posttraumatic_Seizure)
+
+# Individual: ESSO:Engel_2001_Isolated_Lissencephaly_Sequence (ESSO:Engel_2001_Isolated_Lissencephaly_Sequence)
+
+SameIndividual(ESSO:Engel_2001_Isolated_Lissencephaly_Sequence ESSO:Isolated_Lissencephaly_Sequence)
+
+# Individual: ESSO:Engel_2001_Krabbe_Disease (ESSO:Engel_2001_Krabbe_Disease)
+
+SameIndividual(ESSO:Engel_2001_Krabbe_Disease ESSO:Krabbe_Disease)
+
+# Individual: ESSO:Engel_2001_Lafora_Disease (ESSO:Engel_2001_Lafora_Disease)
+
+SameIndividual(ESSO:Engel_2001_Lafora_Disease ESSO:Lafora_Disease)
+
+# Individual: ESSO:Engel_2001_Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type (ESSO:Engel_2001_Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type)
+
+SameIndividual(ESSO:Engel_2001_Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type ESSO:Late-Onset_Childhood_Occipital_Epilepsy-Gastaut_Type)
+
+# Individual: ESSO:Engel_2001_Limbic_Epilepsies (ESSO:Engel_2001_Limbic_Epilepsies)
+
+SameIndividual(ESSO:Engel_2001_Limbic_Epilepsies ESSO:Limbic_Epilepsy)
+
+# Individual: ESSO:Engel_2001_Maple_Syrup_Urine_Disease (ESSO:Engel_2001_Maple_Syrup_Urine_Disease)
+
+SameIndividual(ESSO:Engel_2001_Maple_Syrup_Urine_Disease ESSO:Maple_Syrup_Urine_Disease)
+
+# Individual: ESSO:Engel_2001_Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis (ESSO:Engel_2001_Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis)
+
+SameIndividual(ESSO:Engel_2001_Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis ESSO:Mesial_Temporal_Lobe_Epilepsy_With_Hippocampal_Sclerosis)
+
+# Individual: ESSO:Engel_2001_Microdysgenesis (ESSO:Engel_2001_Microdysgenesis)
+
+SameIndividual(ESSO:Engel_2001_Microdysgenesis ESSO:Microdysgenesis)
+
+# Individual: ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Early_Infancy (ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Early_Infancy)
+
+SameIndividual(ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Early_Infancy ESSO:Migrating_Partial_Seizures_Of_Early_Infancy)
+
+# Individual: ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Infancy (ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Infancy)
+
+SameIndividual(ESSO:Engel_2001_Migrating_Partial_Seizures_Of_Infancy ESSO:Migrating_Partial_Seizures_of_Epilepsy)
+
+# Individual: ESSO:Engel_2001_Mitochondrial_Diseases (ESSO:Engel_2001_Mitochondrial_Diseases)
+
+SameIndividual(ESSO:Engel_2001_Mitochondrial_Diseases ESSO:Mitochondrial_Disease)
+
+# Individual: ESSO:Engel_2001_Mitochondrial_Encephalomyopathy_Lactic_Acidosis_And_Stroke-Like_Symptoms_MELAS (ESSO:Engel_2001_Mitochondrial_Encephalomyopathy_Lactic_Acidosis_And_Stroke-Like_Symptoms_MELAS)
+
+SameIndividual(ESSO:Engel_2001_Mitochondrial_Encephalomyopathy_Lactic_Acidosis_And_Stroke-Like_Symptoms_MELAS ESSO:Mitochondrial_Encephalomyopathy_Lactic_Acidosis_and_Stroke-Like_Symptoms_MELAS)
+
+# Individual: ESSO:Engel_2001_Myoclonic_Absence_Seizures (ESSO:Engel_2001_Myoclonic_Absence_Seizures)
+
+SameIndividual(ESSO:Engel_2001_Myoclonic_Absence_Seizures ESSO:Myoclonic_Absence_Seizure)
+
+# Individual: ESSO:Engel_2001_Myoclonic_Status_In_Nonprogressive_Encephalopathies (ESSO:Engel_2001_Myoclonic_Status_In_Nonprogressive_Encephalopathies)
+
+SameIndividual(ESSO:Engel_2001_Myoclonic_Status_In_Nonprogressive_Encephalopathies ESSO:Myoclonic_Status_In_Nonprogressive_Encephalopathies)
+
+# Individual: ESSO:Engel_2001_Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF (ESSO:Engel_2001_Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF)
+
+SameIndividual(ESSO:Engel_2001_Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF ESSO:Myoclonus_Epilepsy_With_Ragged_Red_Fibers_MERRF)
+
+# Individual: ESSO:Engel_2001_Neuroaxonal_Dystrophy (ESSO:Engel_2001_Neuroaxonal_Dystrophy)
+
+SameIndividual(ESSO:Engel_2001_Neuroaxonal_Dystrophy ESSO:Neuroaxonal_Dystrophy)
+
+# Individual: ESSO:Engel_2001_Neurofibromatosis (ESSO:Engel_2001_Neurofibromatosis)
+
+SameIndividual(ESSO:Engel_2001_Neurofibromatosis ESSO:Neurofibromatosis)
+SameIndividual(ESSO:Engel_2001_Neurofibromatosis ESSO:Neurofibromatosis_1)
+SameIndividual(ESSO:Engel_2001_Neurofibromatosis ESSO:Neurofibromatosis_2)
+
+# Individual: ESSO:Engel_2001_Nonketotic_Hyperglycinemia (ESSO:Engel_2001_Nonketotic_Hyperglycinemia)
+
+SameIndividual(ESSO:Engel_2001_Nonketotic_Hyperglycinemia ESSO:Nonketotic_Hyperglycinemia)
+
+# Individual: ESSO:Engel_2001_Other_Organic_Acidurias (ESSO:Engel_2001_Other_Organic_Acidurias)
+
+SameIndividual(ESSO:Engel_2001_Other_Organic_Acidurias ESSO:Other_Organic_Aciduria)
+
+# Individual: ESSO:Engel_2001_Periventricular_Nodular_Heterotopia (ESSO:Engel_2001_Periventricular_Nodular_Heterotopia)
+
+SameIndividual(ESSO:Engel_2001_Periventricular_Nodular_Heterotopia ESSO:Periventricular_Nodular_Heterotopia)
+
+# Individual: ESSO:Engel_2001_Peroxisomal_Disorders (ESSO:Engel_2001_Peroxisomal_Disorders)
+
+SameIndividual(ESSO:Engel_2001_Peroxisomal_Disorders ESSO:Peroxisomal_Disorder)
+
+# Individual: ESSO:Engel_2001_Phenylketonuria (ESSO:Engel_2001_Phenylketonuria)
+
+SameIndividual(ESSO:Engel_2001_Phenylketonuria ESSO:Phenylketonuria)
+
+# Individual: ESSO:Engel_2001_Propionic_Acidemia (ESSO:Engel_2001_Propionic_Acidemia)
+
+SameIndividual(ESSO:Engel_2001_Propionic_Acidemia ESSO:Propionic_Acidemia)
+
+# Individual: ESSO:Engel_2001_Pyruvate_Dehydrogenase_Deficiency (ESSO:Engel_2001_Pyruvate_Dehydrogenase_Deficiency)
+
+SameIndividual(ESSO:Engel_2001_Pyruvate_Dehydrogenase_Deficiency ESSO:Pyruvate_Dehydrogenase_Deficiency)
+
+# Individual: ESSO:Engel_2001_Rasmussen_Syndrome (ESSO:Engel_2001_Rasmussen_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Rasmussen_Syndrome ESSO:Rasmussen_Syndrome)
+
+# Individual: ESSO:Engel_2001_Respiratory_Chain_Defects (ESSO:Engel_2001_Respiratory_Chain_Defects)
+
+SameIndividual(ESSO:Engel_2001_Respiratory_Chain_Defects ESSO:Respiratory_Chain_Defect)
+
+# Individual: ESSO:Engel_2001_Rett_Syndrome (ESSO:Engel_2001_Rett_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Rett_Syndrome ESSO:Rett_Syndrome)
+
+# Individual: ESSO:Engel_2001_Sanfilippo_Syndrome (ESSO:Engel_2001_Sanfilippo_Syndrome)
+
+SameIndividual(ESSO:Engel_2001_Sanfilippo_Syndrome ESSO:Sanfilippo_Syndrome)
+
+# Individual: ESSO:Engel_2001_Schizencephalies (ESSO:Engel_2001_Schizencephalies)
+
+SameIndividual(ESSO:Engel_2001_Schizencephalies ESSO:Schizencephaly)
+
+# Individual: ESSO:Engel_2001_Sialidosis (ESSO:Engel_2001_Sialidosis)
+
+SameIndividual(ESSO:Engel_2001_Sialidosis ESSO:Sialidosis)
+
+# Individual: ESSO:Engel_2001_Subcortical_Band_Heterotopia (ESSO:Engel_2001_Subcortical_Band_Heterotopia)
+
+SameIndividual(ESSO:Engel_2001_Subcortical_Band_Heterotopia ESSO:Subcortical_Band_Heterotopia)
+
+# Individual: ESSO:Engel_2001_Sulphite-Oxidase_Deficiency (ESSO:Engel_2001_Sulphite-Oxidase_Deficiency)
+
+SameIndividual(ESSO:Engel_2001_Sulphite-Oxidase_Deficiency ESSO:Sulphite-Oxidase_Deficiency)
+
+# Individual: ESSO:Engel_2001_Tuberous_Sclerosis_Complex (ESSO:Engel_2001_Tuberous_Sclerosis_Complex)
+
+SameIndividual(ESSO:Engel_2001_Tuberous_Sclerosis_Complex ESSO:Tuberous_Sclerosis_Complex)
+
+# Individual: ESSO:Engel_2001_Unilateral_Polymicrogyria (ESSO:Engel_2001_Unilateral_Polymicrogyria)
+
+SameIndividual(ESSO:Engel_2001_Unilateral_Polymicrogyria ESSO:Unilateral_Polymicrogyria)
+
+# Individual: ESSO:Engel_2001_Urea_Cycle_Disorders (ESSO:Engel_2001_Urea_Cycle_Disorders)
+
+SameIndividual(ESSO:Engel_2001_Urea_Cycle_Disorders ESSO:Urea_Cycle_Disorder)
+
+# Individual: ESSO:Engel_2001_X-Linked_Lissencephaly (ESSO:Engel_2001_X-Linked_Lissencephaly)
+
+SameIndividual(ESSO:Engel_2001_X-Linked_Lissencephaly ESSO:X-Linked_Lissencephaly)
+
+# Individual: ESSO:Epidemiologic_Factor (ESSO:Epidemiologic_Factor)
+
+SameIndividual(ESSO:Epidemiologic_Factor ESSO:epidemiologic_factor)
+
+# Individual: ESSO:Epilepsy_Syndrome_List_Cited_from_1989_to_2014 (ESSO:Epilepsy_Syndrome_List_Cited_from_1989_to_2014)
+
+SameIndividual(ESSO:Epilepsy_Syndrome_List_Cited_from_1989_to_2014 ESSO:epilepsy_syndrome)
+
+# Individual: ESSO:Febrile_Infection-Related_Epilepsy_Syndrome_FIRES (ESSO:Febrile_Infection-Related_Epilepsy_Syndrome_FIRES)
+
+SameIndividual(ESSO:Febrile_Infection-Related_Epilepsy_Syndrome_FIRES ESSO:Fever-Induced_Refractory_Epileptic_Encephalopathy_in_School-Aged_Children_FIRES)
+
+# Individual: ESSO:Focal_Cortical_Dysplasia (ESSO:Focal_Cortical_Dysplasia)
+
+SameIndividual(ESSO:Focal_Cortical_Dysplasia ESSO:Multifocal_Cortical_Dysplasia)
+
+# Individual: ESSO:Gastaut_Syndrome (ESSO:Gastaut_Syndrome)
+
+SameIndividual(ESSO:Gastaut_Syndrome <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Lennox–Gastaut_Syndrome>)
+SameIndividual(ESSO:Gastaut_Syndrome <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2006_Lennox–Gastaut_Syndrome>)
+
+# Individual: ESSO:Immediate_Posttraumatic_Seizure (ESSO:Immediate_Posttraumatic_Seizure)
+
+SameIndividual(ESSO:Immediate_Posttraumatic_Seizure ESSO:Posttraumatic_Seizure)
+
+# Individual: ESSO:Infant_1_Month_to_1_Year (ESSO:Infant_1_Month_to_1_Year)
+
+SameIndividual(ESSO:Infant_1_Month_to_1_Year ESSO:current_adolescent_12_18_yrs)
+SameIndividual(ESSO:Infant_1_Month_to_1_Year ESSO:current_child_1_to_11_yrs)
+SameIndividual(ESSO:Infant_1_Month_to_1_Year ESSO:current_infant_1_to_12_months)
+
+# Individual: ESSO:Infantile_Spasms (ESSO:Infantile_Spasms)
+
+SameIndividual(ESSO:Infantile_Spasms ESSO:West_Syndrome)
+
+# Individual: ESSO:Jansky_Bielschoski_Disease (ESSO:Jansky_Bielschoski_Disease)
+
+SameIndividual(ESSO:Jansky_Bielschoski_Disease ESSO:Late_Infantile_Ceroid-Lipofuscinoisis)
+
+# Individual: ESSO:Lafora_Disease (ESSO:Lafora_Disease)
+
+SameIndividual(ESSO:Lafora_Disease ESSO:Lafora_disease)
+
+# Individual: ESSO:Limbic_Encephalitis_with_Negative_Antibodies (ESSO:Limbic_Encephalitis_with_Negative_Antibodies)
+
+SameIndividual(ESSO:Limbic_Encephalitis_with_Negative_Antibodies ESSO:Myasthenia_Gravis)
+
+# Individual: ESSO:Miller-Dieker_Syndrome (ESSO:Miller-Dieker_Syndrome)
+
+SameIndividual(ESSO:Miller-Dieker_Syndrome <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Miller–Dieker_Syndrome>)
+
+# Individual: ESSO:Mitochondrial_Myopathy (ESSO:Mitochondrial_Myopathy)
+
+SameIndividual(ESSO:Mitochondrial_Myopathy ESSO:Ramsay-Hunt_Like_Syndrome)
+
+# Individual: ESSO:Neonate_Less_Than_or_Equal_to_1_Month_or_44_weeks_gestation (ESSO:Neonate_Less_Than_or_Equal_to_1_Month_or_44_weeks_gestation)
+
+SameIndividual(ESSO:Neonate_Less_Than_or_Equal_to_1_Month_or_44_weeks_gestation ESSO:current_neonate_birth_to_1_month)
+
+# Individual: ESSO:Neurofibromatosis (ESSO:Neurofibromatosis)
+
+SameIndividual(ESSO:Neurofibromatosis ESSO:Neurofibromatosis_1)
+SameIndividual(ESSO:Neurofibromatosis ESSO:Neurofibromatosis_2)
+
+# Individual: ESSO:Neurofibromatosis_1 (ESSO:Neurofibromatosis_1)
+
+SameIndividual(ESSO:Neurofibromatosis_1 ESSO:Neurofibromatosis_2)
+
+# Individual: ESSO:Rasmussen_Syndrome (ESSO:Rasmussen_Syndrome)
+
+SameIndividual(ESSO:Rasmussen_Syndrome ESSO:Rasmussens_Syndrome)
+
+# Individual: ESSO:Sandhoff_Disease (ESSO:Sandhoff_Disease)
+
+SameIndividual(ESSO:Sandhoff_Disease ESSO:Tay-Sachs_Disease)
+
+# Individual: ESSO:Unverricht-Lundborg_Disease (ESSO:Unverricht-Lundborg_Disease)
+
+SameIndividual(ESSO:Unverricht-Lundborg_Disease <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Unverricht–Lundborg_Disease>)
+
+# Individual: ESSO:Urea_Cycle_DIsorder (ESSO:Urea_Cycle_DIsorder)
+
+SameIndividual(ESSO:Urea_Cycle_DIsorder ESSO:Urea_Cycle_Disorder)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease>)
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease>)
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alpers'_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes'_Disease>)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease>)
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease>)
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Alzheimer's_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington's_Disease>)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alpers’_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes'_Disease>)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease>)
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Alzheimer’s_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington's_Disease>)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Engel_2001_Menkes’_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Menkes'_Disease>)
+
+# Individual: <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease> (<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease>)
+
+SameIndividual(<http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Grave's_Disease> <http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Huntington's_Disease>)
+
+
+)
