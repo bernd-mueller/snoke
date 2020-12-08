@@ -8,6 +8,10 @@
         <name>ZB MED</name>
         <url>https://www.zbmed.de</url>
     </organization>
+    <url>
+    	https://github.com/bernd-mueller/snoke/
+    </url>
+    <packaging>pom</packaging>
     <developers>
     	<developer>
     		<name>Bernd Müller</name>
@@ -25,7 +29,7 @@
     			ZB MED - Information Centre for Life Sciences
     		</organization>
     	</developer>
-    </developers>
+    </developers>   
     <properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -35,48 +39,8 @@
      	<log4j.version>2.13.3</log4j.version>
      	<uima.version>2.10.2</uima.version>
      	<mongo.version>3.12.7</mongo.version>
+     	<project.reporting.outputDirectory>docs</project.reporting.outputDirectory>
     </properties>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <show>private</show>
-                    <nohelp>true</nohelp>
-                    <reportOutputDirectory>docs</reportOutputDirectory>
-                    <destDir>javadoc</destDir>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.2.0</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.1.2</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>3.9.0</version>
-            </plugin>
-            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.9</version>
-            </plugin>
-
-        </plugins>
-    </reporting>
     <dependencies>
 	<dependency>
 		<groupId>junit</groupId>
@@ -247,7 +211,6 @@
             <url>http://code.berkeleybop.org/maven/repository/</url>
         </repository>
     </repositories>
-    <packaging>pom</packaging>
     <modules>
     	<module>snoke.uima</module>
     	<module>snoke.dl</module>
@@ -255,4 +218,32 @@
     	<module>snoke.neo4j</module>
     	<module>snoke.utility</module>
   	</modules>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>2.10.4</version>
+            <configuration>
+                <!-- Default configuration for all reports -->
+                <failOnError>false</failOnError>
+                <reportOutputDirectory>${basedir}/docs</reportOutputDirectory>
+                <destDir>javadoc</destDir>
+                <!-- as there are lots of incorrectly documented sources -->
+                <additionalparam>-Xdoclint:none</additionalparam>
+            </configuration>
+            <executions>
+                <execution>
+                    <id>aggregate</id>
+                    <goals>
+                        <goal>aggregate</goal>
+                    </goals>
+                    <phase>site</phase>
+                    <configuration>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
 </project>
