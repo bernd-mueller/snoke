@@ -1,3 +1,5 @@
+[![Build Status](<https://travis-ci.com/bernd-mueller/snoke.svg?branch=master&amp;status=passed)](https://travis-ci.org/bernd-mueller/snoke)
+
 # snoke
 Towards a Semantic NoSQL Knowledge Environment (SNOKE)
 
