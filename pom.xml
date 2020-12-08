@@ -226,9 +226,9 @@
             <version>2.10.4</version>
             <configuration>
                 <!-- Default configuration for all reports -->
-                <failOnError>false</failOnError>
-                <reportOutputDirectory>${basedir}/docs</reportOutputDirectory>
-                <destDir>javadoc</destDir>
+                <failOnError>true</failOnError>
+                <reportOutputDirectory>${basedir}</reportOutputDirectory>
+                <destDir>docs/javadoc</destDir>
                 <!-- as there are lots of incorrectly documented sources -->
                 <additionalparam>-Xdoclint:none</additionalparam>
             </configuration>
