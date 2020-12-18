@@ -220,7 +220,7 @@ public abstract class DictHandler {
 	abstract public Set <String> processPropertySeeAlso (OntClass oc, Set <String> synset);
 	
 	public Set <String> addDrugNamesToSynonymSet (Set <String> synset) {
-		Set <String> locSynSet = synset;
+		Set <String> locSynSet = new HashSet <String> (synset);;
 		for (String syn : locSynSet) {
 			if (this.dbm.drugmap.containsKey(syn)) {
 				Set <String> dset = this.dbm.drugmap.get(syn);
