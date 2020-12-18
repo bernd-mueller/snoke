@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/bernd-mueller/snoke.svg?branch=master&amp;status=passed)](https://travis-ci.org/bernd-mueller/snoke)
 
 # snoke
-Towards a Semantic NoSQL Knowledge Environment (SNOKE)
+Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
 
 The Maven project snoke contains implementation for various applications ranging from the conversion of ontology formats, UIMA engine components, neo4j database handlers to language models with DeepLearning4j. Accordingly, the maven project is structured into the respective modules:
 <ol>
