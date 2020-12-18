@@ -19,8 +19,22 @@ import org.w3c.dom.Element;
 
 import de.zbmed.snoke.ontology.common.DictHandler;
 
+/**
+ * Implementation for creating a dictionary for ICD with inherited methods from DictHandler
+ * 
+ * @author Muellerb
+ * @since 2020
+ */
 public class CreateDictFromICD extends DictHandler {
 
+	/**
+	 * Similar method to the one that calls it with a signature for OntClass. Creates a dictionary from a set
+	 * of ICDentities
+	 * 
+	 * @param icdents Set of ICDentity produced by the class ICDAPIclient
+	 * @param dictfilename the output file name for the dictionary
+	 * @param CodeValue the letter code for the dictionary
+	 */
 	public void createConceptMapperDictionary (Set<ICDentity> icdents, String dictfilename, String CodeValue) {
 		try {
 			Element rootElement = dict_doc.createElement("synonym");
@@ -50,6 +64,13 @@ public class CreateDictFromICD extends DictHandler {
 
 	}
 	
+	/**
+	 * Creates tokens from an ICDentity
+	 * 
+	 * @param ie the ICDentity to be processed
+	 * @param CodeType the letter code for the dictionary
+	 * @return token element for the dictionary 
+	 */
 	private Element createTokenFromICDentity(ICDentity ie, String CodeType) {
 		Element token = dict_doc.createElement("token");
 
@@ -84,6 +105,9 @@ public class CreateDictFromICD extends DictHandler {
 
 	}
 
+	/**
+	 * Empty override
+	 */
 	@Override
 	public Set<String> processPropertySeeAlso(OntClass oc, Set<String> synset) {
 		// TODO Auto-generated method stub
