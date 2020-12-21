@@ -17,11 +17,14 @@ import javax.net.ssl.HttpsURLConnection;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-import org.w3c.dom.Element;
-
-import de.zbmed.snoke.ontology.common.DictHandler;
 
 
+/**
+ * Implementation of REST client for ICD API
+ * 
+ * @author Muellerb
+ * @since 2020
+ */
 public class ICDAPIclient {
 
 	Set <ICDentity> allents = new HashSet <ICDentity> ();
@@ -38,6 +41,9 @@ public class ICDAPIclient {
 		readCredentials ();
 	}
 
+	/**
+	 * Reads ICD API credentials for getting a valid token
+	 */
 	public void readCredentials () {
 		try (BufferedReader br = new BufferedReader(new FileReader("resources/credentials/creds.txt"))) {
 			String line;
@@ -53,6 +59,9 @@ public class ICDAPIclient {
 		}
 	}
 	
+	/**
+	 * Read the top level entities in the ICD tree from file
+	 */
 	public void readRootEntities () {
 		try (BufferedReader br = new BufferedReader(new FileReader("resources/icd/rootentities.txt"))) {
 			String line;
@@ -79,11 +88,21 @@ public class ICDAPIclient {
 		api.writeToDict();
 	}
 
+	/**
+	 * Writes the extracted Set <ICDentity> as dictionary file
+	 */
 	public void writeToDict () {
 		CreateDictFromICD dh = new CreateDictFromICD ();
 		dh.createConceptMapperDictionary(this.getAllents(), "dictionaries/Dict_ICD.xml", "ICD");
 	}
 
+	/**
+	 * Calls the ICD API for retrieving information for a given entity id
+	 * @param token the valid token for accessing the IP
+	 * @param id the identifier of the entity
+	 * @return the return code from the REST call
+	 * @throws Exception
+	 */
 	private int getEntityInformation(String token, String id) throws Exception {
 		if (!processed.contains(id)) {
 			if (++counter%100==0) {
@@ -138,6 +157,11 @@ public class ICDAPIclient {
 	}
 
 	// get the OAUTH2 token
+	/**
+	 * Retrieve a valid API token for accessing the ICD API
+	 * @return
+	 * @throws Exception
+	 */
 	private String getToken() throws Exception {
 
 		System.out.println("Getting token...");
