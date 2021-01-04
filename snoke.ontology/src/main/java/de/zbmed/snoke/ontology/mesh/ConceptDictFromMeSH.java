@@ -1,7 +1,6 @@
 package de.zbmed.snoke.ontology.mesh;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -14,13 +13,6 @@ import java.util.Set;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
@@ -36,16 +28,13 @@ import org.apache.commons.cli.ParseException;
 import org.apache.jena.ontology.OntClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import de.zbmed.snoke.ontology.common.DictHandler;
-import de.zbmed.snoke.ontology.common.SnowballStemmer;
 import de.zbmed.snoke.ontology.common.Token;
 
 /**
@@ -116,14 +105,12 @@ public class ConceptDictFromMeSH extends DictHandler {
 	}
 	
 	/**
-	 * Read the MeSH descriptor file in XML format comprising XML parsing for extracting concepts with synonyms
+	 * Read the MeSH descriptor file in XML format comprising XML parsing for extracting concepts with synonyms.
+	 * Writes concepts with synonyms into ConceptMapper dictionary format.
 	 */
 	public void processXML () {
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
-
-		SnowballStemmer snow = new SnowballStemmer();
-		
 		
 		Map <String, String> mname2id = new HashMap <String, String> ();
 		
@@ -145,8 +132,6 @@ public class ConceptDictFromMeSH extends DictHandler {
 			log.info("Executing expression\t\"" + expression + "\"...");
 			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 			log.info("Executed expression\t\"" + expression + "\" !");
-			String diseasename = "";
-			String synonyms = "";
 
 
 			for (int i = 0; i < nodeList.getLength(); i++) {
