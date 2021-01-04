@@ -93,7 +93,8 @@ public class ConceptDictFromMeSH {
         
         log.info("Using parameters:");
         log.info("\tinput: " + inputFilePath);
-        log.info("\toutput: " + outputFilePath);
+        log.info("\toutput dictionary: " + outputFilePath);
+        log.info("\toutput mapping: " + outputMapFilePath);
     }
 	public static void main(String[] args) throws Exception {
     	readCLI (args);
@@ -238,7 +239,7 @@ public class ConceptDictFromMeSH {
 			}
             BufferedWriter writer = null;
             try {
-                writer = new BufferedWriter(new FileWriter(outputFilePath));
+                writer = new BufferedWriter(new FileWriter(outputMapFilePath));
                 for (String k : mname2id.keySet()) {
                 	String v = mname2id.get(k);
                 	writer.write(k + "\t" + v + "\n");
@@ -252,7 +253,7 @@ public class ConceptDictFromMeSH {
 			Transformer transformer = transformerFactory.newTransformer();
 			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
 			DOMSource source = new DOMSource(dict_doc);
-			StreamResult result = new StreamResult(new File(outputMapFilePath));
+			StreamResult result = new StreamResult(new File(outputFilePath));
 
 			// Output to console for testing
 			// StreamResult result = new StreamResult(System.out);
