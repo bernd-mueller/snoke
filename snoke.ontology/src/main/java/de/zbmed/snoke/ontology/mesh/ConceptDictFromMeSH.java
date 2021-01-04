@@ -7,7 +7,9 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -31,6 +33,7 @@ import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+import org.apache.jena.ontology.OntClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Attr;
@@ -41,7 +44,9 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import de.zbmed.snoke.ontology.common.DictHandler;
 import de.zbmed.snoke.ontology.common.SnowballStemmer;
+import de.zbmed.snoke.ontology.common.Token;
 
 /**
  * ConceptDictFromMeSH Converts an input MeSH XML file into a dictionary file in XML format that can be used
@@ -52,12 +57,19 @@ import de.zbmed.snoke.ontology.common.SnowballStemmer;
  * @version 0.1
  * @since 2016
  */
-public class ConceptDictFromMeSH {
+public class ConceptDictFromMeSH extends DictHandler {
     private static final Logger log = LoggerFactory.getLogger(ConceptDictFromMeSH.class);
     static String inputFilePath = "";
     static String outputFilePath = "";
     static String outputMapFilePath = "";
     
+    Set <Token> tokens = new HashSet <Token> ();
+    
+    /**
+     * Read command line arguments for the input file and the outpt files
+     * 
+     * @param args separated command line parameters
+     */
     public static void readCLI (String args[]) {
     	Options options = new Options();
 
@@ -96,12 +108,17 @@ public class ConceptDictFromMeSH {
         log.info("\toutput dictionary: " + outputFilePath);
         log.info("\toutput mapping: " + outputMapFilePath);
     }
-	public static void main(String[] args) throws Exception {
-    	readCLI (args);
-    	processXML();
+	public static void main(String[] args) {
+		ConceptDictFromMeSH cdm = new ConceptDictFromMeSH ();
+		cdm.readCLI (args);
+		cdm.processXML();
 		
 	}
-	public static void processXML () {
+	
+	/**
+	 * Read the MeSH descriptor file in XML format comprising XML parsing for extracting concepts with synonyms
+	 */
+	public void processXML () {
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
 
@@ -131,9 +148,6 @@ public class ConceptDictFromMeSH {
 			String diseasename = "";
 			String synonyms = "";
 
-			Document dict_doc = builder.newDocument();
-			Element rootElement = dict_doc.createElement("synonym");
-			dict_doc.appendChild(rootElement);
 
 			for (int i = 0; i < nodeList.getLength(); i++) {
 				Node no = nodeList.item(i);
@@ -142,23 +156,14 @@ public class ConceptDictFromMeSH {
 
 				String mid = "";
 				String mname = "";
-				Element token = dict_doc.createElement("token");
+				Token t = new Token ();
 				for (int j = 0; j < nl.getLength(); j++) {
 					Node subn = nl.item(j);
+
 					if (subn.getNodeName().equals("DescriptorUI")) {
-//								String descriptorUI = subn.getTextContent();
-//								System.out.println(descriptorUI);
-
-						Attr attr_descrUI = dict_doc.createAttribute("CodeValue");
-						attr_descrUI.setValue(subn.getTextContent());
-						token.setAttributeNode(attr_descrUI);
-						
 						mid = subn.getTextContent();
-						
-						Attr attr_codetype = dict_doc.createAttribute("CodeType");
-						attr_codetype.setValue("MeSH");
-						token.setAttributeNode(attr_codetype);
-
+						t.setCodeValue(mid);
+						t.setCodeType("MeSH");;
 					} else if (subn.getNodeName().equals("ConceptList")) {
 						NodeList nll = subn.getChildNodes();
 						for (int k = 0; k < nll.getLength(); k++) {
@@ -179,9 +184,7 @@ public class ConceptDictFromMeSH {
 													conceptName = subnnn.getTextContent();
 													//System.out.println(conceptName);
 													mname = conceptName;
-													Attr attr_canonical = dict_doc.createAttribute("canonical");
-													attr_canonical.setValue(conceptName);
-													token.setAttributeNode(attr_canonical);
+													t.setCanonical(conceptName);
 												} else if (subnnn.getNodeName().equals("TermList")) {
 													NodeList nllll = subnnn.getChildNodes();
 													for (int n = 0; n < nllll.getLength(); n++) {
@@ -195,28 +198,7 @@ public class ConceptDictFromMeSH {
 																// System.out.println(subnnnnn.getNodeName());
 																if (subnnnnn.getNodeName().equals("String")) {
 																	String synonymTerm = subnnnnn.getTextContent();
-																	if (!conceptName.equals(synonymTerm)
-																			&& synonymTerm != null) {
-																		Element variant = dict_doc
-																				.createElement("variant");
-																		Attr attr_base = dict_doc
-																				.createAttribute("base");
-																		attr_base.setValue(synonymTerm.trim());
-																		variant.setAttributeNode(attr_base);
-																		token.appendChild(variant);
-																	}
-																	String stemsyn = snow
-																			.doTheSnowballStem(synonymTerm);
-																	if (!stemsyn.equals(synonymTerm)
-																			&& stemsyn != null) {
-																		Element variant = dict_doc
-																				.createElement("variant");
-																		Attr attr_base = dict_doc
-																				.createAttribute("base");
-																		attr_base.setValue(stemsyn.trim());
-																		variant.setAttributeNode(attr_base);
-																		token.appendChild(variant);
-																	}
+																	t.getSynonyms().add(synonymTerm);
 																}
 
 															}
@@ -232,10 +214,9 @@ public class ConceptDictFromMeSH {
 						}
 
 					}
-					
+					tokens.add(t);
 				}
 				mname2id.put(mname, mid);
-				rootElement.appendChild(token);
 			}
             BufferedWriter writer = null;
             try {
@@ -249,16 +230,7 @@ public class ConceptDictFromMeSH {
                 e.printStackTrace();
             }
 			
-			TransformerFactory transformerFactory = TransformerFactory.newInstance();
-			Transformer transformer = transformerFactory.newTransformer();
-			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-			DOMSource source = new DOMSource(dict_doc);
-			StreamResult result = new StreamResult(new File(outputFilePath));
-
-			// Output to console for testing
-			// StreamResult result = new StreamResult(System.out);
-
-			transformer.transform(source, result);
+            this.createConceptMapperDict (tokens, outputFilePath, "MeSH");
 
 			System.out.println("File saved!");
 
@@ -276,12 +248,11 @@ public class ConceptDictFromMeSH {
 		} catch (XPathExpressionException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} catch (TransformerConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
+	}
+	@Override
+	public Set<String> processPropertySeeAlso(OntClass oc, Set<String> synset) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

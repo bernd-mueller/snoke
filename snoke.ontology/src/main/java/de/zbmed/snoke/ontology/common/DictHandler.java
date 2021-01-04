@@ -33,6 +33,8 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import de.zbmed.snoke.ontology.icd.ICDentity;
+
 /**
  * DictHandler is the common super class for the conversion of ontology resources into dictionary files that can
  * be loaded by the UIMA Analysis Engine ConceptMapper
@@ -237,7 +239,48 @@ public abstract class DictHandler {
 		}
 		return synset;
 	}
-	
+	/**
+	 * Creates tokens from an ICDentity
+	 * 
+	 * @param ie the ICDentity to be processed
+	 * @param CodeType the letter code for the dictionary
+	 * @return token element for the dictionary 
+	 */
+	private Element createToken(Token t, String CodeType) {
+		Element token = dict_doc.createElement("token");
+
+		String localName = t.getCanonical();
+		String uri = t.getCodeValue();
+
+		this.addCodeTypeToToken(CodeType, token);
+		this.addCodeValueToToken(uri, token);
+		this.addCanonicalToToken(localName, token);
+		Set <String> synset = new HashSet <String> ();
+		if (localName != null && !localName.equals("")) {
+			synset = this.addSynonymToToken(localName.toLowerCase(), synset);
+			synset = this.addStemmedSynonymToToken(localName.toLowerCase(), synset);
+		}
+		
+		Set<String> synonyms = t.getSynonyms();
+		
+		for (String synonym : synonyms) {
+			Set <String> copyset = new HashSet <String> (synset);
+			synset = this.addSynonymToToken(synonym.toLowerCase(), copyset);
+			copyset = new HashSet <String> (synset);
+			synset = this.addStemmedSynonymToToken(synonym.toLowerCase(), copyset);
+		}
+		Set <String> copyset = new HashSet <String> (synset);
+		if (localName != null) {
+			synset = this.genSynonymFromLocalName(localName, copyset);
+		}
+		copyset = new HashSet <String> (synset);
+		synset = this.addDrugNamesToSynonymSet(copyset);
+
+		token = createTokensFromSynSet(synset, token);
+
+		return token;
+
+	}
 	
 	public Element createTokensFromSynSet (Set <String> synset, Element t) {
 		for (String syn : synset) {
@@ -277,6 +320,43 @@ public abstract class DictHandler {
 		return synset;
 	}
 
+	/**
+	 * Similar method to the one that calls it with a signature for OntClass. Creates a dictionary from a set
+	 * of Token
+	 * 
+	 * @param icdents Set of ICDentity produced by the class ICDAPIclient
+	 * @param dictfilename the output file name for the dictionary
+	 * @param CodeValue the letter code for the dictionary
+	 */
+	public void createConceptMapperDict (Set<Token> tokens, String dictfilename, String CodeValue) {
+		try {
+			Element rootElement = dict_doc.createElement("synonym");
+			dict_doc.appendChild(rootElement);
+
+			for (Token t : tokens) {
+				Element token = createToken (t, CodeValue);
+				rootElement.appendChild(token);
+			}
+		   
+			
+			TransformerFactory transformerFactory = TransformerFactory.newInstance();
+			Transformer transformer;
+
+			transformer = transformerFactory.newTransformer();
+			transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+			DOMSource source = new DOMSource(dict_doc);
+			StreamResult result = new StreamResult(new File(dictfilename));
+			transformer.transform(source, result);
+		} catch (TransformerConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (TransformerException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+	
 	public void createConceptMapperDictionary (OntModel ont, String dictfilename, String CodeValue) {
 		this.ont = ont;
 		try {
