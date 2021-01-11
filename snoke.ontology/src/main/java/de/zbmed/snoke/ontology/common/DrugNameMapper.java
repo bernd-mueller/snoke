@@ -29,7 +29,7 @@ public class DrugNameMapper {
 		drugnameloader = new DictLoader();
 		drugmap = drugnameloader.getMapForDict("dictionaries/Dict_DrugNames.xml");
 		drugsynmap = drugnameloader.getValueMapForDict("dictionaries/Dict_DrugNames.xml");
-		drugnameidmap = readMappingFile("resources/drugbank/db-atc.map");
+		drugnameidmap = readMappingFile("resources/drugnames/db-atc.map");
 	}
 	
 	
@@ -94,7 +94,7 @@ public class DrugNameMapper {
 		// TODO Auto-generated method stub
 
 		DrugNameMapper dbm = new DrugNameMapper ();
-		Map <String, String> m = dbm.readMappingFile("resources/drugbank/db-atc.map");
+		Map <String, String> m = dbm.readMappingFile("resources/drugnames/db-atc.map");
 		System.out.println(m.keySet().size());
 	}
 
