@@ -109,6 +109,7 @@ public class ConceptDictFromMeSH extends DictHandler {
 	 * Writes concepts with synonyms into ConceptMapper dictionary format.
 	 */
 	public void processXML () {
+		String meshurl = "http://id.nlm.nih.gov/mesh/";
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
 		
@@ -147,7 +148,7 @@ public class ConceptDictFromMeSH extends DictHandler {
 
 					if (subn.getNodeName().equals("DescriptorUI")) {
 						mid = subn.getTextContent();
-						t.setCodeValue(mid);
+						t.setCodeValue(meshurl + mid);
 						t.setCodeType("MeSH");;
 					} else if (subn.getNodeName().equals("ConceptList")) {
 						NodeList nll = subn.getChildNodes();
