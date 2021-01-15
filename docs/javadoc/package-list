@@ -17,6 +17,7 @@ de.zbmed.snoke.ontology.esso
 de.zbmed.snoke.ontology.fenics
 de.zbmed.snoke.ontology.icd
 de.zbmed.snoke.ontology.mesh
+de.zbmed.snoke.ontology.ncbo
 de.zbmed.snoke.ontology.obo
 de.zbmed.snoke.uima.analysis
 de.zbmed.snoke.uima.consumer
