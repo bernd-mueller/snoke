@@ -22,6 +22,7 @@ public class ConvertVocabToDict extends DictHandler {
 	}
 	
 	public void loadVocab () {
+		String drugbankurl = "https://go.drugbank.com/drugs/";
 		BufferedReader reader;
 		try {
 			Set <Token> tokens = new HashSet <Token> ();
@@ -32,7 +33,7 @@ public class ConvertVocabToDict extends DictHandler {
 				Token t = new Token ();
 				if (splitline.length>5) {
 					String drugbankid = splitline[0];
-					t.setCodeValue(drugbankid);
+					t.setCodeValue(drugbankurl+drugbankid);
 					String canonical = splitline[2];
 					t.setCanonical(canonical.trim());
 					String synonyms = splitline[5];
