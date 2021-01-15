@@ -35,11 +35,35 @@ import org.xml.sax.SAXException;
 import de.zbmed.snoke.ontology.common.SnowballStemmer;
 
 
+/**
+ * Loader for ConceptMapper dictionary files to convert concepts and synonyms into HashMaps
+ * 
+ * @author Muellerb
+ *
+ */
+/**
+ * @author Muellerb
+ *
+ */
+/**
+ * @author Muellerb
+ *
+ */
+/**
+ * @author Muellerb
+ *
+ */
 public class DictLoader {
 	private static final Logger log = LoggerFactory.getLogger(DictLoader.class);
     static public String inputFilePath = "";
     public DictLoader () {
     }
+    
+	/**
+	 * Pass command line arguments for parsing
+	 * 
+	 * @param args
+	 */
 	public static void readCLI(String args[]) {
 		Options options = new Options();
 
@@ -67,6 +91,12 @@ public class DictLoader {
 		log.info("\tinput: " + inputFilePath);
 	}
 	
+	/**
+	 * Loads dictionary file into a HashMap with Synonyms as keys and Concept names as values
+	 * 
+	 * @param dictFile the dictionary file path
+	 * @return
+	 */
 	public Map <String, String> getValueMapForDict (String dictFile) {
 		Map <String, Set <String>> m = getMapForDict(dictFile);
 		Map <String, String> vmap = new HashMap <String, String> ();
@@ -79,6 +109,13 @@ public class DictLoader {
 		return vmap;
 	}
 	
+	/**
+	 * Parses the XML file and saves concepts with synonyms as HashMap. Keys are generated as pattern
+	 * with CodeValue and canonical separated by the sign "@"
+	 * 
+	 * @param dictFile the dictionary file path
+	 * @return HashMap with concepts as keys and synonyms as values
+	 */
 	public Map <String, Set <String>> getCodeMapForDict (String dictFile) {
 		Map <String, Set <String>> dictMap = new HashMap <String, Set <String>> ();
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
@@ -103,6 +140,7 @@ public class DictLoader {
 								
 			for (int i = 0; i < nodeList.getLength(); i++) {
 				String codevalue = "";
+				String canonical = "";
 				Node n = nodeList.item(i);
 				
 				NamedNodeMap atts = n.getAttributes();
@@ -110,6 +148,8 @@ public class DictLoader {
 					Node an = atts.item(j);
 					if (an.getNodeName().equals("CodeValue")) {
 						codevalue = an.getNodeValue();
+					} else if (an.getNodeName().equals("canonical")) {
+						canonical = an.getNodeValue();
 					}
 				}
 				Set <String> tokens = new HashSet <String> ();
@@ -128,9 +168,9 @@ public class DictLoader {
 				}
 				//System.out.println("i\t" + n.getNodeName());
 				if (codevalue.equals("")) {
-					dictMap.put(i+"", tokens);
+					dictMap.put(i+"@"+canonical, tokens);
 				} else {
-					dictMap.put(codevalue, tokens);
+					dictMap.put(codevalue+"@"+canonical, tokens);
 				}
 			}
 			
@@ -152,13 +192,28 @@ public class DictLoader {
 		}
 		return dictMap;
 	}
+	/**
+	 * Finds the intersection for two HashMap based on either same concepts or synonyms
+	 * 
+	 * @param m1 the first HashMap
+	 * @param m2 the second HashMap
+	 * @return HashMap with intersections
+	 */
 	Map <String, Set <String>> createIntersection (Map <String, Set <String>> m1, Map <String, Set <String>> m2) {
 		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
 		for (String k1 : m1.keySet()) {
+			String k1canonical = k1;
+			if (k1.split("@").length>1) {
+				k1canonical = k1.split("@")[1];
+			}
 			Set <String> v1 = m1.get(k1);
 			for (String k2 : m2.keySet()) {
 				Set <String> v2 = m2.get(k2);
-				if (v1.contains(k2) | v2.contains(k1) | Sets.intersection(v1, v2).size()>0) {
+				String k2canonical = k2;
+				if (k2.split("@").length>1) {
+					k2canonical = k2.split("@")[1];
+				}
+				if (v1.contains(k2canonical) | v2.contains(k1canonical) | Sets.intersection(v1, v2).size()>0) {
 					mintersection.put(k1 + "#SAMEAS#" + k2, Sets.union(v1, v2));
 				}
 			}			
@@ -168,6 +223,12 @@ public class DictLoader {
 		return mintersection;
 	}
 	
+	/**
+	 * Parses the XML file and saves concepts with synonyms as HashMap. Keys are the canonical names of concepts.
+	 * 
+	 * @param dictFile dictionary file path
+	 * @return
+	 */
 	public Map <String, Set <String>> getMapForDict (String dictFile) {
 		Map <String, Set <String>> dictMap = new HashMap <String, Set <String>> ();
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
