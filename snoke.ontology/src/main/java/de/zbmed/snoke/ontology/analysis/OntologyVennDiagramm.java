@@ -50,6 +50,8 @@ public class OntologyVennDiagramm {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		OntologyVennDiagramm ovd = new OntologyVennDiagramm ();
 		Map <String, Set <String>> mepso = ovd.getDl().getMapForDict("dictionaries/Dict_EpSO.xml");
 		Map <String, Set <String>> messo = ovd.getDl().getMapForDict("dictionaries/Dict_ESSO.xml");
@@ -57,169 +59,153 @@ public class OntologyVennDiagramm {
 		Map <String, Set <String>> mepisem = ovd.getDl().getMapForDict("dictionaries/Dict_EPISEM.xml");
 		Map <String, Set <String>> mfenics = ovd.getDl().getMapForDict("dictionaries/Dict_FENICS.xml");
 		
-		int area1 = mepso.keySet().size();
-		int area2 = messo.keySet().size();
-		int area3 = mepilont.keySet().size();
-		int area4 = mepisem.keySet().size();
-		int area5 = mfenics.keySet().size();
+
 		
-		log.info("EpSO: " + area1);
-		log.info("ESSO: " + area2);
-		log.info("EPILONT: " + area3);
-		log.info("EPISEM: " + area4);
-		log.info("FENICS: " + area5);
+		log.info("area1 = " + mepso.keySet().size() + ",");
+		log.info("area2 = " + messo.keySet().size() + ",");
+		log.info("area3 = " + mepilont.keySet().size() + ",");
+		log.info("area4 = " + mepisem.keySet().size() + ",");
+		log.info("area5 = " + mfenics.keySet().size() + ",");
 		
 		// EpSO
 		Map <String, Set <String>> mepso_messo = ovd.getDl().createIntersection(mepso, messo);
 		int n12 = mepso_messo.keySet().size();
-		log.info("n12 EpSO and ESSO: " + n12);
+		log.info("n12 = " + n12 + ",");
 
 		Map <String, Set <String>> mepso_mepilont = ovd.getDl().createIntersection(mepso, mepilont);
 		int n13 = mepso_mepilont.keySet().size();
-		log.info("n13 EpSO and EPILONT: " + n13);
+		log.info("n13 = " + n13 + ",");
 		
 		
 		Map <String, Set <String>> mepso_mepisem = ovd.getDl().createIntersection(mepso, mepisem);
 		int n14 = mepso_mepisem.keySet().size();
-		log.info("n14 EpSO and EPISEM: " + n14);
+		log.info("n14 = " + n14 + ",");
 
 		
 		Map <String, Set <String>> mepso_mfenics = ovd.getDl().createIntersection(mepso, mfenics);
 		int n15 = mepso_mfenics.keySet().size();
-		log.info("n15 EpSO and FENICS: " + n15);
+		log.info("n15 = " + n15 + ",");
 
 		// ESSO
 		Map <String, Set <String>> messo_mepilont = ovd.getDl().createIntersection(messo, mepilont);
 		int n23 = messo_mepilont.keySet().size();
-		log.info("n23 ESSO and EPILONT: " + n23);
+		log.info("n23 = " + n23 + ",");
 
 
 		Map <String, Set <String>> messo_mepisem = ovd.getDl().createIntersection(messo, mepisem);
 		int n24 = messo_mepisem.keySet().size();
-		log.info("n24 ESSO and EPISEM: " + n24);
+		log.info("n24 = " + n24 + ",");
 
 		
 		Map <String, Set <String>> messo_mfenics = ovd.getDl().createIntersection(messo, mfenics);
 		int n25 = messo_mfenics.keySet().size();
-		log.info("n25 ESSO and FENICS: " + n25);
+		log.info("n25 = " + n25 + ",");
 
 		
 		
 		// EPILONT
 		Map <String, Set <String>> mepilont_mepisem = ovd.getDl().createIntersection(mepilont, mepisem);
 		int n34 = mepilont_mepisem.keySet().size();
-		log.info("n34 EPILONT and EPISEM: " + n34);
+		log.info("n34 = " + n34 + ",");
 
 		
 		Map <String, Set <String>> mepilont_mfenics = ovd.getDl().createIntersection(mepilont, mfenics);
 		int n35 = mepilont_mfenics.keySet().size();
-		log.info("n35 EPILONT and FENICS: " + n35);
+		log.info("n35 = " + n35 + ",");
 
 		
 		
 		// EPISEM
 		Map <String, Set <String>> mepisem_mfenics = ovd.getDl().createIntersection(mepisem, mfenics);
 		int n45 = mepisem_mfenics.keySet().size();
-		log.info("n45 EPISEM and FENICS: " + n45);
+		log.info("n45 = " + n45 + ",");
 
 		
 		
 		// n123
-		Map <String, Set <String>> mepso_messo_mepilont = ovd.getDl().createIntersection(mepso_messo, mepilont);
+		Map <String, Set <String>> mepso_messo_mepilont = ovd.getDl().createTripleIntersection(mepso, messo, mepilont);
 		int n123 = mepso_messo_mepilont.keySet().size();
-		log.info("n123 EpSO and ESSO and EPILONT: " + n123);
+		log.info("n123 = " + n123 + ",");
 
 		
 		// n124
-		Map <String, Set <String>> mepso_messo_mepisem = ovd.getDl().createIntersection(mepso_messo, mepisem);
+		Map <String, Set <String>> mepso_messo_mepisem = ovd.getDl().createTripleIntersection(mepso, messo, mepisem);
 		int n124 = mepso_messo_mepisem.keySet().size();
-		log.info("n124 EpSO and ESSO and EPISEM: " + n124);
+		log.info("n124 = " + n124 + ",");
 
 		
 		// n125
-		Map <String, Set <String>> mepso_messo_mfenics = ovd.getDl().createIntersection(mepso_messo, mfenics);
+		Map <String, Set <String>> mepso_messo_mfenics = ovd.getDl().createTripleIntersection(mepso, messo, mfenics);
 		int n125 = mepso_messo_mfenics.keySet().size();
-		log.info("n125 EpSO and ESSO and FENICS: " + n125);
+		log.info("n125 = " + n125 + ",");
 
 		
 		// n134
-		Map <String, Set <String>> mepso_mepilont_mepisem = ovd.getDl().createIntersection(mepso_mepilont, mepisem);
-
+		Map <String, Set <String>> mepso_mepilont_mepisem = ovd.getDl().createTripleIntersection(mepso, mepilont, mepisem);
 		int n134 = mepso_mepilont_mepisem.keySet().size();
-		log.info("n134 EpSO and EPILONT and EPISEM: " + n134);
+		log.info("n134 = " + n134 + ",");
 		
 		// n135
-		Map <String, Set <String>> mepso_mepilont_mfenics = ovd.getDl().createIntersection(mepso_mepilont, mfenics);
-
+		Map <String, Set <String>> mepso_mepilont_mfenics = ovd.getDl().createTripleIntersection(mepso, mepilont, mfenics);
 		int n135 = mepso_mepilont_mfenics.keySet().size();
-		log.info("n135 EpSO and EPILONT and FENICS: " + n135);
+		log.info("n135 = " + n135 + ",");
 		
 		
 		// n145
-		Map <String, Set <String>> mepso_mepisem_mfenics = ovd.getDl().createIntersection(mepso_mepisem, mfenics);
-
+		Map <String, Set <String>> mepso_mepisem_mfenics = ovd.getDl().createTripleIntersection(mepso, mepisem, mfenics);
 		int n145 = mepso_mepisem_mfenics.keySet().size();
-		log.info("n145 EpSO and EPISEM and FENICS: " + n145);
+		log.info("n145 = " + n145 + ",");
 		
 		// n234
-		Map <String, Set <String>> messo_mepilont_mepisem = ovd.getDl().createIntersection(messo_mepilont, mepisem);
-
+		Map <String, Set <String>> messo_mepilont_mepisem = ovd.getDl().createTripleIntersection(messo, mepilont, mepisem);
 		int n234 = messo_mepilont_mepisem.keySet().size();
-		log.info("n234 ESSO and EPILONT and EPISEM: " + n234);
+		log.info("n234 = " + n234 + ",");
 		
 		// n235
-		Map <String, Set <String>> messo_mepilont_mfenics = ovd.getDl().createIntersection(messo_mepilont, mfenics);
+		Map <String, Set <String>> messo_mepilont_mfenics = ovd.getDl().createTripleIntersection(messo, mepilont, mfenics);
 		int n235 = messo_mepilont_mfenics.keySet().size();
-		log.info("n235 ESSO and EPILONT and FENICS: " + n235);
+		log.info("n235 = " + n235 + ",");
 
 		
 		// n245
-		Map <String, Set <String>> messo_mepisem_mfenics = ovd.getDl().createIntersection(messo_mepisem, mfenics);
-
+		Map <String, Set <String>> messo_mepisem_mfenics = ovd.getDl().createTripleIntersection(messo, mepisem, mfenics);
 		int n245 = messo_mepisem_mfenics.keySet().size();
-		log.info("n245 ESSO and EPISEM and FENICS: " + n245);
+		log.info("n245 = " + n245 + ",");
 		
 		// n345
-		Map <String, Set <String>> mepilont_mepisem_mfenics = ovd.getDl().createIntersection(mepilont_mepisem, mfenics);
-
+		Map <String, Set <String>> mepilont_mepisem_mfenics = ovd.getDl().createTripleIntersection(mepilont, mepisem, mfenics);
 		int n345 = mepilont_mepisem_mfenics.keySet().size();
-		log.info("n345 EPILONT and EPISEM and FENICS: " + n345);
+		log.info("n345 = " + n345 + ",");
 		
 		// n1234
-		Map <String, Set <String>> mepso_messo_mepilont_mepisem = ovd.getDl().createIntersection(mepso_messo, mepilont_mepisem);
-
+		Map <String, Set <String>> mepso_messo_mepilont_mepisem = ovd.getDl().createQuadIntersection(mepso, messo, mepilont, mepisem);
 		int n1234 = mepso_messo_mepilont_mepisem.keySet().size();
-		log.info("n1234 EpSO and ESSO and EPILONT and EPISEM: " + n1234);
+		log.info("n1234 = " + n1234 + ",");
 		
 		// n1235
-		Map <String, Set <String>> mepso_messo_mepilont_mfenics = ovd.getDl().createIntersection(mepso_messo, mepilont_mfenics);
-
+		Map <String, Set <String>> mepso_messo_mepilont_mfenics = ovd.getDl().createQuadIntersection(mepso, messo, mepilont, mfenics);
 		int n1235 = mepso_messo_mepilont_mfenics.keySet().size();
-		log.info("n1235 EpSO and ESSO and EPILONT and FENICS: " + n1235);
+		log.info("n1235 = " + n1235 + ",");
 		
 		// n1245
-		Map <String, Set <String>> mepso_messo_mepisem_mfenics = ovd.getDl().createIntersection(mepso_messo, mepisem_mfenics);
-
+		Map <String, Set <String>> mepso_messo_mepisem_mfenics = ovd.getDl().createQuadIntersection(mepso, messo, mepisem, mfenics);
 		int n1245 = mepso_messo_mepisem_mfenics.keySet().size();
-		log.info("n1245 EpSO and ESSO and EPISEM and FENICS: " + n1245);
+		log.info("n1245 = " + n1245 + ",");
 		
 		// n1345
-		Map <String, Set <String>> mepso_mepilont_mepisem_mfenics = ovd.getDl().createIntersection(mepso_mepilont, mepisem_mfenics);
-
+		Map <String, Set <String>> mepso_mepilont_mepisem_mfenics = ovd.getDl().createQuadIntersection(mepso, mepilont, mepisem, mfenics);
 		int n1345 = mepso_mepilont_mepisem_mfenics.keySet().size();
-		log.info("n1345 EpSO and EPILONT and EPISEM and FENICS: " + n1345);
+		log.info("n1345 = " + n1345 + ",");
 		
 		// n2345
-		Map <String, Set <String>> messo_mepilont_mepisem_mfenics = ovd.getDl().createIntersection(messo_mepilont, mepisem_mfenics);
-
+		Map <String, Set <String>> messo_mepilont_mepisem_mfenics = ovd.getDl().createQuadIntersection(messo, mepilont, mepisem, mfenics);
 		int n2345 = messo_mepilont_mepisem_mfenics.keySet().size();
-		log.info("n2345 ESSO and EPILONT and EPISEM and FENICS: " + n2345);
+		log.info("n2345 = " + n2345 + ",");
 		
 		// n12345
-		Map <String, Set <String>> mepso_messo_mepilont_mepisem_mfenics = ovd.getDl().createIntersection(mepso_messo_mepilont, mepisem_mfenics);
-		
+		Map <String, Set <String>> mepso_messo_mepilont_mepisem_mfenics = ovd.getDl().createQuintupleIntersection(mepso, messo, mepilont, mepisem, mfenics);
 		int n12345 = mepso_messo_mepilont_mepisem_mfenics.keySet().size();
-		log.info("n12345 ESSO and EPILONT and EPISEM and FENICS: " + mepso_messo_mepilont_mepisem_mfenics.keySet().size());
+		log.info("n12345 = " + n12345 + ",");
 	}
 	
 	
