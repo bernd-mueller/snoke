@@ -8,6 +8,13 @@ import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Class for calculating dictionary statistics comprising concepts, synonyms, documents, etc. The result
+ * ist written into tex-format.
+ * 
+ * @author Muellerb
+ * @since 2021
+ */
 public class DictStats {
 	private static final Logger log = LoggerFactory.getLogger(DictStats.class);
 	DictLoader dl;
@@ -15,12 +22,25 @@ public class DictStats {
 	DictStats () {
 		dl = new DictLoader ();
 	}
+	
+	/**
+	 * Get instance of DictLoader
+	 * 
+	 * @return DictLoader
+	 */
 	public DictLoader getDl() {
 		return dl;
 	}
+	
+	/**
+	 * Set instance of DictLoader
+	 * 
+	 * @param dl DictLoader
+	 */
 	public void setDl(DictLoader dl) {
 		this.dl = dl;
 	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DictStats ds = new DictStats ();
