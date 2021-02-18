@@ -1,7 +1,9 @@
 package de.zbmed.snoke.ontology.analysis;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -201,26 +203,376 @@ public class DictLoader {
 	 */
 	Map <String, Set <String>> createIntersection (Map <String, Set <String>> m1, Map <String, Set <String>> m2) {
 		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
+		
 		for (String k1 : m1.keySet()) {
-			String k1canonical = k1;
-			if (k1.split("@").length>1) {
-				k1canonical = k1.split("@")[1];
-			}
-			Set <String> v1 = m1.get(k1);
-			for (String k2 : m2.keySet()) {
-				Set <String> v2 = m2.get(k2);
-				String k2canonical = k2;
-				if (k2.split("@").length>1) {
-					k2canonical = k2.split("@")[1];
-				}
-				if (v1.contains(k2canonical) | v2.contains(k1canonical) | Sets.intersection(v1, v2).size()>0) {
-					mintersection.put(k1 + "#SAMEAS#" + k2, Sets.union(v1, v2));
-				}
-			}			
+			Set <String> cursyn1 = new HashSet <String> (m1.get(k1));
 			
+			for (String k2 : m2.keySet()) {
+				Set <String> cursyn2 = new HashSet <String> (m2.get(k2));
+				
+				Set <String> cursyn1copy = new HashSet <String> (cursyn1);
+				
+				cursyn1copy.add(k1);
+				cursyn2.add(k2);
+				
+				cursyn1copy.retainAll(cursyn2);
+				
+				if (cursyn1copy.size()>0) {
+					Set <String> unionset1 = new HashSet <String> (m1.get(k1));
+//					unionset1.add(k1);
+//					String k1canonical = k1;
+//					if (k1.split("@").length>1) {
+//						k1canonical = k1.split("@")[1];
+//					}
+//					unionset1.add(k1canonical);
+					
+					Set <String> unionset2 = new HashSet <String> (m2.get(k2));
+//					unionset2.add(k2);
+//					String k2canonical = k2;
+//					if (k2.split("@").length>1) {
+//						k2canonical = k2.split("@")[1];
+//					}
+//					unionset2.add(k2canonical);
+					
+					unionset1.addAll(unionset2);
+
+					mintersection.put(k1 + "#SAMEAS#" + k2, unionset1);
+				}
+			}
 		}
 		
 		return mintersection;
+	}
+	
+	Map <String, Set <String>> createTripleIntersection (
+			Map <String, Set <String>> m1, 
+			Map <String, Set <String>> m2,
+			Map <String, Set <String>> m3) {
+		
+		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
+		
+		for (String k1 : m1.keySet()) {
+			Set <String> cursyn1 = new HashSet <String> (m1.get(k1));
+			
+			for (String k2 : m2.keySet()) {
+				Set <String> cursyn2 = new HashSet <String> (m2.get(k2));
+				
+				Set <String> cursyn1copy = new HashSet <String> (cursyn1);
+				
+				cursyn1copy.add(k1);
+				cursyn2.add(k2);
+				
+				cursyn1copy.retainAll(cursyn2);
+				
+				if (cursyn1copy.size()>0) {
+					
+					Set <String> cursyn1copycopy = new HashSet <String> (cursyn1copy);
+					
+					for (String k3 : m3.keySet()) {
+						Set <String> cursyn3 = new HashSet <String> (m3.get(k3));
+						
+						cursyn1copycopy.retainAll(cursyn3);
+						
+						if (cursyn1copycopy.size()>0) {
+							Set <String> unionset1 = new HashSet <String> (m1.get(k1));
+//							unionset1.add(k1);
+//							String k1canonical = k1;
+//							if (k1.split("@").length>1) {
+//								k1canonical = k1.split("@")[1];
+//							}
+//							unionset1.add(k1canonical);
+							
+							Set <String> unionset2 = new HashSet <String> (m2.get(k2));
+//							unionset2.add(k2);
+//							String k2canonical = k2;
+//							if (k2.split("@").length>1) {
+//								k2canonical = k2.split("@")[1];
+//							}
+//							unionset2.add(k2canonical);
+							
+							Set <String> unionset3 = new HashSet <String> (m3.get(k3));
+//							unionset3.add(k3);
+//							String k3canonical = k3;
+//							if (k3.split("@").length>1) {
+//								k3canonical = k3.split("@")[1];
+//							}
+//							unionset3.add(k3canonical);
+							
+							unionset1.addAll(unionset2);
+							unionset1.addAll(unionset3);
+
+							mintersection.put(k1 + "#SAMEAS#" + k2 + "#SAMEAS#" + k3, unionset1);
+						}
+						
+
+					}
+					
+				}
+			}
+		}
+		
+		return mintersection;
+	}
+	
+	Map <String, Set <String>> createQuadIntersection (
+			Map <String, Set <String>> m1, 
+			Map <String, Set <String>> m2,
+			Map <String, Set <String>> m3,
+			Map <String, Set <String>> m4) {
+		
+		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
+		
+		for (String k1 : m1.keySet()) {
+			Set <String> cursyn1 = new HashSet <String> (m1.get(k1));
+			
+			for (String k2 : m2.keySet()) {
+				Set <String> cursyn2 = new HashSet <String> (m2.get(k2));
+				
+				Set <String> cursyn1copy = new HashSet <String> (cursyn1);
+				
+				cursyn1copy.add(k1);
+				cursyn2.add(k2);
+				
+				cursyn1copy.retainAll(cursyn2);
+				
+				if (cursyn1copy.size()>0) {
+					
+					Set <String> cursyn1copycopy = new HashSet <String> (cursyn1copy);
+					
+					for (String k3 : m3.keySet()) {
+						Set <String> cursyn3 = new HashSet <String> (m3.get(k3));
+						
+						cursyn1copycopy.retainAll(cursyn3);
+						
+						if (cursyn1copycopy.size()>0) {
+							
+							Set <String> cursyn1copycopycopy = new HashSet <String> (cursyn1copycopy);
+							
+							for (String k4 : m4.keySet()) {
+								Set <String> cursyn4 = new HashSet <String> (m4.get(k4));
+								
+								cursyn1copycopycopy.retainAll(cursyn4);
+								
+								if (cursyn1copycopycopy.size()>0) {
+									Set <String> unionset1 = new HashSet <String> (m1.get(k1));
+//									unionset1.add(k1);
+//									String k1canonical = k1;
+//									if (k1.split("@").length>1) {
+//										k1canonical = k1.split("@")[1];
+//									}
+//									unionset1.add(k1canonical);
+									
+									Set <String> unionset2 = new HashSet <String> (m2.get(k2));
+//									unionset2.add(k2);
+//									String k2canonical = k2;
+//									if (k2.split("@").length>1) {
+//										k2canonical = k2.split("@")[1];
+//									}
+//									unionset2.add(k2canonical);
+									
+									Set <String> unionset3 = new HashSet <String> (m3.get(k3));
+//									unionset3.add(k3);
+//									String k3canonical = k3;
+//									if (k3.split("@").length>1) {
+//										k3canonical = k3.split("@")[1];
+//									}
+//									unionset3.add(k3canonical);
+									
+									Set <String> unionset4 = new HashSet <String> (m4.get(k4));
+//									unionset4.add(k4);
+//									String k4canonical = k4;
+//									if (k4.split("@").length>1) {
+//										k4canonical = k4.split("@")[1];
+//									}
+//									unionset4.add(k4canonical);
+									
+									
+									unionset1.addAll(unionset2);
+									unionset1.addAll(unionset3);
+									unionset1.addAll(unionset4);
+									
+									mintersection.put(k1 + "#SAMEAS#" + k2 + "#SAMEAS#" + k3 + "#SAMEAS" + k4, unionset1);
+								}
+								
+							}
+						
+						}
+						
+
+					}
+					
+				}
+			}
+		}
+		
+		return mintersection;
+	}
+	
+	Map <String, Set <String>> createQuintupleIntersection (
+			Map <String, Set <String>> m1, 
+			Map <String, Set <String>> m2,
+			Map <String, Set <String>> m3,
+			Map <String, Set <String>> m4,
+			Map <String, Set <String>> m5) {
+		
+		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
+		
+		for (String k1 : m1.keySet()) {
+			Set <String> cursyn1 = new HashSet <String> (m1.get(k1));
+			
+			for (String k2 : m2.keySet()) {
+				Set <String> cursyn2 = new HashSet <String> (m2.get(k2));
+				
+				Set <String> cursyn1copy = new HashSet <String> (cursyn1);
+				
+				cursyn1copy.add(k1);
+				cursyn2.add(k2);
+				
+				cursyn1copy.retainAll(cursyn2);
+				
+				if (cursyn1copy.size()>0) {
+					
+					Set <String> cursyn1copycopy = new HashSet <String> (cursyn1copy);
+					
+					for (String k3 : m3.keySet()) {
+						Set <String> cursyn3 = new HashSet <String> (m3.get(k3));
+						
+						cursyn1copycopy.retainAll(cursyn3);
+						
+						if (cursyn1copycopy.size()>0) {
+							
+							Set <String> cursyn1copycopycopy = new HashSet <String> (cursyn1copycopy);
+							
+							for (String k4 : m4.keySet()) {
+								Set <String> cursyn4 = new HashSet <String> (m4.get(k4));
+								
+								cursyn1copycopycopy.retainAll(cursyn4);
+								
+								if (cursyn1copycopycopy.size()>0) {
+									Set <String> cursyn1copycopycopycopy = new HashSet <String> (cursyn1copycopycopy);
+									
+									for (String k5 : m5.keySet()) {
+										Set <String> cursyn5 = new HashSet <String> (m5.get(k5));
+										
+										cursyn1copycopycopycopy.retainAll(cursyn5);
+										
+										if (cursyn1copycopycopycopy.size()>0) {
+
+											Set <String> unionset1 = new HashSet <String> (m1.get(k1));
+//											unionset1.add(k1);
+//											String k1canonical = k1;
+//											if (k1.split("@").length>1) {
+//												k1canonical = k1.split("@")[1];
+//											}
+//											unionset1.add(k1canonical);
+											
+											Set <String> unionset2 = new HashSet <String> (m2.get(k2));
+//											unionset2.add(k2);
+//											String k2canonical = k2;
+//											if (k2.split("@").length>1) {
+//												k2canonical = k2.split("@")[1];
+//											}
+//											unionset2.add(k2canonical);
+											
+											Set <String> unionset3 = new HashSet <String> (m3.get(k3));
+//											unionset3.add(k3);
+//											String k3canonical = k3;
+//											if (k3.split("@").length>1) {
+//												k3canonical = k3.split("@")[1];
+//											}
+//											unionset3.add(k3canonical);
+											
+											Set <String> unionset4 = new HashSet <String> (m4.get(k4));
+//											unionset4.add(k4);
+//											String k4canonical = k4;
+//											if (k4.split("@").length>1) {
+//												k4canonical = k4.split("@")[1];
+//											}
+//											unionset4.add(k4canonical);
+											
+											Set <String> unionset5 = new HashSet <String> (m5.get(k5));
+//											unionset5.add(k5);
+//											String k5canonical = k5;
+//											if (k5.split("@").length>1) {
+//												k5canonical = k5.split("@")[1];
+//											}
+//											unionset5.add(k5canonical);
+											
+											
+											unionset1.addAll(unionset2);
+											unionset1.addAll(unionset3);
+											unionset1.addAll(unionset4);
+											unionset1.addAll(unionset5);
+											
+											mintersection.put(k1 + "#SAMEAS#" + k2 + "#SAMEAS#" + k3 + "#SAMEAS" + k4 + "#SAMEAS#" + k5, unionset1);
+										}
+									}
+									
+								}
+								
+							}
+						
+						}
+						
+
+					}
+					
+				}
+			}
+		}
+		
+		return mintersection;
+	}
+	
+	Set <String> readPmidsFromFile (String filename) {
+		Set <String> pmids = new HashSet <String> ();
+		try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+		    String line;
+		    while ((line = br.readLine()) != null) {
+		       // process the line.
+		    	pmids.add(line);
+		    }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return pmids;
+	}
+	
+	Set <String> createSynSetFromMap (Map <String, Set <String>> m) {
+		Set <String> synSet = new HashSet <String> ();
+		
+		for (String k : m.keySet()) {
+			Set <String> cursyns = new HashSet <String> (m.get(k));
+			//synSet.add(k);
+			synSet.addAll(cursyns);
+		}
+		return synSet;
+	}
+	
+	int countSynonyms (Map <String, Set <String>> m) {
+		int c = 0;
+		
+		for (String k : m.keySet()) {
+			Set <String> cursyns = new HashSet <String> (m.get(k));
+			//synSet.add(k);
+			c += cursyns.size();
+		}
+		return c;
+	}
+	
+	double averageSynPerLabel (Map <String, Set <String>> m) {
+		double c = .0;
+		
+		for (String k : m.keySet()) {
+			Set <String> cursyns = new HashSet <String> (m.get(k));
+			//synSet.add(k);
+			c += cursyns.size();
+		}
+		return (c/m.keySet().size());
 	}
 	
 	/**
@@ -234,7 +586,6 @@ public class DictLoader {
 		DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = null;
 		
-		SnowballStemmer snow = new SnowballStemmer();
 		
 		log.info("Reading " + dictFile + "...");
 		try {
