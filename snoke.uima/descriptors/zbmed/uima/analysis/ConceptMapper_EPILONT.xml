@@ -22,7 +22,7 @@
 	<primitive>true</primitive>
 	<annotatorImplementationName>org.apache.uima.conceptMapper.ConceptMapper</annotatorImplementationName>
 	<analysisEngineMetaData>
-		<name>ConceptMapper_Dict_EPILONT</name>
+		<name>ConceptMapper_EPILONT</name>
 <description></description>
 		<version>1</version>
 		<vendor></vendor>
@@ -313,7 +313,7 @@
 				<name>ResultingAnnotationName</name>
 				<value>
 					<string>
-						de.zbmed.tdm.uima.analysis.DictTerm_EPILONT
+						de.zbmed.snoke.uima.analysis.DictTerm_EPILONT
 					</string>
 				</value>
 			</nameValuePair>
@@ -464,13 +464,13 @@
 				</inputs>
 				<outputs>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.DictTerm_EPILONT
+						de.zbmed.snoke.uima.DictTerm_EPILONT
 					</type>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.TokenAnnotation_EPILONT
+						de.zbmed.snoke.uima.TokenAnnotation_EPILONT
 					</type>
 					<type allAnnotatorFeatures="true">
-						de.zbmed.tdm.uima.analysis.TokenAnnotation
+						de.zbmed.snoke.uima.analysis.TokenAnnotation
 					</type>
 					<type allAnnotatorFeatures="true">
 						uima.tcas.DocumentAnnotation
