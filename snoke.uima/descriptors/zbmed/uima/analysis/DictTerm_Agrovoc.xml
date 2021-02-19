@@ -23,7 +23,7 @@
 	<vendor>IBM</vendor>
 	<types>
 		<typeDescription>
-			<name>de.zbmed.tdm.uima.analysis.DictTerm_Agrovoc</name>
+			<name>de.zbmed.snoke.uima.analysis.DictTerm_Agrovoc</name>
 			<description>Annotation for dictionary lookup matches</description>
 			<supertypeName>uima.tcas.Annotation</supertypeName>
 						<features>
