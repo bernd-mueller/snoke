@@ -54,6 +54,7 @@ C07DA	Beta blocking agents, non-selective, thiazides and other diuretics
 A08AA	Centrally acting antiobesity products
 J04AB	Antibiotics
 J04AA	Aminosalicylic acid and derivatives
+B06AX	Other hematological agents
 L02BA	Anti-estrogens
 L02BB	Anti-androgens
 R03BC	Antiallergic agents, excl. corticosteroids
@@ -62,7 +63,7 @@ C07DB	Beta blocking agents, selective, thiazides and other diuretics
 R03BB	Anticholinergics
 B06AA	Enzymes
 J04AK	Other drugs for treatment of tuberculosis
-B06AB	Other hem products
+B06AB	Heme products
 B06AC	Drugs used in hereditary angioedema
 J04AM	Combinations of drugs for treatment of tuberculosis
 L02BG	Aromatase inhibitors
@@ -385,6 +386,7 @@ N05CH	Melatonin receptor agonists
 P01BX	Other antimalarials
 P02DX	Other anticestodals
 N05CM	Other hypnotics and sedatives
+V04CX	Other diagnostic agents
 H01AA	ACTH
 H02CA	Anticorticosteroids
 H01AC	Somatropin and somatropin agonists
@@ -551,8 +553,8 @@ C01EB	Other cardiac preparations
 N05CX	Hypnotics and sedatives in combination, excl. barbiturates
 A03BA	Belladonna alkaloids, tertiary amines
 V09IB	Indium (111In) compounds
-A14AB	Estren derivatives
 A03BB	Belladonna alkaloids, semisynthetic, quaternary ammonium compounds
+A14AB	Estren derivatives
 A14AA	Androstan derivatives
 N04BA	Dopa and dopa derivatives
 N04BC	Dopamine agonists
@@ -630,8 +632,10 @@ N01AA	Ethers
 N02CB	Corticosteroid derivatives
 N02CA	Ergot alkaloids
 A04AA	Serotonin (5HT3) antagonists
+N02CD	Calcitonin gene-related peptide (CGRP) antagonists
 N02CC	Selective serotonin (5HT1) agonists
 N01AB	Halogenated hydrocarbons
+D11AA	Antihidrotics
 D11AC	Medicated shampoos
 N01AG	Barbiturates in combination with other drugs
 N01AF	Barbiturates, plain
