@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <collectionReader>
+        <collectionIterator>
+            <descriptor>
+                <import location="descriptors/zbmed/uima/reader/BioASQMongoDBReader.xml"/>
+            </descriptor>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>SrcField</name>
+                    <value>
+                        <string>title@abstractText</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>Language</name>
+                    <value>
+                        <string/>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>MongoServer</name>
+                    <value>
+                        <string>localhost</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>MongoDB</name>
+                    <value>
+                        <string>bioasq</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>MongoCollection</name>
+                    <value>
+                        <string>10000bioasq2021</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>StartYear</name>
+                    <value>
+                        <string>0</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>MaxDoc</name>
+                    <value>
+                        <string>16000000</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </collectionIterator>
+    </collectionReader>
+    <casProcessors casPoolSize="256" processingUnitThreadCount="64">
+    <casProcessor deployment="integrated" name="TokenizerZBMED">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/TokenizerZBMED.xml"/>
+        </descriptor>
+            <deploymentParameters>
+        <parameter name="service-access" type="string" value="exclusive"/>
+            </deploymentParameters>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>Stemmer</name>
+                <value>
+                    <string>de.zbmed.snoke.uima.analysis.ZBMEDSnowBallStemmer</string>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_EPISEM">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_EPISEM.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>FindAllMatches</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_FENICS">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_FENICS.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>FindAllMatches</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_DictTerm_ADO">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_ADO.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_ICD">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_ICD.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_MSO">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_MSO.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_PDON">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_PDON.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_PLIO">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_PLIO.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_PTS">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_PTS.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_DrugNames">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_DrugNames.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_EPILONT">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_EPILONT.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_ESSO">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_ESSO.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_EpSO">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_EpSO.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="ConceptMapper_Dict_MeSH">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/analysis/ConceptMapper_MeSH.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+    </casProcessor>
+    <casProcessor deployment="integrated" name="MongoDB Writer CAS Consumer">
+        <descriptor>
+            <import location="descriptors/zbmed/uima/consumer/ConsumerMongoDB.xml"/>
+        </descriptor>
+            <deploymentParameters/>
+        <errorHandling>
+            <errorRateThreshold action="terminate" value="0/1000"/>
+            <maxConsecutiveRestarts action="terminate" value="30"/>
+            <timeout max="100000" default="-1"/>
+        </errorHandling>
+        <checkpoint batch="10000" time="1000ms"/>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>MongoServer</name>
+                <value>
+                    <string>localhost</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>MongoDB</name>
+                <value>
+                    <string>bioasq</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>MongoCollection</name>
+                <value>
+                    <string>10000snoke2021</string>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+    </casProcessor>
+    </casProcessors>
+    <cpeConfig>
+        <numToProcess>-1</numToProcess>
+        <deployAs>immediate</deployAs>
+        <checkpoint batch="1" time="300000ms"/>
+        <timerImpl/>
+    </cpeConfig>
+</cpeDescription>
