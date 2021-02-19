@@ -1,0 +1,3450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<synonym>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Testing_autonomic_nervous_system" canonical="Testing_autonomic_nervous_system">
+<variant base="test autonom nervous system"/>
+<variant base="Test autonom nervous system"/>
+<variant base="testing autonomic nervous system"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Environmental_risk_factor" canonical="Environmental_risk_factor">
+<variant base="environment risk factor"/>
+<variant base="environmental risk factor"/>
+<variant base="Environment risk factor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pulsion" canonical="Pulsion">
+<variant base="pulsion"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Slc6a3tm1(cre)Lrsn" canonical="Lrsn">
+<variant base="lrsn"/>
+<variant base="slc6a3tm1(cre)lrsn"/>
+<variant base="slc6a3tm1(cre)lrsn@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cardiac_sympathetic_innervation" canonical="Cardiac_sympathetic_innervation">
+<variant base="cardiac sympathet innerv"/>
+<variant base="Cardiac sympathet innerv"/>
+<variant base="cardiac sympathetic innervation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Tetrabenazine" canonical="Tetrabenazine">
+<variant base="tetrabenazin"/>
+<variant base="Tetrabenazine-induc Parkinson"/>
+<variant base="tetrabenazine"/>
+<variant base="tetrabenazine-induced parkinson"/>
+<variant base="tetrabenazine-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Classical_essential_tremor" canonical="Classical_essential_tremor">
+<variant base="classic essenti tremor"/>
+<variant base="classical essential tremor"/>
+<variant base="Classic essenti tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Progressive_supranuclear_palsy" canonical="Progressive_supranuclear_palsy">
+<variant base="progress supranuclear palsi"/>
+<variant base="progressive supranuclear palsy@en"/>
+<variant base="Progress supranuclear palsy@en"/>
+<variant base="progressive supranuclear palsy"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypoguesia" canonical="Hypoguesia">
+<variant base="hypoguesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Torsion_dystonia" canonical="Torsion_dystonia">
+<variant base="torsion dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dopaminergic_cell_lines" canonical="Dopaminergic_cell_lines">
+<variant base="dopaminergic cell lines"/>
+<variant base="dopaminergic cell line@en"/>
+<variant base="dopaminergic cell line"/>
+<variant base="dopaminerg cell line"/>
+<variant base="Dopaminerg cell line@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Wilson_s_disease" canonical="Wilson_s_disease">
+<variant base="wilson s disease"/>
+<variant base="wilsons disease"/>
+<variant base="wilson diseas"/>
+<variant base="Wilson disease@en"/>
+<variant base="wilsons disease@en"/>
+<variant base="wilson s diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Heart_beat_frequency_modulation" canonical="Heart_beat_frequency_modulation">
+<variant base="heart beat frequenc modul"/>
+<variant base="heart beat frequency modulation"/>
+<variant base="Heart beat frequenc modul"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Drug-induced_parkinsonism" canonical="Drug-induced_parkinsonism">
+<variant base="drug-induced parkinsonism"/>
+<variant base="drug-induc parkinson"/>
+<variant base="drug induced parkinsonism"/>
+<variant base="drug induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Action_tremor" canonical="Action_tremor">
+<variant base="action tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MPTP_model" canonical="MPTP_model">
+<variant base="m p t p model"/>
+<variant base="mptp model@en"/>
+<variant base="mptp model"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fahn-Marsden_dystonia_rating_scale" canonical="Fahn-Marsden_dystonia_rating_scale">
+<variant base="fahn-marsden dystonia rate scale"/>
+<variant base="fahn- marsden dystonia rate scale"/>
+<variant base="fahn-marsden dystonia rating scale"/>
+<variant base="fahn- marsden dystonia rating scale"/>
+<variant base="Fahn-Marsden dystonia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Transcranial_magnetic_stimulation" canonical="Transcranial_magnetic_stimulation">
+<variant base="transcrani magnet stimul"/>
+<variant base="transcranial magnetic stimulation"/>
+<variant base="Transcrani magnet stimul"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tfamtm1Lrsn" canonical="Tfamtm1Lrsn">
+<variant base="tfamtm1lrsn"/>
+<variant base="tfamtm1lrsn@en"/>
+<variant base="tfamtm1 lrsn"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Three-wheeled_walking_stabilizer" canonical="Three-wheeled_walking_stabilizer">
+<variant base="three-wheeled walking stabilizer@en"/>
+<variant base="three-wheel walk stabil"/>
+<variant base="Three-wheel walk stabilizer@en"/>
+<variant base="three-wheeled walking stabilizer"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Aggregation_of_tau_protein" canonical="Aggregation_of_tau_protein">
+<variant base="aggregation of tau protein"/>
+<variant base="Aggregat of tau protein"/>
+<variant base="aggreg of tau protein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Epstein-Barr_virus" canonical="Epstein-Barr_virus">
+<variant base="epstein-barr virus"/>
+<variant base="epstein- barr virus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MDS-UPDRS" canonical="MDS-UPDRS">
+<variant base="mds-updr"/>
+<variant base="m d s- u p d r s"/>
+<variant base="mds-updrs"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Depression" canonical="Depression">
+<variant base="Depress"/>
+<variant base="depress"/>
+<variant base="depression"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Paraquat" canonical="Paraquat">
+<variant base="paraquat"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Non-motor_features" canonical="Non-motor_features">
+<variant base="non-motor features"/>
+<variant base="non-motor featur"/>
+<variant base="non-motor symptom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Walking_difficulty" canonical="Walking_difficulty">
+<variant base="Walk difficulti"/>
+<variant base="walk difficulti"/>
+<variant base="walking difficulty"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Micrographia" canonical="Micrographia">
+<variant base="micrographia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#SPECT_imaging_biomarker" canonical="SPECT_imaging_biomarker">
+<variant base="spect imaging biomarker"/>
+<variant base="SPECT imag biomark"/>
+<variant base="s p e c t imaging biomarker"/>
+<variant base="spect imag biomark"/>
+<variant base="s p e c t imag biomark"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000075" canonical="EPO_00000075">
+<variant base="pergolida"/>
+<variant base="pergolid"/>
+<variant base="e p o 00000075"/>
+<variant base="Pergolid"/>
+<variant base="pergolide"/>
+<variant base="pergolidum"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Chemodenervation" canonical="Chemodenervation">
+<variant base="Chemodenerv"/>
+<variant base="chemodenerv"/>
+<variant base="chemodenervation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Metabolic_biomarker_of_Parkinson_disease" canonical="Metabolic_biomarker_of_Parkinson_disease">
+<variant base="Metabol biomark of Parkinson diseas"/>
+<variant base="metabolic biomarker of parkinson disease"/>
+<variant base="metabol biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Frequency_of_abnormal_movements_scale" canonical="Frequency_of_abnormal_movements_scale">
+<variant base="Frequenc of abnorm movement scale"/>
+<variant base="frequenc of abnorm movement scale"/>
+<variant base="frequency of abnormal movements scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Wearing-off_questionnaire" canonical="Wearing-off_questionnaire">
+<variant base="wearing-off questionnair"/>
+<variant base="wearing-off questionnaire"/>
+<variant base="Wearing-off questionnair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuromelanin_Ab" canonical="Neuromelanin_Ab">
+<variant base="neuromelanin ab"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Transgenic_Drosohila_model_of_Parkinson_disease" canonical="Transgenic_Drosohila_model_of_Parkinson_disease">
+<variant base="transgen drosohila model of parkinson diseas"/>
+<variant base="drosohila model of parkinson disease"/>
+<variant base="Drosohila model of Parkinson diseas"/>
+<variant base="drosohila model of parkinson diseas"/>
+<variant base="transgenic drosohila model of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Criteria_for_probable_PD" canonical="Criteria_for_probable_PD">
+<variant base="criteria for probabl pd"/>
+<variant base="criteria for probabl p d"/>
+<variant base="Criteria for probabl PD"/>
+<variant base="criteria for probable pd"/>
+<variant base="criteria for probable p d"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neurorestorative_treatment" canonical="Neurorestorative_treatment">
+<variant base="neurorestor strategi for Parkinson diseas"/>
+<variant base="neurorestor treatment"/>
+<variant base="neurorestorative strategies for parkinson's disease"/>
+<variant base="neurorestorative treatment"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Gastrointestinal_dysfunction" canonical="Gastrointestinal_dysfunction">
+<variant base="Gastrointestin dysfunct"/>
+<variant base="gastrointestinal dysfunction"/>
+<variant base="gastrointestin dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypnogenic_dyskinesia" canonical="Hypnogenic_dyskinesia">
+<variant base="hypnogenic dyskinesia"/>
+<variant base="hypnogen dyskinesia"/>
+<variant base="Hypnogen dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Metoclopramide-induced_parkinsonism" canonical="Metoclopramide-induced_parkinsonism">
+<variant base="metoclopramide-induc parkinson"/>
+<variant base="metoclopramide-induced parkinsonism"/>
+<variant base="Metoclopramide-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Visiospatial_and_color_discrimination" canonical="Visiospatial_and_color_discrimination">
+<variant base="visiospati and color discrimin"/>
+<variant base="color discrimin deficit"/>
+<variant base="Color discrimin deficit"/>
+<variant base="visiospatial and color discrimination"/>
+<variant base="color discrimination deficit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nigrostriatal_dopaminergic_loss" canonical="Nigrostriatal_dopaminergic_loss">
+<variant base="nigrostriatal dopaminergic loss"/>
+<variant base="nigrostriat dopaminerg loss"/>
+<variant base="Nigrostriat dopaminerg loss"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Postencephalic_parkinsonism" canonical="Postencephalic_parkinsonism">
+<variant base="postencephalic parkinsonism@en"/>
+<variant base="postencephal parkinson"/>
+<variant base="postencephalic parkinsonism"/>
+<variant base="Postencephal parkinsonism@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Northwestern_University_disability_scale" canonical="Northwestern_University_disability_scale">
+<variant base="northwestern university disability scale"/>
+<variant base="northwestern univers disabl scale"/>
+<variant base="Northwestern Univers disabl scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mitochondrial_DNA_polymerase_gamma_mutation" canonical="Mitochondrial_DNA_polymerase_gamma_mutation">
+<variant base="mitochondrial d n a polymerase gamma mutation"/>
+<variant base="mitochondri d n a polymeras gamma mutat"/>
+<variant base="mitochondri dna polymeras gamma mutat"/>
+<variant base="mitochondrial dna polymerase gamma mutation"/>
+<variant base="Mitochondri DNA polymeras gamma mutat"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Salsolinol" canonical="Salsolinol">
+<variant base="salsolinol"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_dystonia" canonical="Primary_dystonia">
+<variant base="primari dystonia"/>
+<variant base="primary dystonia"/>
+<variant base="Primari dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Promethazine-induced_parkinsonism" canonical="Promethazine-induced_parkinsonism">
+<variant base="Promethazine-induc parkinson"/>
+<variant base="promethazine-induc parkinson"/>
+<variant base="promethazine-induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sleep_disturbance" canonical="Sleep_disturbance">
+<variant base="sleep disturbance"/>
+<variant base="Sleep disturb"/>
+<variant base="sleep disturb"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#SCOPA-COG" canonical="SCOPA-COG">
+<variant base="scales for outcomes of parkinson's disease-cognition"/>
+<variant base="scale for outcom of parkinson disease-cognit"/>
+<variant base="Scale for outcom of Parkinson disease-cognition@en"/>
+<variant base="s c o p a- c o g"/>
+<variant base="scales for outcomes of parkinson's disease-cognition@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Loss_of_hearing" canonical="Loss_of_hearing">
+<variant base="loss of hearing"/>
+<variant base="Loss of hear"/>
+<variant base="loss of hear"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pallidal_stimulation" canonical="Pallidal_stimulation">
+<variant base="pallidal stimulation"/>
+<variant base="pallid stimul"/>
+<variant base="stimulation of the globus pallidus"/>
+<variant base="stimul of the globus pallidus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Multidimensional_fatigue_inventory" canonical="Multidimensional_fatigue_inventory">
+<variant base="multidimensional fatigue inventory@en"/>
+<variant base="multidimension fatigu inventori"/>
+<variant base="Multidimension fatigu inventory@en"/>
+<variant base="multidimensional fatigue inventory"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#MAO_inhibitors" canonical="MAO_inhibitors">
+<variant base="m a o inhibitor"/>
+<variant base="m a o inhibitors"/>
+<variant base="mao inhibitor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Limitation_of_upward_gaze" canonical="Limitation_of_upward_gaze">
+<variant base="limitation of upward gaze"/>
+<variant base="limit of upward gaze"/>
+<variant base="Limit of upward gaze"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Miscellaneous_biomarker_of_Parkinson_disease" canonical="Miscellaneous_biomarker_of_Parkinson_disease">
+<variant base="miscellaneous biomarker of parkinson disease"/>
+<variant base="Miscellan biomark of Parkinson diseas"/>
+<variant base="miscellan biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Haloperidol_model" canonical="Haloperidol_model">
+<variant base="haloperidol model"/>
+<variant base="haloperidol model@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinsoniam_tremor" canonical="Parkinsoniam_tremor">
+<variant base="parkinsonian tremor"/>
+<variant base="parkinsoniam tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ramisectomy" canonical="Ramisectomy">
+<variant base="ramisectomy"/>
+<variant base="ramisectomi"/>
+<variant base="Ramisectomi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Continual_dystonia" canonical="Continual_dystonia">
+<variant base="Continu dystonia"/>
+<variant base="continual dystonia"/>
+<variant base="continu dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinson_fatigue_scale" canonical="Parkinson_fatigue_scale">
+<variant base="parkinson fatigu scale"/>
+<variant base="Parkinson fatigu scale@en"/>
+<variant base="parkinson fatigue scale@en"/>
+<variant base="parkinson fatigue scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK1_mutation_induced_parkinsonism" canonical="PARK1_mutation_induced_parkinsonism">
+<variant base="p a r k1 mutation induced parkinsonism"/>
+<variant base="p a r k1 mutat induc parkinson"/>
+<variant base="park1 mutation parkinsonism"/>
+<variant base="PARK1 mutat parkinson"/>
+<variant base="park1 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Anxiety" canonical="Anxiety">
+<variant base="anxiety"/>
+<variant base="anxieti"/>
+<variant base="Anxieti"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Simple_kinetic_tremor" canonical="Simple_kinetic_tremor">
+<variant base="Simpl kinet tremor"/>
+<variant base="simpl kinet tremor"/>
+<variant base="simple kinetic tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Craving" canonical="Craving">
+<variant base="craving"/>
+<variant base="Crave"/>
+<variant base="crave"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Encephalitis_lethargica" canonical="Encephalitis_lethargica">
+<variant base="enceph lethargica"/>
+<variant base="Encephal lethargica"/>
+<variant base="encephalitis lethargica"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Visiospatial_deficit" canonical="Visiospatial_deficit">
+<variant base="visiospatial deficit"/>
+<variant base="Visuospati deficit"/>
+<variant base="visiospati deficit"/>
+<variant base="visuospatial deficit"/>
+<variant base="visuospati deficit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Foot_dystonia" canonical="Foot_dystonia">
+<variant base="foot dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Impaired_handwriting" canonical="Impaired_handwriting">
+<variant base="Impair handwrit"/>
+<variant base="impair handwrit"/>
+<variant base="impaired handwriting"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Clozapine_add-on" canonical="Clozapine_add-on">
+<variant base="clozapine add-on"/>
+<variant base="Clozapin add on@en"/>
+<variant base="clozapine add on@en"/>
+<variant base="clozapin add on"/>
+<variant base="clozapine add on"/>
+<variant base="clozapin add-on"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_orthostatic_tremor" canonical="Primary_orthostatic_tremor">
+<variant base="Primari orthostat tremor"/>
+<variant base="primary orthostatic tremor"/>
+<variant base="primari orthostat tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Organotypic_slice_culture" canonical="Organotypic_slice_culture">
+<variant base="Organotyp slice cultur"/>
+<variant base="organotyp slice cultur"/>
+<variant base="organotypic slice culture"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000069" canonical="EPO_00000069">
+<variant base="entacapon"/>
+<variant base="e p o 00000069"/>
+<variant base="n,n-diethyl-2-cyano-3-(3,4-dihydroxy-5-nitrophenyl) acrylamide"/>
+<variant base="Entacapon"/>
+<variant base="entacapona"/>
+<variant base="entacaponum"/>
+<variant base="entacapone"/>
+<variant base="(e)-alpha-cyano-n,n-diethyl-3,4-dihydroxy-5-nitrocinnamamid"/>
+<variant base="n,n-diethyl-2-cyano-3-(3,4-dihydroxy-5-nitrophenyl) acrylamid"/>
+<variant base="(e)-alpha-cyano-n,n-diethyl-3,4-dihydroxy-5-nitrocinnamamide"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hospital_anxiety_and_depression_scale" canonical="Hospital_anxiety_and_depression_scale">
+<variant base="Hospit anxieti and depress scale"/>
+<variant base="hospit anxieti and depress scale"/>
+<variant base="hospital anxiety and depression scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Marti_and_Tolosa_scale" canonical="Marti_and_Tolosa_scale">
+<variant base="marti and tolosa scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Carbon_monoxide-induced_parkinsonism" canonical="Carbon_monoxide-induced_parkinsonism">
+<variant base="carbon monoxide-induc parkinson"/>
+<variant base="Carbon monoxide-induc parkinson"/>
+<variant base="carbon monoxide-induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#X-linked_dystonia_parkinsonism" canonical="X-linked_dystonia_parkinsonism">
+<variant base="x linked dystonia parkinsonism"/>
+<variant base="x-linked dystonia parkinsonism"/>
+<variant base="x-link dystonia parkinson"/>
+<variant base="x link dystonia parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Budipine" canonical="Budipine">
+<variant base="budipin"/>
+<variant base="budipine"/>
+<variant base="Budipin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Physiological_biomarkers_od_Parkinson_disease" canonical="Physiological_biomarkers_od_Parkinson_disease">
+<variant base="physiological biomarker of parkinson disease"/>
+<variant base="physiological biomarkers od parkinson disease"/>
+<variant base="physiolog biomark od parkinson diseas"/>
+<variant base="Physiolog biomark of Parkinson diseas"/>
+<variant base="physiolog biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#En2tm1Alj" canonical="En2tm1Alj">
+<variant base="en2tm1alj"/>
+<variant base="en2tm1alj@en"/>
+<variant base="en2tm1 alj"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pittsburgh_sleep_quality_index" canonical="Pittsburgh_sleep_quality_index">
+<variant base="Pittsburgh sleep qualiti index"/>
+<variant base="pittsburgh sleep quality index"/>
+<variant base="pittsburgh sleep qualiti index"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tremor-predominant_Parkinson_s_disease" canonical="Tremor-predominant_Parkinson_s_disease">
+<variant base="tremor predomin parkinson diseas"/>
+<variant base="Tremor predomin Parkinson disease@en"/>
+<variant base="tremor-predomin parkinson s diseas"/>
+<variant base="tremor predominant parkinsons disease@en"/>
+<variant base="tremor-predominant parkinson s disease"/>
+<variant base="tremor predominant parkinsons disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exposure_to_herbicide" canonical="Exposure_to_herbicide">
+<variant base="exposure to herbicide"/>
+<variant base="Exposur to herbicid"/>
+<variant base="exposur to herbicid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Monoamines" canonical="Monoamines">
+<variant base="monoamin"/>
+<variant base="Monoamin"/>
+<variant base="monoamines"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#GM-1_ganglioside" canonical="GM-1_ganglioside">
+<variant base="g m-1 ganglioside"/>
+<variant base="GM-1 gangliosid"/>
+<variant base="g m-1 gangliosid"/>
+<variant base="gm-1 ganglioside"/>
+<variant base="gm-1 gangliosid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Kinesigenic_dyskinesia" canonical="Kinesigenic_dyskinesia">
+<variant base="Kinesigen dyskinesia"/>
+<variant base="kinesigenic dyskinesia"/>
+<variant base="kinesigen dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dysexecutive_syndrome" canonical="Dysexecutive_syndrome">
+<variant base="Dysexecut syndrom"/>
+<variant base="dysexecutive syndrome"/>
+<variant base="dysexecut syndrom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Bmpr1atm2.1Bhr" canonical="Bmpr1atm2.1Bhr">
+<variant base="bmpr1atm2.1bhr@en"/>
+<variant base="bmpr1atm2.1bhr"/>
+<variant base="bmpr1atm2.1 bhr"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Bradyphrenia" canonical="Bradyphrenia">
+<variant base="bradyphrenia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MESC2.10" canonical="MESC2.10">
+<variant base="m e s c2.10"/>
+<variant base="mesc2.10"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Risk_factors_for_Parkinson_disease" canonical="Risk_factors_for_Parkinson_disease">
+<variant base="risk factors for parkinson disease"/>
+<variant base="risk factor for parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Toxic_model_of_parkinson's_disease" canonical="s_disease">
+<variant base="toxin-induced model of parkinson disease"/>
+<variant base="s diseas"/>
+<variant base="toxin-induc model of parkinson diseas"/>
+<variant base="s disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Valproec_acid" canonical="Valproec_acid">
+<variant base="valproic acid-induc parkinson"/>
+<variant base="valproec acid"/>
+<variant base="valproic acid-induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Childhood_onset_dystonia" canonical="Childhood_onset_dystonia">
+<variant base="childhood onset dystonia"/>
+<variant base="Early-onset general dystonia is character by the twist of the limbs, specif the foot and leg or hand and arm. The spasm may spread to involv twist contract of other part of the body."/>
+<variant base="early-onset generalized dystonia is characterized by the twisting of the limbs, specifically the foot and leg or hand and arm. the spasms may spread to involve twisting contractions of other parts of the body."/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Muscle_rigidity" canonical="Muscle_rigidity">
+<variant base="muscl rigid"/>
+<variant base="muscle rigidity"/>
+<variant base="Muscl rigid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Home_diaries" canonical="Home_diaries">
+<variant base="Home diari"/>
+<variant base="home diaries"/>
+<variant base="home diari"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Body_tremor" canonical="Body_tremor">
+<variant base="Bodi tremor"/>
+<variant base="body tremor"/>
+<variant base="bodi tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fall_risk_factor" canonical="Fall_risk_factor">
+<variant base="fall risk factor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Power_wheelchair" canonical="Power_wheelchair">
+<variant base="power wheelchair@en"/>
+<variant base="power wheelchair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Leg_dystonia_disability_scale" canonical="Leg_dystonia_disability_scale">
+<variant base="leg dystonia disabl scale"/>
+<variant base="leg dystonia disability scale"/>
+<variant base="Leg dystonia disabl scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cryprococcus" canonical="Cryprococcus">
+<variant base="cryprococcus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cell_therapy" canonical="Cell_therapy">
+<variant base="Cell therapi"/>
+<variant base="cell therapy"/>
+<variant base="cell therapi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Drooling" canonical="Drooling">
+<variant base="drooling"/>
+<variant base="drool"/>
+<variant base="Drool"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Lewy_body_dementia" canonical="Lewy_body_dementia">
+<variant base="lewy body dementia"/>
+<variant base="lewi bodi dementia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Motor_features" canonical="Motor_features">
+<variant base="motor featur"/>
+<variant base="motor symptom"/>
+<variant base="motor features"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Core_assessment_program_for_intracerebral_transplantation" canonical="Core_assessment_program_for_intracerebral_transplantation">
+<variant base="core assessment program for intracerebral transplantation"/>
+<variant base="core assess program for intracerebr transplant"/>
+<variant base="Core assess program for intracerebr transplant"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuromelanin" canonical="Neuromelanin">
+<variant base="neuromelanin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Canonical__etiology" canonical="Canonical__etiology">
+<variant base="canon etiolog"/>
+<variant base="Canon etiolog"/>
+<variant base="canonical etiology"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Crural_dystonia" canonical="Crural_dystonia">
+<variant base="crural dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Differential_diagnosis" canonical="Differential_diagnosis">
+<variant base="differenti diagnosi of parkinson diseas"/>
+<variant base="differenti diagnosi"/>
+<variant base="differential diagnosis"/>
+<variant base="Differenti diagnosi of Parkinson diseas"/>
+<variant base="differential diagnosis of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Postural_tremor" canonical="Postural_tremor">
+<variant base="Postur tremor"/>
+<variant base="postur tremor"/>
+<variant base="postural tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinsons_disease_dementia-short_screen" canonical="Parkinsons_disease_dementia-short_screen">
+<variant base="parkinsons disease dementia-short screen"/>
+<variant base="Parkinson diseas dementia-short screen"/>
+<variant base="parkinson diseas dementia-short screen"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Gait_disturbance" canonical="Gait_disturbance">
+<variant base="mosley, a. d., romaine, d. s., &amp; samii, a. (2010). the encyclopedia of parkinson's disease. infobase publishing."/>
+<variant base="Mosley, A. D., Romaine, D. S., &amp; Samii, A. (2010). The Encyclopedia of Parkinson Disease. Infobas Publishing."/>
+<variant base="gait disturb"/>
+<variant base="gait disturbance"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MAOB" canonical="MAOB">
+<variant base="maob"/>
+<variant base="m a o b"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000066" canonical="EPO_00000066">
+<variant base="e p o 00000066"/>
+<variant base="10-[2-(diethylamino)propyl]phenothiazin"/>
+<variant base="profénamin"/>
+<variant base="ethopropazine"/>
+<variant base="10-[2-(diethylamino)-2-methylethyl]phenothiazine"/>
+<variant base="Ethopropazin"/>
+<variant base="10-[2-(diethylamino)-1-propyl]phenothiazine"/>
+<variant base="profénamine"/>
+<variant base="profenamine"/>
+<variant base="10-(2-diethylaminopropyl)phenothiazine"/>
+<variant base="n,n-diethyl-α-methyl-10h-phenothiazine-10-ethanamine"/>
+<variant base="profenaminum"/>
+<variant base="10-[2-(diethylamino)propyl]phenothiazine"/>
+<variant base="10-(2-diethylaminopropyl)phenothiazin"/>
+<variant base="2-diethylamino-1-propyl-n-dibenzoparathiazine"/>
+<variant base="10-[2-(diethylamino)-2-methylethyl]phenothiazin"/>
+<variant base="ethopropazin"/>
+<variant base="n,n-diethyl-1-(10h-phenothiazin-10-yl)-2-propanamin"/>
+<variant base="2-diethylamino-1-propyl-n-dibenzoparathiazin"/>
+<variant base="profenamina"/>
+<variant base="n,n-diethyl-α-methyl-10h-phenothiazine-10-ethanamin"/>
+<variant base="n,n-diethyl-1-(10h-phenothiazin-10-yl)-2-propanamine"/>
+<variant base="profenamin"/>
+<variant base="10-[2-(diethylamino)-1-propyl]phenothiazin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pink1tm1Shn" canonical="Pink1tm1Shn">
+<variant base="pink1tm1shn@en"/>
+<variant base="pink1tm1shn"/>
+<variant base="pink1tm1 shn"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Isometric_tremor" canonical="Isometric_tremor">
+<variant base="isometr tremor"/>
+<variant base="Isometr tremor"/>
+<variant base="isometric tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Anhedonia" canonical="Anhedonia">
+<variant base="anhedonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Japanese_B_encephalitis" canonical="Japanese_B_encephalitis">
+<variant base="Japanes B enceph"/>
+<variant base="japanese b encephalitis"/>
+<variant base="japanes b enceph"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000082" canonical="EPO_00000082">
+<variant base="carbidopa"/>
+<variant base="e p o 00000082"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Late-onset_Parkinson_s_disease" canonical="Late-onset_Parkinson_s_disease">
+<variant base="late-onset parkinsons disease"/>
+<variant base="late-onset parkinson s disease"/>
+<variant base="later onset Parkinson diseas"/>
+<variant base="late-onset parkinson diseas"/>
+<variant base="late-onset parkinson s diseas"/>
+<variant base="later onset parkinson's disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Genetic_cause_of_parkinson_disease" canonical="Genetic_cause_of_parkinson_disease">
+<variant base="genet caus of parkinson"/>
+<variant base="genetic cause of parkinsonism"/>
+<variant base="Genet caus of parkinson"/>
+<variant base="genetic cause of parkinson disease"/>
+<variant base="genet caus of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Metallothionein" canonical="Metallothionein">
+<variant base="metallothionein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Etiology_of_Parkinson_disease" canonical="Etiology_of_Parkinson_disease">
+<variant base="etiolog of parkinson diseas"/>
+<variant base="etiology of parkinson disease"/>
+<variant base="Etiolog of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nicotine" canonical="Nicotine">
+<variant base="nicotine"/>
+<variant base="nicotin"/>
+<variant base="Nicotin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Olfactory_dysfunction" canonical="Olfactory_dysfunction">
+<variant base="olfactori dysfunct"/>
+<variant base="olfactory dysfunction"/>
+<variant base="Olfactori dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Multiple_system_atrophy" canonical="Multiple_system_atrophy">
+<variant base="multipl system atrophi"/>
+<variant base="Multipl system atrophi"/>
+<variant base="multiple system atrophy"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Anal_sphincter_EMG" canonical="Anal_sphincter_EMG">
+<variant base="anal sphincter e m g"/>
+<variant base="anal sphincter emg"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000074" canonical="EPO_00000074">
+<variant base="lisuridum"/>
+<variant base="lisurida"/>
+<variant base="e p o 00000074"/>
+<variant base="lisuride"/>
+<variant base="lisurid"/>
+<variant base="n'-((8alpha)-9,10-didehydro-6-methylergolin-8-yl)-n,n-diethylurea"/>
+<variant base="Lisurid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#LSVT_BIG" canonical="LSVT_BIG">
+<variant base="l s v t b i g"/>
+<variant base="lsvt big"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Short_parkinsons_rating_scale" canonical="Short_parkinsons_rating_scale">
+<variant base="Short parkinson rate scale"/>
+<variant base="short parkinsons rating scale"/>
+<variant base="short parkinson rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Unified_Parkinson_s_disease_rating_scale" canonical="Unified_Parkinson_s_disease_rating_scale">
+<variant base="unified parkinson s disease rating scale"/>
+<variant base="unifi parkinson diseas rate scale"/>
+<variant base="unified parkinsons disease rating scale@en"/>
+<variant base="unifi parkinson s diseas rate scale"/>
+<variant base="unified parkinsons disease rating scale"/>
+<variant base="Unifi Parkinson diseas rate scale@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinson-Plus_syndrome" canonical="Parkinson-Plus_syndrome">
+<variant base="parkinson-plus syndrome"/>
+<variant base="parkinson-plus syndrom"/>
+<variant base="parkinson- plus syndrom"/>
+<variant base="Parkinson-Plus syndrom"/>
+<variant base="parkinson- plus syndrome"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Caffeine_intake" canonical="Caffeine_intake">
+<variant base="caffeine intake"/>
+<variant base="caffein intak"/>
+<variant base="Caffein intak"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Task_specific_writing" canonical="Task_specific_writing">
+<variant base="task specif write"/>
+<variant base="task specific tremor"/>
+<variant base="Task specif tremor"/>
+<variant base="task specific writing"/>
+<variant base="task specif tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Diagnostic_criteria_for_Parkinson_disease" canonical="Diagnostic_criteria_for_Parkinson_disease">
+<variant base="Diagnost criteria for Parkinson diseas"/>
+<variant base="diagnost criteria for parkinson diseas"/>
+<variant base="diagnostic criteria for parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Inflammation" canonical="Inflammation">
+<variant base="inflammation"/>
+<variant base="inflamm"/>
+<variant base="Inflammat"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ubiquinone_NADH_oxidoreductase" canonical="Ubiquinone_NADH_oxidoreductase">
+<variant base="ubiquinon nadh oxidoreductas"/>
+<variant base="Ubiquinon NADH oxidoreductas"/>
+<variant base="ubiquinone n a d h oxidoreductase"/>
+<variant base="ubiquinone nadh oxidoreductase"/>
+<variant base="ubiquinon n a d h oxidoreductas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_midbrain_culture" canonical="Primary_midbrain_culture">
+<variant base="primari midbrain cultur"/>
+<variant base="primary midbrain culture"/>
+<variant base="Primari midbrain cultur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Biophysical_biomarkers_of_Parkinson's_disease" canonical="s_disease">
+<variant base="Biophys biomark of Parkinson diseas"/>
+<variant base="s diseas"/>
+<variant base="biophysical biomarker of parkinson's disease"/>
+<variant base="s disease"/>
+<variant base="biophys biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Apraxia_of_eyelid_opening" canonical="Apraxia_of_eyelid_opening">
+<variant base="Apraxia of eyelid open"/>
+<variant base="apraxia of eyelid opening"/>
+<variant base="apraxia of eyelid open"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park2tm1Ykt" canonical="Park2tm1Ykt">
+<variant base="park2tm1ykt@en"/>
+<variant base="park2tm1ykt"/>
+<variant base="park2tm1 ykt"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkin" canonical="Parkin">
+<variant base="parkin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000073" canonical="EPO_00000073">
+<variant base="1-((6-allylergolin-8β-yl)carbonyl)-1-(3-(dimethylamino)propyl)-3-ethylurea"/>
+<variant base="e p o 00000073"/>
+<variant base="1-[(6-allylergoline-8β-yl)carbonyl]-1-[3-(dimethylamino)propyl]-3-ethylurea"/>
+<variant base="1-ethyl-3-(3'-dimethylamionpropyl)-2-(6'-allylergoline-8'β-carbonyl)urea"/>
+<variant base="cabergoline"/>
+<variant base="(8β)-n-[3-(dimethylamino)propyl]-n-[(ethylamino)carbonyl]-6-(2-propenyl)-ergoline-8-carboxamide"/>
+<variant base="Cabergolin"/>
+<variant base="cabergolina"/>
+<variant base="(8r)-6-allyl-n-[3-(dimethylamino)propyl]-n-(ethylcarbamoyl)ergoline-8-carboxamide"/>
+<variant base="(8β)-n-[3-(dimethylamino)propyl]-n-[(ethylamino)carbonyl]-6-(2-propenyl)-ergoline-8-carboxamid"/>
+<variant base="(8r)-6-allyl-n-[3-(dimethylamino)propyl]-n-(ethylcarbamoyl)ergoline-8-carboxamid"/>
+<variant base="cabergolinum"/>
+<variant base="cabergolin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Braak_staging_scheme_for_Parkinson_s_disease" canonical="Braak_staging_scheme_for_Parkinson_s_disease">
+<variant base="braak staging"/>
+<variant base="braak staging@en"/>
+<variant base="braak staging scheme for parkinson s disease"/>
+<variant base="braak stage"/>
+<variant base="braak stage scheme for parkinson s diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#L-shaped_cane" canonical="L-shaped_cane">
+<variant base="l-shaped cane"/>
+<variant base="l-shape cane"/>
+<variant base="l-shaped cane@en"/>
+<variant base="L-shape cane@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PC12" canonical="PC12">
+<variant base="pc12"/>
+<variant base="pc12@en"/>
+<variant base="p c12"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Smoke" canonical="Smoke">
+<variant base="smoke"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Family_history_of_Parkinson_disease" canonical="Family_history_of_Parkinson_disease">
+<variant base="famili histori of parkinson diseas"/>
+<variant base="family history of parkinson disease"/>
+<variant base="Famili histori of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ultrasonography" canonical="Ultrasonography">
+<variant base="ultrasonography"/>
+<variant base="ultrasonographi"/>
+<variant base="Ultrasonographi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#CSF_osteopontin" canonical="CSF_osteopontin">
+<variant base="c s f osteopontin"/>
+<variant base="csf osteopontin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Shuffling_gait" canonical="Shuffling_gait">
+<variant base="shuffling gait"/>
+<variant base="shuffl gait"/>
+<variant base="Shuffl gait"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Diablotm1Mak" canonical="Diablotm1Mak">
+<variant base="diablotm1 mak"/>
+<variant base="diablotm1mak@en"/>
+<variant base="diablotm1mak"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Position-specific_postural_tremor" canonical="Position-specific_postural_tremor">
+<variant base="position-specific postural tremor"/>
+<variant base="Position-specif postur tremor"/>
+<variant base="position-specif postur tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sncatm1Sud" canonical="Sncatm1Sud">
+<variant base="sncatm1sud@en"/>
+<variant base="sncatm1sud"/>
+<variant base="sncatm1 sud"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MPTP" canonical="MPTP">
+<variant base="mptp"/>
+<variant base="m p t p"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cyanide-induced_parkinsonism" canonical="Cyanide-induced_parkinsonism">
+<variant base="Cyanide-induc parkinson"/>
+<variant base="cyanide-induc parkinson"/>
+<variant base="cyanide-induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Constipation" canonical="Constipation">
+<variant base="constipation"/>
+<variant base="Constip"/>
+<variant base="constip"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Syphilitic_parkinsonism" canonical="Syphilitic_parkinsonism">
+<variant base="syphilit parkinson"/>
+<variant base="Syphilit parkinsonism@en"/>
+<variant base="syphilitic parkinsonism"/>
+<variant base="syphilitic parkinsonism@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Targeted_gene" canonical="Targeted_gene">
+<variant base="Transgen mous model of Parkinson disease@en"/>
+<variant base="target gene"/>
+<variant base="transgenic mouse model of parkinson disease@en"/>
+<variant base="transgen mous model of parkinson diseas"/>
+<variant base="transgenic mouse model of parkinson disease"/>
+<variant base="targeted gene"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Creatine" canonical="Creatine">
+<variant base="creatin"/>
+<variant base="creatine"/>
+<variant base="Creatin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinsons_disease_questionnaire-39" canonical="Parkinsons_disease_questionnaire-39">
+<variant base="parkinsons disease questionnaire-39"/>
+<variant base="parkinson diseas questionnaire-39"/>
+<variant base="Parkinson diseas questionnaire-39"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Flunarizin" canonical="Flunarizin">
+<variant base="flunarizin"/>
+<variant base="flunarizine-induced parkinson"/>
+<variant base="flunarizine-induc parkinson"/>
+<variant base="Flunarizine-induc Parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuroacanthocytosis_syndrome" canonical="Neuroacanthocytosis_syndrome">
+<variant base="neuroacanthocytosis syndrome@en"/>
+<variant base="neuroacanthocytosi syndrom"/>
+<variant base="Neuroacanthocytosi syndrome@en"/>
+<variant base="neuroacanthocytosis syndrome"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PET_imaging_biomarker" canonical="PET_imaging_biomarker">
+<variant base="p e t imag biomark"/>
+<variant base="pet imaging biomarker"/>
+<variant base="p e t imaging biomarker"/>
+<variant base="PET imag biomark"/>
+<variant base="pet imag biomark"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Oromandibular_dystonia_rating_scale" canonical="Oromandibular_dystonia_rating_scale">
+<variant base="Oromandibular dystonia rate scale"/>
+<variant base="oromandibular dystonia rating scale"/>
+<variant base="oromandibular dystonia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Obstructive_hydrocephalus" canonical="Obstructive_hydrocephalus">
+<variant base="obstructive hydrocephalus"/>
+<variant base="obstruct hydrocephalus"/>
+<variant base="Obstructiv hydrocephalus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hopkins_motor_and_vocal_tic_scale" canonical="Hopkins_motor_and_vocal_tic_scale">
+<variant base="hopkins motor and vocal tic scale"/>
+<variant base="Hopkin motor and vocal tic scale"/>
+<variant base="hopkin motor and vocal tic scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Adcy5tm1Yish" canonical="Adcy5tm1Yish">
+<variant base="adcy5tm1yish"/>
+<variant base="adcy5tm1yish@en"/>
+<variant base="adcy5tm1 yish"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rotenone" canonical="Rotenone">
+<variant base="Rotenon"/>
+<variant base="rotenone"/>
+<variant base="rotenon"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Gt(ROSA)26Sortm2(SNCA*119)Djmo" canonical="Djmo">
+<variant base="djmo"/>
+<variant base="gt(rosa)26sortm2(snca119)djmo@en"/>
+<variant base="gt(rosa)26sortm2(snca119)djmo"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_parkinsonism" canonical="Primary_parkinsonism">
+<variant base="primary parkinsonism"/>
+<variant base="primary parkinsonism@en"/>
+<variant base="Primari parkinsonism@en"/>
+<variant base="primari parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cytokines" canonical="Cytokines">
+<variant base="cytokine"/>
+<variant base="cytokin"/>
+<variant base="cytokines"/>
+<variant base="Cytokin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Central_conduction_time" canonical="Central_conduction_time">
+<variant base="central conduct time"/>
+<variant base="central conduction time"/>
+<variant base="Central conduct time"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#PANDA" canonical="PANDA">
+<variant base="parkinson neuropsychometr dementia assess"/>
+<variant base="Parkinson neuropsychometr dementia assess"/>
+<variant base="parkinson neuropsychometric dementia assessment"/>
+<variant base="p a n d a"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Synaptic_pathology" canonical="Synaptic_pathology">
+<variant base="synaptic pathology"/>
+<variant base="synapt patholog"/>
+<variant base="Synapt patholog"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Wheeled_walker" canonical="Wheeled_walker">
+<variant base="Wheel walker@en"/>
+<variant base="wheeled walker"/>
+<variant base="wheeled walker@en"/>
+<variant base="wheel walker"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rest_tremor" canonical="Rest_tremor">
+<variant base="rest tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pathological_biomarkers_of_Parkinson_disease" canonical="Pathological_biomarkers_of_Parkinson_disease">
+<variant base="pathological biomarker of parkinson disease"/>
+<variant base="patholog biomark of parkinson diseas"/>
+<variant base="Patholog biomark of Parkinson diseas"/>
+<variant base="pathological biomarkers of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Dopamine" canonical="Dopamine">
+<variant base="dopamin"/>
+<variant base="dopamine"/>
+<variant base="Dopamin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Kinesigenic_dystonia" canonical="Kinesigenic_dystonia">
+<variant base="kinesigenic dystonia"/>
+<variant base="kinesigen dystonia"/>
+<variant base="Kinesigen dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Resting_tremor" canonical="Resting_tremor">
+<variant base="rest tremor"/>
+<variant base="Rest tremor"/>
+<variant base="resting tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Transgenic_mouse_model_of_Parkinsons_disease" canonical="Transgenic_mouse_model_of_Parkinsons_disease">
+<variant base="transgenic mouse model of parkinsons disease"/>
+<variant base="transgen mous model of parkinson diseas"/>
+<variant base="Transgen mous model of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Loss_of_postural_reflex" canonical="Loss_of_postural_reflex">
+<variant base="Loss of postur reflex"/>
+<variant base="loss of postural reflex"/>
+<variant base="loss of postur reflex"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Unified_dystonia_rating_scale" canonical="Unified_dystonia_rating_scale">
+<variant base="unified dystonia rating scale"/>
+<variant base="unifi dystonia rate scale"/>
+<variant base="Unifi dystonia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Epworth_sleepiness_sclae" canonical="Epworth_sleepiness_sclae">
+<variant base="Epworth sleepi sclae"/>
+<variant base="epworth sleepi sclae"/>
+<variant base="epworth sleepiness sclae"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sleep_disorder" canonical="Sleep_disorder">
+<variant base="sleep disorder"/>
+<variant base="sleep disord"/>
+<variant base="sleep disturbance"/>
+<variant base="Sleep disturb"/>
+<variant base="sleep disturb"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Four-legged_cane" canonical="Four-legged_cane">
+<variant base="four-legged cane@en"/>
+<variant base="four-legged cane"/>
+<variant base="four-leg cane"/>
+<variant base="Four-leg cane@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mini-mental_parkinson" canonical="Mini-mental_parkinson">
+<variant base="Mini-ment parkinson"/>
+<variant base="mini-ment parkinson"/>
+<variant base="mini-mental parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Human_embryonic_stem_cell-based_therapy" canonical="Human_embryonic_stem_cell-based_therapy">
+<variant base="Human embryon stem cell-bas therapi"/>
+<variant base="human embryonic stem cell-based therapy"/>
+<variant base="human embryon stem cell-bas therapi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Glutathione" canonical="Glutathione">
+<variant base="Glutathion"/>
+<variant base="glutathione"/>
+<variant base="glutathion"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Vascular_parkinsonism" canonical="Vascular_parkinsonism">
+<variant base="vascular parkinson"/>
+<variant base="vascular parkinsonism@en"/>
+<variant base="vascular parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Agraphia" canonical="Agraphia">
+<variant base="agraphia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#In-vivo_biomarker_of_Parkinson_disease" canonical="In-vivo_biomarker_of_Parkinson_disease">
+<variant base="in-vivo biomarker of parkinson disease"/>
+<variant base="In-vivo biomark of Parkinson diseas"/>
+<variant base="in-vivo biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_immature_dopaminergic_neuron" canonical="Primary_immature_dopaminergic_neuron">
+<variant base="primary immature dopaminergic neuron"/>
+<variant base="Primari immatur dopaminerg neuron"/>
+<variant base="primari immatur dopaminerg neuron"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exertion-induced_dyskinesia" canonical="Exertion-induced_dyskinesia">
+<variant base="exertion-induc dyskinesia"/>
+<variant base="exertion-induced dyskinesia"/>
+<variant base="Exertion-induc dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Secondary_parkinsonism" canonical="Secondary_parkinsonism">
+<variant base="Secondari parkinson"/>
+<variant base="secondary parkinsonism"/>
+<variant base="secondari parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Toluene" canonical="Toluene">
+<variant base="Toluen"/>
+<variant base="toluen"/>
+<variant base="toluene"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Archimedes_spiral" canonical="Archimedes_spiral">
+<variant base="archimedes spiral@en"/>
+<variant base="archimedes spiral"/>
+<variant base="Archimed spiral@en"/>
+<variant base="archimed spiral"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#F-dopa_PET" canonical="F-dopa_PET">
+<variant base="f-dopa p e t"/>
+<variant base="f-dopa pet"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Machado-Joseph_disease" canonical="Machado-Joseph_disease">
+<variant base="machado- joseph disease"/>
+<variant base="machado- joseph diseas"/>
+<variant base="machado joseph disease@en"/>
+<variant base="machado joseph disease"/>
+<variant base="machado joseph diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Blepharospasm" canonical="Blepharospasm">
+<variant base="blepharospasm"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Juvenile_Parkinson_s_disease" canonical="Juvenile_Parkinson_s_disease">
+<variant base="juvenile parkinson's disease"/>
+<variant base="juvenile parkinson s disease"/>
+<variant base="Juvenil Parkinson diseas"/>
+<variant base="juvenile parkinsons disease"/>
+<variant base="juvenil parkinson diseas"/>
+<variant base="juvenil parkinson s diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuroprotective_agent_for_parkinson" canonical="Neuroprotective_agent_for_parkinson">
+<variant base="Neuroprotect agent for parkinson"/>
+<variant base="neuroprotective agent for parkinson"/>
+<variant base="neuroprotect agent for parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Slowness_of_movement" canonical="Slowness_of_movement">
+<variant base="slow of movement"/>
+<variant base="Slow of movement"/>
+<variant base="slowness of movement"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cancer" canonical="Cancer">
+<variant base="cancer"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Paresthesia" canonical="Paresthesia">
+<variant base="paresthesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Persistent_depression" canonical="Persistent_depression">
+<variant base="persistent depression"/>
+<variant base="Persist depress"/>
+<variant base="persist depress"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Mucuna_pruriens" canonical="Mucuna_pruriens">
+<variant base="mucuna prurien"/>
+<variant base="mucuna pruriens"/>
+<variant base="Mucuna prurien"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Needle_electromyography" canonical="Needle_electromyography">
+<variant base="needle electromyography"/>
+<variant base="Needl electromyographi"/>
+<variant base="needl electromyographi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Off-period_dystonia" canonical="Off-period_dystonia">
+<variant base="off-period dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Monocycline" canonical="Monocycline">
+<variant base="monocycline"/>
+<variant base="Monocyclin"/>
+<variant base="monocyclin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Head_trauma" canonical="Head_trauma">
+<variant base="head trauma"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Group_A_feature" canonical="Group_A_feature">
+<variant base="group a feature"/>
+<variant base="Group A featur"/>
+<variant base="group a featur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Group_B_feature" canonical="Group_B_feature">
+<variant base="group b feature"/>
+<variant base="group b featur"/>
+<variant base="Group B featur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Hit_and_run_viral_infection" canonical="Hit_and_run_viral_infection">
+<variant base="hit and run viral infection"/>
+<variant base="hit and run viral infect"/>
+<variant base="Hit and run viral infect"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Festination" canonical="Festination">
+<variant base="festin"/>
+<variant base="Festin"/>
+<variant base="festination"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Start_hesitation" canonical="Start_hesitation">
+<variant base="start hesitation"/>
+<variant base="Start hesit"/>
+<variant base="start hesit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Inconsistence" canonical="Inconsistence">
+<variant base="inconsistence"/>
+<variant base="inconsist"/>
+<variant base="Inconsist"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Motorized_scooter" canonical="Motorized_scooter">
+<variant base="motor scooter"/>
+<variant base="motorized scooter"/>
+<variant base="Motor scooter@en"/>
+<variant base="motorized scooter@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ptstm1Ich" canonical="Ptstm1Ich">
+<variant base="ptstm1 ich"/>
+<variant base="ptstm1ich"/>
+<variant base="ptstm1ich@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Autosomal_dominant_form_of_parkinsonism" canonical="Autosomal_dominant_form_of_parkinsonism">
+<variant base="autosom domin form of parkinson"/>
+<variant base="autosomal dominant form of parkinsonism"/>
+<variant base="Autosom domin form of parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Polysomnography" canonical="Polysomnography">
+<variant base="polysomnograph studi"/>
+<variant base="polysomnography"/>
+<variant base="polysomnographi"/>
+<variant base="polysomnographic study"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#End_of_dose" canonical="End_of_dose">
+<variant base="end of dose"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Borreliosis" canonical="Borreliosis">
+<variant base="borreliosi"/>
+<variant base="borreliosis"/>
+<variant base="Borreliosi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Solvent_exposure" canonical="Solvent_exposure">
+<variant base="solvent exposure"/>
+<variant base="Solvent exposur"/>
+<variant base="solvent exposur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pyridoxal_kinase" canonical="Pyridoxal_kinase">
+<variant base="pyridoxal kinase"/>
+<variant base="pyridox kinas"/>
+<variant base="Pyridox kinas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Structural_lesion-induced_parkinsonism" canonical="Structural_lesion-induced_parkinsonism">
+<variant base="Structur lesion-induc parkinson"/>
+<variant base="structur lesion-induc parkinson"/>
+<variant base="structural lesion-induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Protective_effect_of_nicotine_or_smoke" canonical="Protective_effect_of_nicotine_or_smoke">
+<variant base="protect effect of nicotin or smoke"/>
+<variant base="protect effect of smoke"/>
+<variant base="Protect effect of smoke"/>
+<variant base="protective effect of nicotine or smoke"/>
+<variant base="protective effect of smoking"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dystonia" canonical="Dystonia">
+<variant base="dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Morphological_biomarkers_of_Parkinson_disease" canonical="Morphological_biomarkers_of_Parkinson_disease">
+<variant base="morphological biomarker of parkinson disease"/>
+<variant base="morphological biomarkers of parkinson disease"/>
+<variant base="Morpholog biomark of Parkinson diseas"/>
+<variant base="morpholog biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exposure_to_farming" canonical="Exposure_to_farming">
+<variant base="exposure to farming"/>
+<variant base="exposur to farm"/>
+<variant base="Exposur to farm"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000068" canonical="EPO_00000068">
+<variant base="e p o 00000068"/>
+<variant base="trihexyphenidyl"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tightening_sensation" canonical="Tightening_sensation">
+<variant base="Tighten sensat"/>
+<variant base="tightening sensation"/>
+<variant base="tighten sensat"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sporadic_dystonia" canonical="Sporadic_dystonia">
+<variant base="Sporad dystonia"/>
+<variant base="sporadic dystonia"/>
+<variant base="sporad dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Human_afult_stem_cell-based_therapy" canonical="Human_afult_stem_cell-based_therapy">
+<variant base="human adult stem cell-bas therapi"/>
+<variant base="human afult stem cell-bas therapi"/>
+<variant base="Human adult stem cell-bas therapi"/>
+<variant base="human adult stem cell-based therapy"/>
+<variant base="human afult stem cell-based therapy"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tingling_sensation" canonical="Tingling_sensation">
+<variant base="tingl sensat"/>
+<variant base="Tingl sensat"/>
+<variant base="tingling sensation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000065" canonical="EPO_00000065">
+<variant base="biperiden"/>
+<variant base="e p o 00000065"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Deafness" canonical="Deafness">
+<variant base="Deaf"/>
+<variant base="deaf"/>
+<variant base="deafness"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Position_specific_writing" canonical="Position_specific_writing">
+<variant base="posit specif tremor"/>
+<variant base="position specific tremor"/>
+<variant base="position specific writing"/>
+<variant base="Posit specif tremor"/>
+<variant base="posit specif write"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Swallowing_disorder" canonical="Swallowing_disorder">
+<variant base="swallowing disorder"/>
+<variant base="Swallow disord"/>
+<variant base="swallow disord"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Graphic_tablet_analysis" canonical="Graphic_tablet_analysis">
+<variant base="graphic tablet analysis"/>
+<variant base="Graphic tablet analysi"/>
+<variant base="graphic tablet analysi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Open_space_hesitation" canonical="Open_space_hesitation">
+<variant base="open space hesitation"/>
+<variant base="open space hesit"/>
+<variant base="Open space hesit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Focal_dystonia" canonical="Focal_dystonia">
+<variant base="focal dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Glyphosate_herbicide" canonical="Glyphosate_herbicide">
+<variant base="glyphos herbicid"/>
+<variant base="glyphosate herbicide"/>
+<variant base="Glyphos herbicid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuralgic_pain" canonical="Neuralgic_pain">
+<variant base="neuralgic pain"/>
+<variant base="neuralg pain"/>
+<variant base="Neuralg pain"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000081" canonical="EPO_00000081">
+<variant base="levodopa"/>
+<variant base="e p o 00000081"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Destination_hesitation" canonical="Destination_hesitation">
+<variant base="destin hesit"/>
+<variant base="destination hesitation"/>
+<variant base="Destin hesit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Stem_cell_therapy" canonical="Stem_cell_therapy">
+<variant base="stem cell therapy"/>
+<variant base="stem cell therapi"/>
+<variant base="Stem cell therapi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Paroxysmal_dystonia" canonical="Paroxysmal_dystonia">
+<variant base="Paroxysm dystonia"/>
+<variant base="paroxysmal dystonia"/>
+<variant base="paroxysm dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sleep_EEG" canonical="Sleep_EEG">
+<variant base="sleep e e g"/>
+<variant base="sleep eeg"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Compulsive_foraging" canonical="Compulsive_foraging">
+<variant base="compulsive foraging"/>
+<variant base="Compuls eat"/>
+<variant base="compulsive eating"/>
+<variant base="compuls eat"/>
+<variant base="compuls forag"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Intermediate_scale_for_assessment_of_Parkinsons_disease" canonical="Intermediate_scale_for_assessment_of_Parkinsons_disease">
+<variant base="intermediate scale for assessment of parkinsons disease"/>
+<variant base="Intermedi scale for assess of Parkinson diseas"/>
+<variant base="intermedi scale for assess of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Inherited_dystonia" canonical="Inherited_dystonia">
+<variant base="inherit dystonia"/>
+<variant base="Inherit dystonia"/>
+<variant base="inherited dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tnfrsf1atm1Imx" canonical="Tnfrsf1atm1Imx">
+<variant base="tnfrsf1atm1imx"/>
+<variant base="tnfrsf1atm1imx@en"/>
+<variant base="tnfrsf1atm1 imx"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Retropulsion" canonical="Retropulsion">
+<variant base="Retropuls"/>
+<variant base="retropuls"/>
+<variant base="retropulsion"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Berg_balance_scale" canonical="Berg_balance_scale">
+<variant base="berg balance scale@en"/>
+<variant base="Berg balanc scale@en"/>
+<variant base="berg balance scale"/>
+<variant base="berg balanc scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mitochondrial_DNA_mutation" canonical="Mitochondrial_DNA_mutation">
+<variant base="mitochondrial d n a mutation"/>
+<variant base="Mitochondri DNA mutat"/>
+<variant base="mitochondri d n a mutat"/>
+<variant base="mitochondri dna mutat"/>
+<variant base="mitochondrial dna mutation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Abnormal_involuntary_movement_scale" canonical="Abnormal_involuntary_movement_scale">
+<variant base="Abnormal involuntari movement scale"/>
+<variant base="abnorm involuntari movement scale"/>
+<variant base="abnormal involuntary movement scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK8_mutation_parkinsonism" canonical="PARK8_mutation_parkinsonism">
+<variant base="p a r k8 mutat parkinson"/>
+<variant base="park8 mutation parkinsonism"/>
+<variant base="p a r k8 mutation parkinsonism"/>
+<variant base="PARK8 mutat parkinson"/>
+<variant base="park8 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Adult_onset_dystonia" canonical="Adult_onset_dystonia">
+<variant base="adult onset dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#COMT_inhibitors" canonical="COMT_inhibitors">
+<variant base="c o m t inhibitors"/>
+<variant base="comt inhibitor"/>
+<variant base="c o m t inhibitor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Prochlorperazine-induced_parkinsonism" canonical="Prochlorperazine-induced_parkinsonism">
+<variant base="Prochlorperazine-induc parkinson"/>
+<variant base="prochlorperazine-induced parkinsonism"/>
+<variant base="prochlorperazine-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000080" canonical="EPO_00000080">
+<variant base="ropinirole"/>
+<variant base="ropinirolum"/>
+<variant base="e p o 00000080"/>
+<variant base="Ropinirol"/>
+<variant base="ropinirol"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tuberculosis" canonical="Tuberculosis">
+<variant base="tuberculosis"/>
+<variant base="Tuberculosi"/>
+<variant base="tuberculosi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Organotypic_culture" canonical="Organotypic_culture">
+<variant base="organotyp cultur"/>
+<variant base="organotypic culture"/>
+<variant base="Organotyp cultur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK5_mutation_parkinsonism" canonical="PARK5_mutation_parkinsonism">
+<variant base="PARK5 mutat parkinson"/>
+<variant base="park5 mutat parkinson"/>
+<variant base="p a r k5 mutat parkinson"/>
+<variant base="park5 mutation parkinsonism"/>
+<variant base="p a r k5 mutation parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sleep_attack" canonical="Sleep_attack">
+<variant base="sleep attack"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Physical_therapy" canonical="Physical_therapy">
+<variant base="physic therapi"/>
+<variant base="physical therapy"/>
+<variant base="Physic therapi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hydrocephalus" canonical="Hydrocephalus">
+<variant base="hydrocephalus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Loss_of_urinarry_bladder_control" canonical="Loss_of_urinarry_bladder_control">
+<variant base="loss of urinarri bladder control"/>
+<variant base="loss of urinarry bladder control"/>
+<variant base="Loss of urinari bladder control"/>
+<variant base="loss of urinari bladder control"/>
+<variant base="loss of urinary bladder control"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Syphilis" canonical="Syphilis">
+<variant base="Syphili"/>
+<variant base="syphilis"/>
+<variant base="syphili"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#University_of_California_Los_Angeles_scale" canonical="University_of_California_Los_Angeles_scale">
+<variant base="Univers of California Los Angele scale"/>
+<variant base="university of california los angeles scale"/>
+<variant base="univers of california los angel scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000072" canonical="EPO_00000072">
+<variant base="2-bromo-alpha-ergokryptine"/>
+<variant base="bromoergocriptin"/>
+<variant base="bromocriptine"/>
+<variant base="bromocriptin"/>
+<variant base="2-bromo-α-ergokryptin"/>
+<variant base="bromocriptinum"/>
+<variant base="bromocryptine"/>
+<variant base="2-bromo-α-ergocryptin"/>
+<variant base="2-bromo-alpha-ergokryptin"/>
+<variant base="e p o 00000072"/>
+<variant base="Bromocriptin"/>
+<variant base="bromoergocryptin"/>
+<variant base="2-bromo-alpha-ergocryptin"/>
+<variant base="2-bromo-alpha-ergocryptine"/>
+<variant base="bromoergocryptine"/>
+<variant base="bromoergocriptine"/>
+<variant base="bromocryptin"/>
+<variant base="bromocriptina"/>
+<variant base="2-bromo-α-ergocryptine"/>
+<variant base="2-bromo-α-ergokryptine"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Transcranial_ultrasound_biomarker" canonical="Transcranial_ultrasound_biomarker">
+<variant base="transcrani ultrasound biomark"/>
+<variant base="transcranial ultrasound biomarker"/>
+<variant base="Transcrani ultrasound biomark"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Postural_instability" canonical="Postural_instability">
+<variant base="postur instabl"/>
+<variant base="Postur instabl"/>
+<variant base="postural instability"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Anti-cholinergic_drugs" canonical="Anti-cholinergic_drugs">
+<variant base="Anti-cholinerg drug"/>
+<variant base="anti-cholinergic drugs"/>
+<variant base="anti-cholinergic drug"/>
+<variant base="anti-cholinerg drug"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ecstasy" canonical="Ecstasy">
+<variant base="Ecstasi"/>
+<variant base="3,4-methylenedioxymethamphetamine"/>
+<variant base="3,4-methylenedioxymethamphetamin"/>
+<variant base="methylenedioxymethamphetamin"/>
+<variant base="ecstasy"/>
+<variant base="ecstasi"/>
+<variant base="mdma"/>
+<variant base="methylenedioxymethamphetamine"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Synucleinopathy" canonical="Synucleinopathy">
+<variant base="synucleinopathy"/>
+<variant base="synucleinopathi"/>
+<variant base="Synucleinopathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cyanide_poisoning" canonical="Cyanide_poisoning">
+<variant base="cyanid poison"/>
+<variant base="Cyanid poison"/>
+<variant base="cyanide poisoning"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Lewy_body" canonical="Lewy_body">
+<variant base="lewy body"/>
+<variant base="Lewi bodi"/>
+<variant base="lewi bodi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park7tm1Cai" canonical="Park7tm1Cai">
+<variant base="park7tm1 cai"/>
+<variant base="park7tm1cai"/>
+<variant base="park7tm1cai@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Postural_irregularity" canonical="Postural_irregularity">
+<variant base="postur irregular"/>
+<variant base="Postur irregular"/>
+<variant base="postural irregularity"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Random_on_off" canonical="Random_on_off">
+<variant base="random on off"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#In-vitro_biomarkers_of_Parkinson_disease" canonical="In-vitro_biomarkers_of_Parkinson_disease">
+<variant base="in-vitro biomark of parkinson diseas"/>
+<variant base="in-vitro biomarker of parkinson disease"/>
+<variant base="In-vitro biomark of Parkinson diseas"/>
+<variant base="in-vitro biomarkers of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Subthalamic_stimulation" canonical="Subthalamic_stimulation">
+<variant base="subthalamic nucleus stimulation"/>
+<variant base="subthalam nucleus stimul"/>
+<variant base="subthalam stimul"/>
+<variant base="subthalamic stimulation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Schwab_and_England_activities_of_daily_living_scale" canonical="Schwab_and_England_activities_of_daily_living_scale">
+<variant base="schwab and england activ of daili live scale"/>
+<variant base="Schwab and England activ of daili live scale"/>
+<variant base="schwab and england activities of daily living scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ubiquitin" canonical="Ubiquitin">
+<variant base="ubiquitin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Isolated_voice_tremor" canonical="Isolated_voice_tremor">
+<variant base="isolated voice tremor"/>
+<variant base="Isolat voic tremor"/>
+<variant base="isol voic tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Scales_for_outcomes_in_Parkinsons_disease-Motor" canonical="Scales_for_outcomes_in_Parkinsons_disease-Motor">
+<variant base="scales for outcomes in parkinsons disease-motor"/>
+<variant base="scale for outcom in parkinson disease- motor"/>
+<variant base="scale for outcom in parkinson disease-motor"/>
+<variant base="scales for outcomes in parkinsons disease- motor"/>
+<variant base="Scale for outcom in Parkinson disease-Motor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Evaluation_of_Parkinson_s_disease" canonical="Evaluation_of_Parkinson_s_disease">
+<variant base="Evaluat of parkinson disease@en"/>
+<variant base="evalu of parkinson diseas"/>
+<variant base="evalu of parkinson s diseas"/>
+<variant base="evaluation of parkinson s disease"/>
+<variant base="evaluation of parkinson's disease@en"/>
+<variant base="evaluation of parkinson's disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Surgical_therapy" canonical="Surgical_therapy">
+<variant base="surgic therapi"/>
+<variant base="surgical therapy"/>
+<variant base="Surgic therapi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mycoplasma_pneumonia" canonical="Mycoplasma_pneumonia">
+<variant base="mycoplasma pneumonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Clinical_dyskinesia_rating_scale" canonical="Clinical_dyskinesia_rating_scale">
+<variant base="clinical dyskinesia rating scale"/>
+<variant base="Clinic dyskinesia rate scale"/>
+<variant base="clinic dyskinesia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK10_mutation_parkinsonism" canonical="PARK10_mutation_parkinsonism">
+<variant base="park10 mutation parkinsonism"/>
+<variant base="p a r k10 mutat parkinson"/>
+<variant base="p a r k10 mutation parkinsonism"/>
+<variant base="park10 mutat parkinson"/>
+<variant base="PARK10 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nr4a2tm1Omc" canonical="Nr4a2tm1Omc">
+<variant base="nr4a2tm1 omc"/>
+<variant base="nr4a2tm1omc"/>
+<variant base="nr4a2tm1omc@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sncatm1Rosl" canonical="Sncatm1Rosl">
+<variant base="sncatm1rosl@en"/>
+<variant base="sncatm1rosl"/>
+<variant base="sncatm1 rosl"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Maneb" canonical="Maneb">
+<variant base="maneb"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Halogen" canonical="Halogen">
+<variant base="halogen"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypersexuality" canonical="Hypersexuality">
+<variant base="hypersexu"/>
+<variant base="Hypersexu"/>
+<variant base="hypersexuality"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000086" canonical="EPO_00000086">
+<variant base="selegilinum"/>
+<variant base="selegilina"/>
+<variant base="(−)-selegilin"/>
+<variant base="e p o 00000086"/>
+<variant base="Selegilin"/>
+<variant base="l-deprenalin"/>
+<variant base="selegiline"/>
+<variant base="(−)-selegiline"/>
+<variant base="selegilin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Alpha_synuclein_index" canonical="Alpha_synuclein_index">
+<variant base="alpha synuclein index"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mapk10tm1Flv" canonical="Mapk10tm1Flv">
+<variant base="mapk10tm1flv"/>
+<variant base="mapk10tm1 flv"/>
+<variant base="mapk10tm1flv@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Western_equine_encephalitis" canonical="Western_equine_encephalitis">
+<variant base="Western equin enceph"/>
+<variant base="western equine encephalitis"/>
+<variant base="western equin enceph"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Well-water_drinking" canonical="Well-water_drinking">
+<variant base="exposure to well water"/>
+<variant base="exposur to well water"/>
+<variant base="well-wat drink"/>
+<variant base="Exposur to well water"/>
+<variant base="well-water drinking"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Abnormal_circadian_rhythm" canonical="Abnormal_circadian_rhythm">
+<variant base="abnormal circadian rhythm"/>
+<variant base="abnorm circadian rhythm"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Kinetic_tremor" canonical="Kinetic_tremor">
+<variant base="Kinet tremor"/>
+<variant base="kinet tremor"/>
+<variant base="kinetic tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Botulinum_toxin_B" canonical="Botulinum_toxin_B">
+<variant base="botulinum toxin b"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK6_mutation_parkinsonism" canonical="PARK6_mutation_parkinsonism">
+<variant base="park6 mutat parkinson"/>
+<variant base="park6 mutation parkinsonism"/>
+<variant base="p a r k6 mutation parkinsonism"/>
+<variant base="PARK6 mutat parkinson"/>
+<variant base="p a r k6 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Caffeine" canonical="Caffeine">
+<variant base="caffein"/>
+<variant base="caffeine"/>
+<variant base="Caffein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Urine_biomarkers_of_Parkinson_disease" canonical="Urine_biomarkers_of_Parkinson_disease">
+<variant base="urin biomark of parkinson diseas"/>
+<variant base="urine biomarker of parkinson disease"/>
+<variant base="urine biomarkers of parkinson disease"/>
+<variant base="Urine biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Burning_sensation" canonical="Burning_sensation">
+<variant base="Burn sensat"/>
+<variant base="burn sensat"/>
+<variant base="burning sensation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Melatonin" canonical="Melatonin">
+<variant base="melatonin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#n-hexane" canonical="n-hexane">
+<variant base="n-hexane"/>
+<variant base="n-hexan"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Brachial_dystonia" canonical="Brachial_dystonia">
+<variant base="brachial dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Delayed_gastric_emptying" canonical="Delayed_gastric_emptying">
+<variant base="Delay gastric empti"/>
+<variant base="delayed gastric emptying"/>
+<variant base="delay gastric empti"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#U-shaped_walking_stabilizer" canonical="U-shaped_walking_stabilizer">
+<variant base="U-shape walk stabilizer@en"/>
+<variant base="u-shaped walking stabilizer@en"/>
+<variant base="u-shaped walking stabilizer"/>
+<variant base="u-shap walk stabil"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park2tm1Tmd" canonical="Park2tm1Tmd">
+<variant base="park2tm1tmd"/>
+<variant base="park2tm1tmd@en"/>
+<variant base="park2tm1 tmd"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Falls" canonical="Falls">
+<variant base="falls"/>
+<variant base="fall"/>
+<variant base="Fall"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Diagnosis_of_Parkinson_disease" canonical="Diagnosis_of_Parkinson_disease">
+<variant base="diagnosis of parkinson disease"/>
+<variant base="diagnosi of parkinson diseas"/>
+<variant base="Diagnosi of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Montgomery-Asberg_depression_rating_scale" canonical="Montgomery-Asberg_depression_rating_scale">
+<variant base="montgomery-asberg depression rating scale"/>
+<variant base="montgomery-asberg depress rate scale"/>
+<variant base="montgomery-asberg depression rating scale@en"/>
+<variant base="Montgomery-Asberg depress rate scale@en"/>
+<variant base="montgomery- asberg depress rate scale"/>
+<variant base="montgomery- asberg depression rating scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mouse_models_of_Parkinson_disease" canonical="Mouse_models_of_Parkinson_disease">
+<variant base="pfeiffer r.e., wszolek z.k., ebadi m. (2013) parkinson's disease-second ed. crc press. "/>
+<variant base="Pfeiffer R.E., Wszolek Z.K., Ebadi M. (2013) Parkinson Disease-Second Ed. CRC Press."/>
+<variant base="mouse model of parkinson disease"/>
+<variant base="mouse models of parkinson disease"/>
+<variant base="mous model of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Thalamotomy" canonical="Thalamotomy">
+<variant base="thalamotomy"/>
+<variant base="thalamotomi"/>
+<variant base="thalamotomy@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ocular_surface_irritation" canonical="Ocular_surface_irritation">
+<variant base="Ocular surfac irrit"/>
+<variant base="ocular surface irritation"/>
+<variant base="ocular surfac irrit"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Striatonigral_degeneration" canonical="Striatonigral_degeneration">
+<variant base="Striatonigr degener"/>
+<variant base="striatonigr degener"/>
+<variant base="striatonigral degeneration"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Intention_tremor" canonical="Intention_tremor">
+<variant base="intent tremor"/>
+<variant base="intention tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PET_biomarker" canonical="PET_biomarker">
+<variant base="p e t biomarker"/>
+<variant base="pet biomarker"/>
+<variant base="p e t biomark"/>
+<variant base="PET biomark"/>
+<variant base="pet biomark"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Segmental_dystonia" canonical="Segmental_dystonia">
+<variant base="segment dystonia"/>
+<variant base="Segment dystonia"/>
+<variant base="segmental dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinson_psychosis_rating_scale" canonical="Parkinson_psychosis_rating_scale">
+<variant base="parkinson psychosi rate scale"/>
+<variant base="Parkinson psychosi rate scale@en"/>
+<variant base="parkinson psychosis rating scale@en"/>
+<variant base="parkinson psychosis rating scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Models_of_Parkinson's_disease" canonical="s_disease">
+<variant base="model of parkinson disease"/>
+<variant base="Model of Parkinson diseas"/>
+<variant base="s diseas"/>
+<variant base="model of parkinson diseas"/>
+<variant base="s disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Early-onset_Parkinson_s_disease_" canonical="Early-onset_Parkinson_s_disease_">
+<variant base="early-onset parkinson s disease "/>
+<variant base="early-onset parkinson s diseas"/>
+<variant base="early onset parkinsons disease"/>
+<variant base="earli onset parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park2tm1Ccs" canonical="Park2tm1Ccs">
+<variant base="park2tm1ccs@en"/>
+<variant base="park2tm1cc"/>
+<variant base="park2tm1ccs"/>
+<variant base="park2tm1 ccs"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Impulsive_behaviour" canonical="Impulsive_behaviour">
+<variant base="impuls behaviour"/>
+<variant base="Impulsiv behaviour"/>
+<variant base="impulsive behaviour"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Monogenic_forms_of_Parkinson_disease" canonical="Monogenic_forms_of_Parkinson_disease">
+<variant base="monogenic form of parkinson disease"/>
+<variant base="monogen form of parkinson diseas"/>
+<variant base="Jankovic, J. J. T. E., &amp; Tolosa. (2007). Parkinson diseas and movement disorders. E. Tolosa (Ed.). Lippincott William &amp; Wilkins."/>
+<variant base="monogenic forms of parkinson disease"/>
+<variant base="jankovic, j. j. t. e., &amp; tolosa. (2007). parkinson's disease and movement disorders. e. tolosa (ed.). lippincott williams &amp; wilkins."/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Lee-Silverman_Voice_Treatment" canonical="Lee-Silverman_Voice_Treatment">
+<variant base="lee silverman voice treatment@en"/>
+<variant base="lee- silverman voice treatment"/>
+<variant base="Lee Silverman Voic Treatment@en"/>
+<variant base="lee silverman voic treatment"/>
+<variant base="lee- silverman voic treatment"/>
+<variant base="lee silverman voice treatment"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Compulsive_shopping" canonical="Compulsive_shopping">
+<variant base="Compuls shop"/>
+<variant base="compulsive shopping"/>
+<variant base="compuls shop"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dopamine_deficiency" canonical="Dopamine_deficiency">
+<variant base="dopamin defici"/>
+<variant base="depletion of stratial dopamine"/>
+<variant base="deplet of stratial dopamin"/>
+<variant base="dopamine deficiency"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Saliva_biomarkers_of_Parkinson_disease" canonical="Saliva_biomarkers_of_Parkinson_disease">
+<variant base="Saliva biomark of Parkinson diseas"/>
+<variant base="saliva biomark of parkinson diseas"/>
+<variant base="saliva biomarker of parkinson disease"/>
+<variant base="saliva biomarkers of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypokinesia" canonical="Hypokinesia">
+<variant base="hypokinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Axial_dystonia" canonical="Axial_dystonia">
+<variant base="axial dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tremor" canonical="Tremor">
+<variant base="tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Qigong" canonical="Qigong">
+<variant base="qigong"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mercury_poisoning" canonical="Mercury_poisoning">
+<variant base="mercury poisoning"/>
+<variant base="mercuri poison"/>
+<variant base="Mercuri poison"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Oromandibular_dystonia" canonical="Oromandibular_dystonia">
+<variant base="oromandibular dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Psychosis" canonical="Psychosis">
+<variant base="Psychosi"/>
+<variant base="psychosi"/>
+<variant base="psychosis"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hoehn_and_Yahr_stage_scale" canonical="Hoehn_and_Yahr_stage_scale">
+<variant base="hoehn and yahr stage scale"/>
+<variant base="hoehn/yahr scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MPTP-induced_parkinsonism" canonical="MPTP-induced_parkinsonism">
+<variant base="mptp induc parkinson"/>
+<variant base="m p t p-induc parkinson"/>
+<variant base="m p t p-induced parkinsonism"/>
+<variant base="mptp induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Memantine" canonical="Memantine">
+<variant base="1,3-dimethyl-5-adamantanamin"/>
+<variant base="memantina"/>
+<variant base="memantine"/>
+<variant base="1,3-dimethyl-5-adamantanamine"/>
+<variant base="memantinum"/>
+<variant base="1-amino-3,5-dimethyladamantan"/>
+<variant base="3,5-dimethyltricyclo(3.3.1.1(3,7))decan-1-amin"/>
+<variant base="3,5-dimethyl-1-aminoadamantane"/>
+<variant base="Memantin"/>
+<variant base="1-amino-3,5-dimethyladamantane"/>
+<variant base="3,5-dimethyl-1-aminoadamantan"/>
+<variant base="3,5-dimethyl-1-adamantanamin"/>
+<variant base="memantin"/>
+<variant base="3,5-dimethyl-1-adamantanamine"/>
+<variant base="3,5-dimethyltricyclo(3.3.1.1(3,7))decan-1-amine"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Toxin_cause_of_parkinsonism" canonical="Toxin_cause_of_parkinsonism">
+<variant base="Toxin caus of parkinson"/>
+<variant base="toxin cause of parkinsonism"/>
+<variant base="toxin caus of parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK11_mutation_parkinsonism" canonical="PARK11_mutation_parkinsonism">
+<variant base="park11 mutat parkinson"/>
+<variant base="p a r k11 mutat parkinson"/>
+<variant base="PARK11 mutat parkinson"/>
+<variant base="park11 mutation parkinsonism"/>
+<variant base="p a r k11 mutation parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pathological_gambling" canonical="Pathological_gambling">
+<variant base="pathological gambling"/>
+<variant base="patholog gambl"/>
+<variant base="Patholog gambl"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Clinical_rating_scale" canonical="Clinical_rating_scale">
+<variant base="clinical rating scale"/>
+<variant base="clinic rate scale"/>
+<variant base="Clinic rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nigral_glutathione_deficiency" canonical="Nigral_glutathione_deficiency">
+<variant base="glutathione peroxidase deficiency in parkinson's disease substantia nigra"/>
+<variant base="nigral glutathione deficiency"/>
+<variant base="nigral glutathion defici"/>
+<variant base="glutathion peroxidas defici in Parkinson diseas substantia nigra"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Striatal_iron" canonical="Striatal_iron">
+<variant base="striatal iron"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Intrathecal_baclofen" canonical="Intrathecal_baclofen">
+<variant base="intrathec baclofen"/>
+<variant base="intrathecal baclofen"/>
+<variant base="Intrathec baclofen"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#6-OHDA_model" canonical="OHDA_model">
+<variant base="o h d a model"/>
+<variant base="6 ohda model"/>
+<variant base="6 ohda model@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Emerging_etiology" canonical="Emerging_etiology">
+<variant base="emerg etiolog"/>
+<variant base="Emerg etiolog"/>
+<variant base="emerging etiology"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rapid-onset_dystonia-parkinsonism" canonical="Rapid-onset_dystonia-parkinsonism">
+<variant base="rapid-onset dystonia-parkinson"/>
+<variant base="rapid onset dystonia parkinson"/>
+<variant base="rapid onset dystonia parkinsonism"/>
+<variant base="rapid-onset dystonia-parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park2tm1Shn" canonical="Park2tm1Shn">
+<variant base="park2tm1shn"/>
+<variant base="park2tm1shn@en"/>
+<variant base="park2tm1 shn"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000067" canonical="EPO_00000067">
+<variant base="e p o 00000067"/>
+<variant base="1-cyclohexyl-1-phenyl-3-pyrrolidin-1-yl-propan-1-ol hydrochlorid"/>
+<variant base="1-cyclohexyl-1-phenyl-3-pyrrolidino-1-propanol"/>
+<variant base="prociclidina"/>
+<variant base="procyclidine"/>
+<variant base="procyclidin"/>
+<variant base="1-cyclohexyl-1-phenyl-3-pyrrolidin-1-yl-propan-1-ol hydrochloride"/>
+<variant base="Procyclidin"/>
+<variant base="tricyclamol"/>
+<variant base="procyclidinum"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Continuous_dyskinesia" canonical="Continuous_dyskinesia">
+<variant base="continuous dyskinesia"/>
+<variant base="continu dyskinesia"/>
+<variant base="Tardiv dyskinesia"/>
+<variant base="tardiv dyskinesia"/>
+<variant base="tardive dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Arm_dystonia_disability_scale" canonical="Arm_dystonia_disability_scale">
+<variant base="arm dystonia disabl scale"/>
+<variant base="Arm dystonia disabl scale"/>
+<variant base="arm dystonia disability scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Four-wheeled_walking_stabilizer" canonical="Four-wheeled_walking_stabilizer">
+<variant base="four-wheeled walking stabilizer"/>
+<variant base="four-wheeled walking stabilizer@en"/>
+<variant base="Four-wheel walk stabilizer@en"/>
+<variant base="four-wheel walk stabil"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Long_term_complication_of_medication" canonical="Long_term_complication_of_medication">
+<variant base="long term complication of medication"/>
+<variant base="long term complic of medic"/>
+<variant base="Long term complic of medic"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Falling" canonical="Falling">
+<variant base="falling"/>
+<variant base="fall"/>
+<variant base="Fall"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Multifocal_dystonia" canonical="Multifocal_dystonia">
+<variant base="multifoc dystonia"/>
+<variant base="multifocal dystonia"/>
+<variant base="Multifoc dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tnfrsf1btm1Imx" canonical="Tnfrsf1btm1Imx">
+<variant base="tnfrsf1btm1imx"/>
+<variant base="tnfrsf1btm1imx@en"/>
+<variant base="tnfrsf1btm1 imx"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinsons_disease_cognitive_rating_scale" canonical="Parkinsons_disease_cognitive_rating_scale">
+<variant base="parkinsons disease cognitive rating scale"/>
+<variant base="parkinson diseas cognit rate scale"/>
+<variant base="Parkinson diseas cognit rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Proteomic_biomarkers_of_Parkinson_disease" canonical="Proteomic_biomarkers_of_Parkinson_disease">
+<variant base="proteom biomark of parkinson diseas"/>
+<variant base="proteomic biomarkers of parkinson disease"/>
+<variant base="proteomic biomarker of parkinson disease"/>
+<variant base="Proteom biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rotenon_model" canonical="Rotenon_model">
+<variant base="rotenone model@en"/>
+<variant base="Rotenon model@en"/>
+<variant base="rotenone model"/>
+<variant base="rotenon model"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Apomorphine_test" canonical="Apomorphine_test">
+<variant base="apomorphin test"/>
+<variant base="apomorphine test"/>
+<variant base="Apomorphin test@en"/>
+<variant base="apomorphine test@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Autosomal_recessive_forms_of_parkinsonism" canonical="Autosomal_recessive_forms_of_parkinsonism">
+<variant base="autosomal recessive form of parkinsonism"/>
+<variant base="autosomal recessive forms of parkinsonism"/>
+<variant base="autosom recess form of parkinson"/>
+<variant base="Autosom recess form of parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Convergence_abnormality" canonical="Convergence_abnormality">
+<variant base="converg abnorm"/>
+<variant base="convergence abnormality"/>
+<variant base="Converg abnorm"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Foot_drag" canonical="Foot_drag">
+<variant base="foot drag"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sncatm1Nbm" canonical="Sncatm1Nbm">
+<variant base="sncatm1 nbm"/>
+<variant base="sncatm1nbm@en"/>
+<variant base="sncatm1nbm"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Anismus" canonical="Anismus">
+<variant base="anismus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Non-kinesigenic_dyskinesia" canonical="Non-kinesigenic_dyskinesia">
+<variant base="non-kinesigenic dyskinesia"/>
+<variant base="Non-kinesigen dyskinesia"/>
+<variant base="non-kinesigen dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sialorrhoea" canonical="Sialorrhoea">
+<variant base="sialorrhoea"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Bradykinesia_symptom" canonical="Bradykinesia_symptom">
+<variant base="bradykinesia"/>
+<variant base="bradykinesia symptom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Bmpr1atm1Bhr" canonical="Bmpr1atm1Bhr">
+<variant base="bmpr1atm1 bhr"/>
+<variant base="bmpr1atm1bhr@en"/>
+<variant base="bmpr1atm1bhr"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tauopathy" canonical="Tauopathy">
+<variant base="tauopathy"/>
+<variant base="tauopathi"/>
+<variant base="Tauopathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Pisa-syndrome" canonical="Pisa-syndrome">
+<variant base="pisa-syndrom"/>
+<variant base="Pisa-syndrom"/>
+<variant base="pisa-syndrome"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Coenzyme_Q10" canonical="Coenzyme_Q10">
+<variant base="coenzyme q10"/>
+<variant base="coenzym q10"/>
+<variant base="Coenzym Q10"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park2tm1Roo" canonical="Park2tm1Roo">
+<variant base="park2tm1roo@en"/>
+<variant base="park2tm1roo"/>
+<variant base="park2tm1 roo"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ferritin" canonical="Ferritin">
+<variant base="ferritin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Writers_cramp_rating_scale" canonical="Writers_cramp_rating_scale">
+<variant base="Writer cramp rate scale"/>
+<variant base="writer cramp rate scale"/>
+<variant base="writers cramp rating scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Reduced_CSF_gluthatione-SH" canonical="Reduced_CSF_gluthatione-SH">
+<variant base="reduced csf gluthatione-sh"/>
+<variant base="Reduc CSF gluthatione-SH"/>
+<variant base="reduced c s f gluthatione- s h"/>
+<variant base="reduc c s f gluthatione- s h"/>
+<variant base="reduc csf gluthatione-sh"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Occular_saccade_impairment" canonical="Occular_saccade_impairment">
+<variant base="occular saccade impairment"/>
+<variant base="occular saccad impair"/>
+<variant base="Occular saccad impair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mucormycosis" canonical="Mucormycosis">
+<variant base="mucormycosi"/>
+<variant base="mucormycosis"/>
+<variant base="Mucormycosi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Charnoly_body" canonical="Charnoly_body">
+<variant base="charnoli bodi"/>
+<variant base="Charnoli bodi"/>
+<variant base="charnoly body"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000078" canonical="EPO_00000078">
+<variant base="e p o 00000078"/>
+<variant base="2-chloro-10-(3-(4-(2-hydroxyethyl)piperazin-1-yl)propyl)phenothiazin"/>
+<variant base="perfenazina"/>
+<variant base="perphenazine"/>
+<variant base="perfenazine"/>
+<variant base="4-[3-(2-chloro-10h-phenothiazin-10-yl)propyl]-1-piperazineethanol"/>
+<variant base="γ-(4-(β-hydroxyethyl)piperazin-1-yl)propyl-2-chlorophenothiazine"/>
+<variant base="perfenazin"/>
+<variant base="chlorpiprazin"/>
+<variant base="4-[3-(2-chlorophenothiazin-10-yl)propyl]-1-piperazineethanol"/>
+<variant base="2-chloro-10-(3-(4-(2-hydroxyethyl)piperazin-1-yl)propyl)phenothiazine"/>
+<variant base="γ-(4-(β-hydroxyethyl)piperazin-1-yl)propyl-2-chlorophenothiazin"/>
+<variant base="perphénazine"/>
+<variant base="chlorpiprazine"/>
+<variant base="Perphenazin"/>
+<variant base="perphenazinum"/>
+<variant base="perphénazin"/>
+<variant base="ethaperazin"/>
+<variant base="2-(4-[3-(2-chloro-10h-phenothiazin-10-yl)propyl]-1-piperazinyl)ethanol"/>
+<variant base="etaperazin"/>
+<variant base="etaperazine"/>
+<variant base="perphenazin"/>
+<variant base="ethaperazine"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Motor_testing" canonical="Motor_testing">
+<variant base="motor test"/>
+<variant base="motor testing"/>
+<variant base="Motor test"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Kinesia_paradoxica" canonical="Kinesia_paradoxica">
+<variant base="kinesia paradoxica"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Platelet_complex-1_activity" canonical="Platelet_complex-1_activity">
+<variant base="Platelet complex-1 activ"/>
+<variant base="platelet complex-1 activ"/>
+<variant base="platelet complex-1 activity"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000064" canonical="EPO_00000064">
+<variant base="3α-(diphenylmethoxy)-1αh,5αh-tropane"/>
+<variant base="Benztropin"/>
+<variant base="e p o 00000064"/>
+<variant base="benzatropine"/>
+<variant base="benzatropinum"/>
+<variant base="benzatropina"/>
+<variant base="3endo-benzhydryloxytropane"/>
+<variant base="benztropin"/>
+<variant base="benzatropin"/>
+<variant base="3endo-benzhydryloxytropan"/>
+<variant base="tropine benzohydryl eth"/>
+<variant base="benzhydryl 8-methyl-8-azabicyclo[3.2.1]oct-3-yl ether"/>
+<variant base="3α-(diphenylmethoxy)-1αh,5αh-tropan"/>
+<variant base="3α-benzhydryloxy-8-methyl-8-azabicyclo[3.2.1]octan"/>
+<variant base="tropine benzohydryl ether"/>
+<variant base="3-alpha-(diphenylmethoxy)tropan"/>
+<variant base="benzhydryl 8-methyl-8-azabicyclo[3.2.1]oct-3-yl eth"/>
+<variant base="3α-(diphenylmethoxy)tropan"/>
+<variant base="benztropine"/>
+<variant base="3-alpha-(diphenylmethoxy)tropane"/>
+<variant base="3α-(diphenylmethoxy)tropane"/>
+<variant base="3α-benzhydryloxy-8-methyl-8-azabicyclo[3.2.1]octane"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MIBG_scintigraphy" canonical="MIBG_scintigraphy">
+<variant base="mibg scintigraphy"/>
+<variant base="mibg scintigraphi"/>
+<variant base="m i b g scintigraphy"/>
+<variant base="m i b g scintigraphi"/>
+<variant base="MIBG scintigraphi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park7tm1Shn" canonical="Park7tm1Shn">
+<variant base="park7tm1 shn"/>
+<variant base="park7tm1shn"/>
+<variant base="park7tm1shn@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Inherited_Parkinson_s_disease" canonical="Inherited_Parkinson_s_disease">
+<variant base="inherit parkinson diseas"/>
+<variant base="inherit form of Parkinson diseas"/>
+<variant base="inherited parkinsons disease"/>
+<variant base="inherited parkinson s disease"/>
+<variant base="inherit parkinson s diseas"/>
+<variant base="inherited form of parkinson's disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#SPECT_biomarker" canonical="SPECT_biomarker">
+<variant base="spect biomarker"/>
+<variant base="spect biomark"/>
+<variant base="s p e c t biomark"/>
+<variant base="SPECT biomark"/>
+<variant base="s p e c t biomarker"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Secondary_dystonia" canonical="Secondary_dystonia">
+<variant base="Secondari dystonia"/>
+<variant base="secondary dystonia"/>
+<variant base="secondari dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Genetic_models_of_Parkinson_disease" canonical="Genetic_models_of_Parkinson_disease">
+<variant base="Genet model of Parkinson diseas"/>
+<variant base="genetic model of parkinson disease"/>
+<variant base="genetic models of parkinson disease"/>
+<variant base="genet model of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Huntington_disease" canonical="Huntington_disease">
+<variant base="huntington disease"/>
+<variant base="Huntington diseas"/>
+<variant base="huntington diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Drug-induced_dyskinesia" canonical="Drug-induced_dyskinesia">
+<variant base="drug-induc dyskinesia"/>
+<variant base="Drug-induc dyskinesia"/>
+<variant base="drug-induced dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Apathy" canonical="Apathy">
+<variant base="Apathi"/>
+<variant base="apathy"/>
+<variant base="apathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Muscle_action_potential" canonical="Muscle_action_potential">
+<variant base="muscl action potenti"/>
+<variant base="Muscl action potenti"/>
+<variant base="muscle action potential"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Tourette_syndrome_global_scale" canonical="Tourette_syndrome_global_scale">
+<variant base="Tourett syndrom global scale"/>
+<variant base="tourett syndrom global scale"/>
+<variant base="tourette syndrome global scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Proteinopathy" canonical="Proteinopathy">
+<variant base="proteinopathy"/>
+<variant base="proteinopathi"/>
+<variant base="Proteinopathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Type_2_diabetes" canonical="Type_2_diabetes">
+<variant base="type 2 diabetes"/>
+<variant base="type 2 diabet"/>
+<variant base="Type 2 diabet"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pharmacological_management_of_parkinson_disease" canonical="Pharmacological_management_of_parkinson_disease">
+<variant base="pharmacolog manag of parkinson diseas"/>
+<variant base="pharmacological management of parkinson disease"/>
+<variant base="Pharmacolog manag of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Oral_pain" canonical="Oral_pain">
+<variant base="oral pain"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Primary_writing_tremot" canonical="Primary_writing_tremot">
+<variant base="primari write tremor"/>
+<variant base="primari write tremot"/>
+<variant base="primary writing tremot"/>
+<variant base="Primari write tremor"/>
+<variant base="primary writing tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000077" canonical="EPO_00000077">
+<variant base="e p o 00000077"/>
+<variant base="Rotigotin"/>
+<variant base="(6s)-6-(propyl(2-(2-thienyl)ethyl)amino)-5,6,7,8-tetrahydro-1-naphthalenol"/>
+<variant base="rotigotin"/>
+<variant base="rotigotine"/>
+<variant base="rotigotina"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dyskinesia" canonical="Dyskinesia">
+<variant base="dyskinesia"/>
+<variant base="dyskinesia@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Pick's_disease" canonical="s_disease">
+<variant base="pick diseas"/>
+<variant base="s diseas"/>
+<variant base="pick's disease"/>
+<variant base="s disease"/>
+<variant base="Pick diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Centralized_dystonia" canonical="Centralized_dystonia">
+<variant base="centralized dystonia"/>
+<variant base="central dystonia"/>
+<variant base="Central dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Hallucination" canonical="Hallucination">
+<variant base="hallucination"/>
+<variant base="hallucin"/>
+<variant base="Hallucin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Restless_legs_syndrome" canonical="Restless_legs_syndrome">
+<variant base="restless leg syndrom"/>
+<variant base="restless legs syndrome"/>
+<variant base="Restless leg syndrom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Diffuse_pain" canonical="Diffuse_pain">
+<variant base="diffuse pain"/>
+<variant base="Diffus pain"/>
+<variant base="diffus pain"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypophonia" canonical="Hypophonia">
+<variant base="hypophonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Drd2tm1Low" canonical="Drd2tm1Low">
+<variant base="drd2tm1 low"/>
+<variant base="drd2tm1low"/>
+<variant base="drd2tm1low@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Parkinson_disease_dyskinesia_scale" canonical="Parkinson_disease_dyskinesia_scale">
+<variant base="parkinson diseas dyskinesia scale"/>
+<variant base="parkinson disease dyskinesia scale"/>
+<variant base="Parkinson diseas dyskinesia scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Treatment_of_Parkinson_s_disease" canonical="Treatment_of_Parkinson_s_disease">
+<variant base="treatment of parkinson's disease"/>
+<variant base="treatment of parkinson's disease@en"/>
+<variant base="treatment of parkinson s diseas"/>
+<variant base="treatment of parkinson s disease"/>
+<variant base="Treatment of Parkinson disease@en"/>
+<variant base="treatment of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fatty_acid_intake" canonical="Fatty_acid_intake">
+<variant base="fatty acid intake"/>
+<variant base="fatti acid intak"/>
+<variant base="Fatti acid intak"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Toronto_western_spasmodic_torticollis_scale" canonical="Toronto_western_spasmodic_torticollis_scale">
+<variant base="toronto western spasmodic torticollis scale"/>
+<variant base="toronto western spasmod torticolli scale"/>
+<variant base="Toronto western spasmod torticolli scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#NMDA_antagonist" canonical="NMDA_antagonist">
+<variant base="nmda antagonist"/>
+<variant base="n m d a antagonist"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Alcohol_consumption" canonical="Alcohol_consumption">
+<variant base="Alcohol consumpt"/>
+<variant base="alcohol consumption"/>
+<variant base="alcohol consumpt"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000085" canonical="EPO_00000085">
+<variant base="rasagiline"/>
+<variant base="(1r)-n-propargylindan-1-amine"/>
+<variant base="(r)-n-2-propynyl-1-indanamin"/>
+<variant base="e p o 00000085"/>
+<variant base="(1r)-n-propargylindan-1-amin"/>
+<variant base="(r)-n-2-propynyl-1-indanamine"/>
+<variant base="rasagilin"/>
+<variant base="(r)-indan-1-yl-prop-2-ynyl-amine"/>
+<variant base="rasagilina"/>
+<variant base="Rasagilin"/>
+<variant base="(r)-indan-1-yl-prop-2-ynyl-amin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Plasma_homocysteine" canonical="Plasma_homocysteine">
+<variant base="plasma homocystein"/>
+<variant base="plasma homocysteine"/>
+<variant base="Plasma homocystein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Wearing_off" canonical="Wearing_off">
+<variant base="wear off"/>
+<variant base="Wear off"/>
+<variant base="wearing off"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Coxackie_B_virus" canonical="Coxackie_B_virus">
+<variant base="Coxacki B virus"/>
+<variant base="coxackie b virus"/>
+<variant base="coxacki b virus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000071" canonical="EPO_00000071">
+<variant base="apomorphine"/>
+<variant base="(6ar)-6-methyl-5,6,6a,7-tetrahydro-4h-dibenzo[de,g]quinoline-10,11-diol"/>
+<variant base="apomorfina"/>
+<variant base="(−)-10,11-dihydroxyaporphine"/>
+<variant base="Apomorphin"/>
+<variant base="e p o 00000071"/>
+<variant base="(−)-10,11-dihydroxyaporphin"/>
+<variant base="r-(−)-apomorphine"/>
+<variant base="(r)-5,6,6a,7-tetrahydro-6-methyl-4h-dibenzo[de,g]quinoline-10,11-diol"/>
+<variant base="r-(−)-apomorphin"/>
+<variant base="apomorphin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#LPS_model" canonical="LPS_model">
+<variant base="l p s model"/>
+<variant base="lps model@en"/>
+<variant base="lps model"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Unified_myoclonus_rating_scale" canonical="Unified_myoclonus_rating_scale">
+<variant base="Unifi myoclonus rate scale"/>
+<variant base="unified myoclonus rating scale"/>
+<variant base="unifi myoclonus rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Lipidomic_biomarker_of_Parkinson_disease" canonical="Lipidomic_biomarker_of_Parkinson_disease">
+<variant base="Lipidom biomark of Parkinson diseas"/>
+<variant base="lipidomic biomarker of parkinson disease"/>
+<variant base="lipidom biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cell_culture_models_of_Parkinson_s_disease" canonical="Cell_culture_models_of_Parkinson_s_disease">
+<variant base="cell cultur model of parkinson s diseas"/>
+<variant base="cell culture model@en"/>
+<variant base="Cell cultur model@en"/>
+<variant base="cell culture models of parkinson s disease"/>
+<variant base="cell culture model"/>
+<variant base="cell cultur model"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cranial_dystonia" canonical="Cranial_dystonia">
+<variant base="cranial dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Excessive_sweating" canonical="Excessive_sweating">
+<variant base="excess sweat"/>
+<variant base="Excessiv sweat"/>
+<variant base="excessive sweating"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Anosmia" canonical="Anosmia">
+<variant base="anosmia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Urinary_8-OH-2dG" canonical="Urinary_8-OH-2dG">
+<variant base="Urinari 8-OH-2dG"/>
+<variant base="urinary 8-oh-2dg"/>
+<variant base="urinary 8- o h-2d g"/>
+<variant base="urinari 8- o h-2d g"/>
+<variant base="urinari 8-oh-2dg"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exposure_to_copper" canonical="Exposure_to_copper">
+<variant base="exposur to copper"/>
+<variant base="exposure to copper"/>
+<variant base="Exposur to copper"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Post-traumatic_parkinsonism" canonical="Post-traumatic_parkinsonism">
+<variant base="post-traumatic parkinsonism"/>
+<variant base="post-traumat parkinson"/>
+<variant base="posttraumatic parkinsonism"/>
+<variant base="posttraumat parkinson"/>
+<variant base="Posttraumat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypomimia" canonical="Hypomimia">
+<variant base="hypomimia@en"/>
+<variant base="hypomimia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#C._elegans_model_of_Parkinson_disease" canonical="C._elegans_model_of_Parkinson_disease">
+<variant base="C. elegan model of Parkinson diseas"/>
+<variant base="c. elegans model of parkinson disease"/>
+<variant base="c. elegan model of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Methanol" canonical="Methanol">
+<variant base="methanol"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Alpha-synuclein" canonical="Alpha-synuclein">
+<variant base="alpha-synuclein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Akinesia" canonical="Akinesia">
+<variant base="akinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#H_magnetic_resonance_spectroscopy" canonical="H_magnetic_resonance_spectroscopy">
+<variant base="h magnet reson spectroscopi biomark"/>
+<variant base="h magnet reson spectroscopi"/>
+<variant base="h magnetic resonance spectroscopy biomarker"/>
+<variant base="H magnet reson spectroscopi biomark"/>
+<variant base="h magnetic resonance spectroscopy"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Diphasic_dyskinesia" canonical="Diphasic_dyskinesia">
+<variant base="diphasic dyskinesia"/>
+<variant base="diphas dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Hereditary_forms_of_PD" canonical="Hereditary_forms_of_PD">
+<variant base="hereditary form of pd"/>
+<variant base="hereditari form of p d"/>
+<variant base="hereditari form of pd"/>
+<variant base="Hereditari form of PD"/>
+<variant base="hereditary forms of p d"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Park7tm1Xz" canonical="Park7tm1Xz">
+<variant base="park7tm1xz"/>
+<variant base="park7tm1xz@en"/>
+<variant base="park7tm1 xz"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Infectious_cause_of_parkinsonism" canonical="Infectious_cause_of_parkinsonism">
+<variant base="Infectious caus of parkinson"/>
+<variant base="infecti caus of parkinson"/>
+<variant base="infectious cause of parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#I-β-CIT_SPECT" canonical="I-β-CIT_SPECT">
+<variant base="i-β- c i t s p e c t"/>
+<variant base="i-beta-cit spect"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Genetic_biomarkers_of_Parkinson_disease" canonical="Genetic_biomarkers_of_Parkinson_disease">
+<variant base="Genet biomark of Parkinson diseas"/>
+<variant base="genet biomark of parkinson diseas"/>
+<variant base="genetic biomarkers of parkinson disease"/>
+<variant base="genetic biomarker of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Epidemiological_history" canonical="Epidemiological_history">
+<variant base="epidemiolog histori"/>
+<variant base="epidemiological history"/>
+<variant base="Epidemiolog histori"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Selective_peripheral_denervation" canonical="Selective_peripheral_denervation">
+<variant base="select peripher denerv"/>
+<variant base="Select peripher denerv"/>
+<variant base="selective peripheral denervation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hypoxia-induced_parkinsonism" canonical="Hypoxia-induced_parkinsonism">
+<variant base="hypoxia-induc parkinson"/>
+<variant base="hypoxia-induced parkinsonism"/>
+<variant base="Hypoxia-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Normal_pressure_hydrocephalus" canonical="Normal_pressure_hydrocephalus">
+<variant base="normal pressure hydrocephalus"/>
+<variant base="normal pressur hydrocephalus"/>
+<variant base="Normal pressur hydrocephalus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Incontinence" canonical="Incontinence">
+<variant base="incontinence"/>
+<variant base="incontin"/>
+<variant base="Incontin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK3_mutation_parkinsonism" canonical="PARK3_mutation_parkinsonism">
+<variant base="park3 mutat parkinson"/>
+<variant base="PARK3 mutat parkinson"/>
+<variant base="park3 mutation parkinsonism"/>
+<variant base="p a r k3 mutation parkinsonism"/>
+<variant base="p a r k3 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Saint_Luis_encephalitis" canonical="Saint_Luis_encephalitis">
+<variant base="saint luis encephalitis"/>
+<variant base="Saint Lui enceph"/>
+<variant base="saint lui enceph"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Central_surgery" canonical="Central_surgery">
+<variant base="Central surgeri"/>
+<variant base="central surgery"/>
+<variant base="central surgeri"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Turning" canonical="Turning">
+<variant base="turning"/>
+<variant base="Turn"/>
+<variant base="turn"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Reserpine_model" canonical="Reserpine_model">
+<variant base="Reserpin model@en"/>
+<variant base="reserpin model"/>
+<variant base="reserpine model"/>
+<variant base="reserpine model@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#DJ-1_concentration_in_CSF" canonical="DJ-1_concentration_in_CSF">
+<variant base="dj-1 concentration in csf"/>
+<variant base="DJ-1 concentr in CSF"/>
+<variant base="d j-1 concentration in c s f"/>
+<variant base="dj-1 concentr in csf"/>
+<variant base="d j-1 concentr in c s f"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuropathology_of_parkinson_disease" canonical="Neuropathology_of_parkinson_disease">
+<variant base="neuropatholog of parkinson diseas"/>
+<variant base="Neuropatholog of Parkinson diseas"/>
+<variant base="neuropathology of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Fluctuation" canonical="Fluctuation">
+<variant base="fluctuat"/>
+<variant base="Fluctuat"/>
+<variant base="fluctuation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#BDNF" canonical="BDNF">
+<variant base="bdnf"/>
+<variant base="b d n f"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuroprotective_biomarker_of_Parkinson_disease" canonical="Neuroprotective_biomarker_of_Parkinson_disease">
+<variant base="neuroprotect biomark of parkinson diseas"/>
+<variant base="neuroprotective biomarker of parkinson disease"/>
+<variant base="Neuroprotect biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Glycomic_biomarker_of_Parkinson_disease" canonical="Glycomic_biomarker_of_Parkinson_disease">
+<variant base="Glycom biomark of Parkinson diseas"/>
+<variant base="glycom biomark of parkinson diseas"/>
+<variant base="glycomic biomarker of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#C-raclopride_PET" canonical="C-raclopride_PET">
+<variant base="c-raclopride p e t"/>
+<variant base="c-racloprid p e t"/>
+<variant base="c-raclopride pet"/>
+<variant base="c-racloprid pet"/>
+<variant base="C-racloprid PET"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Urinary_dysfunction" canonical="Urinary_dysfunction">
+<variant base="Urinari dysfunct"/>
+<variant base="urinari dysfunct"/>
+<variant base="urinary dysfunction"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Donezepil_as_add-on_treatment" canonical="Donezepil_as_add-on_treatment">
+<variant base="donezepil as add-on treatment"/>
+<variant base="donezepil as add on@en"/>
+<variant base="donezepil as add on"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mitochondrial_complex_I_deficiency" canonical="Mitochondrial_complex_I_deficiency">
+<variant base="mitochondrial complex i deficiency"/>
+<variant base="mitochondri complex i defici"/>
+<variant base="mitochondrial complex i dysfunction"/>
+<variant base="Mitochondri complex I dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Beginning-of-dose_dyskinesia" canonical="Beginning-of-dose_dyskinesia">
+<variant base="beginning-of-dose dyskinesia"/>
+<variant base="beginning-of-dos dyskinesia"/>
+<variant base="Beginning-of-dos dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Autosomal_recessive_juvenile_parkinsonism" canonical="Autosomal_recessive_juvenile_parkinsonism">
+<variant base="autosom recess juvenil parkinson"/>
+<variant base="autosomal recessive juvenile parkinsonism"/>
+<variant base="Autosom recess juvenil parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#HIV_encephalopathy" canonical="HIV_encephalopathy">
+<variant base="h i v encephalopathy"/>
+<variant base="h i v encephalopathi"/>
+<variant base="hiv encephalopathy"/>
+<variant base="hiv encephalopathi"/>
+<variant base="HIV encephalopathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#SH-SY5Y" canonical="SH-SY5Y">
+<variant base="sh sy5y"/>
+<variant base="sh sy5i"/>
+<variant base="s h- s y5 y"/>
+<variant base="sh sy5y@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Task-specific_kinetic_tremor" canonical="Task-specific_kinetic_tremor">
+<variant base="task-specif kinet tremor"/>
+<variant base="Task-specif kinet tremor"/>
+<variant base="task-specific kinetic tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Frontotemporal_dementia_parkinsonism" canonical="Frontotemporal_dementia_parkinsonism">
+<variant base="FTD with parkinson"/>
+<variant base="frontotemporal dementia parkinsonism"/>
+<variant base="ftd with parkinsonism"/>
+<variant base="frontotempor dementia parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Isolated_chin_tremor" canonical="Isolated_chin_tremor">
+<variant base="isol chin tremor"/>
+<variant base="Isolat chin tremor"/>
+<variant base="isolated chin tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MAPT" canonical="MAPT">
+<variant base="m a p t"/>
+<variant base="tau protein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nonkinesigenic_dystonia" canonical="Nonkinesigenic_dystonia">
+<variant base="nonkinesigenic dystonia"/>
+<variant base="Nonkinesigen dystonia"/>
+<variant base="nonkinesigen dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Carbon_disulphide" canonical="Carbon_disulphide">
+<variant base="Carbon disulphid"/>
+<variant base="carbon disulphide"/>
+<variant base="carbon disulphid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#End-of-dose_dyskinesia" canonical="End-of-dose_dyskinesia">
+<variant base="end-of-dos dyskinesia"/>
+<variant base="End-of-dos dyskinesia"/>
+<variant base="end-of-dose dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Columbia_university_rating_scale" canonical="Columbia_university_rating_scale">
+<variant base="columbia univers rate scale"/>
+<variant base="columbia university rating scale@en"/>
+<variant base="Columbia univers rate scale@en"/>
+<variant base="columbia university rating scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Heroin_pyrolysate" canonical="Heroin_pyrolysate">
+<variant base="heroin pyrolys"/>
+<variant base="heroin pyrolysate"/>
+<variant base="Heroin pyrolys"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Medical_risk_factor" canonical="Medical_risk_factor">
+<variant base="medical risk factor"/>
+<variant base="Medic histori factor"/>
+<variant base="medical history factor"/>
+<variant base="medic histori factor"/>
+<variant base="medic risk factor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Camptocormia" canonical="Camptocormia">
+<variant base="camptocormia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Constipation" canonical="Constipation">
+<variant base="constipation"/>
+<variant base="Constip"/>
+<variant base="constip"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#19-item_Wearing-off_Questionnaire" canonical="item_Wearing-off_Questionnaire">
+<variant base="item wearing-off questionnaire"/>
+<variant base="19-item wearing-off questionnair"/>
+<variant base="item wearing-off questionnair"/>
+<variant base="19-item wearing-off questionnaire"/>
+<variant base="19-item Wearing-off Questionnair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Core_assessment_program_for_surgical_interventional_therapies_in_Parkinsons_disease" canonical="Core_assessment_program_for_surgical_interventional_therapies_in_Parkinsons_disease">
+<variant base="core assessment program for surgical interventional therapies in parkinsons disease"/>
+<variant base="core assess program for surgic intervent therapi in parkinson diseas"/>
+<variant base="Core assess program for surgic intervent therapi in Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sporadic_tauopathy" canonical="Sporadic_tauopathy">
+<variant base="sporadic tauopathy"/>
+<variant base="sporad tauopathi"/>
+<variant base="Sporad tauopathi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Alexander_technique" canonical="Alexander_technique">
+<variant base="alexand techniqu"/>
+<variant base="alexander technique"/>
+<variant base="Alexand technique@en"/>
+<variant base="alexander technique@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Guamanian_parkinsonism-dementia-ALS" canonical="Guamanian_parkinsonism-dementia-ALS">
+<variant base="als-p-d"/>
+<variant base="guamanian parkinsonism-dementia-"/>
+<variant base="guamanian parkinsonism-dementia- a l s"/>
+<variant base="guamanian parkinsonism-dementia-als"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Altered_tear_film" canonical="Altered_tear_film">
+<variant base="altered tear film"/>
+<variant base="Altere tear film"/>
+<variant base="alter tear film"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Toxin-induced_parkinsonism" canonical="Toxin-induced_parkinsonism">
+<variant base="toxin-induced parkinsonism"/>
+<variant base="Toxin-induc parkinson"/>
+<variant base="toxin-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Botulinum_toxin_A" canonical="Botulinum_toxin_A">
+<variant base="botulinum toxin a"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Obeso_dyskinesia_rating_scale" canonical="Obeso_dyskinesia_rating_scale">
+<variant base="obeso dyskinesia rate scale"/>
+<variant base="obeso dyskinesia rating scale"/>
+<variant base="Obeso dyskinesia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Criteria_for_possible_PD" canonical="Criteria_for_possible_PD">
+<variant base="criteria for possible pd"/>
+<variant base="Criteria for possibl PD"/>
+<variant base="criteria for possible p d"/>
+<variant base="criteria for possibl pd"/>
+<variant base="criteria for possibl p d"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hemiatrophy-hemiparkinsonism_syndrome" canonical="Hemiatrophy-hemiparkinsonism_syndrome">
+<variant base="hemiatrophy-hemiparkinson syndrom"/>
+<variant base="hp-ha"/>
+<variant base="hemiatrophy-hemiparkinsonism syndrome"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#32-item_Wearing-off_Questionnaire" canonical="item_Wearing-off_Questionnaire">
+<variant base="item wearing-off questionnaire"/>
+<variant base="32-item Wearing-off Questionnair"/>
+<variant base="32-item wearing-off questionnaire"/>
+<variant base="32-item wearing-off questionnair"/>
+<variant base="item wearing-off questionnair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#CSF_alpha_synuclein" canonical="CSF_alpha_synuclein">
+<variant base="csf alpha synuclein"/>
+<variant base="c s f alpha synuclein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Loss_of_smell" canonical="Loss_of_smell">
+<variant base="loss of smell"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exposure_to_pesticide" canonical="Exposure_to_pesticide">
+<variant base="Exposur to pesticid"/>
+<variant base="exposur to pesticid"/>
+<variant base="exposure to pesticide"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Olfaction" canonical="Olfaction">
+<variant base="olfact"/>
+<variant base="olfaction testing"/>
+<variant base="olfact test"/>
+<variant base="olfaction"/>
+<variant base="Olfaction test"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000063" canonical="EPO_00000063">
+<variant base="atropina"/>
+<variant base="(±)-hyoscyamin"/>
+<variant base="e p o 00000063"/>
+<variant base="Atropin"/>
+<variant base="tropine trop"/>
+<variant base="dl-tropyltrop"/>
+<variant base="(±)-atropine"/>
+<variant base="dl-hyoscyamine"/>
+<variant base="(±)-hyoscyamine"/>
+<variant base="atropin"/>
+<variant base="dl-tropyltropate"/>
+<variant base="(±)-atropin"/>
+<variant base="tropine tropate"/>
+<variant base="dl-hyoscyamin"/>
+<variant base="atropine"/>
+<variant base="atropinum"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Communicating_hydrocephalus" canonical="Communicating_hydrocephalus">
+<variant base="communic hydrocephalus"/>
+<variant base="Commun hydrocephalus"/>
+<variant base="communicating hydrocephalus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Corticobasal_degeneration" canonical="Corticobasal_degeneration">
+<variant base="corticobasal degeneration"/>
+<variant base="corticobas degener"/>
+<variant base="Corticobas degeneration@en"/>
+<variant base="corticobasal degeneration@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#LSVT_LOUD" canonical="LSVT_LOUD">
+<variant base="lsvt loud"/>
+<variant base="l s v t l o u d"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK4_mutation_parkinsonism" canonical="PARK4_mutation_parkinsonism">
+<variant base="park4 mutation parkinsonism"/>
+<variant base="park4 mutat parkinson"/>
+<variant base="p a r k4 mutat parkinson"/>
+<variant base="p a r k4 mutation parkinsonism"/>
+<variant base="PARK4 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000079" canonical="EPO_00000079">
+<variant base="e p o 00000079"/>
+<variant base="pramipexole"/>
+<variant base="(s)-n  6-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamin"/>
+<variant base="(-)-pramipexole"/>
+<variant base="Pramipexol"/>
+<variant base="pramipexolum"/>
+<variant base="(s)-n  6-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamine"/>
+<variant base="pramipexol"/>
+<variant base="(-)-pramipexol"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PARK2_mutation_parkinsonism" canonical="PARK2_mutation_parkinsonism">
+<variant base="PARK2 mutat parkinson"/>
+<variant base="p a r k2 mutat parkinson"/>
+<variant base="park2 mutation parkinsonism"/>
+<variant base="park2 mutat parkinson"/>
+<variant base="p a r k2 mutation parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Mapk9tm1Flv" canonical="Mapk9tm1Flv">
+<variant base="mapk9tm1 flv"/>
+<variant base="mapk9tm1flv"/>
+<variant base="mapk9tm1flv@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Immortalized_cell_line" canonical="Immortalized_cell_line">
+<variant base="Immortal cell line"/>
+<variant base="immort cell line"/>
+<variant base="immortalized cell line"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#NSAID" canonical="NSAID">
+<variant base="n s a i d"/>
+<variant base="nsaid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Progressive_pallidal_atrophy" canonical="Progressive_pallidal_atrophy">
+<variant base="Progress pallid atrophi"/>
+<variant base="progress pallid atrophi"/>
+<variant base="progressive pallidal atrophy"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Blood_biomarkers_of_Parkinson_disease" canonical="Blood_biomarkers_of_Parkinson_disease">
+<variant base="blood biomarkers of parkinson disease"/>
+<variant base="blood biomarker of parkinson disease"/>
+<variant base="blood biomark of parkinson diseas"/>
+<variant base="Blood biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sensory_symptom" canonical="Sensory_symptom">
+<variant base="sensori symptom"/>
+<variant base="Sensori symptom"/>
+<variant base="sensory symptom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cycle_ergometry" canonical="Cycle_ergometry">
+<variant base="Reuter, I., Martin Engelhardt, M. D., Freiwaldt, J., &amp; Horst Baas, M. D. (1999). Exercis test in Parkinson disease. Clinic Autonom Research, 9(3), 129-134."/>
+<variant base="cycle ergometry"/>
+<variant base="reuter, i., martin engelhardt, m. d., freiwaldt, j., &amp; horst baas, m. d. (1999). exercise test in parkinson's disease. clinical autonomic research, 9(3), 129-134."/>
+<variant base="cycl ergometri"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Myectomy" canonical="Myectomy">
+<variant base="myectomy"/>
+<variant base="myectomi"/>
+<variant base="Myotomi"/>
+<variant base="myotomy"/>
+<variant base="myotomi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Electromyography_of_tremor" canonical="Electromyography_of_tremor">
+<variant base="Electromyographi of tremor"/>
+<variant base="electromyographi of tremor"/>
+<variant base="electromyography of tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Assistive_devices_for_gait" canonical="Assistive_devices_for_gait">
+<variant base="assistive device"/>
+<variant base="assistive devices for gait"/>
+<variant base="assistive device@en"/>
+<variant base="assist devic for gait"/>
+<variant base="assist devic"/>
+<variant base="Assistiv device@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Lactacysteime" canonical="Lactacysteime">
+<variant base="lactacystin model"/>
+<variant base="lactacysteim"/>
+<variant base="lactacysteime"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Idiopathic_Parkinson_disease" canonical="Idiopathic_Parkinson_disease">
+<variant base="idiopath parkinson diseas"/>
+<variant base="idiopathic parkinson disease"/>
+<variant base="Idiopath Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000062" canonical="EPO_00000062">
+<variant base="Amantadin"/>
+<variant base="e p o 00000062"/>
+<variant base="amantidin"/>
+<variant base="1-aminoadamantane"/>
+<variant base="amantadine"/>
+<variant base="amantadin"/>
+<variant base="1-adamantanamin"/>
+<variant base="1-adamantylamin"/>
+<variant base="1-adamantanamine"/>
+<variant base="aminoadamantan"/>
+<variant base="amantadina"/>
+<variant base="1-adamantylamine"/>
+<variant base="amantidine"/>
+<variant base="1-aminoadamantan"/>
+<variant base="amantadinum"/>
+<variant base="aminoadamantane"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Shy_Drager_syndrom" canonical="Shy_Drager_syndrom">
+<variant base="Shi Drager syndrom"/>
+<variant base="shy drager syndrom"/>
+<variant base="shi drager syndrom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Yale_global_tic_severity_scale" canonical="Yale_global_tic_severity_scale">
+<variant base="yale global tic severity scale"/>
+<variant base="Yale global tic sever scale"/>
+<variant base="yale global tic sever scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dementia_with_pallido-ponto-nigral_degeneration" canonical="Dementia_with_pallido-ponto-nigral_degeneration">
+<variant base="dementia with pallido-ponto-nigr degener"/>
+<variant base="dementia with pallido ponto nigral degeneration"/>
+<variant base="dementia with pallido-ponto-nigral degeneration"/>
+<variant base="dementia with pallido ponto nigral degeneration@en"/>
+<variant base="dementia with pallido ponto nigral degener"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Immunulogical_biomarkers_of_Parkinson_disease" canonical="Immunulogical_biomarkers_of_Parkinson_disease">
+<variant base="immunulogical biomarker of parkinson disease"/>
+<variant base="immunulogical biomarkers of parkinson disease"/>
+<variant base="immunulog biomark of parkinson diseas"/>
+<variant base="Immunulog biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Biochemical_biomarkers_of_Parkinson_disease" canonical="Biochemical_biomarkers_of_Parkinson_disease">
+<variant base="Biochem biomark of Parkinson diseas"/>
+<variant base="biochemical biomarker of parkinson disease"/>
+<variant base="biochem biomark of parkinson diseas"/>
+<variant base="biochemical biomarkers of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Quantitative_tremor_analysis" canonical="Quantitative_tremor_analysis">
+<variant base="quantitative tremor analysis"/>
+<variant base="quantit tremor analysi"/>
+<variant base="Quantit tremor analysi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Criteria_for_definite_PD" canonical="Criteria_for_definite_PD">
+<variant base="criteria for definit p d"/>
+<variant base="criteria for definite pd"/>
+<variant base="criteria for definit pd"/>
+<variant base="criteria for definite p d"/>
+<variant base="Criteria for definit PD"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Organophosphate" canonical="Organophosphate">
+<variant base="organophosphate"/>
+<variant base="Organophosph"/>
+<variant base="organophosph"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Epigenetics" canonical="Epigenetics">
+<variant base="Epigenet"/>
+<variant base="epigenet"/>
+<variant base="epigenetics"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Exposure_to_manganese" canonical="Exposure_to_manganese">
+<variant base="Exposur to manganes"/>
+<variant base="exposur to manganes"/>
+<variant base="exposure to manganese"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Aggregation_of_alpha-synuclein" canonical="Aggregation_of_alpha-synuclein">
+<variant base="aggregation of alpha-synuclein"/>
+<variant base="Aggregat of alpha-synuclein"/>
+<variant base="aggreg of alpha-synuclein"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Acquired_metabolic_parkinsonism" canonical="Acquired_metabolic_parkinsonism">
+<variant base="acquired metabolic parkinsonism"/>
+<variant base="Acquir metabol parkinson"/>
+<variant base="acquir metabol parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Peak_dose_dyskinesia" canonical="Peak_dose_dyskinesia">
+<variant base="peak dose dyskinesia"/>
+<variant base="on period dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Manganese" canonical="Manganese">
+<variant base="manganes"/>
+<variant base="manganese"/>
+<variant base="Manganes"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pramipexole" canonical="Pramipexole">
+<variant base="pramipexole"/>
+<variant base="(s)-n  6-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamin"/>
+<variant base="(-)-pramipexole"/>
+<variant base="Pramipexol"/>
+<variant base="pramipexolum"/>
+<variant base="(s)-n  6-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamine"/>
+<variant base="pramipexol"/>
+<variant base="(-)-pramipexol"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Familial_neurodegenerative_disease" canonical="Familial_neurodegenerative_disease">
+<variant base="familial neurodegenerative disease"/>
+<variant base="Famili neurodegen diseas"/>
+<variant base="famili neurodegen diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neurophysiological_testing" canonical="Neurophysiological_testing">
+<variant base="Neurophysiolog test"/>
+<variant base="neurophysiological testing"/>
+<variant base="neurophysiolog test"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fluctuating_dystonia" canonical="Fluctuating_dystonia">
+<variant base="Fluctuat dystonia"/>
+<variant base="fluctuat dystonia"/>
+<variant base="fluctuating dystonia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fat_intake" canonical="Fat_intake">
+<variant base="fat intake"/>
+<variant base="Fat intak"/>
+<variant base="fat intak"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Toxoplasma" canonical="Toxoplasma">
+<variant base="toxoplasma"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Symptom_of_Parkinson_disease" canonical="Symptom_of_Parkinson_disease">
+<variant base="symptom of parkinson disease"/>
+<variant base="symptom of parkinson diseas"/>
+<variant base="Symptom of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Haloperidol-induced_parkinsonism" canonical="Haloperidol-induced_parkinsonism">
+<variant base="haloperidol-induc parkinson"/>
+<variant base="haloperidol-induced parkinsonism"/>
+<variant base="Haloperidol-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sporadic_OPCA" canonical="Sporadic_OPCA">
+<variant base="sporadic o p c a"/>
+<variant base="sporad opca"/>
+<variant base="sporad o p c a"/>
+<variant base="sporadic opca"/>
+<variant base="Sporad OPCA"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Genomic_biomarker_of_Parkinson_disease" canonical="Genomic_biomarker_of_Parkinson_disease">
+<variant base="Genom biomark of Parkinson diseas"/>
+<variant base="genomic biomarker of parkinson disease"/>
+<variant base="genom biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hesitation_in_tight_quarters" canonical="Hesitation_in_tight_quarters">
+<variant base="hesit in tight quarter"/>
+<variant base="Hesit in tight quarter"/>
+<variant base="hesitation in tight quarters"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Biomarkers_in_the_diagnosis_of_Parkinson_disease" canonical="Biomarkers_in_the_diagnosis_of_Parkinson_disease">
+<variant base="biomark in the diagnosi of parkinson diseas"/>
+<variant base="biomarkers in the diagnosis of parkinson disease"/>
+<variant base="Biomark in the diagnosi of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Vitamin_intake" canonical="Vitamin_intake">
+<variant base="vitamin intak"/>
+<variant base="Vitamin intak"/>
+<variant base="vitamin intake"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Sexual_dysfunction" canonical="Sexual_dysfunction">
+<variant base="Sexual dysfunct"/>
+<variant base="sexual dysfunction"/>
+<variant base="sexual dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Htra2tm1Jdo" canonical="Htra2tm1Jdo">
+<variant base="htra2tm1jdo"/>
+<variant base="htra2tm1 jdo"/>
+<variant base="htra2tm1jdo@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#OMICS_biomarkers_of_Parkinson_disease" canonical="OMICS_biomarkers_of_Parkinson_disease">
+<variant base="omic biomark of parkinson diseas"/>
+<variant base="OMICS biomark of Parkinson diseas"/>
+<variant base="omics biomarkers of parkinson disease"/>
+<variant base="o m i c s biomark of parkinson diseas"/>
+<variant base="o m i c s biomarkers of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cortical_excitability" canonical="Cortical_excitability">
+<variant base="Cortic excit"/>
+<variant base="cortic excit"/>
+<variant base="cortical excitability"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Dopamine_dysregulation_syndrome" canonical="Dopamine_dysregulation_syndrome">
+<variant base="dopamine dysregulation syndrome"/>
+<variant base="dopamin dysregul syndrom"/>
+<variant base="Dopamin dysregul syndrom"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Delusion" canonical="Delusion">
+<variant base="delusion"/>
+<variant base="Delus"/>
+<variant base="delus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Orthostatic_dysregulation" canonical="Orthostatic_dysregulation">
+<variant base="orthostatic hypotension"/>
+<variant base="orthostat hypotens"/>
+<variant base="Orthostat hypotens"/>
+<variant base="orthostatic dysregulation"/>
+<variant base="orthostat dysregul"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Akathisia" canonical="Akathisia">
+<variant base="akathisia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuropsychiatric_dysfunction" canonical="Neuropsychiatric_dysfunction">
+<variant base="neuropsychiatr dysfunct"/>
+<variant base="neuropsychiatric dysfunction"/>
+<variant base="Neuropsychiatr dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cognitive_abnormality" canonical="Cognitive_abnormality">
+<variant base="cognitive abnormality"/>
+<variant base="Cognit declin"/>
+<variant base="cognit declin"/>
+<variant base="cognit abnorm"/>
+<variant base="cognitive decline"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Turn_hesitation" canonical="Turn_hesitation">
+<variant base="Turn hesit"/>
+<variant base="turn hesit"/>
+<variant base="turn hesitation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Chlorpromazine-induced_parkinsonism" canonical="Chlorpromazine-induced_parkinsonism">
+<variant base="chlorpromazine-induc parkinson"/>
+<variant base="chlorpromazine-induced parkinsonism"/>
+<variant base="Chlorpromazine-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Amyloid-beta" canonical="Amyloid-beta">
+<variant base="amyloid-beta"/>
+<variant base="beta-amyloid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Vesical_sphincter_EMG" canonical="Vesical_sphincter_EMG">
+<variant base="Vesic sphincter EMG"/>
+<variant base="vesical sphincter emg"/>
+<variant base="vesic sphincter emg"/>
+<variant base="vesic sphincter e m g"/>
+<variant base="vesical sphincter e m g"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rapid_eye_movement_sleep_behaviour_disorder" canonical="Rapid_eye_movement_sleep_behaviour_disorder">
+<variant base="rapid eye movement sleep behaviour disorder"/>
+<variant base="rapid eye movement sleep behaviour disord"/>
+<variant base="Rapid eye movement sleep behaviour disord"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rush_dyskinesia_rating_scale" canonical="Rush_dyskinesia_rating_scale">
+<variant base="rush dyskinesia rate scale"/>
+<variant base="rush dyskinesia rating scale"/>
+<variant base="Rush dyskinesia rate scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Laser_cane" canonical="Laser_cane">
+<variant base="laser cane@en"/>
+<variant base="laser cane"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#CSM14.1" canonical="CSM14.1">
+<variant base="c s m14.1"/>
+<variant base="csm14.1"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Strict_diet" canonical="Strict_diet">
+<variant base="dietary intake"/>
+<variant base="dietari intak"/>
+<variant base="strict diet"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Punding" canonical="Punding">
+<variant base="punding"/>
+<variant base="Pund"/>
+<variant base="pund"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Webster_scale" canonical="Webster_scale">
+<variant base="webster scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Manganese-induced_parkinsonism" canonical="Manganese-induced_parkinsonism">
+<variant base="manganese-induced parkinsonism"/>
+<variant base="manganese-induc parkinson"/>
+<variant base="Manganese-induc parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Leaky_gut" canonical="Leaky_gut">
+<variant base="leaki gut"/>
+<variant base="leaky gut"/>
+<variant base="Leaki gut"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#West_Nile_virus" canonical="West_Nile_virus">
+<variant base="west nile virus"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Malaria" canonical="Malaria">
+<variant base="malaria"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Recessive_early-onset_parkinsonism" canonical="Recessive_early-onset_parkinsonism">
+<variant base="recessive early-onset parkinsonism"/>
+<variant base="Relat high proport of patient with early-onset parkinson have been found to be caus by recess mutat in sever genes."/>
+<variant base="recess early-onset parkinson"/>
+<variant base="relatively high proportion of patients with early-onset parkinsonism have been found to be caused by recessive mutations in several genes."/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Poliomyelitis" canonical="Poliomyelitis">
+<variant base="poliomyelitis"/>
+<variant base="Poliomyel"/>
+<variant base="poliomyel"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Drd2tm1Ebo" canonical="Drd2tm1Ebo">
+<variant base="drd2tm1ebo"/>
+<variant base="drd2tm1 ebo"/>
+<variant base="drd2tm1ebo@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#En1tm1Gld" canonical="En1tm1Gld">
+<variant base="en1tm1gld"/>
+<variant base="en1tm1gld@en"/>
+<variant base="en1tm1 gld"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuroleptic-induced_parkinsonism" canonical="Neuroleptic-induced_parkinsonism">
+<variant base="neurolept induc parkinson"/>
+<variant base="neuroleptic-induced parkinsonism"/>
+<variant base="neuroleptic-induc parkinson"/>
+<variant base="neuroleptic induced parkinsonism"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Fatigue_Severity_Inventory" canonical="Fatigue_Severity_Inventory">
+<variant base="fatigue severity inventory"/>
+<variant base="fatigu sever inventori"/>
+<variant base="Fatigu Sever Inventori"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Cigarette_smoking" canonical="Cigarette_smoking">
+<variant base="cigarette smoking"/>
+<variant base="smoke and Parkinson diseas"/>
+<variant base="cigarett smoke"/>
+<variant base="smoking and parkinson's disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dysarthria" canonical="Dysarthria">
+<variant base="dysarthria"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Clinical_markers_associated_with_Parkinson_disease" canonical="Clinical_markers_associated_with_Parkinson_disease">
+<variant base="clinic biomark of parkinson diseas"/>
+<variant base="clinical markers associated with parkinson disease"/>
+<variant base="clinic marker associ with parkinson diseas"/>
+<variant base="Clinic biomark of Parkinson diseas"/>
+<variant base="clinical biomarker of parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neuroimaging_biomarkers_for_Parkinson_disease" canonical="Neuroimaging_biomarkers_for_Parkinson_disease">
+<variant base="neuroimaging biomarkers for parkinson disease"/>
+<variant base="Neuroimag biomark for Parkinson diseas"/>
+<variant base="neuroimag biomark for parkinson diseas"/>
+<variant base="neuroimaging biomarker for parkinson disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Daytime_sleepiness" canonical="Daytime_sleepiness">
+<variant base="daytim sleepi"/>
+<variant base="daytime sleepiness"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#MN9D" canonical="MN9D">
+<variant base="mn9d@en"/>
+<variant base="m n9 d"/>
+<variant base="mn9d"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Autonomic_dysfunction" canonical="Autonomic_dysfunction">
+<variant base="autonom dysfunct"/>
+<variant base="autonomic dysfunction"/>
+<variant base="Autonom dysfunct"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Depression" canonical="Depression">
+<variant base="Depress"/>
+<variant base="depress"/>
+<variant base="depression"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Clinical_view_of_Parkinson's_disease" canonical="s_disease">
+<variant base="clinic aspect of parkinson diseas"/>
+<variant base="s diseas"/>
+<variant base="Clinic aspect of Parkinson diseas"/>
+<variant base="clinical aspects of parkinson disease"/>
+<variant base="s disease"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#CSF_biomarkers_of_Parkinson_disease" canonical="CSF_biomarkers_of_Parkinson_disease">
+<variant base="CSF biomark of Parkinson diseas"/>
+<variant base="c s f biomarkers of parkinson disease"/>
+<variant base="csf biomarker of parkinson disease"/>
+<variant base="csf biomark of parkinson diseas"/>
+<variant base="c s f biomark of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Peripheral_surgery" canonical="Peripheral_surgery">
+<variant base="peripher surgeri"/>
+<variant base="Peripher surgeri"/>
+<variant base="peripheral surgery"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Hamilton_depression_scale" canonical="Hamilton_depression_scale">
+<variant base="Hamilton depress scale"/>
+<variant base="hamilton depression scale"/>
+<variant base="hamilton depress scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#IPS_derived_model" canonical="IPS_derived_model">
+<variant base="ips derived model"/>
+<variant base="i p s deriv model"/>
+<variant base="IPS deriv model"/>
+<variant base="i p s derived model"/>
+<variant base="ip deriv model"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#9-item_Wearing-off_Questionnaire" canonical="item_Wearing-off_Questionnaire">
+<variant base="item wearing-off questionnaire"/>
+<variant base="9-item wearing-off questionnair"/>
+<variant base="9-item Wearing-off Questionnair"/>
+<variant base="9-item wearing-off questionnaire"/>
+<variant base="item wearing-off questionnair"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Iron_accumulation" canonical="Iron_accumulation">
+<variant base="Iron accumul"/>
+<variant base="iron accumul"/>
+<variant base="iron accumulation"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Taichi" canonical="Taichi">
+<variant base="taichi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pink1tm1Aub" canonical="Pink1tm1Aub">
+<variant base="pink1tm1aub@en"/>
+<variant base="pink1tm1 aub"/>
+<variant base="pink1tm1aub"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Adh7tm1Gdu" canonical="Adh7tm1Gdu">
+<variant base="adh7tm1 gdu"/>
+<variant base="adh7tm1gdu"/>
+<variant base="adh7tm1gdu@en"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Sporadic_parkinson_disease" canonical="Sporadic_parkinson_disease">
+<variant base="Jankovic, J. J. T. E., &amp; Tolosa. (2007). Parkinson diseas and movement disorders. E. Tolosa (Ed.). Lippincott William &amp; Wilkins."/>
+<variant base="sporad parkinson diseas"/>
+<variant base="sporadic parkinson disease"/>
+<variant base="jankovic, j. j. t. e., &amp; tolosa. (2007). parkinson's disease and movement disorders. e. tolosa (ed.). lippincott williams &amp; wilkins."/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Symptomatic_skin_response" canonical="Symptomatic_skin_response">
+<variant base="Symptomat skin respons"/>
+<variant base="symptomatic skin response"/>
+<variant base="symptomat skin respons"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#PINK7_mutation_parkinsonism" canonical="PINK7_mutation_parkinsonism">
+<variant base="p i n k7 mutat parkinson"/>
+<variant base="p i n k7 mutation parkinsonism"/>
+<variant base="park7 mutation parkinsonism"/>
+<variant base="park7 mutat parkinson"/>
+<variant base="PARK7 mutat parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Paroxymal_dyskinesia" canonical="Paroxymal_dyskinesia">
+<variant base="paroxysm dyskinesia"/>
+<variant base="paroxym dyskinesia"/>
+<variant base="paroxysmal dyskinesia"/>
+<variant base="Paroxysm dyskinesia"/>
+<variant base="paroxymal dyskinesia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Cinnerzin" canonical="Cinnerzin">
+<variant base="cinnerzin"/>
+<variant base="cinnarizine-induced parkinsonism"/>
+<variant base="cinnarizine-induc parkinson"/>
+<variant base="Cinnarizine-induc Parkinson"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Deep_brain_stimulation_for_Parkinson_s_disease" canonical="Deep_brain_stimulation_for_Parkinson_s_disease">
+<variant base="deep brain stimulation@en"/>
+<variant base="deep brain stimul"/>
+<variant base="deep brain stimulation for parkinson s disease"/>
+<variant base="deep brain stimulation"/>
+<variant base="deep brain stimul for parkinson s diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Obessive_behaviour" canonical="Obessive_behaviour">
+<variant base="obsessive-compulsive behaviour"/>
+<variant base="obessive behaviour"/>
+<variant base="obess behaviour"/>
+<variant base="obsessive behavior"/>
+<variant base="obsess behavior"/>
+<variant base="obsessive-compuls behaviour"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Freezing" canonical="Freezing">
+<variant base="jankovic, j. (2008). parkinson’s disease: clinical features and diagnosis. journal of neurology, neurosurgery &amp; psychiatry, 79(4), 368-376."/>
+<variant base="Jankovic, J. (2008). Parkinson’ disease: clinic featur and diagnosis. Journal of Neurology, Neurosurgeri &amp; Psychiatry, 79(4), 368-376."/>
+<variant base="freezing"/>
+<variant base="freez"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Reserpin" canonical="Reserpin">
+<variant base="reserpine-induced parkinson"/>
+<variant base="pahwa, r., lyons, k. e., &amp; koller, w. (eds.). (2003). handbook of parkinson's disease. crc press."/>
+<variant base="reserpine-induc parkinson"/>
+<variant base="Pahwa, R., Lyons, K. E., &amp; Koller, W. (Eds.). (2003). Handbook of Parkinson disease. CRC Press."/>
+<variant base="reserpin"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Genital_pain" canonical="Genital_pain">
+<variant base="genital pain"/>
+<variant base="Genit pain"/>
+<variant base="genit pain"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#EPO_00000070" canonical="EPO_00000070">
+<variant base="tolcapona"/>
+<variant base="4'-methyl-3,4-dihydroxy-5-nitrobenzophenone"/>
+<variant base="Tolcapon"/>
+<variant base="tolcapone"/>
+<variant base="tolcaponum"/>
+<variant base="tolcapon"/>
+<variant base="e p o 00000070"/>
+<variant base="3,4-dihydroxy-4'-methyl-5-nitrobenzophenone"/>
+<variant base="4'-methyl-3,4-dihydroxy-5-nitrobenzophenon"/>
+<variant base="(3,4-dihydroxy-5-nitrophenyl)(4-methylphenyl)methanone"/>
+<variant base="3,4-dihydroxy-4'-methyl-5-nitrobenzophenon"/>
+<variant base="3,4-dihydroxy-5-nitro-4'-methylbenzophenon"/>
+<variant base="(3,4-dihydroxy-5-nitrophenyl)(4-methylphenyl)methanon"/>
+<variant base="3,4-dihydroxy-5-nitro-4'-methylbenzophenone"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Essential_tremor" canonical="Essential_tremor">
+<variant base="essenti tremor"/>
+<variant base="essential tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rigidity" canonical="Rigidity">
+<variant base="rigid"/>
+<variant base="rigidity"/>
+<variant base="Rigid"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Ophthalmological_measures" canonical="Ophthalmological_measures">
+<variant base="ophthalmolog measur"/>
+<variant base="ophthalmological measures"/>
+<variant base="ophthalmological measure"/>
+<variant base="Ophthalmolog measur"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Nocturia" canonical="Nocturia">
+<variant base="nocturia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Pallidotomy" canonical="Pallidotomy">
+<variant base="pallidotomy@en"/>
+<variant base="pallidotomy"/>
+<variant base="pallidotomi"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Deacreased_blink_rate" canonical="Deacreased_blink_rate">
+<variant base="decreas blink rate"/>
+<variant base="deacreased blink rate"/>
+<variant base="deacreas blink rate"/>
+<variant base="Decreas blink rate"/>
+<variant base="decreased blink rate"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Other_essential_tremor" canonical="Other_essential_tremor">
+<variant base="Other essenti tremor"/>
+<variant base="other essential tremor"/>
+<variant base="other essenti tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Rural_living" canonical="Rural_living">
+<variant base="Exposur to rural live"/>
+<variant base="exposur to rural live"/>
+<variant base="rural living"/>
+<variant base="rural live"/>
+<variant base="exposure to rural living"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#New_York_University_rating_scale" canonical="New_York_University_rating_scale">
+<variant base="New York Univers rate scale"/>
+<variant base="new york univers rate scale"/>
+<variant base="new york university rating scale"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Neurobehavioral_biomarkers" canonical="Neurobehavioral_biomarkers">
+<variant base="neurobehavioral biomarker of parkinson disease"/>
+<variant base="neurobehavior biomark of parkinson diseas"/>
+<variant base="neurobehavioral biomarkers"/>
+<variant base="neurobehavior biomark"/>
+<variant base="Neurobehavior biomark of Parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#FDG_PET" canonical="FDG_PET">
+<variant base="fdg pet"/>
+<variant base="f d g p e t"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dystonic_tremor" canonical="Dystonic_tremor">
+<variant base="Dyston tremor"/>
+<variant base="dyston tremor"/>
+<variant base="dystonic tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Long_term_recordings_of_tremor" canonical="Long_term_recordings_of_tremor">
+<variant base="long term record of tremor"/>
+<variant base="long term recordings of tremor"/>
+<variant base="Long term record of tremor"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Dysphagia" canonical="Dysphagia">
+<variant base="dysphagia"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Zebrafish_model_of_Parkinson_disease" canonical="Zebrafish_model_of_Parkinson_disease">
+<variant base="Zebrafish model of Parkinson diseas"/>
+<variant base="zebrafish model of parkinson disease"/>
+<variant base="zebrafish model of parkinson diseas"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Levodopa_test" canonical="Levodopa_test">
+<variant base="levodopa test"/>
+<variant base="levodopa challenge test"/>
+<variant base="Levodopa challeng test"/>
+</token>
+<token CodeType="PDON" CodeValue="http://protegeuserexample#Dopamine_agonists" canonical="Dopamine_agonists">
+<variant base="dopamin agonist"/>
+<variant base="Dopamin agonist"/>
+<variant base="dopamine agonist"/>
+<variant base="dopamine agonists"/>
+</token>
+<token CodeType="PDON" CodeValue="http://www.semanticweb.org/ontologies/2011/1/Ontology1296772722296.owl#Shapiro_tourette_syndrome_severity_scale" canonical="Shapiro_tourette_syndrome_severity_scale">
+<variant base="Shapiro tourett syndrom sever scale"/>
+<variant base="shapiro tourette syndrome severity scale"/>
+<variant base="shapiro tourett syndrom sever scale"/>
+</token>
+</synonym>
