@@ -45,7 +45,7 @@ public class DrugNameATCParser {
 			//		"/media/muellerb/Daten/EpilepsyData/Results with DrugBank target filter/drugbank.xml"));
 			
 			Document document = builder.parse(new FileInputStream(
-					"D:/DrugBank/2020/full_database_2020.xml"));
+					"D:/DrugBank/2021/fulldatabase.xml"));
 			
 					
 			// new FileInputStream("/home/muellerb/test.xml"));
@@ -56,7 +56,7 @@ public class DrugNameATCParser {
 
 			
 			// PrintWriter writer = new PrintWriter("/home/muellerb/Desktop/atc.map", "UTF-8");
-			PrintWriter writer = new PrintWriter("resources/drugbank/db-atc.map", "UTF-8");
+			PrintWriter writer = new PrintWriter("resources/drugnames/db-atc.map", "UTF-8");
 			
 			
 
@@ -170,19 +170,19 @@ public class DrugNameATCParser {
 			}
 			writer.close();
 			
-			PrintWriter writer2 = new PrintWriter("resources/drugbank/atc-secondlevel.map", "UTF-8");
+			PrintWriter writer2 = new PrintWriter("resources/drugnames/atc-secondlevel.map", "UTF-8");
 			for (String code : secondlevelatc.keySet()) {
 				writer2.println(code + "\t" + secondlevelatc.get(code));
 			}
 			writer2.close();
 			
-			PrintWriter writer3 = new PrintWriter("resources/drugbank/atc-thirdlevel.map", "UTF-8");
+			PrintWriter writer3 = new PrintWriter("resources/drugnames/atc-thirdlevel.map", "UTF-8");
 			for (String code : thirdlevelatc.keySet()) {
 				writer3.println(code + "\t" + thirdlevelatc.get(code));
 			}
 			writer3.close();
 			
-			PrintWriter writer4 = new PrintWriter("resources/drugbank/atc-fourthlevel.map", "UTF-8");
+			PrintWriter writer4 = new PrintWriter("resources/drugnames/atc-fourthlevel.map", "UTF-8");
 			for (String code : fourthlevelatc.keySet()) {
 				writer4.println(code + "\t" + fourthlevelatc.get(code));
 			}
