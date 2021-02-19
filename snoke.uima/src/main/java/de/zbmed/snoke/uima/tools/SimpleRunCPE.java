@@ -21,7 +21,7 @@ import org.apache.uima.util.XMLInputSource;
  * @version 0.1
  * @since 2016
  */
-public class SimpleRunCPE extends Thread {
+public class SimpleRunCPE {
   /**
    * The CPE instance.
    */
