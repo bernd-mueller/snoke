@@ -22,7 +22,7 @@
 	<primitive>true</primitive>
 	<annotatorImplementationName>de.zbmed.snoke.uima.analysis.ZBMEDConceptMapper</annotatorImplementationName>
 	<analysisEngineMetaData>
-		<name>ConceptMapper_Dict_MeSH</name>
+		<name>ConceptMapper_MeSH</name>
 <description></description>
 		<version>1</version>
 		<vendor></vendor>
