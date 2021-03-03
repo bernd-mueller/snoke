@@ -47,6 +47,8 @@ public class OntSynVennDiagramm {
 		log.info("area4 = " + sepisem.size() + ",");
 		log.info("area5 = " + sfenics.size() + ",");
 		
+
+		
 		// EpSO
 		Set<String> sepso_inter_sesso = new HashSet<String>(sepso); // use the copy constructor
 		sepso_inter_sesso.retainAll(sesso);
@@ -180,9 +182,16 @@ public class OntSynVennDiagramm {
 		
 		// n1234
 		
+		Set <String> epsocopy = new HashSet <String> ( ovd.getDl().createSynSetFromMap(mepso));
+		Set <String> essocopy = new HashSet <String> ( ovd.getDl().createSynSetFromMap(messo));
+		Set <String> epilontcopy = new HashSet <String> ( ovd.getDl().createSynSetFromMap(mepilont));
+		Set <String> episemcopy = new HashSet <String> ( ovd.getDl().createSynSetFromMap(mepisem));
+		epsocopy.retainAll(essocopy);
+		epsocopy.retainAll(epilontcopy);
+		epsocopy.retainAll(episemcopy);
 		Set <String> sepso_i_sesso_i_sepilont_i_sepisem = new HashSet <String> (sepso_inter_sesso);
 		sepso_i_sesso_i_sepilont_i_sepisem.retainAll(sepilont_inter_sepisem);
-		int n1234 = sepso_i_sesso_i_sepilont_i_sepisem.size();
+		int n1234 = epsocopy.size();
 		log.info("n1234 = " + n1234 + ",");
 		
 		// n1235
@@ -215,7 +224,9 @@ public class OntSynVennDiagramm {
 		int n12345 = sepso_i_sesso_i_sepilont_i_sepisem_i_sfenics.size();
 		log.info("n12345 = " + n12345 + ",");
 		
-		
+		for (String s : sepso_i_sesso_i_sepilont_i_sepisem) {
+			log.info(s);
+		}
 		
 		
 	}
