@@ -1,7 +1,7 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "license": "https://spdx.org/licenses/MIT",
+    "license": "https://spdx.org/licenses/CC-BY-NC-SA-4.0",
     "codeRepository": "https://github.com/bernd-mueller/snoke.git",
     "contIntegration": "https://travis-ci.org/bernd-mueller/snoke",
     "dateCreated": "2016-01-01",
