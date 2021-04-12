@@ -1,0 +1,60 @@
+Completed 15495833 documents; 22103449393 characters
+Total Time Elapsed: 40821985 ms
+Initialization Time: 63816 ms
+Processing Time: 40758169 ms
+
+
+ ------------------ PERFORMANCE REPORT ------------------
+
+Component Name: BioASQ Mongo Reader
+Event Type: Process
+Duration: 21995164ms
+Result: success
+Component Name: TokenizerZBMED
+Event Type: Analysis
+Duration: 8451473ms
+Component Name: TokenizerZBMED
+Event Type: End of Batch
+Duration: 151417ms
+Component Name: ConceptMapper_EPISEM
+Event Type: Analysis
+Duration: 129235440ms
+Component Name: ConceptMapper_EPISEM
+Event Type: End of Batch
+Duration: 781636ms
+Component Name: ConceptMapper_FENICS
+Event Type: Analysis
+Duration: 9674503ms
+Component Name: ConceptMapper_FENICS
+Event Type: End of Batch
+Duration: 153142ms
+Component Name: ConceptMapper_DrugNames
+Event Type: Analysis
+Duration: 196322379ms
+Component Name: ConceptMapper_DrugNames
+Event Type: End of Batch
+Duration: 1894737ms
+Component Name: ConceptMapper_EPILONT
+Event Type: Analysis
+Duration: 50159341ms
+Component Name: ConceptMapper_EPILONT
+Event Type: End of Batch
+Duration: 547623ms
+Component Name: ConceptMapper_ESSO
+Event Type: Analysis
+Duration: 1317460112ms
+Component Name: ConceptMapper_ESSO
+Event Type: End of Batch
+Duration: 7009246ms
+Component Name: ConceptMapper_EpSO
+Event Type: Analysis
+Duration: 77308211ms
+Component Name: ConceptMapper_EpSO
+Event Type: End of Batch
+Duration: 1663326ms
+Component Name: MongoDB Writer CAS Consumer
+Event Type: Analysis
+Duration: 385313754ms
+Component Name: MongoDB Writer CAS Consumer
+Event Type: End of Batch
+Duration: 332550ms
