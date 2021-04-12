@@ -10,7 +10,8 @@
     "downloadUrl": "https://github.com/bernd-mueller/snoke/archive/refs/heads/master.zip",
     "issueTracker": "https://github.com/bernd-mueller/snoke/issues",
     "name": "SNOKE",
-    "version": "1.0.1",
+    "version": "1.1",
+    "identifier": "10.5281/zenodo.4680086\t",
     "description": "Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)\n\nThe Maven project snoke contains implementation for various applications ranging from the conversion of ontology formats, UIMA engine components, neo4j database handlers to language models with DeepLearning4j. Accordingly, the maven project is structured into the respective modules:\n\nsnoke.dl for implementations for the training of paragraph vector models with DeepLearning4j\nsnoke.neo4j for implementations with the Neo4j database incluing importers for MesH and ATC\nsnoke.uima for implementations of UIMA engine components such as readers, annotators, and writers\nsnoke.ontology for implementations of converters of various ontologies\nThe API documentation is available on https://bernd-mueller.github.io/snoke/javadoc/",
     "applicationCategory": "Life Science Informatics",
     "funder": {
