@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/bernd-mueller/snoke.svg?branch=master&amp;status=passed)](https://travis-ci.org/bernd-mueller/snoke)
+[![DOI](https://zenodo.org/badge/267342945.svg)](https://zenodo.org/badge/latestdoi/267342945)[![Build Status](https://travis-ci.com/bernd-mueller/snoke.svg?branch=master&amp;status=passed)](https://travis-ci.org/bernd-mueller/snoke)
 
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
