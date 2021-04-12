@@ -68,15 +68,15 @@ public class SimpleRunCPE {
     mCPE.process();
 
     // Allow user to abort by pressing Enter
-    System.out.println("To abort processing, type \"abort\" and press enter.");
-    while (true) {
-      String line = new BufferedReader(new InputStreamReader(System.in)).readLine();
-      if ("abort".equals(line) && mCPE.isProcessing()) {
-        System.out.println("Aborting...");
-        mCPE.stop();
-        break;
-      }
-    }
+    //System.out.println("To abort processing, type \"abort\" and press enter.");
+    //while (true) {
+      //String line = new BufferedReader(new InputStreamReader(System.in)).readLine();
+      //if ("abort".equals(line) && mCPE.isProcessing()) {
+        //System.out.println("Aborting...");
+        //mCPE.stop();
+        //break;
+      //}
+    //}
   }
 
   
