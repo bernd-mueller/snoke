@@ -5,7 +5,14 @@ public class MyBibOrder {
 	String city = "";
 	String ccode = "";
 	String date = "";
+	String issn = "";
 	
+	public String getIssn() {
+		return issn;
+	}
+	public void setIssn(String issn) {
+		this.issn = issn;
+	}
 	public String getPlz() {
 		return plz;
 	}

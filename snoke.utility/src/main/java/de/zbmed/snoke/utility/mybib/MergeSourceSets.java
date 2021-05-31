@@ -78,6 +78,7 @@ public class MergeSourceSets {
 	            	mb.setCcode(lineSplit[15]);
 	            	mb.setCity(lineSplit[14]);
 	            	mb.setDate(lineSplit[16]);
+	            	mb.setIssn(lineSplit[17]);
 	            	mbib.add(mb);
 	            }
 	        }
