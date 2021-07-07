@@ -101,13 +101,13 @@ public class MyParagraphVectorization {
         options.addOption(ow);
         
         Option osa= new Option("sa", "sequence algorithm", true, "sequence learning algorithm for pv model / "
-        		+ "default: SkipGram; CBOW, SkipGram, SparkCBOW, SparkDBOW, SparkDM, SparkSkipGram");
+        		+ "org.deeplearning4j.models.embeddings.learning.impl.sequence.DM");
         osa.setType(Number.class);
         osa.setRequired(true);
         options.addOption(osa);
         
         Option oea = new Option("ea", "elements algorithm", true, "elements learning algorithm for pv model /"
-        		+ "PV-DBOW; DBOW, DM");
+        		+ "org.deeplearning4j.models.embeddings.learning.impl.elements.CBOW");
         oea.setType(Number.class);
         oea.setRequired(true);
         options.addOption(oea);
@@ -219,6 +219,12 @@ public class MyParagraphVectorization {
             .build();
         log.info("Creating ParagraphVectors");
         // ParagraphVectors training configuration
+        
+        List<String> stopWords =
+                Arrays.asList(
+                    "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if", "in", "into", "is",
+                    "it", "no", "not", "of", "on", "or", "such", "that", "the", "their", "then", "there",
+                    "these", "they", "this", "to", "was", "will", "with");
 
         paragraphVectors = new ParagraphVectors.Builder()
             .tokenizerFactory(t)
@@ -238,6 +244,17 @@ public class MyParagraphVectorization {
             .elementsLearningAlgorithm(elementsalg)
             //.sequenceLearningAlgorithm("org.deeplearning4j.models.embeddings.learning.impl.sequence.DBOW")
             // org.deeplearning4j.models.embeddings.learning.impl.sequence.DM")
+            .enableScavenger(true)
+            .useAdaGrad(true)
+            .useHierarchicSoftmax(true)
+            .useUnknown(true)
+            .usePreciseWeightInit(true)
+            .allowParallelTokenization(true)
+            .trainElementsRepresentation(true)
+            .workers(24)
+            .layerSize(200)
+            .minWordFrequency(5)
+            // .stopWords(stopWords)
             .build();
 
 
