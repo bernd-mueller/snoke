@@ -61,50 +61,55 @@ public class MeSH2ICD2DrugsOntologyMapper extends OntologyMapper {
 		Map <String, Set <String>> micd = getDl().getCodeMapForDict("dictionaries/Dict_ICD.xml");
 		Map <String, Set <String>> mdrug = getDl().getCodeMapForDict("dictionaries/Dict_DrugNames_2021.xml");
 		
+		// MeSH vs. ICD vs. Drugs
+		Map <String, Set <String>> mmesh_micd_mdrug = getDl().createTripleIntersection(mmesh, micd, mdrug);		
+		for (String keys : mmesh_micd_mdrug.keySet()) {
+			String [] s_keys = keys.split("#SAMEAS#");
+			String k1 = s_keys[0];
+			String k2 = s_keys[1];
+			// log.info("Adding " + k1 + " sameAs " + k2);
+			addEquivalenceToModel(m, k1, k2);
+		}
+		
 		// MeSH vs. ICD
 		Map <String, Set <String>> mmesh_micd = getDl().createIntersection(mmesh, micd);
-		int n12 = mmesh_micd.keySet().size();
-		log.info("#Intersection: " + n12);
-		
-		for (String keys : mmesh_micd.keySet()) {
-			String [] s_keys = keys.split("#SAMEAS#");
-			String k1 = s_keys[0];
-			String k2 = s_keys[1];
-			log.info("Adding " + k1 + " sameAs " + k2);
-			addEquivalenceToModel(m, k1, k2);
-		}
-		
+
+				
 		// MeSH vs. DrugNames
 		Map <String, Set <String>> mmesh_mdrug = getDl().createIntersection(mmesh, mdrug);
-		int n13 = mmesh_mdrug.keySet().size();
-		log.info("#Intersection: " + n13);
-		
-		for (String keys : mmesh_mdrug.keySet()) {
-			String [] s_keys = keys.split("#SAMEAS#");
-			String k1 = s_keys[0];
-			String k2 = s_keys[1];
-			log.info("Adding " + k1 + " sameAs " + k2);
-			addEquivalenceToModel(m, k1, k2);
-		}
-		
+
+				
 		// ICD vs. Drugs
 		Map <String, Set <String>> micd_mdrug = getDl().createIntersection(micd, mdrug);
-		int n23 = micd_mdrug.keySet().size();
-		log.info("#Intersection: " + n23);
-		
-		for (String keys : micd_mdrug.keySet()) {
-			String [] s_keys = keys.split("#SAMEAS#");
-			String k1 = s_keys[0];
-			String k2 = s_keys[1];
-			log.info("Adding " + k1 + " sameAs " + k2);
-			addEquivalenceToModel(m, k1, k2);
-		}
 
+		
+		
 		addLabels(m, mmesh);
 		addLabels(m, micd);
 		addLabels(m, mdrug);
 		
 		writeModelToFile(m);
+		
+		int n123 = mmesh_micd_mdrug.keySet().size();
+		log.info("#Intersection MeSH, ICD, Drugs: " + n123);
+		
+		int n23 = micd_mdrug.keySet().size();
+		log.info("#Intersection ICD, Drugs: " + n23);
+		
+		int n13 = mmesh_mdrug.keySet().size();
+		log.info("#Intersection MeSH, Drug: " + n13);
+		
+		int n12 = mmesh_micd.keySet().size();
+		log.info("#Intersection MeSH, ICD: " + n12);
+		
+		int n1 = mmesh.keySet().size();
+		log.info("#MeSH: " + n1);
+		
+		int n2 = micd.keySet().size();
+		log.info("#ICD: " + n2);
+		
+		int n3 = mdrug.keySet().size();
+		log.info("#Drug: " + n3);
 	}
 
 	
