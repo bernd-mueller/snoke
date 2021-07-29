@@ -51,6 +51,7 @@ public class ConceptDictFromMeSH extends DictHandler {
     static String inputFilePath = "";
     static String outputFilePath = "";
     static String outputMapFilePath = "";
+    int stemsyncounter = 0;
     
     Set <Token> tokens = new HashSet <Token> ();
     
@@ -171,6 +172,15 @@ public class ConceptDictFromMeSH extends DictHandler {
 													//System.out.println(conceptName);
 													mname = conceptName;
 													t.setCanonical(conceptName);
+													if (!t.getSynonyms().contains(conceptName)) {
+														t.getSynonyms().add(conceptName);
+													}
+													// snowball synonym counter: Added stemmed concept name as synonym
+													String stemmedConceptName = snow.doTheSnowballStem(conceptName);
+													if (!t.getSynonyms().contains(stemmedConceptName)) {
+														stemsyncounter++;
+														t.getSynonyms().add(stemmedConceptName);
+													}
 												} else if (subnnn.getNodeName().equals("TermList")) {
 													NodeList nllll = subnnn.getChildNodes();
 													for (int n = 0; n < nllll.getLength(); n++) {
@@ -185,6 +195,13 @@ public class ConceptDictFromMeSH extends DictHandler {
 																if (subnnnnn.getNodeName().equals("String")) {
 																	String synonymTerm = subnnnnn.getTextContent();
 																	t.getSynonyms().add(synonymTerm);
+																	// snowball synonym counter: Added stemmed concept name as synonym
+																	String stemmedSynonym = snow.doTheSnowballStem(synonymTerm);
+																	if (!t.getSynonyms().contains(stemmedSynonym)) {
+																		stemsyncounter++;
+																		t.getSynonyms().add(stemmedSynonym);
+																	}
+																	
 																}
 
 															}
@@ -219,6 +236,8 @@ public class ConceptDictFromMeSH extends DictHandler {
             this.createConceptMapperDict (tokens, outputFilePath, "MeSH");
 
 			System.out.println("File saved!");
+			
+			System.out.println("Number of added stemmed synonyms: " + stemsyncounter);
 
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
