@@ -192,24 +192,19 @@ public class DictLoader {
 	Map <String, Set <String>> createIntersection (Map <String, Set <String>> m1, Map <String, Set <String>> m2) {
 		Map <String, Set <String>> mintersection = new HashMap <String, Set <String>> ();
 		
-		for (String k1 : m1.keySet()) {
-			Set <String> cursyn1 = new HashSet <String> (m1.get(k1));
-			
+		for (String k1 : m1.keySet()) {			
 			for (String k2 : m2.keySet()) {
-				Set <String> cursyn2 = new HashSet <String> (m2.get(k2));
+//				cursyn1copy.add(k1);
+//				cursyn2.add(k2);
+				Set <String> intermset = 	new HashSet <String> (m1.get(k1));
+				intermset.retainAll (		new HashSet <String> (m2.get(k2)));
 				
-				Set <String> cursyn1copy = new HashSet <String> (cursyn1);
-				
-				cursyn1copy.add(k1);
-				cursyn2.add(k2);
-				
-				cursyn1copy.retainAll(cursyn2);
-				
-				if (cursyn1copy.size()>0) {
-					Set <String> union1 = m1.get(k1);
-					Set <String> union2 = m2.get(k2);
-					union1.addAll(union2);
-					mintersection.put(k1 + "#SAMEAS#" + k2, union1);
+				if (intermset.size()>0) {
+					Set <String> union = new HashSet <String> ();					
+					union.addAll(new HashSet <String> (m1.get(k1)));
+					union.addAll(new HashSet <String> (m2.get(k2)));
+					
+					mintersection.put(k1 + "#SAMEAS#" + k2, union);
 				}
 			}
 		}

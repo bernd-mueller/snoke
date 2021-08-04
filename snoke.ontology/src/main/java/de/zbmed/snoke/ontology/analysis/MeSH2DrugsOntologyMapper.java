@@ -59,6 +59,10 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		Map <String, Set <String>> mmeshmerge = new HashMap <String, Set <String>> (mmesh);
 		Map <String, Set <String>> mdrugmerge = new HashMap <String, Set <String>> (mdrug);
 		
+		Set <String> keysdrug = new HashSet <String> ();
+		Set <String> keysmesh = new HashSet <String> ();
+		
+		
 		for (String keys : mmesh_mdrug.keySet()) {
 			String [] s_keys = keys.split("#SAMEAS#");
 			String k1 = s_keys[0];
@@ -74,6 +78,9 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 			
 			mmeshmerge.put(k1, mergedsynset1);
 			mdrugmerge.put(k2, mergedsynset2);
+			
+			keysmesh.add(k1);
+			keysdrug.add(k2);
 			
 			addEquivalenceToModel(m, k1, k2);
 		}
@@ -109,6 +116,8 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		
 		log.info("Added Synonyms for MeSH from Drug Names: " + mesh_added_merged_synonyms);
 		log.info("Added Synonyms for Drug Names from MeSH: " + drug_added_merged_synonyms);
+		log.info("MeSH having #sameas#: " + keysmesh.size());
+		log.info("Drug Names having #sameas#: " + keysdrug.size());
 		
 		
 	}
