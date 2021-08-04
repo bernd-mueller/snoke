@@ -16,6 +16,11 @@ import org.slf4j.LoggerFactory;
 
 import de.zbmed.snoke.ontology.common.DictHandler;
 
+/**
+ * Creating ConceptMapper dictionary from Alzheimer Disease Ontology (ADO)
+ * @author Muellerb
+ *
+ */
 public class CreateDictFromADO extends DictHandler {
 	OntModel ado;
 	String adofile = "";
@@ -48,6 +53,11 @@ public class CreateDictFromADO extends DictHandler {
 		}
 	}
 	
+	/**
+	 * command line processing with default codevalue for ADO
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
     	readCLI (args);
