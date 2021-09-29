@@ -6,10 +6,8 @@
     <artifactId>snoke</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-
   <groupId>de.zbmed.snoke.dl</groupId>
   <artifactId>snoke.dl</artifactId>
-
   <name>snoke.dl</name>
     <url>
     	https://github.com/bernd-mueller/snoke/snoke.dl/
