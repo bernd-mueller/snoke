@@ -20,9 +20,9 @@ import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingP
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 import org.nd4j.linalg.api.ndarray.INDArray;
-import org.nd4j.common.primitives.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.nd4j.common.primitives.Pair;
 
 import de.zbmed.snoke.dl.doc2vec.tools.LabelSeeker;
 
@@ -47,6 +47,7 @@ import java.util.*;
  * @version 0.1
  * @since 2019
  */
+
 public class MyParagraphVectorization {
     ParagraphVectors paragraphVectors;
     LabelAwareIterator iterator;
