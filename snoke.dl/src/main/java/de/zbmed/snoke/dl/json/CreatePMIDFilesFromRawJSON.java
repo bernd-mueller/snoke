@@ -59,7 +59,7 @@ public class CreatePMIDFilesFromRawJSON {
             writeDocuments(sbod,args[1]);
 
 
-            log.info("Done reading documents...");
+            log.info("Done reading JSON and writing documents...");
 
 
 
