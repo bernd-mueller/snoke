@@ -35,7 +35,6 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
      	<nd4j.version>1.0.0-beta7</nd4j.version>
-     	<log4j.version>2.13.3</log4j.version>
      	<uima.version>2.10.2</uima.version>
      	<mongo.version>3.12.7</mongo.version>
      	<project.reporting.outputDirectory>docs</project.reporting.outputDirectory>
@@ -52,17 +51,6 @@
             <artifactId>jersey-client</artifactId>
             <version>1.19.4</version>
         </dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-		<dependency>
-		    <groupId>org.apache.logging.log4j</groupId>
-		    <artifactId>log4j-api</artifactId>
-		    <version>${log4j.version}</version>
-		</dependency>
-		<dependency>
-    		<groupId>org.apache.logging.log4j</groupId>
-    		<artifactId>log4j-core</artifactId>
-    		<version>${log4j.version}</version>
-  		</dependency>
 		<!--  Linux platform -->
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
@@ -150,7 +138,7 @@
         <dependency>
             <groupId>org.apache.jena</groupId>
             <artifactId>jena-core</artifactId>
-            <version>3.14.0</version>
+            <version>4.2.0</version>
         </dependency>
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -188,15 +176,20 @@
             <artifactId>deeplearning4j-nlp-uima</artifactId>
             <version>${nd4j.version}</version>
         </dependency>
-        <dependency>
+<!--         <dependency>
             <groupId>gov.nih.nlm.umls</groupId>
             <artifactId>umls-uts-ws-client-classes</artifactId>
             <version>1.8.1.RELEASE</version>
-        </dependency>
+        </dependency> -->
 	  <dependency>
 	     <groupId>org.apache.maven.wagon</groupId>
 	     <artifactId>wagon-ftp</artifactId>
 	     <version>2.10</version>      
+	  </dependency>
+	  <dependency> 
+		  <groupId>org.slf4j</groupId>
+		  <artifactId>slf4j-jdk14</artifactId>
+		  <version>1.7.32</version>
 	  </dependency>
     </dependencies>
     <repositories>
