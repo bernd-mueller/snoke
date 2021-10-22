@@ -1,9 +1,12 @@
 package de.zbmed.snoke.ontology.epso;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -15,6 +18,11 @@ import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
@@ -30,7 +38,6 @@ import org.slf4j.LoggerFactory;
 import de.zbmed.snoke.ontology.analysis.DictLoader;
 import de.zbmed.snoke.ontology.common.DictHandler;
 import de.zbmed.snoke.ontology.common.DrugNameMapper;
-import gov.nih.nlm.uts.webservice.AtomDTO;
 
 /**
  * CreateDictFromEpSO
@@ -88,17 +95,18 @@ public class CreateDictFromEpSO extends DictHandler {
 		log.info("\toutput: " + outputFilePath);
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		readCLI(args);
 		CreateDictFromEpSO cep = new CreateDictFromEpSO ();
+		// TODO Auto-generated method stub
+		
 
+		cep.getDrunkBankId("C0155502");
+		
+		System.exit(0);
+		cep.readCLI(args);cep.readCLI(args);
 		cep.getOntologyModel(inputFilePath);
 		// cep.createConceptMapperDictionary(cep.ont, outputFilePath);
 		cep.createConceptMapperDictionary(cep.ont, outputFilePath, "EpSO");
 	}
-	
-
-
 	
 
 	public String replaceUnderScoreBySpace (String s) {
@@ -225,14 +233,34 @@ public class CreateDictFromEpSO extends DictHandler {
 	}
 	
 	public String getDrunkBankId (String umlscui) {
-		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
-		for (AtomDTO a : atoms) {
-		    String sourceId = a.getCode().getUi();
-		    String rsab = a.getRootSource();
-		    if (rsab.equals("DRUGBANK")) {
-		    	return sourceId;
+		umlscui = "C0018681";
+		HttpClient client = new DefaultHttpClient();
+		HttpGet request = new HttpGet("https://uts-ws.nlm.nih.gov/rest/content/current/CUI/" + umlscui + "/atoms");
+		log.info(umlscui);
+		HttpResponse response;
+		try {
+			response = client.execute(request);
+			BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
+			String line = "";
+			while ((line = rd.readLine()) != null) {
+				System.out.println(line);
 			}
+		} catch (ClientProtocolException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+
+//		List<AtomDTO> atoms = umls.getConceptAtoms(umls.getCurrentUMLSVersion(), umlscui);
+//		for (AtomDTO a : atoms) {
+//		    String sourceId = a.getCode().getUi();
+//		    String rsab = a.getRootSource();
+//		    if (rsab.equals("DRUGBANK")) {
+//		    	return sourceId;
+//			}
+//		}
 		return "";
 	}
 	public Set <String> processSynonymsFromFMA (String synonyms, Set <String> synset) {
