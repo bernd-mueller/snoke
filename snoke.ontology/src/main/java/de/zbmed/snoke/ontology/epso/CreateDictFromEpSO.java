@@ -53,7 +53,6 @@ public class CreateDictFromEpSO extends DictHandler {
 	OntModel nemo;
 	RxNormClient rx;
 	OntHandlerFMA fma;
-	UMLS_Client umls;
 	
 	String nemourl = "http://purl.bioontology.org/NEMO/ontology/NEMO.owl";
 	String fmaurl = "http://sig.uw.edu/fma";
