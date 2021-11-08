@@ -9,5 +9,6 @@ The Maven project snoke contains implementation for various applications ranging
 <li><strong>snoke.neo4j</strong> for implementations with the Neo4j database incluing importers for MesH and ATC</li>
 <li><strong>snoke.uima</strong> for implementations of UIMA engine components such as readers, annotators, and writers</li>
 <li><strong>snoke.ontology</strong> for implementations of converters of various ontologies</li>
+<li><strong>snoke.swag</strong> for implementations of API endpoints</li>
 </ol>
 The API documentation is available on https://bernd-mueller.github.io/snoke/javadoc/
