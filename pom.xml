@@ -210,7 +210,8 @@
     	<module>snoke.ontology</module>
     	<module>snoke.neo4j</module>
     	<module>snoke.utility</module>
-  	</modules>
+    	<module>snoke.swag</module>
+    </modules>
 	<build>
     <plugins>
         <plugin>
