@@ -15,11 +15,24 @@
     	https://github.com/bernd-mueller/snoke/snoke.swag/
     </url>
 	<properties>
+     	<restlet.version>2.4.3</restlet.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
+	<dependencies>
+  <dependency>
+    <groupId>org.restlet.jse</groupId>
+    <artifactId>org.restlet</artifactId>
+    <version>${restlet.version}</version>
+  </dependency>
+  <dependency>
+    <groupId>org.restlet.jse</groupId>
+    <artifactId>org.restlet.ext.jackson</artifactId>
+    <version>${restlet.version}</version>
+  </dependency>
+</dependencies>
 	<repositories>
 		<repository>
 			<id>maven-restlet</id>
