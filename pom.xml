@@ -156,11 +156,6 @@
             <version>20190722</version>
         </dependency>
         <dependency>
-            <groupId>com.hermit-reasoner</groupId>
-            <artifactId>org.semanticweb.hermit</artifactId>
-            <version>1.3.8.4</version>
-        </dependency>
-        <dependency>
             <groupId>uk.ac.nactem.tools</groupId>
             <artifactId>sentence-splitter</artifactId>
             <version>1.0</version>
