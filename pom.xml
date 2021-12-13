@@ -40,11 +40,6 @@
      	<project.reporting.outputDirectory>docs</project.reporting.outputDirectory>
     </properties>
     <dependencies>
-	      <dependency>
-            <groupId>com.sun.jersey</groupId>
-            <artifactId>jersey-client</artifactId>
-            <version>1.19.4</version>
-        </dependency>
 		<!--  Linux platform -->
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
