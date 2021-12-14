@@ -10,22 +10,7 @@ import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
-import org.semanticweb.HermiT.Reasoner;
-import org.semanticweb.owlapi.apibinding.OWLManager;
-import org.semanticweb.owlapi.model.IRI;
-import org.semanticweb.owlapi.model.OWLAnnotation;
-import org.semanticweb.owlapi.model.OWLAnnotationProperty;
-import org.semanticweb.owlapi.model.OWLAnnotationValue;
-import org.semanticweb.owlapi.model.OWLClass;
-import org.semanticweb.owlapi.model.OWLOntology;
-import org.semanticweb.owlapi.model.OWLOntologyCreationException;
-import org.semanticweb.owlapi.model.OWLOntologyManager;
-import org.semanticweb.owlapi.reasoner.NodeSet;
-import org.semanticweb.owlapi.reasoner.OWLReasoner;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
 
 /**
  * ImporterForOWL
@@ -35,7 +20,7 @@ import com.sun.jersey.api.client.WebResource;
  * @since 2016
  */
 public class ImporterForOWL {
-	OWLOntology ontology;
+/*	OWLOntology ontology;
 	private String prefNode = "";
 	private int c = 0;
 	private static String SERVER_ROOT_URI = "http://134.95.56.146:7474/db/data/";
@@ -162,5 +147,5 @@ public class ImporterForOWL {
 			e.printStackTrace();
 		}
 		
-	}
+	}*/
 }
