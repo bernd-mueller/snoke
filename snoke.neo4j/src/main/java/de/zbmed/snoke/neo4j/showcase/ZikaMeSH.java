@@ -2,10 +2,6 @@ package de.zbmed.snoke.neo4j.showcase;
 
 import javax.ws.rs.core.MediaType;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-
 /**
  * ZikaMeSH
  *
@@ -13,7 +9,7 @@ import com.sun.jersey.api.client.WebResource;
  * @version 0.1
  * @since 2016
  */
-public class ZikaMeSH {
+public class ZikaMeSH {/*
 	private static String SERVER_ROOT_URI = "http://134.95.56.146:7474/db/data/";
 	
 	private void checkConnection () {
@@ -131,5 +127,5 @@ public class ZikaMeSH {
 				+ "RETURN r");
 		
 	}
-
+*/
 }
