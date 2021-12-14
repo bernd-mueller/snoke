@@ -2,10 +2,6 @@ package de.zbmed.snoke.neo4j.reader;
 
 import javax.ws.rs.core.MediaType;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-
 /**
  * Neo4jConnector
  *
@@ -13,7 +9,7 @@ import com.sun.jersey.api.client.WebResource;
  * @version 0.1
  * @since 2016
  */
-public class Neo4jConnector {
+public class Neo4jConnector {/*
 	private String SERVER_ROOT_URI = "http://134.95.56.146:7474/db/data/";
 	WebResource resource;
 	ClientResponse response;
@@ -68,5 +64,5 @@ public class Neo4jConnector {
 	
 	public void closeCypher () {
 		response.close();
-	}
+	}*/
 }
