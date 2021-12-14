@@ -22,10 +22,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-
 /**
  * ReadTreeForMeSH
  *
@@ -33,7 +29,7 @@ import com.sun.jersey.api.client.WebResource;
  * @version 0.1
  * @since 2016
  */
-public class ReadTreeForMeSH {
+public class ReadTreeForMeSH {/*
 	String nodeType = "MeSH";
 	CypherControler cc;
 	WebResource resource;
@@ -185,7 +181,7 @@ public class ReadTreeForMeSH {
 						String conceptName = "";
 						Set <String> treenodes = new HashSet<String>();
 						
-						/** Element token = dict_doc.createElement("token");*/
+						// Element token = dict_doc.createElement("token");
 						for (int j = 0; j < nl.getLength(); j++) {
 
 							Node subn = nl.item(j);
@@ -195,14 +191,14 @@ public class ReadTreeForMeSH {
 								descriptorUI = subn.getTextContent();
 //								System.out.println(descriptorUI);
 								
-								/**
-								Attr attr_descrUI = dict_doc.createAttribute("CodeValue");
-								attr_descrUI.setValue(subn.getTextContent());
-								 token.setAttributeNode(attr_descrUI);
 								
-								Attr attr_codetype = dict_doc.createAttribute("CodeType");
-								attr_codetype.setValue("MeSH");
-								 token.setAttributeNode(attr_codetype);*/
+//								Attr attr_descrUI = dict_doc.createAttribute("CodeValue");
+//								attr_descrUI.setValue(subn.getTextContent());
+//								 token.setAttributeNode(attr_descrUI);
+//								
+//								Attr attr_codetype = dict_doc.createAttribute("CodeType");
+//								attr_codetype.setValue("MeSH");
+//								 token.setAttributeNode(attr_codetype);
 
 							} else if (subn.getNodeName().equals("ConceptList")) {
 								NodeList nll = subn.getChildNodes();
@@ -225,10 +221,10 @@ public class ReadTreeForMeSH {
 														if (subnnn.getNodeName().equals("ConceptName")) {
 															conceptName = subnnn.getTextContent();
 															// System.out.println(conceptName);
-															/**
-															Attr attr_canonical = dict_doc.createAttribute("canonical");
-															attr_canonical.setValue(conceptName);
-															token.setAttributeNode(attr_canonical);*/
+															
+//															Attr attr_canonical = dict_doc.createAttribute("canonical");
+//															attr_canonical.setValue(conceptName);
+//															token.setAttributeNode(attr_canonical);
 														} else if (subnnn.getNodeName().equals("TermList")) {
 															NodeList nllll = subnnn.getChildNodes();
 															for (int n = 0; n < nllll.getLength(); n++) {
@@ -243,11 +239,11 @@ public class ReadTreeForMeSH {
 																		if (subnnnnn.getNodeName().equals("String")) {
 																			String synonymTerm = subnnnnn.getTextContent();
 																			if (!conceptName.equals (synonymTerm) && synonymTerm != null) {
-																				/**Element variant = dict_doc.createElement("variant");
-																				Attr attr_base = dict_doc.createAttribute("base");
-																				attr_base.setValue(synonymTerm.trim());
-																				variant.setAttributeNode(attr_base);
-																				token.appendChild(variant);*/
+//																				Element variant = dict_doc.createElement("variant");
+//																				Attr attr_base = dict_doc.createAttribute("base");
+//																				attr_base.setValue(synonymTerm.trim());
+//																				variant.setAttributeNode(attr_base);
+//																				token.appendChild(variant);
 																			}
 																		}
 																		
@@ -392,5 +388,5 @@ public class ReadTreeForMeSH {
 		System.out.println( String.format( "GET on [%s], status code [%d]",
 		        SERVER_ROOT_URI, response.getStatus() ) );
 		response.close();
-	}
+	}*/
 }
