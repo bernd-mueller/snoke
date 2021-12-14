@@ -29,10 +29,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
-
 /**
  * ImporterForMeSH
  *
@@ -42,16 +38,6 @@ import com.sun.jersey.api.client.WebResource;
  */
 public class ImporterForMeSH {
 	private static String SERVER_ROOT_URI = "http://134.95.56.146:7474/db/data/";
-	
-	private void checkConnection () {
-		WebResource resource = Client.create()
-		        .resource(SERVER_ROOT_URI);
-		ClientResponse response = resource.get( ClientResponse.class );
-
-		System.out.println( String.format( "GET on [%s], status code [%d]",
-		        SERVER_ROOT_URI, response.getStatus() ) );
-		response.close();
-	}
 	
 	public void createNode (String nodeType, String nodeName, String conceptId) {
 		
@@ -67,7 +53,7 @@ public class ImporterForMeSH {
 				+ "RETURN r");
 	}
 	private void sendCypher (String query) {
-		final String txUri = SERVER_ROOT_URI + "transaction/commit";
+/*		final String txUri = SERVER_ROOT_URI + "transaction/commit";
 		WebResource resource = Client.create().resource( txUri );
 
 		String payload = "{\"statements\" : [ {\"statement\" : \"" +query + "\"} ]}";
@@ -84,6 +70,7 @@ public class ImporterForMeSH {
 		        response.getEntity( String.class ) ) );
 
 		response.close();
+*/
 	}
 	
 	private void clearAllMeSHNodesFromDatabase () {
