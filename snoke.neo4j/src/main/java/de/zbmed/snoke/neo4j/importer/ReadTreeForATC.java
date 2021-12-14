@@ -23,10 +23,6 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
-import com.sun.jersey.api.client.Client;
-import com.sun.jersey.api.client.ClientResponse;
-import com.sun.jersey.api.client.WebResource;
 /**
  * ReadTreeForATC
  *
@@ -34,7 +30,7 @@ import com.sun.jersey.api.client.WebResource;
  * @version 0.1
  * @since 2016
  */
-public class ReadTreeForATC {
+public class ReadTreeForATC {/*
 	String nodeType = "ATC";
 	WebResource resource;
 	ClientResponse response;
@@ -380,5 +376,5 @@ public void createNodeOrUpdate (String conceptId, String nodeName, String treeId
 		
 	}
 
-	
+	*/
 }
