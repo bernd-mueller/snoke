@@ -1,8 +1,18 @@
 package de.zbmed.snoke.dl.doc2vec;
 
+import static de.zbmed.snoke.dl.json.ReadBioASQJavaX.preProcess;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
-import org.deeplearning4j.models.word2vec.Word2Vec;
+import org.deeplearning4j.models.word2vec.VocabWord;
 import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
 import org.deeplearning4j.text.documentiterator.LabelAwareIterator;
 import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.CommonPreprocessor;
@@ -14,11 +24,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import de.zbmed.snoke.dl.json.BioASQDocument;
-
-import static de.zbmed.snoke.dl.json.ReadBioASQJavaX.preProcess;
-
-import java.io.*;
-import java.util.*;
 
 /**
  * MeSHClassifier
@@ -60,8 +65,7 @@ public class MeSHClassifier {
                 log.info("Counter #" + counter++);
                 if (line.length() > 2) {
                     jsonParser = new JsonFactory().createParser(line);
-                    BioASQDocument bod = new BioASQDocument();
-                    bod = bod.parseJSON(line);
+                    BioASQDocument bod = BioASQDocument.parseJSON(line);
                     //sbod.add(bod);
                     sentences.addAll(preProcess(bod.getTitle()));
                     sentences.addAll(preProcess(bod.getAbstractText()));
@@ -76,7 +80,7 @@ public class MeSHClassifier {
                 log.info("Something went wrong here!");
             }
         }
-
+        reader.close();
         System.out.println("Done reading documents: " + bs.size());
         MeSHClassifier app = new MeSHClassifier();
         MyLabelAwareIterator mai = new MyLabelAwareIterator();
@@ -105,10 +109,8 @@ public class MeSHClassifier {
 
         // ParagraphVectors training configuration
 
-        Word2Vec w2v = new Word2Vec();
-        VocabCache vc = null;
         try {
-            vc = WordVectorSerializer.readVocabCache(
+        	VocabCache<VocabWord> vc = WordVectorSerializer.readVocabCache(
                     new File("C:\\Users\\Muellerb.ZB_MED\\Modelle\\w2vvocab100000.txt"));
 
             paragraphVectors = new ParagraphVectors.Builder()
