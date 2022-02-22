@@ -6,10 +6,8 @@
     <groupId>de.zbmed.snoke</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-
   <groupId>de.zbmed.snoke.neo4j</groupId>
   <artifactId>snoke.neo4j</artifactId>
-
   <name>snoke.neo4j</name>
     <url>
     	https://github.com/bernd-mueller/snoke/snoke.neo4j/
@@ -19,7 +17,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <java.driver.version>4.4.0</java.driver.version>
   </properties>
+  <dependencies>
+    <dependency>
+        <groupId>org.neo4j.driver</groupId>
+        <artifactId>neo4j-java-driver</artifactId>
+        <version>${java.driver.version}</version>
+    </dependency>
+</dependencies>
   <reporting>
     <plugins>
       <plugin>
