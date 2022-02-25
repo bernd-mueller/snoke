@@ -46,8 +46,18 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 	@Override
 	public void conductMapping() {
 		// TODO Auto-generated method stub
+		
+		int mesh_total_synonyms_beforemerge = 0;
+		int drug_total_synonyms_beforemerge = 0;
+		
 		int mesh_added_merged_synonyms = 0;
 		int drug_added_merged_synonyms = 0;
+		
+		int mesh_synonyms_aftermerge = 0;
+		int drug_synonyms_aftermerge = 0;
+		
+		int mesh_total_synonyms_aftermerge = 0;
+		int drug_total_synonyms_aftermerge = 0;
 		
 		setOntprefix("MDM");
 		OntModel m = createOntMappingModel();
@@ -69,15 +79,9 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 			String k2 = s_keys[1];
 			
 			Set <String> mergedSet = mmesh_mdrug.get(keys);
-					
-			Set <String> mergedsynset1 = new HashSet <String>(mmesh.get(k1));
-			mergedsynset1.addAll(mergedSet);
 			
-			Set <String> mergedsynset2 = new HashSet <String>(mdrug.get(k2));
-			mergedsynset2.addAll(mergedSet);
-			
-			mmeshmerge.put(k1, mergedsynset1);
-			mdrugmerge.put(k2, mergedsynset2);
+			mmeshmerge.put(k1, mergedSet);
+			mdrugmerge.put(k2, mergedSet);
 			
 			keysmesh.add(k1);
 			keysdrug.add(k2);
@@ -102,6 +106,20 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		int n3 = mdrug.keySet().size();
 		log.info("#Drug: " + n3);
 		
+		Set <String> superBeforeMergeMeSH = new HashSet <String> ();
+		for (String km : mmesh.keySet()) {
+			Set <String> s = mmesh.get(km);
+			superBeforeMergeMeSH.addAll(s);
+		}
+		mesh_total_synonyms_beforemerge = superBeforeMergeMeSH.size();
+		
+		Set <String> superBeforeMergeDrug = new HashSet <String> ();
+		for (String km : mdrug.keySet()) {
+			Set <String> s = mdrug.get(km);
+			superBeforeMergeDrug.addAll(s);
+		}
+		drug_total_synonyms_beforemerge = superBeforeMergeDrug.size();
+		
 		for (String kmesh : mmesh.keySet()) {
 			Set <String> premerge 	= mmesh.get(kmesh);
 			Set <String> postmerge 	= mmeshmerge.get(kmesh);
@@ -114,11 +132,32 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 			drug_added_merged_synonyms += (postmerge.size() - premerge.size());
 		}
 		
+
+		for (String mk : mmeshmerge.keySet()) {
+			Set <String> s = mmeshmerge.get(mk);
+			superBeforeMergeMeSH.addAll(s);
+		}
+		mesh_total_synonyms_aftermerge = superBeforeMergeMeSH.size();
+		
+		for (String md : mdrugmerge.keySet()) {
+			Set <String> s = mdrugmerge.get(md);
+			superBeforeMergeDrug.addAll(s);
+		}
+		drug_total_synonyms_aftermerge = superBeforeMergeDrug.size();
+		
 		log.info("Added Synonyms for MeSH from Drug Names: " + mesh_added_merged_synonyms);
 		log.info("Added Synonyms for Drug Names from MeSH: " + drug_added_merged_synonyms);
-		log.info("MeSH having #sameas#: " + keysmesh.size());
-		log.info("Drug Names having #sameas#: " + keysdrug.size());
-		
-		
+		log.info("\n\n");
+		log.info("MeSH having concepts with #sameas#: " 	 + keysmesh.size());
+		log.info("MeSH having synonyms with #sameas# concepts: " 	 + mesh_synonyms_aftermerge);
+		log.info("\n\n");
+		log.info("Drug Names having concepts with #sameas#: " + keysdrug.size());
+		log.info("Drug having synonyms with #sameas# concepts: " 	 + drug_synonyms_aftermerge);
+		log.info("\n\n");
+		log.info("MeSH Names total # of synonyms before merge: " + mesh_total_synonyms_beforemerge);
+		log.info("Drug Names total # of synonyms before merge: " + drug_total_synonyms_beforemerge);	
+		log.info("\n\n");
+		log.info("MeSH Names total # of synonyms after merge: " + mesh_total_synonyms_aftermerge);
+		log.info("Drug Names total # of synonyms after merge: " + drug_total_synonyms_aftermerge);	
 	}
 }
