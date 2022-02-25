@@ -1,6 +1,10 @@
 package de.zbmed.snoke.ontology.ncbo;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -19,13 +23,27 @@ import org.nd4j.shade.jackson.databind.ObjectMapper;
 public class RestNCBO {
 	Set <String> onts = new HashSet <String> ();
     static final String REST_URL = "http://data.bioontology.org";
-    static final String API_KEY = "96505ad2-fcea-4932-8a75-ce03c541d45c";
+    static String API_KEY = "96505ad2-fcea-4932-8a75-ce03c541d45c";
     static final ObjectMapper mapper = new ObjectMapper();
 
+    public void readCredentials () {
+    	try {
+			BufferedReader reader = new BufferedReader(new FileReader ("resources/credentials"));
+			API_KEY = reader.readLine();
+		    reader.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    }
     public static void main(String[] args) {
     	
     	RestNCBO rn = new RestNCBO ();
-    	
+    	rn.readCredentials();
     	
         // Get the available resources
         String resourcesString = rn.get(REST_URL + "/");
