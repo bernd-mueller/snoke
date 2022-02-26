@@ -23,12 +23,12 @@ import org.nd4j.shade.jackson.databind.ObjectMapper;
 public class RestNCBO {
 	Set <String> onts = new HashSet <String> ();
     static final String REST_URL = "http://data.bioontology.org";
-    static String API_KEY = "96505ad2-fcea-4932-8a75-ce03c541d45c";
+    static String API_KEY = "";
     static final ObjectMapper mapper = new ObjectMapper();
 
     public void readCredentials () {
     	try {
-			BufferedReader reader = new BufferedReader(new FileReader ("resources/credentials"));
+			BufferedReader reader = new BufferedReader(new FileReader ("resources/credentials/ncboapikey.txt"));
 			API_KEY = reader.readLine();
 		    reader.close();
 		} catch (FileNotFoundException e) {
