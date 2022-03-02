@@ -61,9 +61,10 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		
 		setOntprefix("MDM");
 		OntModel m = createOntMappingModel();
-		Map <String, Set <String>> mmesh = getDl().getCodeMapForDict("dictionaries/Dict_MeSH_stemmed.xml");
-		Map <String, Set <String>> mdrug = getDl().getCodeMapForDict("dictionaries/Dict_DrugNames_stemmed.xml");
-		
+//		Map <String, Set <String>> mmesh = getDl().getCodeMapForDict("dictionaries/Dict_MeSH_stemmed.xml");
+//		Map <String, Set <String>> mdrug = getDl().getCodeMapForDict("dictionaries/Dict_DrugNames_stemmed.xml");
+		Map <String, Set <String>> mmesh = getDl().getCodeMapForDict("dictionaries/Dict_MeSH.xml");
+		Map <String, Set <String>> mdrug = getDl().getCodeMapForDict("dictionaries/Dict_DrugNames.xml");		
 		// MeSH vs. ICD vs. Drugs
 		Map <String, Set <String>> mmesh_mdrug = getDl().createIntersection(mmesh, mdrug);		
 		Map <String, Set <String>> mmeshmerge = new HashMap <String, Set <String>> (mmesh);
