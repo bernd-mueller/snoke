@@ -1,4 +1,4 @@
-package de.zbmed.snoke.ontology.epso;
+package de.zbmed.snoke.ontology.common;
 
 import java.io.File;
 import java.io.FileInputStream;
