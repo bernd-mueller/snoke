@@ -38,6 +38,7 @@ import org.slf4j.LoggerFactory;
 import de.zbmed.snoke.ontology.analysis.DictLoader;
 import de.zbmed.snoke.ontology.common.DictHandler;
 import de.zbmed.snoke.ontology.common.DrugNameMapper;
+import de.zbmed.snoke.ontology.common.OntHandlerFMA;
 
 /**
  * CreateDictFromEpSO
@@ -267,7 +268,7 @@ public class CreateDictFromEpSO extends DictHandler {
 			
 			String fmaid = synonyms.replace(fmaurl + "#", "");
 			String synFromLabel = fmaid.replaceAll("_", " ");
-			String fmasyn = fma.labelsynmap.get(synFromLabel);
+			String fmasyn = fma.getLabelsynmap().get(synFromLabel);
 			log.debug("#FMA\t\t" + fmaid + "\t" + fmasyn);
 			if (fmaid != null && fmaid.length()>0) {
 				synset = addSynonymToToken (synFromLabel.toLowerCase(), synset);
