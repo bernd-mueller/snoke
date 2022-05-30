@@ -26,6 +26,14 @@ public class OntHandlerFMA {
 	private static final Logger log = LoggerFactory.getLogger(OntHandlerFMA.class);
 	OntModel fma;
 	HashMap <String, String> labelsynmap;
+	public HashMap<String, String> getLabelsynmap() {
+		return labelsynmap;
+	}
+
+	public void setLabelsynmap(HashMap<String, String> labelsynmap) {
+		this.labelsynmap = labelsynmap;
+	}
+
 	String fmafilepath;
 	
 	OntHandlerFMA () {
