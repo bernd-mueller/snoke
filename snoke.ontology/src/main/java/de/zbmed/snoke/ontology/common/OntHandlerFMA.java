@@ -36,11 +36,11 @@ public class OntHandlerFMA {
 
 	String fmafilepath;
 	
-	OntHandlerFMA () {
+	public OntHandlerFMA () {
 		loadFMA ("");
 	}
 	
-	OntHandlerFMA (String filepath) {
+	public OntHandlerFMA (String filepath) {
 		setFmaPath(filepath);
 		loadFMA(filepath);
 	}
