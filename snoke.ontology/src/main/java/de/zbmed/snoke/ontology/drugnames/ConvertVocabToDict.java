@@ -38,9 +38,11 @@ public class ConvertVocabToDict extends DictHandler {
 					t.setCodeValue(drugbankurl+drugbankid);
 					String canonical = splitline[2];
 					t.setCanonical(canonical.trim());
+					Set <String> syns = new HashSet <String> ();
+					syns.add(canonical.trim());
+					syns.add(snow.doTheSnowballStem(canonical.trim()));
 					if (splitline.length>5) {
-						String synonyms = splitline[5];
-						Set <String> syns = new HashSet <String> ();
+						String synonyms = splitline[5];			
 						for (String s : synonyms.split("\\|")) {
 							syns.add(s.trim());
 							String stemmedSynonym = snow.doTheSnowballStem(s.trim());
