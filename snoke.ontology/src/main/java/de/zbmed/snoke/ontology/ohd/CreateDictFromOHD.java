@@ -1,5 +1,9 @@
 package de.zbmed.snoke.ontology.ohd;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.Set;
 
 import org.apache.commons.cli.CommandLine;
@@ -10,6 +14,9 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.jena.ontology.OntClass;
+import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.shared.JenaException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,8 +29,17 @@ public class CreateDictFromOHD extends DictHandler {
 	
 	OntHandlerFMA fma;
 	
-	String fmaurl = "http://sig.uw.edu/fma";
+	// String fmaurl = "http://sig.uw.edu/fma";
+	String fmaurl = "http://purl.obolibrary.org/obo/FMA";
 	
+	public static void main(String[] args) {
+		CreateDictFromOHD cohd = new CreateDictFromOHD ();
+		cohd.readCLI(args);
+		cohd.getOntologyModel(inputFilePath);
+		// cep.createConceptMapperDictionary(cep.ont, outputFilePath);
+		cohd.createConceptMapperDictionary(cohd.ont, outputFilePath, "OHD");
+		
+	}
 	public void loadFMA (String fmaontoFile) {
 		fma = new OntHandlerFMA(fmaontoFile);
 	}
@@ -85,7 +101,30 @@ public class CreateDictFromOHD extends DictHandler {
 	@Override
 	public Set<String> processPropertySeeAlso(OntClass oc, Set<String> synset) {
 		// TODO Auto-generated method stub
-		return null;
+		return synset;
 	}
+	public void getOntologyModel(String ontoFile) {
+		ont = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
+		
+		try {
+			InputStream is = new FileInputStream (new File (ontoFile));
+			//ont.read(ontoFile);
+			ont.read(is, "");
+			log.info("Ontology " + ontoFile + " loaded.");
+		} catch (JenaException je) {
+			log.error("ERROR" + je.getMessage());
+			je.printStackTrace();
+			System.exit(-1);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
+		/**
+		 * Load FMA ontology
+		 */
+		
+		loadFMA ("resources/ontologies/fma.owl");
+
+	}
 }
