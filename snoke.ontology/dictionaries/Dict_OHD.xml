@@ -16,16 +16,16 @@
         <variant base="crown of upper second molar tooth"/>
         <variant base="f m a 57148"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000302" canonical="OHD_0000302">
-        <variant base="prosthet tooth"/>
-        <variant base="o h d 0000302"/>
-        <variant base="prosthetic tooth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_281304" canonical="FMA_281304">
         <variant base="f m a 281304"/>
         <variant base="vasculature of oral part of tongue"/>
         <variant base="Vasculatur of oral part of tongu"/>
         <variant base="vasculatur of oral part of tongu"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000302" canonical="OHD_0000302">
+        <variant base="prosthet tooth"/>
+        <variant base="o h d 0000302"/>
+        <variant base="prosthetic tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56188" canonical="FMA_56188">
         <variant base="Mesial surfac of upper central incisor tooth"/>
@@ -747,14 +747,14 @@
         <variant base="set of right extrins muscl of tongu"/>
         <variant base="f m a 54712"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56558" canonical="FMA_56558">
+        <variant base="crown of lower second premolar tooth"/>
+        <variant base="f m a 56558"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000156" canonical="OHD_0000156">
         <variant base="o h d 0000156"/>
         <variant base="predomin base metal dental restor materi"/>
         <variant base="predominantly base metal dental restoration material"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56558" canonical="FMA_56558">
-        <variant base="crown of lower second premolar tooth"/>
-        <variant base="f m a 56558"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_1000008" canonical="CDT_1000008">
         <variant base="bill code for inlay/onlay restor"/>
@@ -777,6 +777,8 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000009" canonical="OHD_0000009">
         <variant base="dental visit"/>
+        <variant base="Adapt from Mosbi Dental Dictionari"/>
+        <variant base="adapted from mosby's dental dictionary"/>
         <variant base="o h d 0000009"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_289398" canonical="FMA_289398">
@@ -951,17 +953,17 @@
         <variant base="periodontium of left lower second premolar tooth"/>
         <variant base="f m a 56695"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55720" canonical="FMA_55720">
-        <variant base="f m a 55720"/>
-        <variant base="Upper secondari molar tooth"/>
-        <variant base="upper secondary molar tooth"/>
-        <variant base="upper secondari molar tooth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_24034" canonical="FMA_24034">
         <variant base="caviti of organ part"/>
         <variant base="f m a 24034"/>
         <variant base="cavity of organ part"/>
         <variant base="Caviti of organ part"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55720" canonical="FMA_55720">
+        <variant base="f m a 55720"/>
+        <variant base="Upper secondari molar tooth"/>
+        <variant base="upper secondary molar tooth"/>
+        <variant base="upper secondari molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56836" canonical="FMA_56836">
         <variant base="distobuccal cusp of left upper first molar tooth"/>
@@ -1206,17 +1208,17 @@
         <variant base="right now@en"/>
         <variant base="tempor instant"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313966" canonical="FMA_313966">
-        <variant base="left side of maxillari alveolar mucosa"/>
-        <variant base="Left side of maxillari alveolar mucosa"/>
-        <variant base="left side of maxillary alveolar mucosa"/>
-        <variant base="f m a 313966"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57658" canonical="FMA_57658">
         <variant base="distal contact surface of right upper first premolar tooth"/>
         <variant base="distal contact surfac of right upper first premolar tooth"/>
         <variant base="Distal contact surfac of right upper first premolar tooth"/>
         <variant base="f m a 57658"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313966" canonical="FMA_313966">
+        <variant base="left side of maxillari alveolar mucosa"/>
+        <variant base="Left side of maxillari alveolar mucosa"/>
+        <variant base="left side of maxillary alveolar mucosa"/>
+        <variant base="f m a 313966"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_319600" canonical="FMA_319600">
         <variant base="proxim tendon of left palatoglossus"/>
@@ -1882,8 +1884,6 @@
         <variant base="base of mandibl"/>
         <variant base="base of mandible"/>
         <variant base="f m a 52831"/>
-        <variant base="type: class is-a: zone of bone organ regional part: base proper of mandible, mental part of base of mandible, superior mental spine, inferior mental spine regional part of: body of mandible"/>
-        <variant base="type: class is-a: Zone of bone organ region part: Base proper of mandible, Mental part of base of mandible, Superior mental spine, Inferior mental spine region part of: Bodi of mandibl"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002652" canonical="CDT_0002652">
         <variant base="bill code D2652: inlay - resin-bas composit - three or more surfac"/>
@@ -1992,17 +1992,17 @@
         <variant base="metal onlay restor procedur"/>
         <variant base="o h d 0000138"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_289687" canonical="FMA_289687">
-        <variant base="f m a 289687"/>
-        <variant base="Mucosa of oral segment of left side of soft palat"/>
-        <variant base="mucosa of oral segment of left side of soft palate"/>
-        <variant base="mucosa of oral segment of left side of soft palat"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_71712" canonical="FMA_71712">
         <variant base="set of mastoid lymph nodes"/>
         <variant base="set of mastoid lymph node"/>
         <variant base="f m a 71712"/>
         <variant base="Set of mastoid lymph node"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_289687" canonical="FMA_289687">
+        <variant base="f m a 289687"/>
+        <variant base="Mucosa of oral segment of left side of soft palat"/>
+        <variant base="mucosa of oral segment of left side of soft palate"/>
+        <variant base="mucosa of oral segment of left side of soft palat"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000141" canonical="OHD_0000141">
         <variant base="o h d 0000141"/>
@@ -3260,17 +3260,17 @@
         <variant base="Skelet muscl tissu of left inferior longitudin muscl of tongu"/>
         <variant base="skeletal muscle tissue of left inferior longitudinal muscle of tongue"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002952" canonical="CDT_0002952">
-        <variant base="c d t 0002952"/>
-        <variant base="billing code d2952: post and core in addition to crown, indirectly fabricated"/>
-        <variant base="bill code d2952: post and core in addit to crown, indirect fabric"/>
-        <variant base="bill code D2952: post and core in addit to crown, indirect fabric"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57668" canonical="FMA_57668">
         <variant base="mesial surfac of left upper canin tooth"/>
         <variant base="Mesial surfac of left upper canin tooth"/>
         <variant base="f m a 57668"/>
         <variant base="mesial surface of left upper canine tooth"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002952" canonical="CDT_0002952">
+        <variant base="c d t 0002952"/>
+        <variant base="billing code d2952: post and core in addition to crown, indirectly fabricated"/>
+        <variant base="bill code d2952: post and core in addit to crown, indirect fabric"/>
+        <variant base="bill code D2952: post and core in addit to crown, indirect fabric"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_231553" canonical="FMA_231553">
         <variant base="Set of left parotid lymph node"/>
@@ -3426,20 +3426,19 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000164" canonical="OHD_0000164">
         <variant base="o h d 0000164"/>
         <variant base="stainless steel with resin window crown restor procedur"/>
-        <variant base="ohd:0000164"/>
         <variant base="stainless steel with resin window crown restoration procedure"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_60018" canonical="FMA_60018">
-        <variant base="Palatin part of left palatoglossus"/>
-        <variant base="palatine part of left palatoglossus"/>
-        <variant base="palatin part of left palatoglossus"/>
-        <variant base="f m a 60018"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_49441" canonical="FMA_49441">
         <variant base="Obliqu part of right styloglossus"/>
         <variant base="f m a 49441"/>
         <variant base="obliqu part of right styloglossus"/>
         <variant base="oblique part of right styloglossus"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_60018" canonical="FMA_60018">
+        <variant base="Palatin part of left palatoglossus"/>
+        <variant base="palatine part of left palatoglossus"/>
+        <variant base="palatin part of left palatoglossus"/>
+        <variant base="f m a 60018"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57959" canonical="FMA_57959">
         <variant base="Crown proper of left lower canin tooth"/>
@@ -3647,7 +3646,6 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_52840" canonical="FMA_52840">
         <variant base="left condylar process of mandible"/>
         <variant base="left condylar process of mandibl"/>
-        <variant base="Left condylar process of mandibl"/>
         <variant base="f m a 52840"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_320786" canonical="FMA_320786">
@@ -4397,15 +4395,15 @@
         <variant base="c d t 1000021"/>
         <variant base="billing code for unclassified treatment"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_286368" canonical="FMA_286368">
-        <variant base="f m a 286368"/>
-        <variant base="mucosa of labial part of mouth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0006781" canonical="CDT_0006781">
         <variant base="billing code d6781: crown - 3/4 cast predominantly base metal"/>
         <variant base="c d t 0006781"/>
         <variant base="bill code d6781: crown - 3/4 cast predomin base metal"/>
         <variant base="bill code D6781: crown - 3/4 cast predomin base metal"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_286368" canonical="FMA_286368">
+        <variant base="f m a 286368"/>
+        <variant base="mucosa of labial part of mouth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56277" canonical="FMA_56277">
         <variant base="mesial surfac of right upper second premolar tooth"/>
@@ -4651,7 +4649,6 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000204" canonical="OHD_0000204">
         <variant base="intraoral soft tissue exam"/>
-        <variant base="ohd:0000204"/>
         <variant base="o h d 0000204"/>
         <variant base="intraor soft tissu exam"/>
     </token>
@@ -4661,12 +4658,6 @@
         <variant base=" titus schleyer 3/4/2014: definition updated"/>
         <variant base="dental cari"/>
         <variant base=" Titus Schleyer 3/4/2014: definit updat"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_85361" canonical="FMA_85361">
-        <variant base="region of viscerocranial mucosa"/>
-        <variant base="Region of viscerocrani mucosa"/>
-        <variant base="f m a 85361"/>
-        <variant base="region of viscerocrani mucosa"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56606" canonical="FMA_56606">
         <variant base="lingual root of left upper first premolar tooth"/>
@@ -4683,6 +4674,12 @@
         <variant base="left retropharyngeal lymph node"/>
         <variant base="Left retropharyng lymph node"/>
         <variant base="left retropharyng lymph node"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_85361" canonical="FMA_85361">
+        <variant base="region of viscerocranial mucosa"/>
+        <variant base="Region of viscerocrani mucosa"/>
+        <variant base="f m a 85361"/>
+        <variant base="region of viscerocrani mucosa"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000184" canonical="OHD_0000184">
         <variant base="orofaci pain dentist"/>
@@ -4906,8 +4903,6 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_269577" canonical="FMA_269577">
         <variant base="set of maxillary periodontia"/>
         <variant base="set of maxillari periodontia"/>
-        <variant base="type: class is-a: set of ligaments member of: maxillary dental arcade, set of periodontia member: periodontium of right upper second premolar tooth, periodontium of left upper first premolar tooth, periodontium of left upper second premolar tooth, periodontium of right upper first premolar tooth, periodontium of right upper first molar tooth, periodontium of left upper canine tooth, periodontium of left upper first molar tooth, periodontium of right upper canine tooth, periodontium of right upper second molar tooth, periodontium of left upper lateral incisor tooth, periodontium of left upper second molar tooth, periodontium of right upper lateral incisor tooth, periodontium of right upper third molar tooth, periodontium of left upper central incisor tooth, periodontium of right upper central incisor tooth, periodontium of left upper third molar tooth"/>
-        <variant base="type: class is-a: Set of ligament member of: Maxillari dental arcade, Set of periodontia member: Periodontium of right upper second premolar tooth, Periodontium of left upper first premolar tooth, Periodontium of left upper second premolar tooth, Periodontium of right upper first premolar tooth, Periodontium of right upper first molar tooth, Periodontium of left upper canin tooth, Periodontium of left upper first molar tooth, Periodontium of right upper canin tooth, Periodontium of right upper second molar tooth, Periodontium of left upper later incisor tooth, Periodontium of left upper second molar tooth, Periodontium of right upper later incisor tooth, Periodontium of right upper third molar tooth, Periodontium of left upper central incisor tooth, Periodontium of right upper central incisor tooth, Periodontium of left upper third molar tooth"/>
         <variant base="f m a 269577"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_319961" canonical="FMA_319961">
@@ -5114,6 +5109,7 @@
         <variant base="f m a 55692"/>
         <variant base="left lower second secondary premolar tooth"/>
         <variant base="left lower second secondari premolar tooth"/>
+        <variant base="tooth 20"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_319953" canonical="FMA_319953">
         <variant base="Belli of right hyoglossus"/>
@@ -5126,15 +5122,15 @@
         <variant base="o h d 0000313"/>
         <variant base="fixed partial denture restoration procedure"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55921" canonical="FMA_55921">
-        <variant base="crown pulp of left lower first premolar tooth"/>
-        <variant base="f m a 55921"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_320804" canonical="FMA_320804">
         <variant base="distal zone of right superior longitudinal muscle of tongue"/>
         <variant base="distal zone of right superior longitudin muscl of tongu"/>
         <variant base="Distal zone of right superior longitudin muscl of tongu"/>
         <variant base="f m a 320804"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55921" canonical="FMA_55921">
+        <variant base="crown pulp of left lower first premolar tooth"/>
+        <variant base="f m a 55921"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/BFO_0000009" canonical="BFO_0000009">
         <variant base="two dimensional region@en"/>
@@ -5271,16 +5267,16 @@
         <variant base="f m a 58037"/>
         <variant base="lower first molar socket"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56027" canonical="FMA_56027">
+        <variant base="enamel of right upper third secondary molar tooth"/>
+        <variant base="enamel of right upper third secondari molar tooth"/>
+        <variant base="f m a 56027"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57671" canonical="FMA_57671">
         <variant base="f m a 57671"/>
         <variant base="incis surfac of right upper canin tooth"/>
         <variant base="incisal surface of right upper canine tooth"/>
         <variant base="Incisal surfac of right upper canin tooth"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56027" canonical="FMA_56027">
-        <variant base="enamel of right upper third secondary molar tooth"/>
-        <variant base="enamel of right upper third secondari molar tooth"/>
-        <variant base="f m a 56027"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_224426" canonical="FMA_224426">
         <variant base="set of right mastoid lymph node"/>
@@ -5838,22 +5834,21 @@
         <variant base="Belli of genioglossus"/>
         <variant base="belli of genioglossus"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002791" canonical="CDT_0002791">
-        <variant base="c d t 0002791"/>
-        <variant base="bill code d2791: crown - full cast predomin base metal"/>
-        <variant base="bill code D2791: crown - full cast predomin base metal"/>
-        <variant base="billing code d2791: crown - full cast predominantly base metal"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55960" canonical="FMA_55960">
         <variant base="f m a 55960"/>
         <variant base="dentin of upper first secondari molar tooth"/>
         <variant base="Dentin of upper first secondari molar tooth"/>
         <variant base="dentine of upper first secondary molar tooth"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002791" canonical="CDT_0002791">
+        <variant base="c d t 0002791"/>
+        <variant base="bill code d2791: crown - full cast predomin base metal"/>
+        <variant base="bill code D2791: crown - full cast predomin base metal"/>
+        <variant base="billing code d2791: crown - full cast predominantly base metal"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_46715" canonical="FMA_46715">
         <variant base="right transvers muscl of tongu"/>
         <variant base="right transverse muscle of tongue"/>
-        <variant base="Right transvers muscl of tongu"/>
         <variant base="f m a 46715"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57007" canonical="FMA_57007">
@@ -5874,18 +5869,18 @@
         <variant base="superficial lateral cervical lymph node"/>
         <variant base="superfici later cervic lymph node"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_314375" canonical="FMA_314375">
-        <variant base="muscle body of left hyoglossus"/>
-        <variant base="Muscl bodi of left hyoglossus"/>
-        <variant base="f m a 314375"/>
-        <variant base="muscl bodi of left hyoglossus"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_no_fmaid_Primary_maxillary_dentition" canonical="FMA_no_fmaid_Primary_maxillary_dentition">
         <variant base="f m a no fmaid primary maxillary dentition"/>
         <variant base="primari maxillari dentit"/>
         <variant base="f m a no fmaid primari maxillari dentit"/>
         <variant base="Primari maxillari dentit"/>
         <variant base="primary maxillary dentition"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_314375" canonical="FMA_314375">
+        <variant base="muscle body of left hyoglossus"/>
+        <variant base="Muscl bodi of left hyoglossus"/>
+        <variant base="f m a 314375"/>
+        <variant base="muscl bodi of left hyoglossus"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56783" canonical="FMA_56783">
         <variant base="lingual cusp of right upper first premolar tooth"/>
@@ -6136,6 +6131,11 @@
         <variant base="anterior incisive foramina"/>
         <variant base="f m a 59129"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_54717" canonical="FMA_54717">
+        <variant base="f m a 54717"/>
+        <variant base="set of intrins muscl of tongu"/>
+        <variant base="set of intrinsic muscles of tongue"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0006614" canonical="CDT_0006614">
         <variant base="bill code d6614: onlay - cast nobl metal, two surfac"/>
         <variant base="c d t 0006614"/>
@@ -6145,11 +6145,6 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_232505" canonical="FMA_232505">
         <variant base="right jugulo-omohyoid lymph node"/>
         <variant base="f m a 232505"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_54717" canonical="FMA_54717">
-        <variant base="f m a 54717"/>
-        <variant base="set of intrins muscl of tongu"/>
-        <variant base="set of intrinsic muscles of tongue"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000006" canonical="OHD_0000006">
         <variant base="intracoron restor procedur"/>
@@ -6575,7 +6570,9 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000033" canonical="OHD_0000033">
         <variant base="o h d 0000033"/>
         <variant base="crown restoration procedure"/>
+        <variant base="titus schleyer 1/14/2014: adapted definition"/>
         <variant base="crown restor procedur"/>
+        <variant base="Titus Schleyer 1/14/2014: adapt definit"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56880" canonical="FMA_56880">
         <variant base="f m a 56880"/>
@@ -6898,17 +6895,17 @@
         <variant base="f m a 55874"/>
         <variant base="cement of upper first secondary premolar tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313976" canonical="FMA_313976">
-        <variant base="f m a 313976"/>
-        <variant base="Right maxillari alveolar mucosa proper"/>
-        <variant base="right maxillary alveolar mucosa proper"/>
-        <variant base="right maxillari alveolar mucosa proper"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57666" canonical="FMA_57666">
         <variant base="Lingual surfac of left upper canin tooth"/>
         <variant base="lingual surfac of left upper canin tooth"/>
         <variant base="lingual surface of left upper canine tooth"/>
         <variant base="f m a 57666"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313976" canonical="FMA_313976">
+        <variant base="f m a 313976"/>
+        <variant base="Right maxillari alveolar mucosa proper"/>
+        <variant base="right maxillary alveolar mucosa proper"/>
+        <variant base="right maxillari alveolar mucosa proper"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_232713" canonical="FMA_232713">
         <variant base="left lateral inferior deep cervical lymph node"/>
@@ -7096,15 +7093,15 @@
         <variant base="c d t 0002663"/>
         <variant base="billing code d2663: onlay - resin-based composite - three surfaces"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56602" canonical="FMA_56602">
+        <variant base="crown of left lower second molar tooth"/>
+        <variant base="f m a 56602"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56204" canonical="FMA_56204">
         <variant base="incis surfac of right upper central incisor tooth"/>
         <variant base="Incisal surfac of right upper central incisor tooth"/>
         <variant base="f m a 56204"/>
         <variant base="incisal surface of right upper central incisor tooth"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56602" canonical="FMA_56602">
-        <variant base="crown of left lower second molar tooth"/>
-        <variant base="f m a 56602"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56599" canonical="FMA_56599">
         <variant base="mesial root of lower second molar tooth"/>
@@ -7360,8 +7357,6 @@
         <variant base="root pulp of lower first molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57052" canonical="FMA_57052">
-        <variant base="&lt;br&gt;&lt;b&gt;type&lt;/b&gt;: class&lt;br&gt;&lt;b&gt;is-a&lt;/b&gt;: articular capsule of temporomandibular joint&lt;br&gt;&lt;b&gt;:slot-templates&lt;/b&gt;: location &lt;i&gt;value-type&lt;/i&gt;: organ anatomical coordinate adjacency, location &lt;i&gt;value-type&lt;/i&gt;: instance&lt;br&gt;&lt;b&gt;regional part&lt;/b&gt;: fibrous membrane of articular capsule of left temporomandibular joint&lt;br&gt;&lt;b&gt;preferred name&lt;/b&gt;: kb instance 74852&lt;br&gt;&lt;b&gt;constitutional part&lt;/b&gt;: synovial membrane of articular capsule of left temporomandibular joint&lt;br&gt;&lt;b&gt;constitutional part of&lt;/b&gt;: left temporomandibular joint"/>
-        <variant base="&lt;br&gt;&lt;b&gt;type&lt;/b&gt;: class&lt;br&gt;&lt;b&gt;is-a&lt;/b&gt;: Articular capsul of temporomandibular joint&lt;br&gt;&lt;b&gt;:slot-templates&lt;/b&gt;: locat &lt;i&gt;value-type&lt;/i&gt;: Organ anatom coordin adjacency, locat &lt;i&gt;value-type&lt;/i&gt;: Instance&lt;br&gt;&lt;b&gt;region part&lt;/b&gt;: Fibrous membran of articular capsul of left temporomandibular joint&lt;br&gt;&lt;b&gt;pref name&lt;/b&gt;: KB INSTANCE 74852&lt;br&gt;&lt;b&gt;constitut part&lt;/b&gt;: Synovi membran of articular capsul of left temporomandibular joint&lt;br&gt;&lt;b&gt;constitut part of&lt;/b&gt;: Left temporomandibular joint"/>
         <variant base="articular capsul of left temporomandibular joint"/>
         <variant base="f m a 57052"/>
         <variant base="articular capsule of left temporomandibular joint"/>
@@ -7664,12 +7659,6 @@
         <variant base="f m a 55827"/>
         <variant base="root pulp of left upper central incisor tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_59049" canonical="FMA_59049">
-        <variant base="f m a 59049"/>
-        <variant base="right infra-orbit canal"/>
-        <variant base="right infra-orbital canal"/>
-        <variant base="Right infra-orbit canal"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313962" canonical="FMA_313962">
         <variant base="f m a 313962"/>
         <variant base="mandibular alveolar mucosa"/>
@@ -7679,6 +7668,12 @@
         <variant base="labial surfac of lower incisor tooth"/>
         <variant base="f m a 56206"/>
         <variant base="labial surface of lower incisor tooth"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_59049" canonical="FMA_59049">
+        <variant base="f m a 59049"/>
+        <variant base="right infra-orbit canal"/>
+        <variant base="right infra-orbital canal"/>
+        <variant base="Right infra-orbit canal"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000199" canonical="OHD_0000199">
         <variant base="prefabricated resin crown restoration procedure@en"/>
@@ -7857,17 +7852,17 @@
         <variant base="o h d 0000185"/>
         <variant base="orthodontist@en"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55652" canonical="FMA_55652">
-        <variant base="f m a 55652"/>
-        <variant base="anatom set"/>
-        <variant base="anatomical set"/>
-        <variant base="Anatom set"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_313994" canonical="FMA_313994">
         <variant base="labial side of right maxillari gingiva"/>
         <variant base="f m a 313994"/>
         <variant base="Labial side of right maxillari gingiva"/>
         <variant base="labial side of right maxillary gingiva"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55652" canonical="FMA_55652">
+        <variant base="f m a 55652"/>
+        <variant base="anatom set"/>
+        <variant base="anatomical set"/>
+        <variant base="Anatom set"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56856" canonical="FMA_56856">
         <variant base="distobuccal cusp of left upper second molar tooth"/>
@@ -7911,9 +7906,10 @@
         <variant base="o h d 0000038"/>
         <variant base="dental materi tooth attach process"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56042" canonical="FMA_56042">
-        <variant base="f m a 56042"/>
-        <variant base="crown pulp of left lower first molar tooth"/>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_46695" canonical="FMA_46695">
+        <variant base="transvers muscl of tongu"/>
+        <variant base="f m a 46695"/>
+        <variant base="transverse muscle of tongue"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_54823" canonical="FMA_54823">
         <variant base="foliate papilla of tongue"/>
@@ -7921,14 +7917,13 @@
         <variant base="foliat papilla of tongu"/>
         <variant base="f m a 54823"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_46695" canonical="FMA_46695">
-        <variant base="transvers muscl of tongu"/>
-        <variant base="f m a 46695"/>
-        <variant base="transverse muscle of tongue"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_314060" canonical="FMA_314060">
         <variant base="buccal side of mandibular alveolar mucosa proper"/>
         <variant base="f m a 314060"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56042" canonical="FMA_56042">
+        <variant base="f m a 56042"/>
+        <variant base="crown pulp of left lower first molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/BFO_0000023" canonical="BFO_0000023">
         <variant base="b f o 0000023"/>
@@ -8254,14 +8249,14 @@
         <variant base="right lower secondari canin tooth"/>
         <variant base="f m a 55686"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57686" canonical="FMA_57686">
+        <variant base="f m a 57686"/>
+        <variant base="frontal process of right maxilla"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56522" canonical="FMA_56522">
         <variant base="crown of right lower canin tooth"/>
         <variant base="crown of right lower canine tooth"/>
         <variant base="f m a 56522"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57686" canonical="FMA_57686">
-        <variant base="f m a 57686"/>
-        <variant base="frontal process of right maxilla"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_84214" canonical="FMA_84214">
         <variant base="upper primary incisor tooth"/>
@@ -8441,6 +8436,13 @@
         <variant base="billing code d2931: prefabricated stainless steel crown - permanent tooth"/>
         <variant base="c d t 0002931"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_no_fmaid_Occlusal_surface_enamel_of_tooth" canonical="FMA_no_fmaid_Occlusal_surface_enamel_of_tooth">
+        <variant base="f m a no fmaid occlus surfac enamel of tooth"/>
+        <variant base="f m a no fmaid occlusal surface enamel of tooth"/>
+        <variant base="Occlusal surfac enamel of tooth"/>
+        <variant base="occlus surfac enamel of tooth"/>
+        <variant base="occlusal surface enamel of tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56356" canonical="FMA_56356">
         <variant base="Buccal surfac of right lower second molar tooth"/>
         <variant base="f m a 56356"/>
@@ -8458,13 +8460,6 @@
         <variant base="set of later inferior deep cervic lymph node"/>
         <variant base="set of lateral inferior deep cervical lymph nodes"/>
         <variant base="Set of later inferior deep cervic lymph node"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_no_fmaid_Occlusal_surface_enamel_of_tooth" canonical="FMA_no_fmaid_Occlusal_surface_enamel_of_tooth">
-        <variant base="f m a no fmaid occlus surfac enamel of tooth"/>
-        <variant base="f m a no fmaid occlusal surface enamel of tooth"/>
-        <variant base="Occlusal surfac enamel of tooth"/>
-        <variant base="occlus surfac enamel of tooth"/>
-        <variant base="occlusal surface enamel of tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56882" canonical="FMA_56882">
         <variant base="mesiolingual cusp of left lower first molar tooth"/>
@@ -8579,6 +8574,7 @@
         <variant base="planning"/>
         <variant base="o b i 0000339"/>
         <variant base="plan"/>
+        <variant base="obi:0000339"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_232234" canonical="FMA_232234">
         <variant base="set of superior deep cervical lymph nodes"/>
@@ -8771,7 +8767,6 @@
         <variant base="o h d 0000060"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57690" canonical="FMA_57690">
-        <variant base="Palatin process of right maxilla"/>
         <variant base="palatine process of right maxilla"/>
         <variant base="palatin process of right maxilla"/>
         <variant base="f m a 57690"/>
@@ -8793,6 +8788,7 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55706" canonical="FMA_55706">
         <variant base="f m a 55706"/>
+        <variant base="Right lower second secondari molar tooth"/>
         <variant base="right lower second secondary molar tooth"/>
         <variant base="right lower second secondari molar tooth"/>
     </token>
@@ -9035,6 +9031,11 @@
         <variant base="mesial surfac of left upper central incisor tooth"/>
         <variant base="f m a 56193"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000052" canonical="OHD_0000052">
+        <variant base="o h d 0000052"/>
+        <variant base="dental health care provider role"/>
+        <variant base="dental health care provid role"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56295" canonical="FMA_56295">
         <variant base="f m a 56295"/>
         <variant base="buccal surface of lower first premolar tooth"/>
@@ -9044,11 +9045,6 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56627" canonical="FMA_56627">
         <variant base="lingual root of left upper third molar tooth"/>
         <variant base="f m a 56627"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000052" canonical="OHD_0000052">
-        <variant base="o h d 0000052"/>
-        <variant base="dental health care provider role"/>
-        <variant base="dental health care provid role"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57511" canonical="FMA_57511">
         <variant base="f m a 57511"/>
@@ -9778,8 +9774,10 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_59765" canonical="FMA_59765">
         <variant base="mucosa of oral segment of palate"/>
+        <variant base="&lt;br&gt;&lt;b&gt;type&lt;/b&gt;: class&lt;br&gt;&lt;b&gt;is-a&lt;/b&gt;: mucosa of segment of palate, region of viscerocranial mucosa&lt;br&gt;&lt;b&gt;preferred name&lt;/b&gt;: kb instance 78884&lt;br&gt;&lt;b&gt;synonym&lt;/b&gt;: kb auto-insert2 5203&lt;br&gt;&lt;b&gt;regional part of&lt;/b&gt;: mucosa of mouth, mucosa of palate&lt;br&gt;&lt;b&gt;regional part&lt;/b&gt;: mucosa of oral segment of hard palate, mucosa of oral segment of soft palate"/>
         <variant base="mucosa of oral segment of palat"/>
         <variant base="f m a 59765"/>
+        <variant base="&lt;br&gt;&lt;b&gt;type&lt;/b&gt;: class&lt;br&gt;&lt;b&gt;is-a&lt;/b&gt;: Mucosa of segment of palate, Region of viscerocrani mucosa&lt;br&gt;&lt;b&gt;pref name&lt;/b&gt;: KB INSTANCE 78884&lt;br&gt;&lt;b&gt;synonym&lt;/b&gt;: KB AUTO-INSERT2 5203&lt;br&gt;&lt;b&gt;region part of&lt;/b&gt;: Mucosa of mouth, Mucosa of palate&lt;br&gt;&lt;b&gt;region part&lt;/b&gt;: Mucosa of oral segment of hard palate, Mucosa of oral segment of soft palat"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56116" canonical="FMA_56116">
         <variant base="caviti of left lower central incisor tooth"/>
@@ -9847,17 +9845,17 @@
         <variant base="mucosa of pharyng part of tongu"/>
         <variant base="mucosa of pharyngeal part of tongue"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_319973" canonical="FMA_319973">
-        <variant base="Belli of left inferior longitudin muscl of tongu"/>
-        <variant base="belli of left inferior longitudin muscl of tongu"/>
-        <variant base="f m a 319973"/>
-        <variant base="belly of left inferior longitudinal muscle of tongue"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_53662" canonical="FMA_53662">
         <variant base="right ramus proper of mandible"/>
         <variant base="right ramus proper of mandibl"/>
         <variant base="f m a 53662"/>
         <variant base="Right ramus proper of mandibl"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_319973" canonical="FMA_319973">
+        <variant base="Belli of left inferior longitudin muscl of tongu"/>
+        <variant base="belli of left inferior longitudin muscl of tongu"/>
+        <variant base="f m a 319973"/>
+        <variant base="belly of left inferior longitudinal muscle of tongue"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56073" canonical="FMA_56073">
         <variant base="crown pulp of lower third molar tooth"/>
@@ -9994,15 +9992,15 @@
         <variant base="f m a 57518"/>
         <variant base="crown proper of left lower second molar tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_234376" canonical="FMA_234376">
-        <variant base="supramandibular lymph node"/>
-        <variant base="f m a 234376"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56398" canonical="FMA_56398">
         <variant base="f m a 56398"/>
         <variant base="mesial surface of left upper second molar tooth"/>
         <variant base="mesial surfac of left upper second molar tooth"/>
         <variant base="Mesial surfac of left upper second molar tooth"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_234376" canonical="FMA_234376">
+        <variant base="supramandibular lymph node"/>
+        <variant base="f m a 234376"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55836" canonical="FMA_55836">
         <variant base="Dentin of upper secondari canin tooth"/>
@@ -10175,14 +10173,14 @@
         <variant base="f m a 46691"/>
         <variant base="hyoglossus"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56023" canonical="FMA_56023">
+        <variant base="f m a 56023"/>
+        <variant base="crown pulp of right upper third molar tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000083" canonical="OHD_0000083">
         <variant base="miss tooth 25 find"/>
         <variant base="missing tooth 25 finding"/>
         <variant base="o h d 0000083"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56023" canonical="FMA_56023">
-        <variant base="f m a 56023"/>
-        <variant base="crown pulp of right upper third molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_58023" canonical="FMA_58023">
         <variant base="f m a 58023"/>
@@ -10230,13 +10228,13 @@
         <variant base="Dentin of left lower central secondari incisor tooth"/>
         <variant base="dentin of left lower central secondari incisor tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56824" canonical="FMA_56824">
-        <variant base="cusp of upper third molar tooth"/>
-        <variant base="f m a 56824"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57504" canonical="FMA_57504">
         <variant base="crown proper of lower first premolar tooth"/>
         <variant base="f m a 57504"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56824" canonical="FMA_56824">
+        <variant base="cusp of upper third molar tooth"/>
+        <variant base="f m a 56824"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_232668" canonical="FMA_232668">
         <variant base="f m a 232668"/>
@@ -10371,10 +10369,6 @@
         <variant base="lamina propria"/>
         <variant base="f m a 62517"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_82507" canonical="FMA_82507">
-        <variant base="organ crest"/>
-        <variant base="f m a 82507"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0006783" canonical="CDT_0006783">
         <variant base="billing code d6783: crown - 3/4 porcelain/ceramic"/>
         <variant base="bill code D6783: crown - 3/4 porcelain/ceram"/>
@@ -10400,6 +10394,10 @@
         <variant base="distal surface of left upper first premolar tooth"/>
         <variant base="f m a 56286"/>
         <variant base="Distal surfac of left upper first premolar tooth"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_82507" canonical="FMA_82507">
+        <variant base="organ crest"/>
+        <variant base="f m a 82507"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000089" canonical="OHD_0000089">
         <variant base="missing tooth 31 finding"/>
@@ -10551,16 +10549,16 @@
         <variant base="molar socket"/>
         <variant base="f m a 57988"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000310" canonical="OHD_0000310">
+        <variant base="partial denture"/>
+        <variant base="partial dentur"/>
+        <variant base="o h d 0000310"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_54806" canonical="FMA_54806">
         <variant base="f m a 54806"/>
         <variant base="region of tongu"/>
         <variant base="Region of tongu"/>
         <variant base="region of tongue"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000310" canonical="OHD_0000310">
-        <variant base="partial denture"/>
-        <variant base="partial dentur"/>
-        <variant base="o h d 0000310"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56636" canonical="FMA_56636">
         <variant base="Mesiobucc root of right upper second molar tooth"/>
@@ -10919,7 +10917,9 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55864" canonical="FMA_55864">
         <variant base="enamel of right lower secondari canin tooth"/>
+        <variant base="type: class is-a: enamel of lower secondary canine tooth constitutional part of: right lower secondary canine tooth regional part: mesial surface of right lower canine tooth, distal contact surface of right lower canine tooth, mesial contact surface of right lower canine tooth, incisal surface of right lower canine tooth, lingual surface of right lower canine tooth, labial surface of right lower canine tooth, distal surface of right lower canine tooth"/>
         <variant base="enamel of right lower secondary canine tooth"/>
+        <variant base="type: class is-a: Enamel of lower secondari canin tooth constitut part of: Right lower secondari canin tooth region part: Mesial surfac of right lower canin tooth, Distal contact surfac of right lower canin tooth, Mesial contact surfac of right lower canin tooth, Incisal surfac of right lower canin tooth, Lingual surfac of right lower canin tooth, Labial surfac of right lower canin tooth, Distal surfac of right lower canin tooth"/>
         <variant base="f m a 55864"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_224478" canonical="FMA_224478">
@@ -11011,11 +11011,6 @@
         <variant base="f m a 55702"/>
         <variant base="Left lower third secondari molar tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OGMS_0000082" canonical="OGMS_0000082">
-        <variant base="o g m s 0000082"/>
-        <variant base="patholog invas"/>
-        <variant base="pathological invasion"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0000160" canonical="CDT_0000160">
         <variant base="bill code d0160: detail and extens oral evalu - problem focused, by report"/>
         <variant base="bill code D0160: detail and extens oral evalu - problem focused, by report"/>
@@ -11045,6 +11040,11 @@
         <variant base="billing code for inlay/onlay restorations - resin-based composite"/>
         <variant base="c d t 1000010"/>
         <variant base="bill code for inlay/onlay restor - resin-bas composit"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OGMS_0000082" canonical="OGMS_0000082">
+        <variant base="o g m s 0000082"/>
+        <variant base="patholog invas"/>
+        <variant base="pathological invasion"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_318510" canonical="FMA_318510">
         <variant base="skelet muscl tissu of transvers muscl of tongu"/>
@@ -11187,11 +11187,12 @@
         <variant base="f m a 77988"/>
         <variant base="left infra-auricular lymph node"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56357" canonical="FMA_56357">
-        <variant base="Buccal surfac of left lower second molar tooth"/>
-        <variant base="f m a 56357"/>
-        <variant base="buccal surfac of left lower second molar tooth"/>
-        <variant base="buccal surface of left lower second molar tooth"/>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000180" canonical="OHD_0000180">
+        <variant base="regist nurse@en"/>
+        <variant base="regist nurs"/>
+        <variant base="registered nurse"/>
+        <variant base="registered nurse@en"/>
+        <variant base="o h d 0000180"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_74865" canonical="FMA_74865">
         <variant base="keratin epithelium of tongu"/>
@@ -11199,18 +11200,17 @@
         <variant base="keratinized epithelium of tongue"/>
         <variant base="Keratin epithelium of tongu"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56357" canonical="FMA_56357">
+        <variant base="Buccal surfac of left lower second molar tooth"/>
+        <variant base="f m a 56357"/>
+        <variant base="buccal surfac of left lower second molar tooth"/>
+        <variant base="buccal surface of left lower second molar tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56755" canonical="FMA_56755">
         <variant base="cingulum of left lower canin tooth"/>
         <variant base="cingulum of left lower canine tooth"/>
         <variant base="f m a 56755"/>
         <variant base="Cingulum of left lower canin tooth"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000180" canonical="OHD_0000180">
-        <variant base="regist nurse@en"/>
-        <variant base="regist nurs"/>
-        <variant base="registered nurse"/>
-        <variant base="registered nurse@en"/>
-        <variant base="o h d 0000180"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56675" canonical="FMA_56675">
         <variant base="periodontium of lower lateral incisor tooth"/>
@@ -11230,16 +11230,16 @@
         <variant base="Mesial contact surfac of left lower second premolar tooth"/>
         <variant base="mesial contact surfac of left lower second premolar tooth"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55687" canonical="FMA_55687">
+        <variant base="left lower secondari canin tooth"/>
+        <variant base="f m a 55687"/>
+        <variant base="left lower secondary canine tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_224428" canonical="FMA_224428">
         <variant base="f m a 224428"/>
         <variant base="Set of left mastoid lymph node"/>
         <variant base="set of left mastoid lymph node"/>
         <variant base="set of left mastoid lymph nodes"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55687" canonical="FMA_55687">
-        <variant base="left lower secondari canin tooth"/>
-        <variant base="f m a 55687"/>
-        <variant base="left lower secondary canine tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56523" canonical="FMA_56523">
         <variant base="crown of left lower canin tooth"/>
@@ -11505,14 +11505,11 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55634" canonical="FMA_55634">
         <variant base="maxillari dental arcad"/>
-        <variant base="type: class is-a: Set of heterogen cluster :documentation: Propos definition: Maxillari dental arcad is a set of heterogen cluster which consist of the set of teeth and the alveoli of the maxillari part of the of the mouth. constitut part of: Upper jaw member: Alveolar part of left maxilla, Alveolar part of right maxilla, Set of maxillari periodontia, Primari maxillari dentition, Secondari maxillari dentit"/>
         <variant base="maxillary dental arcade"/>
         <variant base="f m a 55634"/>
-        <variant base="type: class is-a: set of heterogeneous clusters :documentation: proposed definition: maxillary dental arcade is a set of heterogenous clusters which consists of the set of teeth and the alveoli of the maxillary part of the of the mouth. constitutional part of: upper jaw member: alveolar part of left maxilla, alveolar part of right maxilla, set of maxillary periodontia, primary maxillary dentition, secondary maxillary dentition"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57691" canonical="FMA_57691">
         <variant base="f m a 57691"/>
-        <variant base="fma:57691"/>
         <variant base="palatine process of left maxilla"/>
         <variant base="palatin process of left maxilla"/>
     </token>
@@ -11661,7 +11658,9 @@
         <variant base="primary canine tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OBI_0000070" canonical="OBI_0000070">
+        <variant base="scientific observation@en"/>
         <variant base="assay"/>
+        <variant base="scientif observation@en"/>
         <variant base="o b i 0000070"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_7501" canonical="FMA_7501">
@@ -11705,6 +11704,11 @@
         <variant base="f m a 61239"/>
         <variant base="Inferior deep later cervic lymph node"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000348" canonical="OHD_0000348">
+        <variant base="prosthet right lower third secondari molar tooth"/>
+        <variant base="o h d 0000348"/>
+        <variant base="prosthetic right lower third secondary molar tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0007140" canonical="CDT_0007140">
         <variant base="bill code d7140: extraction, erupt tooth or expos root (elev and/or forcep removal)"/>
         <variant base="bill code D7140: extraction, erupt tooth or expos root (elev and/or forcep removal)"/>
@@ -11714,11 +11718,6 @@
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57512" canonical="FMA_57512">
         <variant base="crown proper of lower first molar tooth"/>
         <variant base="f m a 57512"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000348" canonical="OHD_0000348">
-        <variant base="prosthet right lower third secondari molar tooth"/>
-        <variant base="o h d 0000348"/>
-        <variant base="prosthetic right lower third secondary molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OGMS_0000087" canonical="OGMS_0000087">
         <variant base="extend organ"/>
@@ -11736,10 +11735,8 @@
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55689" canonical="FMA_55689">
         <variant base="right upper first secondari premolar tooth"/>
-        <variant base="type: class is-a: Upper first secondari premolar tooth :slot-templates: locat value-type: Organ anatom coordin adjacency, locat value-type: Has anatom coordin relation, locat value-type: Instanc region part: Crown of right upper first premolar tooth, Buccal root of right upper first premolar tooth, Lingual root of right upper first premolar tooth constitut part: Dental pulp of right upper first premolar tooth, Dentin of right upper first secondari premolar tooth, Caviti of right upper first premolar tooth, Periodontium of right upper first premolar tooth, Cement of right upper first secondari premolar tooth, Enamel of right upper first secondari premolar tooth member of: Secondari dentition, Secondari maxillari dentit"/>
         <variant base="right upper first secondary premolar tooth"/>
         <variant base="f m a 55689"/>
-        <variant base="type: class is-a: upper first secondary premolar tooth :slot-templates: location value-type: organ anatomical coordinate adjacency, location value-type: has anatomical coordinate relation, location value-type: instance regional part: crown of right upper first premolar tooth, buccal root of right upper first premolar tooth, lingual root of right upper first premolar tooth constitutional part: dental pulp of right upper first premolar tooth, dentine of right upper first secondary premolar tooth, cavity of right upper first premolar tooth, periodontium of right upper first premolar tooth, cement of right upper first secondary premolar tooth, enamel of right upper first secondary premolar tooth member of: secondary dentition, secondary maxillary dentition"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56127" canonical="FMA_56127">
         <variant base="cavity of upper first premolar tooth"/>
@@ -11839,6 +11836,11 @@
         <variant base="Cement of left lower first secondari premolar tooth"/>
         <variant base="f m a 55923"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000168" canonical="OHD_0000168">
+        <variant base="o h d 0000168"/>
+        <variant base="unerupt tooth find"/>
+        <variant base="unerupted tooth finding"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56084" canonical="FMA_56084">
         <variant base="dentin of left lower third secondari molar tooth"/>
         <variant base="dentine of left lower third secondary molar tooth"/>
@@ -11856,11 +11858,6 @@
         <variant base="nasolabi lymph node"/>
         <variant base="f m a 61225"/>
         <variant base="Nasolabi lymph node"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000168" canonical="OHD_0000168">
-        <variant base="o h d 0000168"/>
-        <variant base="unerupt tooth find"/>
-        <variant base="unerupted tooth finding"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56620" canonical="FMA_56620">
         <variant base="mesiobuccal root of upper second molar tooth"/>
@@ -12025,17 +12022,17 @@
         <variant base="organ part cluster"/>
         <variant base="f m a 64990"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56849" canonical="FMA_56849">
-        <variant base="f m a 56849"/>
-        <variant base="mesiobuccal cusp of upper second molar tooth"/>
-        <variant base="mesiobucc cusp of upper second molar tooth"/>
-        <variant base="Mesiobucc cusp of upper second molar tooth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_318480" canonical="FMA_318480">
         <variant base="f m a 318480"/>
         <variant base="skeletal muscle tissue of genioglossus"/>
         <variant base="Skelet muscl tissu of genioglossus"/>
         <variant base="skelet muscl tissu of genioglossus"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56849" canonical="FMA_56849">
+        <variant base="f m a 56849"/>
+        <variant base="mesiobuccal cusp of upper second molar tooth"/>
+        <variant base="mesiobucc cusp of upper second molar tooth"/>
+        <variant base="Mesiobucc cusp of upper second molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0000120" canonical="CDT_0000120">
         <variant base="c d t 0000120"/>
@@ -12099,6 +12096,7 @@
         <variant base="cavity of lower second molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55978" canonical="FMA_55978">
+        <variant base="Enamel of right upper first secondari molar tooth"/>
         <variant base="enamel of right upper first secondary molar tooth"/>
         <variant base="enamel of right upper first secondari molar tooth"/>
         <variant base="f m a 55978"/>
@@ -12132,15 +12130,15 @@
         <variant base="f m a 56921"/>
         <variant base="Contact surfac of lower canin tooth"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_85302" canonical="FMA_85302">
+        <variant base="f m a 85302"/>
+        <variant base="root of molar tooth"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55846" canonical="FMA_55846">
         <variant base="Cement of right upper secondari canin tooth"/>
         <variant base="cement of right upper secondari canin tooth"/>
         <variant base="cement of right upper secondary canine tooth"/>
         <variant base="f m a 55846"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_85302" canonical="FMA_85302">
-        <variant base="f m a 85302"/>
-        <variant base="root of molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_232268" canonical="FMA_232268">
         <variant base="Set of left thyroid lymph node"/>
@@ -12387,16 +12385,16 @@
         <variant base="bodili process"/>
         <variant base="o g m s 0000060"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000335" canonical="OHD_0000335">
-        <variant base="prosthet left lower first secondari molar tooth"/>
-        <variant base="prosthetic left lower first secondary molar tooth"/>
-        <variant base="o h d 0000335"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0006794" canonical="CDT_0006794">
         <variant base="bill code D6794: crown - titanium"/>
         <variant base="billing code d6794: crown - titanium"/>
         <variant base="c d t 0006794"/>
         <variant base="bill code d6794: crown - titanium"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000335" canonical="OHD_0000335">
+        <variant base="prosthet left lower first secondari molar tooth"/>
+        <variant base="prosthetic left lower first secondary molar tooth"/>
+        <variant base="o h d 0000335"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000162" canonical="OHD_0000162">
         <variant base="o h d 0000162"/>
@@ -12444,7 +12442,6 @@
         <variant base="right vertical muscle of tongue"/>
         <variant base="right vertic muscl of tongu"/>
         <variant base="f m a 46717"/>
-        <variant base="Right vertic muscl of tongu"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56218" canonical="FMA_56218">
         <variant base="Distal surfac of lower later incisor tooth"/>
@@ -12823,15 +12820,15 @@
         <variant base="f m a 56953"/>
         <variant base="distal contact surfac of lower central incisor tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57939" canonical="FMA_57939">
-        <variant base="f m a 57939"/>
-        <variant base="crown proper of left lower central incisor tooth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_281456" canonical="FMA_281456">
         <variant base="set of all intrinsic muscles of tongue"/>
         <variant base="Set of all intrins muscl of tongu"/>
         <variant base="set of all intrins muscl of tongu"/>
         <variant base="f m a 281456"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57939" canonical="FMA_57939">
+        <variant base="f m a 57939"/>
+        <variant base="crown proper of left lower central incisor tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55929" canonical="FMA_55929">
         <variant base="f m a 55929"/>
@@ -12927,16 +12924,16 @@
         <variant base="f m a 56053"/>
         <variant base="dental pulp of right lower second molar tooth"/>
     </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OGMS_0000027" canonical="OGMS_0000027">
+        <variant base="clinic phenotyp"/>
+        <variant base="o g m s 0000027"/>
+        <variant base="clinical phenotype"/>
+    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_84207" canonical="FMA_84207">
         <variant base="secondary molar tooth"/>
         <variant base="secondari molar tooth"/>
         <variant base="f m a 84207"/>
         <variant base="Secondari molar tooth"/>
-    </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OGMS_0000027" canonical="OGMS_0000027">
-        <variant base="clinic phenotyp"/>
-        <variant base="o g m s 0000027"/>
-        <variant base="clinical phenotype"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_58053" canonical="FMA_58053">
         <variant base="left upper second molar socket"/>
@@ -13005,15 +13002,15 @@
         <variant base="set of right jugulodigastr lymph node"/>
         <variant base="set of right jugulodigastric lymph nodes"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000307" canonical="OHD_0000307">
-        <variant base="anterior tooth"/>
-        <variant base="o h d 0000307"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_58011" canonical="FMA_58011">
         <variant base="right upper canine socket"/>
         <variant base="f m a 58011"/>
         <variant base="Right upper canin socket"/>
         <variant base="right upper canin socket"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/OHD_0000307" canonical="OHD_0000307">
+        <variant base="anterior tooth"/>
+        <variant base="o h d 0000307"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0006634" canonical="CDT_0006634">
         <variant base="c d t 0006634"/>
@@ -13241,17 +13238,17 @@
         <variant base="f m a no fmaid surfac enamel of tooth"/>
         <variant base="Surfac enamel of tooth"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55768" canonical="FMA_55768">
-        <variant base="cement of right lower central secondari incisor tooth"/>
-        <variant base="cement of right lower central secondary incisor tooth"/>
-        <variant base="Cement of right lower central secondari incisor tooth"/>
-        <variant base="f m a 55768"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_298757" canonical="FMA_298757">
         <variant base="Distal zone of muscl organ"/>
         <variant base="distal zone of muscle organ"/>
         <variant base="distal zone of muscl organ"/>
         <variant base="f m a 298757"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_55768" canonical="FMA_55768">
+        <variant base="cement of right lower central secondari incisor tooth"/>
+        <variant base="cement of right lower central secondary incisor tooth"/>
+        <variant base="Cement of right lower central secondari incisor tooth"/>
+        <variant base="f m a 55768"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_57768" canonical="FMA_57768">
         <variant base="body proper of maxilla"/>
@@ -14035,8 +14032,10 @@
         <variant base="dentin of left upper first secondari molar tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/CDT_0002712" canonical="CDT_0002712">
+        <variant base="This code doe not includ facial veneers. ISBN:1935201387#CDT 2011-2012 Current Dental Terminology, Chapter 1"/>
         <variant base="billing code d2712: crown - 3/4 resin-based composite (indirect)"/>
         <variant base="c d t 0002712"/>
+        <variant base="this code does not include facial veneers. isbn:1935201387#cdt 2011-2012 current dental terminology, chapter 1"/>
         <variant base="bill code d2712: crown - 3/4 resin-bas composit (indirect)"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_84211" canonical="FMA_84211">
@@ -14398,17 +14397,17 @@
         <variant base="multi-cellular organ"/>
         <variant base="caro:0000012"/>
     </token>
-    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56748" canonical="FMA_56748">
-        <variant base="Cingulum of right upper later incisor tooth"/>
-        <variant base="cingulum of right upper later incisor tooth"/>
-        <variant base="f m a 56748"/>
-        <variant base="cingulum of right upper lateral incisor tooth"/>
-    </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56909" canonical="FMA_56909">
         <variant base="contact surfac of tooth"/>
         <variant base="f m a 56909"/>
         <variant base="Contact surfac of tooth"/>
         <variant base="contact surface of tooth"/>
+    </token>
+    <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56748" canonical="FMA_56748">
+        <variant base="Cingulum of right upper later incisor tooth"/>
+        <variant base="cingulum of right upper later incisor tooth"/>
+        <variant base="f m a 56748"/>
+        <variant base="cingulum of right upper lateral incisor tooth"/>
     </token>
     <token CodeType="OHD" CodeValue="http://purl.obolibrary.org/obo/FMA_56251" canonical="FMA_56251">
         <variant base="f m a 56251"/>
