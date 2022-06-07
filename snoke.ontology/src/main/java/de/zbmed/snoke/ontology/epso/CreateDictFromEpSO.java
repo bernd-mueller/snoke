@@ -102,7 +102,7 @@ public class CreateDictFromEpSO extends DictHandler {
 		cep.getDrunkBankId("C0155502");
 		
 		System.exit(0);
-		cep.readCLI(args);cep.readCLI(args);
+		cep.readCLI(args);
 		cep.getOntologyModel(inputFilePath);
 		// cep.createConceptMapperDictionary(cep.ont, outputFilePath);
 		cep.createConceptMapperDictionary(cep.ont, outputFilePath, "EpSO");
