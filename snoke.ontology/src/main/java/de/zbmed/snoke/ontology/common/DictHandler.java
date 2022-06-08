@@ -206,7 +206,7 @@ public abstract class DictHandler {
 			synset = this.addSynonymToToken(label.toLowerCase(), synset);
 			synset = this.addStemmedSynonymToToken(label.toLowerCase(), synset);
 		} 
-		synset = this.genSynonymFromLocalName (localName, synset);
+		// synset = this.genSynonymFromLocalName (localName, synset);
 		
 		synset = this.processPropertySynonym (oc, synset);
 		
