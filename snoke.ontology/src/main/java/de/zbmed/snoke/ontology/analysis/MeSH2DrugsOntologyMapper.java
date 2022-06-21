@@ -17,7 +17,7 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		// TODO Auto-generated method stub
 		MeSH2DrugsOntologyMapper m2d = new MeSH2DrugsOntologyMapper ();
 		m2d.conductMapping();
-	}
+	} 
 	/**
 	 * Creates namespace for DrugBank, MeSH and ICD
 	 */
