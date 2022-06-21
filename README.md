@@ -3,7 +3,7 @@
 2021-12-14, Part 1: Response to current zero day security exploit for any source code dependent on log4j:
 Most of the neo4j code is dead because essential dependencies are all affected by the log4j exploit. Anyways, I haven't used this package for several years. It might be necessary to simply discard the package. Not much of a loss... though.
 
-2021-12-14, Part 2: Requiring Attention Cloning as it was.
+2021-12-14, Part 2: Requiring Attention Cloning.
 
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
