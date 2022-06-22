@@ -5,7 +5,7 @@ Most of the neo4j code is dead because essential dependencies are all affected b
 
 2021-12-14, Part 2: Requiring attention cloning.
 
-2022-06-22: Code is not looping.
+2022-06-22: Trying to commit code changes.
 
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
