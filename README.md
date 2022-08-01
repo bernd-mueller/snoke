@@ -1,12 +1,5 @@
 [![DOI](https://zenodo.org/badge/267342945.svg)](https://zenodo.org/badge/latestdoi/267342945)[![Build Status](https://api.travis-ci.org/bernd-mueller/snoke.svg?branch=master&status=passed)](https://app.travis-ci.com/github/bernd-mueller/snoke)
 
-2021-12-14, Part 1: Response to current zero day security exploit for any source code dependent on log4j:
-Most of the neo4j code is dead because essential dependencies are all affected by the log4j exploit. Anyways, I haven't used this package for several years. It might be necessary to simply discard the package. Not much of a loss... though.
-
-2021-12-14, Part 2: Requiring attention cloning.
-
-2022-06-22: Trying to commit code changes.
-
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
 
