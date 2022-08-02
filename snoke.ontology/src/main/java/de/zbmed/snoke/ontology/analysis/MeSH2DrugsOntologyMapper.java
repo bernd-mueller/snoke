@@ -11,6 +11,14 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Conducts mapping between MeSH concepts with concepts from DrugBank. Result is MDM.xrdf mapping ontology.
+ * 
+ * https://bioportal.bioontology.org/ontologies/MDM
+ * 
+ * @author Muellerb
+ *
+ */
 public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 	private static final Logger log = LoggerFactory.getLogger(MeSH2DrugsOntologyMapper.class);
 	public static void main(String[] args) {
@@ -19,7 +27,7 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		m2d.conductMapping();
 	} 
 	/**
-	 * Creates namespace for DrugBank, MeSH and ICD
+	 * Creates namespace for DrugBank, MeSH
 	 */
 	OntModel createOntMappingModel() {
 
@@ -43,7 +51,12 @@ public class MeSH2DrugsOntologyMapper extends OntologyMapper {
 		return m;
 	}
 	
-	@Override
+	/**
+	 * Method to map Drug Names dictionary with MeSH dictionary based on synonym matching.
+	 * 
+	 * @Override
+	 */
+	
 	public void conductMapping() {
 		// TODO Auto-generated method stub
 		
