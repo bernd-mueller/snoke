@@ -101,8 +101,10 @@ public abstract class OntologyMapper {
 //			 Resource right = m.createResource(bcleaned);
 			 //m.add(left, sameAs, right);
 			 
-			 OntClass oc = m.createClass(acleaned);
-			 oc.addSameAs(m.createClass(bcleaned));
+			 OntClass oca = m.createClass(acleaned);
+			 OntClass ocb = m.createClass(bcleaned);
+			 oca.addSameAs(ocb);
+			 oca.addEquivalentClass(ocb);
 		}
 		 return m;
 	}
