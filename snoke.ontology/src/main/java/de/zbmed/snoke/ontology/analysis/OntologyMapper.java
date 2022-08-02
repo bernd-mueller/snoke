@@ -19,15 +19,6 @@ import org.slf4j.LoggerFactory;
  * files.
  * 
  * @author Muellerb
- *
- */
-/**
- * @author Muellerb
- *
- */
-/**
- * @author Muellerb
- *
  */
 public abstract class OntologyMapper {
 	public String ontprefix = "DEFAULT";
