@@ -1,8 +1,8 @@
 package de.zbmed.snoke.neo4j.importer;
 
-import org.neo4j.driver.v1.StatementResult;
-import org.neo4j.driver.v1.Transaction;
-import org.neo4j.driver.v1.TransactionWork;
+import org.neo4j.driver.Result;
+import org.neo4j.driver.Transaction;
+import org.neo4j.driver.TransactionWork;
 
 /**
  * TransactionWorkZBMED
@@ -30,7 +30,7 @@ public class TransactionWorkZBMED implements TransactionWork {
 	 @Override
      public String execute( Transaction tx )
      {
-         StatementResult result = tx.run(query);
+         Result result = tx.run(query);
          return result.single().get( 0 ).asString();
      }
 

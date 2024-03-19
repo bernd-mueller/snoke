@@ -1,14 +1,12 @@
 package de.zbmed.snoke.neo4j.importer;
 
-import org.neo4j.driver.v1.AuthTokens;
-
-import org.neo4j.driver.v1.Driver;
-import org.neo4j.driver.v1.GraphDatabase;
-import org.neo4j.driver.v1.Session;
-import org.neo4j.driver.v1.StatementResult;
-import org.neo4j.driver.v1.Transaction;
-import org.neo4j.driver.v1.TransactionWork;
-import static org.neo4j.driver.v1.Values.parameters;
+import org.neo4j.driver.AuthTokens;
+import org.neo4j.driver.Driver;
+import org.neo4j.driver.GraphDatabase;
+import org.neo4j.driver.Result;
+import org.neo4j.driver.Session;
+import org.neo4j.driver.Transaction;
+import org.neo4j.driver.TransactionWork;
 
 /**
  * CypherControler
@@ -49,7 +47,7 @@ public class CypherControler implements AutoCloseable {
                 @Override
                 public String execute( Transaction tx )
                 {
-                    StatementResult result = tx.run( query);
+                    Result result = tx.run( query);
                     return result.toString();
                 }
             } );
