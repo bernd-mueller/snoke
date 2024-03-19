@@ -20,11 +20,12 @@
     <java.driver.version>4.4.0</java.driver.version>
   </properties>
   <dependencies>
-    <dependency>
-        <groupId>org.neo4j.driver</groupId>
-        <artifactId>neo4j-java-driver</artifactId>
-        <version>${java.driver.version}</version>
-    </dependency>
+	<!-- https://mvnrepository.com/artifact/org.neo4j.driver/neo4j-java-driver -->
+	<dependency>
+	    <groupId>org.neo4j.driver</groupId>
+	    <artifactId>neo4j-java-driver</artifactId>
+	    <version>5.18.0</version>
+	</dependency>
 </dependencies>
   <reporting>
     <plugins>
