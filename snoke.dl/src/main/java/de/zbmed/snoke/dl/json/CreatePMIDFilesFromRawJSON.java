@@ -1,14 +1,21 @@
 package de.zbmed.snoke.dl.json;
 
-import org.nd4j.shade.jackson.core.JsonFactory;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 import org.nd4j.shade.jackson.core.JsonParseException;
-import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
 
-import java.io.*;
-import java.util.*;
+import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
 
 /**
  * CreatePMIDFilesFromRawJSON
@@ -20,12 +27,6 @@ import java.util.*;
 public class CreatePMIDFilesFromRawJSON {
     private static final Logger log = LoggerFactory.getLogger(CreatePMIDFilesFromRawJSON.class);
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        //create JsonParser object
-
-        List<String> sentences = new ArrayList<String>();
-        Set<String> meshLabels = new HashSet<String>();
-        JsonParser jsonParser;
         List <BioASQDocument> sbod = new ArrayList <BioASQDocument>();
         try {
             FileInputStream fis = new FileInputStream(
@@ -45,8 +46,6 @@ public class CreatePMIDFilesFromRawJSON {
                 if (line!= null) {
                     log.info("#" + counter++);
                     if (line.length() > 2) {
-
-                        jsonParser = new JsonFactory().createParser(line);
                         BioASQDocument bod = new BioASQDocument();
                         bod = BioASQDocument.parseJSON(line);
                         sbod.add(bod);
@@ -57,7 +56,7 @@ public class CreatePMIDFilesFromRawJSON {
                 }
             }
             writeDocuments(sbod,args[1]);
-
+            reader.close();
 
             log.info("Done reading JSON and writing documents...");
 

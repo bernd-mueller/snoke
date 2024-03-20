@@ -1,20 +1,29 @@
 package de.zbmed.snoke.dl.json;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.nd4j.shade.jackson.core.JsonFactory;
 import org.nd4j.shade.jackson.core.JsonParseException;
 import org.nd4j.shade.jackson.core.JsonParser;
 import org.nd4j.shade.jackson.core.JsonToken;
 import org.nd4j.shade.jackson.databind.JsonNode;
 import org.nd4j.shade.jackson.databind.ObjectMapper;
-import org.nd4j.shade.jackson.databind.ObjectReader;
 import org.nd4j.shade.jackson.databind.ObjectWriter;
 import org.nd4j.shade.jackson.databind.node.ArrayNode;
 import org.nd4j.shade.jackson.databind.node.ObjectNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.*;
-import java.util.*;
 
 /**
  * ConvertJSON2MesHFolders
@@ -36,12 +45,6 @@ public class CreateBioASQResult {
         );
         Map <String, List<String>> snoke3 = CreateBioASQResult.readJsonFile(
             snokejsonfolder + File.separator + "snoke3.json"
-        );
-        Map <String, List<String>> snoke4 = CreateBioASQResult.readJsonFile(
-            snokejsonfolder + File.separator + "snoke4.json"
-        );
-        Map <String, List<String>> snoke5 = CreateBioASQResult.readJsonFile(
-            snokejsonfolder + File.separator + "snoke5.json"
         );
 
         Map <String, List<String>> snoke_pvall = CreateBioASQResult.readJsonFile(
@@ -399,7 +402,7 @@ public class CreateBioASQResult {
             );
 
             boolean nextTokenPmid = false;
-            boolean nextLabelArray = false;
+            // boolean nextLabelArray = false;
             String curpmid = "";
             List<String> curLabels = new ArrayList<String>();
             JsonParser jsonParser = new JsonFactory().createParser(fis);
@@ -420,7 +423,7 @@ public class CreateBioASQResult {
                 }
 
                 if (jsonToken != null && jsonToken.name().equals("START_ARRAY")) {
-                    nextLabelArray = true;
+                    // nextLabelArray = true;
                 } else if (jsonToken != null && jsonToken.name().equals("VALUE_STRING")) {
                     curLabels.add(jsonParser.getText());
                 }

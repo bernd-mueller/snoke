@@ -5,10 +5,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -18,9 +16,7 @@ import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.bson.Document;
-import org.nd4j.shade.jackson.core.JsonFactory;
 import org.nd4j.shade.jackson.core.JsonParseException;
-import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -103,9 +99,6 @@ public class ConvertJSON2MongoDB {
         // TODO Auto-generated method stub
 
     	setupMongoConnection();
-        List<String> sentences = new ArrayList<String>();
-        Set<String> meshLabels = new HashSet<String>();
-        JsonParser jsonParser;
         List <BioASQDocument> sbod = new ArrayList <BioASQDocument>();
         try {
             FileInputStream fis = new FileInputStream(
@@ -113,7 +106,6 @@ public class ConvertJSON2MongoDB {
                     //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\allMeSH_2019\\allMeSH_2019.json"
             		inputFilePath
             );
-
             BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
 
             log.info("Reading File line by line using BufferedReader");
@@ -125,8 +117,6 @@ public class ConvertJSON2MongoDB {
                 if (line!= null) {
 
                     if (line.length() > 2) {
-
-                            jsonParser = new JsonFactory().createParser(line);
                             BioASQDocument bod = new BioASQDocument();
                             bod = BioASQDocument.parseJSON(line);
                             if (!bod.getYear().equals("null"))
@@ -151,6 +141,7 @@ public class ConvertJSON2MongoDB {
             }
             log.info("Done reading documents...");
             closeMongoConnection();
+            reader.close();
         } catch (JsonParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

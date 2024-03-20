@@ -10,13 +10,10 @@ import java.util.List;
 
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.word2vec.Word2Vec;
-import org.deeplearning4j.text.stopwords.StopWords;
 import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
-import org.nd4j.shade.jackson.core.JsonFactory;
 import org.nd4j.shade.jackson.core.JsonParseException;
-import org.nd4j.shade.jackson.core.JsonParser;
 
 import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
 
@@ -34,8 +31,7 @@ public class ReadBioASQJavaX {
 		//create JsonParser object
 		int maxdoc = Integer.parseInt(args[1]);
 		List <String> sentences = new ArrayList <String> ();
-		
-		JsonParser jsonParser;
+
 		//Set <BioASQDocument> sbod = new HashSet <BioASQDocument>();
 		try {
 			FileInputStream fis = new FileInputStream(
@@ -56,7 +52,6 @@ public class ReadBioASQJavaX {
 					if (++counter%10000==0)
 						System.out.println("#" + counter);
 					if (line.length() > 2) {
-						jsonParser = new JsonFactory().createParser(line);
 						BioASQDocument bod = new BioASQDocument ();
 						bod = BioASQDocument.parseJSON(line);
 						//sbod.add(bod);
@@ -69,8 +64,6 @@ public class ReadBioASQJavaX {
             }        
 
 			System.out.println("Done reading documents...");
-			
-		    List<java.lang.String> sw = StopWords.getStopWords();
 		    TokenizerFactory t = new DefaultTokenizerFactory();
 		    StemmingPreprocessor sp = new StemmingPreprocessor ();
 		    t.setTokenPreProcessor(sp);
@@ -99,7 +92,7 @@ public class ReadBioASQJavaX {
 		    WordVectorSerializer.writeWord2VecModel(w2v, "w2vmodel"+maxdoc+".txt");
 		    WordVectorSerializer.writeVocabCache(w2v.getVocab(), new File ("w2vvocab"+maxdoc+".txt"));
 		    System.out.println("Done!");
-		    
+		    reader.close();
 			//print employee object
 			//System.out.println("BioASQDocument Object\n\n"+sbod);
 		} catch (JsonParseException e) {
