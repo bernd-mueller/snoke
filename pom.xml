@@ -39,7 +39,71 @@
      	<mongo.version>3.12.7</mongo.version>
      	<project.reporting.outputDirectory>docs</project.reporting.outputDirectory>
     </properties>
-    <dependencies>
+          <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.nd4j</groupId>
+                <artifactId>nd4j-native-platform</artifactId>
+                <version>${nd4j.version}</version>
+            </dependency>
+			<!-- Windows platform --> 
+			<dependency>
+			    <groupId>org.nd4j</groupId>
+			    <artifactId>nd4j-native</artifactId>
+			    <version>${nd4j.version}</version>
+			    <classifier>windows-x86_64-avx2</classifier>
+			</dependency> 
+			<!-- Windows platform -->
+       </dependencies>
+    </dependencyManagement>
+  <dependencies>
+      <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-api</artifactId>
+		    <version>${nd4j.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
+		<dependency>
+		    <groupId>org.nd4j</groupId>
+		    <artifactId>nd4j-native</artifactId>
+		    <version>${nd4j.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp-uima -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-nlp-uima</artifactId>
+		    <version>1.0.0-beta7</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-nn</artifactId>
+		    <version>1.0.0-M2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-core</artifactId>
+		    <version>1.0.0-M2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-modelimport -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-modelimport</artifactId>
+		    <version>1.0.0-M2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-nlp</artifactId>
+		    <version>1.0.0-M2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/dl4j-spark -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>dl4j-spark_2.12</artifactId>
+		    <version>1.0.0-M2.1</version>
+		</dependency>
 		<!--  Linux platform -->
         <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <dependency>
@@ -130,17 +194,6 @@
             <groupId>uk.ac.nactem.tools</groupId>
             <artifactId>sentence-splitter</artifactId>
             <version>1.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-nlp -->
-        <dependency>
-            <groupId>org.deeplearning4j</groupId>
-            <artifactId>deeplearning4j-nlp</artifactId>
-            <version>${nd4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.deeplearning4j</groupId>
-            <artifactId>deeplearning4j-nlp-uima</artifactId>
-            <version>${nd4j.version}</version>
         </dependency>
 <!--         <dependency>
             <groupId>gov.nih.nlm.umls</groupId>
