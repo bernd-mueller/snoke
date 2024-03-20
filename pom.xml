@@ -76,6 +76,11 @@
 		    <version>1.0.0-beta7</version>
 		</dependency>
 		<dependency>
+	        <groupId>org.deeplearning4j</groupId>
+	        <artifactId>deeplearning4j-ui</artifactId>
+	        <version>1.0.0-M2.1</version>
+   		</dependency>
+		<dependency>
 		    <groupId>org.deeplearning4j</groupId>
 		    <artifactId>deeplearning4j-nn</artifactId>
 		    <version>1.0.0-M2.1</version>
