@@ -70,7 +70,7 @@ public class BioASQSubmissionDocument extends LabelledDocument {
             if (labelarray.isArray()) {
                 for (final JsonNode objNode : labelarray) {
                     bos.addMeSHLabel(objNode.asText());
-                    //log.debug ("Adding label: " + objNode.asText());
+                    log.debug ("Adding label: " + objNode.asText());
                 }
             }
         }
