@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>de.zbmed.snoke</groupId>
     <artifactId>snoke</artifactId>
+    <groupId>de.zbmed.snoke</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>de.zbmed.snoke.dl</groupId>
@@ -12,42 +12,13 @@
     <url>
     	https://github.com/bernd-mueller/snoke/snoke.dl/
     </url>
+    <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>  
-  <packaging>pom</packaging>
-  <dependencies>
-      <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-api -->
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-api</artifactId>
-		    <version>${nd4j.version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-native -->
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		</dependency>
-		<!-- Windows platform -->
-		<!--  
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		    <classifier>windows-x86_64-avx2</classifier>
-		</dependency> -->
-		<!-- Windows platform -->
-		<!-- Linux platform --> 
-		<dependency>
-		    <groupId>org.nd4j</groupId>
-		    <artifactId>nd4j-native</artifactId>
-		    <version>${nd4j.version}</version>
-		    <classifier>linux-x86_64</classifier>
-		</dependency> 
-  </dependencies>
+    <java.driver.version>4.4.0</java.driver.version>
+  </properties>
   <reporting>
     <plugins>
       <plugin>
