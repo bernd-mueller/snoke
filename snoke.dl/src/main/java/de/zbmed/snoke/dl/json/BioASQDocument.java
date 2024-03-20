@@ -136,7 +136,7 @@ public class BioASQDocument extends LabelledDocument {
                 for (final JsonNode objNode : mesharray) {
                     l.add(objNode.asText());
                     bod.addLabel(objNode.asText());
-                    //log.debug ("Adding label: " + objNode.asText());
+                    log.debug ("Adding label: " + objNode.asText());
                 }
             }
             bod.setMeshMajor(l.toString());
