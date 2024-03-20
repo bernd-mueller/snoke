@@ -1,23 +1,30 @@
 package de.zbmed.snoke.dl.json;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
-import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
-import org.nd4j.shade.jackson.core.JsonFactory;
 import org.nd4j.shade.jackson.core.JsonParseException;
-import org.nd4j.shade.jackson.core.JsonParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 import uk.ac.nactem.tools.sentencesplitter.EnglishSentenceSplitter;
-
-import java.io.*;
-
-import java.util.*;
 
 /**
  * ConvertJSON2MesHFolders - An input JSON file that contains Medline citations with MeSH labels is converted
@@ -94,15 +101,8 @@ public class ConvertJSON2MesHFolders {
     	System.out.println("\tmaxdoc : " + maxdoc);
         
 
-    	
-
-    	
-    	
-        // TODO Auto-generated method stub
-
-        List<String> sentences = new ArrayList<String>();
         Set<String> meshLabels = new HashSet<String>();
-        JsonParser jsonParser;
+
         List <BioASQDocument> sbod = new ArrayList <BioASQDocument>();
         try {
             FileInputStream fis = new FileInputStream(
@@ -110,7 +110,6 @@ public class ConvertJSON2MesHFolders {
                     //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\allMeSH_2019\\allMeSH_2019.json"
             		inputFilePath
             );
-
             BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
 
             log.info("Reading File line by line using BufferedReader");
@@ -122,8 +121,6 @@ public class ConvertJSON2MesHFolders {
                 if (line!= null) {
 
                     if (line.length() > 2) {
-
-                            jsonParser = new JsonFactory().createParser(line);
                             BioASQDocument bod = new BioASQDocument();
                             bod = BioASQDocument.parseJSON(line);
                             if (!bod.getYear().equals("null"))
@@ -160,6 +157,7 @@ public class ConvertJSON2MesHFolders {
             }
 
             writer.close();
+            reader.close();
         } catch (JsonParseException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
