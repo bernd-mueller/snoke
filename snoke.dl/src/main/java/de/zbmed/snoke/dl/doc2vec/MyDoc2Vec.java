@@ -3,7 +3,6 @@ package de.zbmed.snoke.dl.doc2vec;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
 import org.deeplearning4j.nlp.uima.tokenization.tokenizer.preprocessor.StemmingPreprocessor;
-import org.deeplearning4j.text.stopwords.StopWords;
 
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
@@ -35,24 +34,8 @@ public class MyDoc2Vec {
     static JsonParser jsonParser;
     static List<BioASQDocument> bs = new ArrayList<BioASQDocument>();
     Word2Vec w2v = new Word2Vec();
-    VocabCache vc = null;
+    VocabCache<?> vc = null;
     public static void main(String[] args) throws Exception {
-        Word2Vec w2v = new Word2Vec();
-        VocabCache vc = null;
-        /*
-        try {
-
-            vc = WordVectorSerializer.readVocabCache(
-                    new File("C:\\Users\\Muellerb.ZB_MED\\Modelle\\w2vvocab100000.txt"));
-            w2v = WordVectorSerializer.readWord2VecModel(
-                    new File ("C:\\Users\\Muellerb.ZB_MED\\Modelle\\w2vmodel100000.txt"));
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-         */
-
         FileInputStream fis = new FileInputStream(
                 "C:\\Users\\Muellerb.ZB_MED\\gitlab/oxygen-workspace/Word2Vec/data/BioASQ-SampleDataA.json"
         );
@@ -73,7 +56,7 @@ public class MyDoc2Vec {
                 if (line.length() > 2) {
                     jsonParser = new JsonFactory().createParser(line);
                     BioASQDocument bod = new BioASQDocument();
-                    bod = bod.parseJSON(line);
+                    bod = BioASQDocument.parseJSON(line);
                     //sbod.add(bod);
                     sentences.addAll(preProcess(bod.getTitle()));
                     sentences.addAll(preProcess(bod.getAbstractText()));
@@ -94,6 +77,7 @@ public class MyDoc2Vec {
                 log.info("Something went wrong here!");
             }
         }
+        reader.close();
     }
     public static List<String> preProcess (String p) {
         EnglishSentenceSplitter ess = new EnglishSentenceSplitter();
@@ -103,14 +87,12 @@ public class MyDoc2Vec {
     public static String myDoc2vec (List<String> cursentences, Collection <String> labels) {
         log.info("Sentence: " + cursentences);
         log.info("Labels: " + labels.toString());
-        List<java.lang.String> sw = StopWords.getStopWords();
         TokenizerFactory t = new DefaultTokenizerFactory();
         StemmingPreprocessor sp = new StemmingPreprocessor ();
         t.setTokenPreProcessor(sp);
         MyLabelAwareIterator mlai = new MyLabelAwareIterator ();
         mlai.setDocs(bs);
         System.out.println("Creating w2v...");
-        final long timeStart = System.currentTimeMillis();
         Word2Vec myw2v = new Word2Vec.Builder()
                 .minWordFrequency(2)
                 .layerSize(500)
