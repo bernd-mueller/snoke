@@ -62,24 +62,23 @@ public class CypherControler implements AutoCloseable {
 	public void createNodeOrUpdate (String conceptId, String nodeName, String treeId) {
 		if (nodeName != null && nodeName.length()==0) {
 			nodeName = treeId;
+		} else {
+			nodeName = "";
 		}
 		if (conceptId != null && conceptId.length()==0) {
 			conceptId = treeId;
+		} else {
+			conceptId = "";
 		}
 		
 		nodeName = nodeName.replaceAll("'", "");
 		treeId = treeId.replaceAll("'", "");
 		conceptId = conceptId.replaceAll("'", "");
-			this.sendCypher("MERGE (n:"+nodeType+" {treeid: '"+treeId+"'})"
-					+ "ON CREATE SET n.name = '"+nodeName+"', n.conceptid = '"+conceptId+"', n.treeid = '"+treeId+"'"
-					+ "ON MATCH SET n.name = '"+nodeName+"', n.conceptid = '"+conceptId+"'"
-					+ "RETURN n.name, n.treeid");
-//		} else {
-//			this.sendCypher("MERGE (n:"+nodeType+" {treeid: '"+treeId+"'})"
-//					+ "ON CREATE SET n.treeid = '"+treeId+"', n.asd = 'qwe'"
-//					+ "ON MATCH SET n.treeid = '"+treeId+"' n.asd = 'asd'"
-//					+ "RETURN n.name, n.treeid");
-//		}
+		this.sendCypher("MERGE (n:"+nodeType+" {treeid: '"+treeId+"'})"
+				+ "ON CREATE SET n.name = '"+nodeName+"', n.conceptid = '"+conceptId+"', n.treeid = '"+treeId+"'"
+				+ "ON MATCH SET n.name = '"+nodeName+"', n.conceptid = '"+conceptId+"'"
+				+ "RETURN n.name, n.treeid");
+
 
 	}
 	
