@@ -2,6 +2,7 @@ package de.zbmed.snoke.dl.doc2vec;
 
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
 import org.deeplearning4j.models.paragraphvectors.ParagraphVectors;
+import org.deeplearning4j.models.word2vec.VocabWord;
 import org.deeplearning4j.models.word2vec.Word2Vec;
 import org.deeplearning4j.models.word2vec.wordstore.VocabCache;
 import org.deeplearning4j.text.documentiterator.LabelAwareIterator;
@@ -40,8 +41,8 @@ public class MeSHClassifier {
     public static void main(String[] args) throws Exception {
         maxdoc = Integer.parseInt(args[1]);
         FileInputStream fis = new FileInputStream(
-                //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\BioASQ-SampleDataA.json"
-                //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\allMeSH_2019\\allMeSH_2019.json"
+                //"C:\Users\Muellerb.ZB_MED\Documents\BioASQ2019\BioASQ-SampleDataA.json"
+                //"C:\Users\Muellerb.ZB_MED\Documents\BioASQ2019\allMeSH_2019\allMeSH_2019.json"
                 args[0]
         );
 
@@ -106,8 +107,7 @@ public class MeSHClassifier {
 
         // ParagraphVectors training configuration
 
-        Word2Vec w2v = new Word2Vec();
-        VocabCache vc = null;
+        VocabCache<VocabWord> vc = null;
         try {
             vc = WordVectorSerializer.readVocabCache(
                     new File("C:\\Users\\Muellerb.ZB_MED\\Modelle\\w2vvocab100000.txt"));
