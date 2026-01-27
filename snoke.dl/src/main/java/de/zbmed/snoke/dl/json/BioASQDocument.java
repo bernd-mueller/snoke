@@ -110,7 +110,7 @@ public class BioASQDocument extends LabelledDocument {
 		
 		return sb.toString();
 	}
-	public static BioASQDocument parseJSON(String jsonString) throws JsonParseException, IOException {
+	public BioASQDocument parseJSON(String jsonString) throws JsonParseException, IOException {
 		BioASQDocument bod = new BioASQDocument ();
 		ObjectMapper mapper = new ObjectMapper();
 		JsonNode jon = mapper.readTree(jsonString);
