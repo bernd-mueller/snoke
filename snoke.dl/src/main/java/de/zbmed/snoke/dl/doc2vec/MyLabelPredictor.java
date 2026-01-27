@@ -49,8 +49,8 @@ public class MyLabelPredictor {
             log.info("Reading Mapping file " + mapfilename);
 
             String line = reader.readLine();
-            int counter = 0;
-            while(line != null){
+
+            while(line != null) {
                 line = reader.readLine();
                 if (line!= null) {
                     if (line.length() > 2) {
@@ -62,15 +62,14 @@ public class MyLabelPredictor {
                     }
                 }
             }
+            reader.close();
 
             log.info("Done reading mapping file...");
 
 
         } catch (JsonParseException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         return mname2id;
@@ -133,7 +132,7 @@ public class MyLabelPredictor {
         ObjectMapper mapper = new ObjectMapper();
         JsonNode rootnode = mapper.createObjectNode();
         ArrayNode rootarray = mapper.createArrayNode();
-        int counter = 0;
+        
         while (unClassifiedIterator.hasNextDocument()) {
             LabelledDocument document = unClassifiedIterator.nextDocument();
             //log.info(document.getContent());
@@ -151,7 +150,6 @@ public class MyLabelPredictor {
           So, labels on these two documents are used like titles,
           just to visualize our classification done properly
          */
-            int scorecounter = 0;
             Set <Double> setscores = new HashSet <Double> ();
             List<Double> lscores = new ArrayList<Double>();
             HashMap<Double, String> mscores = new HashMap<Double, String>() ;
@@ -179,7 +177,6 @@ public class MyLabelPredictor {
 
             ArrayNode array = mapper.createArrayNode();
 
-            int sizecounter = 0;
             for (Double key : lscores) {
                 // log.info(key+"\t" + mscores.get(key) + "\t" +(mscores.get(key)));
 
