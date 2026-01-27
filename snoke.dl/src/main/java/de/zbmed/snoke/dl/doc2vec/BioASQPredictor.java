@@ -77,6 +77,7 @@ public class BioASQPredictor {
 
             log.info("Done reading mapping file...");
 
+            reader.close();
 
         } catch (JsonParseException e) {
             // TODO Auto-generated catch block
