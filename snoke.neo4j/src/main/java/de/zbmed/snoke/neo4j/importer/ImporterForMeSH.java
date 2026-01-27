@@ -2,23 +2,16 @@ package de.zbmed.snoke.neo4j.importer;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 
-import javax.ws.rs.core.MediaType;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.w3c.dom.Attr;
@@ -27,7 +20,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+
 
 /**
  * ImporterForMeSH
@@ -37,8 +30,6 @@ import org.xml.sax.SAXException;
  * @since 2016
  */
 public class ImporterForMeSH {
-	private static String SERVER_ROOT_URI = "http://134.95.56.146:7474/db/data/";
-	
 	public void createNode (String nodeType, String nodeName, String conceptId) {
 		
 		
@@ -77,7 +68,6 @@ public class ImporterForMeSH {
 		this.sendCypher("MATCH (n:MeSH) DETACH DELETE n");
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ImporterForMeSH im = new ImporterForMeSH ();
 		im.clearAllMeSHNodesFromDatabase();
 
@@ -106,8 +96,6 @@ public class ImporterForMeSH {
 			System.out.println("Executing expression\t\"" + expression + "\"...");
 			NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 			System.out.println("Executed expression\t\"" + expression + "\" !");
-			String diseasename = "";
-			String synonyms = "";
 			
 			Document dict_doc = builder.newDocument();
 			Element rootElement = dict_doc.createElement("synonym");
@@ -211,25 +199,7 @@ public class ImporterForMeSH {
 
 			System.out.println("File saved!");
 
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (XPathExpressionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransformerConfigurationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransformerException e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
