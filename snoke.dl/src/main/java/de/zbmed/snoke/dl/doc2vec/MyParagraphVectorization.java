@@ -118,6 +118,27 @@ public class MyParagraphVectorization {
 
         try {
             cmd = parser.parse(options, args);
+
+            inputFilePath = cmd.getOptionValue("input");
+            outputFilePath = cmd.getOptionValue("output");
+            lr = ((Number)cmd.getParsedOptionValue("learning rate")).doubleValue();
+            min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
+            batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
+            epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
+            winsize = ((Number)cmd.getParsedOptionValue("window size")).intValue();
+            elementsalg = cmd.getOptionValue("elements algorithm");
+            sequencealg = cmd.getOptionValue("sequence algorithm");
+            
+            log.info("Using parameters:");
+            log.info("\tinput: " + inputFilePath);
+            log.info("\toutput: " + outputFilePath);
+            log.info("\tlearning rate: " + lr);
+            log.info("\tminimum learning rate: " + min);
+            log.info("\tbatch size: " + batch);
+            log.info("\tepochs: " + epochs);
+            log.info("\twindow size: " + winsize);
+            log.info("\telements algorithm: " + elementsalg);
+            log.info("\tsequence algorithm: " + sequencealg);
         } catch (ParseException e) {
             System.out.println(e.getMessage());
             formatter.printHelp("utility-name", options);
@@ -125,27 +146,7 @@ public class MyParagraphVectorization {
             System.exit(1);
         }
 
-        inputFilePath = cmd.getOptionValue("input");
-        outputFilePath = cmd.getOptionValue("output");
-        lr = ((Number)cmd.getParsedOptionValue("learning rate")).doubleValue();
-        min = ((Number)cmd.getParsedOptionValue("minimum learning rate")).doubleValue();
-        batch = ((Number)cmd.getParsedOptionValue("batch size")).intValue();
-        epochs = ((Number)cmd.getParsedOptionValue("epochs")).intValue();
-        winsize = ((Number)cmd.getParsedOptionValue("window size")).intValue();
-        elementsalg = cmd.getOptionValue("elements algorithm");
-        sequencealg = cmd.getOptionValue("sequence algorithm");
 
-        
-        log.info("Using parameters:");
-        log.info("\tinput: " + inputFilePath);
-        log.info("\toutput: " + outputFilePath);
-        log.info("\tlearning rate: " + lr);
-        log.info("\tminimum learning rate: " + min);
-        log.info("\tbatch size: " + batch);
-        log.info("\tepochs: " + epochs);
-        log.info("\twindow size: " + winsize);
-        log.info("\telements algorithm: " + elementsalg);
-        log.info("\tsequence algorithm: " + sequencealg);
     }
     public static void main(String[] args) throws Exception {
     	
