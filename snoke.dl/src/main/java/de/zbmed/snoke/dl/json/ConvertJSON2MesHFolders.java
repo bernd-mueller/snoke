@@ -83,14 +83,12 @@ public class ConvertJSON2MesHFolders {
 		try {
 			maxdoc = ((Number)cmd.getParsedOptionValue("maxdoc")).intValue();
 		} catch (ParseException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
         int yearfilter = -1;
 		try {
 			yearfilter = ((Number)cmd.getParsedOptionValue("year")).intValue();
 		} catch (ParseException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
         
@@ -159,11 +157,9 @@ public class ConvertJSON2MesHFolders {
             writer.close();
             reader.close();
         } catch (JsonParseException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+             e.printStackTrace();
         }
 
 
