@@ -41,18 +41,16 @@ public class CypherControler implements AutoCloseable {
         driver.close();
     }
 
-    public void sendCypher( final String query ) {
-        String greeting = session.writeTransaction( new TransactionWork<String>()
-            {
+    public String sendCypher( final String query ) {
+        String greeting = session.writeTransaction( new TransactionWork<String>() {
                 @Override
                 public String execute( Transaction tx )
                 {
                     Result result = tx.run( query);
                     return result.toString();
                 }
-            } );
-    
-         
+        });
+		return greeting;         
     }
     
 	public void createNode (String conceptId, String nodeName, String treeId) {
