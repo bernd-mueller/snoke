@@ -2,8 +2,6 @@ package de.zbmed.snoke.neo4j.importer;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
@@ -11,10 +9,8 @@ import java.util.TreeMap;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.glassfish.jersey.client.ClientResponse;
@@ -22,7 +18,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
 /**
  * ImporterForATC
@@ -38,88 +33,11 @@ public class ImporterForATC {
 	Map<String, String> atcdrugbankidmap = new TreeMap<String, String>();
 	Map<String, String> atcidtoname = new HashMap<String, String>();
 	Map<String, String> atcidtodrugname = new HashMap<String, String>();
-	Map <String, Map> rootTree = new HashMap <String, Map> ();
+	Map <String, Map<String, Map<String, String>>> rootTree = new HashMap <String, Map<String, Map<String, String>>> ();
 	static Map <String, String> didToName;
 	
 	public void createRootNodes () {
 		cc.createNode("ROOT", "ROOT", "ROOT");
-		
-//		rootTree = new HashMap <String, Map> ();
-//		
-//		rootTree.put("A", new HashMap<String, Map>());
-//		rootTree.put("B", new HashMap<String, Map>());
-//		rootTree.put("C", new HashMap<String, Map>());
-//		rootTree.put("D", new HashMap<String, Map>());
-//		rootTree.put("G", new HashMap<String, Map>());
-//		rootTree.put("H", new HashMap<String, Map>());
-//		rootTree.put("J", new HashMap<String, Map>());
-//		
-//		rootTree.put("L", new HashMap<String, Map>());
-//		rootTree.put("M", new HashMap<String, Map>());
-//		rootTree.put("N", new HashMap<String, Map>());
-//		
-//		rootTree.put("P", new HashMap<String, Map>());
-//		rootTree.put("R", new HashMap<String, Map>());
-//		rootTree.put("S", new HashMap<String, Map>());
-//		rootTree.put("V", new HashMap<String, Map>());
-//		
-//		didToName = new HashMap <String, String> ();
-//		
-//		didToName.put("A", "Alimentary tract and metabolism");
-//		this.createNode("A", "Alimentary tract and metabolism", "A");
-//		this.createRelation("ROOT", "A", "isParentOf");
-//		
-//		didToName.put("B", "Blood and blood forming organs");
-//		this.createNode("B", "Blood and blood forming organs", "B");
-//		this.createRelation("ROOT", "B", "isParentOf");
-//		
-//		didToName.put("C", "Cardiovascular system");
-//		this.createNode("C", "Cardiovascular system", "C");
-//		this.createRelation("ROOT", "C", "isParentOf");
-//		
-//		didToName.put("D", "Dermatologicals");
-//		this.createNode("D", "Dermatologicals", "D");
-//		this.createRelation("ROOT", "D", "isParentOf");
-//		
-//		didToName.put("G", "Genito-urinary system and sex hormones");
-//		this.createNode("G", "Genito-urinary system and sex hormones", "G");
-//		this.createRelation("ROOT", "G", "isParentOf");
-//		
-//		didToName.put("H", "Systemic hormonal preparations, excluding sex hormones and insulins");
-//		this.createNode("H", "Systemic hormonal preparations, excluding sex hormones and insulins", "H");
-//		this.createRelation("ROOT", "H", "isParentOf");
-//		
-//		didToName.put("J", "Antiinfectives for systemic use");
-//		this.createNode("J", "Antiinfectives for systemic use", "J");
-//		this.createRelation("ROOT", "J", "isParentOf");
-//		
-//		didToName.put("L", "Antineoplastic and immunomodulating agents");
-//		this.createNode("L", "Antineoplastic and immunomodulating agents", "L");
-//		this.createRelation("ROOT", "L", "isParentOf");
-//		
-//		didToName.put("M", "Musculo-skeletal system");
-//		this.createNode("M", "Musculo-skeletal system", "M");
-//		this.createRelation("ROOT", "M", "isParentOf");
-//		
-//		didToName.put("N", "Nervous system");
-//		this.createNode("N", "Nervous system", "N");
-//		this.createRelation("ROOT", "N", "isParentOf");
-//		
-//		didToName.put("P", "Antiparasitic products, insecticides and repellents");
-//		this.createNode("P", "Antiparasitic products, insecticides and repellents", "P");
-//		this.createRelation("ROOT", "P", "isParentOf");
-//		
-//		didToName.put("R", "Respiratory system");
-//		this.createNode("R", "Respiratory system", "R");
-//		this.createRelation("ROOT", "R", "isParentOf");
-//		
-//		didToName.put("S", "Sensory organs");
-//		this.createNode("S", "Sensory organs", "S");
-//		this.createRelation("ROOT", "S", "isParentOf");
-//		
-//		didToName.put("V", "Various");
-//		this.createNode("V", "Various", "V");
-//		this.createRelation("ROOT", "V", "isParentOf");
 	}
 	
 
@@ -128,7 +46,6 @@ public class ImporterForATC {
 
 	
 	public void doParse () {
-		// TODO Auto-generated method stub
 				DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
 				DocumentBuilder builder = null;
 				try {
@@ -161,11 +78,6 @@ public class ImporterForATC {
 					NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(document, XPathConstants.NODESET);
 
 					for (int i = 0; i < nodeList.getLength(); i++) {
-						String atcrootlevel = "";
-						String atcsecondlevel = "";
-						String atcthirdlevel = "";
-						String atcfourthlevel = "";
-						String atcfifthlevel = "";
 						
 						String atc = "";
 						String atcname = "";
@@ -241,21 +153,9 @@ public class ImporterForATC {
 					//System.out.println(dbid + "\t" + atc + "\t" + atcname);
 					writer.close();
 
-				} catch (ParserConfigurationException e) {
+				} catch (Exception e) {
 					e.printStackTrace();
-				} catch (FileNotFoundException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (SAXException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} catch (XPathExpressionException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+				} 
 	}
 	public static void main(String[] args) {
 		ImporterForATC ia = new ImporterForATC ();
@@ -264,54 +164,9 @@ public class ImporterForATC {
 		ia.createRootNodes();
 		ia.doParse();
 
-		
-//		
-//		// 1.: Root level in createRootNodes () with 1 letter
-//		String rootlevel = "";
-//		
-//		// 2.: Therapeutic main group with two digits: C03 Diuretics
-//		String secondlevel = "";
-//		
-//		// 3.: Therapeutic/Pharmacological subgroup with one letter: C03C High-ceiling diuretics
-//		String thirdlevel = "";
-//		
-//		// 4.: Chemical/Therapeutic/Pharmacological subgroup with one letter: C03CA Sulfonamides
-//		String fourthlevel = "";
-//		
-//		// 5.: The chemical substancewith two digits: C03CA01 Furosemide
-//		String fifthlevel = "";		
-//		for (String treekey : ia.atcdrugbankidmap.keySet()) {
-//		
-//			//System.out.println(treekey + " / " + ia.atcdrugbankidmap.get(treekey));
-//			rootlevel = "" + treekey.substring(0,1);
-//			System.out.println(rootlevel);
-//			secondlevel = rootlevel + treekey.substring(1,3);
-//			System.out.println(secondlevel);
-//			thirdlevel = secondlevel + treekey.substring(3,4);
-//			System.out.println(thirdlevel);
-//			fourthlevel = thirdlevel + treekey.substring(4,5);
-//			System.out.println(fourthlevel);
-//			fifthlevel = fourthlevel + treekey.substring(5,7);
-//			System.out.println(fifthlevel);
-//			
-//			ia.createNodeOrUpdate(secondlevel, ia.atcidtoname.get(treekey).split("@")[1], secondlevel);
-//			ia.createRelation(rootlevel, secondlevel, "isParentOf");
-//			
-//			ia.createNodeOrUpdate(thirdlevel, ia.atcidtoname.get(treekey).split("@")[2], thirdlevel);
-//			ia.createRelation(secondlevel, thirdlevel, "isParentOf");
-//			
-//			ia.createNodeOrUpdate(fourthlevel, ia.atcidtoname.get(treekey).split("@")[3], fourthlevel);
-//			ia.createRelation(thirdlevel, fourthlevel, "isParentOf");
-//			
-//						
-//			ia.createNodeOrUpdate(ia.atcdrugbankidmap.get(treekey), ia.atcidtoname.get(treekey).split("@")[4], treekey);
-//			ia.createRelation(fourthlevel, treekey, "isParentOf");
-//			
-//		}
 		try {
 			ia.cc.close();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
