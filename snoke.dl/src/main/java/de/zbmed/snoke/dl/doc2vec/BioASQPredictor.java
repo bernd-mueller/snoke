@@ -61,7 +61,7 @@ public class BioASQPredictor {
             log.info("Reading Mapping file " + mapfilename);
 
             String line = reader.readLine();
-            int counter = 0;
+
             while(line != null){
                 line = reader.readLine();
                 if (line!= null) {
