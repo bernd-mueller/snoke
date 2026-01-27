@@ -76,6 +76,7 @@ public class MeSHClassifier {
                 log.info("Something went wrong here!");
             }
         }
+        reader.close();
 
         System.out.println("Done reading documents: " + bs.size());
         MeSHClassifier app = new MeSHClassifier();
