@@ -61,7 +61,7 @@ public class MeSHClassifier {
                 if (line.length() > 2) {
                     jsonParser = new JsonFactory().createParser(line);
                     BioASQDocument bod = new BioASQDocument();
-                    bod = bod.parseJSON(line);
+                    bod = BioASQDocument.parseJSON(line);
                     //sbod.add(bod);
                     sentences.addAll(preProcess(bod.getTitle()));
                     sentences.addAll(preProcess(bod.getAbstractText()));
