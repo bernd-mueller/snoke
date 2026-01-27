@@ -70,6 +70,91 @@ public class ConvertJSON2MesHFolders {
 
         try {
             cmd = parser.parse(options, args);
+            
+            String inputFilePath = cmd.getOptionValue("input");
+            String outputFilePath = cmd.getOptionValue("output");
+            int maxdoc = -1;
+            try {
+                maxdoc = ((Number)cmd.getParsedOptionValue("maxdoc")).intValue();
+            } catch (ParseException e1) {
+                e1.printStackTrace();
+            }
+            int yearfilter = -1;
+            try {
+                yearfilter = ((Number)cmd.getParsedOptionValue("year")).intValue();
+            } catch (ParseException e1) {
+                e1.printStackTrace();
+            }
+            
+            System.out.println("Using parameters:");
+            System.out.println("\tinput: " + inputFilePath);
+            System.out.println("\toutput: " + outputFilePath);
+            System.out.println("\tyear: " + yearfilter);
+            System.out.println("\tmaxdoc : " + maxdoc);
+            
+
+            Set<String> meshLabels = new HashSet<String>();
+
+            List <BioASQDocument> sbod = new ArrayList <BioASQDocument>();
+            try {
+                FileInputStream fis = new FileInputStream(
+                        //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\BioASQ-SampleDataA.json"
+                        //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\allMeSH_2019\\allMeSH_2019.json"
+                        inputFilePath
+                );
+                BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
+
+                log.info("Reading File line by line using BufferedReader");
+
+                String line = reader.readLine();
+                int counter = 0;
+                while(line != null){
+                    line = reader.readLine();
+                    if (line!= null) {
+
+                        if (line.length() > 2) {
+                                BioASQDocument bod = new BioASQDocument();
+                                bod = BioASQDocument.parseJSON(line);
+                                if (!bod.getYear().equals("null"))
+                                    if (Integer.parseInt(bod.getYear())>yearfilter)
+                                        sbod.add(bod);
+                            if (counter++%100000==0) {
+                                log.info("#" + counter);
+                                writeDocuments(sbod,outputFilePath, yearfilter);
+                                sbod = new ArrayList<BioASQDocument>();
+                            }
+                                //sentences.addAll(preProcess(bod.getTitle()));
+                                //sentences.addAll(preProcess(bod.getAbstractText()));
+                            //}
+                        }
+                        if (counter==maxdoc)
+                            break;
+                    }
+                }
+
+                log.info("Done reading documents...");
+
+                File opath = new File (outputFilePath); 
+                if (!opath.exists()) {
+                    opath.mkdirs();
+                }
+                File meshlabels = new File (outputFilePath +
+                    File.separator +
+                    "meshlabels.txt");
+
+                BufferedWriter writer = new BufferedWriter(new FileWriter(meshlabels));
+                log.debug("Writing meshlabels...");
+                for (String label : meshLabels) {
+                    writer.write(label + "\n");
+                }
+
+                writer.close();
+                reader.close();
+            } catch (JsonParseException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         } catch (ParseException e) {
             System.out.println(e.getMessage());
             formatter.printHelp("utility-name", options);
@@ -77,90 +162,7 @@ public class ConvertJSON2MesHFolders {
             System.exit(1);
         }
 
-        String inputFilePath = cmd.getOptionValue("input");
-        String outputFilePath = cmd.getOptionValue("output");
-        int maxdoc = -1;
-		try {
-			maxdoc = ((Number)cmd.getParsedOptionValue("maxdoc")).intValue();
-		} catch (ParseException e1) {
-			e1.printStackTrace();
-		}
-        int yearfilter = -1;
-		try {
-			yearfilter = ((Number)cmd.getParsedOptionValue("year")).intValue();
-		} catch (ParseException e1) {
-			e1.printStackTrace();
-		}
-        
-    	System.out.println("Using parameters:");
-    	System.out.println("\tinput: " + inputFilePath);
-    	System.out.println("\toutput: " + outputFilePath);
-    	System.out.println("\tyear: " + yearfilter);
-    	System.out.println("\tmaxdoc : " + maxdoc);
-        
 
-        Set<String> meshLabels = new HashSet<String>();
-
-        List <BioASQDocument> sbod = new ArrayList <BioASQDocument>();
-        try {
-            FileInputStream fis = new FileInputStream(
-                    //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\BioASQ-SampleDataA.json"
-                    //"C:\\Users\\Muellerb.ZB_MED\\Documents\\BioASQ2019\\allMeSH_2019\\allMeSH_2019.json"
-            		inputFilePath
-            );
-            BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
-
-            log.info("Reading File line by line using BufferedReader");
-
-            String line = reader.readLine();
-            int counter = 0;
-            while(line != null){
-                line = reader.readLine();
-                if (line!= null) {
-
-                    if (line.length() > 2) {
-                            BioASQDocument bod = new BioASQDocument();
-                            bod = BioASQDocument.parseJSON(line);
-                            if (!bod.getYear().equals("null"))
-                                if (Integer.parseInt(bod.getYear())>yearfilter)
-                                    sbod.add(bod);
-                        if (counter++%100000==0) {
-                            log.info("#" + counter);
-                            writeDocuments(sbod,outputFilePath, yearfilter);
-                            sbod = new ArrayList<BioASQDocument>();
-                        }
-                            //sentences.addAll(preProcess(bod.getTitle()));
-                            //sentences.addAll(preProcess(bod.getAbstractText()));
-                        //}
-                    }
-                    if (counter==maxdoc)
-                        break;
-                }
-            }
-
-            log.info("Done reading documents...");
-
-            File opath = new File (outputFilePath); 
-            if (!opath.exists()) {
-            	opath.mkdirs();
-            }
-            File meshlabels = new File (outputFilePath +
-                File.separator +
-                "meshlabels.txt");
-
-            BufferedWriter writer = new BufferedWriter(new FileWriter(meshlabels));
-            log.debug("Writing meshlabels...");
-            for (String label : meshLabels) {
-                writer.write(label + "\n");
-            }
-
-            writer.close();
-            reader.close();
-        } catch (JsonParseException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-             e.printStackTrace();
-        }
 
 
     }
