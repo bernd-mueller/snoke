@@ -1,6 +1,7 @@
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![DOI](https://zenodo.org/badge/267342945.svg)](https://zenodo.org/badge/latestdoi/267342945)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![GitHub Repo stars](https://img.shields.io/github/stars/bernd-mueller/snoke) 
 
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
