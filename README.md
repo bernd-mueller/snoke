@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/267342945.svg)](https://zenodo.org/badge/latestdoi/267342945)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 # snoke
 Towards a Semantic NoSQL (Not only SQL) Knowledge Environment (SNOKE)
